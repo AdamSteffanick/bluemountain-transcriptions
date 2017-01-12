@@ -1,31 +1,36 @@
-<collection xmlns="http://exist-db.org/collection-config/1.0">
-  <index
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:tei="http://www.tei-c.org/ns/1.0"
-      >
-
-    <!-- Not using the Legacy Fulltext Index -->
-    <fulltext default="none" attributes="false"/>
-
-    <!-- Lucene-Based Full-Text Indexes -->
-    <lucene>
-      <!-- TEI indexes -->
-      <text qname="tei:body"/>
-      <text qname="tei:div" />
-      <text qname="tei:ab"/>
-      <text qname="tei:idno"/>
-      <text qname="tei:persName"/>
-      <text qname="tei:title" />
-      <text qname="tei:relatedItem" />
-      <text qname="tei:tei:classCode"/>
-    </lucene>
-
-    <!-- Range Indexes -->
-    <range>
-      <create qname="tei:idno" type="xs:string"/>
-      <create qname="tei:classCode" type="xs:string"/>
-      <create qname="@type" type="xs:string"/>
-      <create qname="@target" type="xs:string"/>
-    </range>
-  </index>
+<collection xmlns="http://exist-db.org/collection-config/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <index><!-- Not using the Legacy Fulltext Index -->
+        <fulltext default="none" attributes="false"/><!-- Lucene-Based Full-Text Indexes -->
+        <lucene><!-- TEI indexes -->
+            <text qname="tei:body"/>
+            <text qname="tei:div"/>
+            <text qname="tei:ab"/>
+            <text qname="tei:idno"/>
+            <text qname="tei:persName"/>
+            <text qname="tei:title"/>
+            <text qname="tei:relatedItem"/>
+            <text qname="tei:classCode"/>
+            <text qname="tei:resp"/>
+            <text qname="@ref"/>
+            <text qname="@type"/>
+        </lucene>
+        <create qname="tei:idno" type="xs:string"/>
+        <create qname="tei:classCode" type="xs:string"/>
+        <create qname="tei:persName" type="xs:string"/>
+        <create qname="tei:resp" type="xs:string"/>
+        <create qname="@type" type="xs:string"/>
+        <create qname="@ref" type="xs:string"/>
+        <create qname="@target" type="xs:string"/>
+        <create qname="@unit" type="xs:string"/><!-- New Range Indexes -->
+        <range>
+            <create qname="tei:idno" type="xs:string"/>
+            <create qname="tei:classCode" type="xs:string"/>
+            <create qname="tei:persName" type="xs:string"/>
+            <create qname="tei:resp" type="xs:string"/>
+            <create qname="@type" type="xs:string"/>
+            <create qname="@ref" type="xs:string"/>
+            <create qname="@target" type="xs:string"/>
+            <create qname="@unit" type="xs:string"/>
+        </range>
+    </index>
 </collection>
