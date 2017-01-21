@@ -46,7 +46,7 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Inhalt:</seg>
+                           <seg type="main">Inhalt</seg>
                         </title>
                         <textLang mainLang="ger"/>
                      </analytic>
@@ -62,8 +62,12 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Campendonk: Holzschnitt / Vom Stock gedruckt</seg>
+                           <seg type="main">Holzschnitt</seg>
                         </title>
+                        <respStmt>
+                           <persName ref="http://viaf.org/viaf/62670417">Campendonk</persName>
+                           <resp>cre</resp>
+                        </respStmt>
                      </analytic>
                      <monogr>
                         <imprint>
@@ -71,6 +75,7 @@
                            <biblScope unit="page">1</biblScope>
                         </imprint>
                      </monogr>
+                     <note>Vom Stock gedruckt</note>
                   </biblStruct>
                </relatedItem>
                <relatedItem type="constituent" xml:id="c003">
@@ -80,7 +85,7 @@
                            <seg type="main">Ruf an August Stramm</seg>
                         </title>
                         <respStmt>
-                           <persName>Herwarth Waiden</persName>
+                           <persName>Herwarth Walden</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -100,7 +105,7 @@
                            <seg type="main">Kyland</seg>
                         </title>
                         <respStmt>
-                           <persName>Peter Baum</persName>
+                           <persName ref="http://viaf.org/viaf/112168065">Peter Baum</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -108,15 +113,20 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="2" to="8">2-8</biblScope>
+                           <biblScope unit="page">2-8</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c005">
                         <biblStruct>
                            <analytic>
                               <title level="a">
-                                 <seg type="main">Umberto Boccioni: Die Abfahreaden / Zeichnung</seg>
+                                 <seg type="main">Die Abfahreaden</seg>
+                                 <seg type="sub">Zeichnung</seg>
                               </title>
+                              <respStmt>
+                                 <persName ref="http://viaf.org/viaf/51685971">Umberto Boccioni</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
                            </analytic>
                            <monogr>
                               <imprint>
@@ -130,8 +140,12 @@
                         <biblStruct>
                            <analytic>
                               <title level="a">
-                                 <seg type="main">Georg Sehrimpf: Holzschnitt / Vom Stock gedruckt</seg>
+                                 <seg type="main">Holzschnitt</seg>
                               </title>
+                              <respStmt>
+                                 <persName ref="http://viaf.org/viaf/74648905">Georg Schrimpf</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
                            </analytic>
                            <monogr>
                               <imprint>
@@ -139,6 +153,7 @@
                                  <biblScope unit="page">7</biblScope>
                               </imprint>
                            </monogr>
+                           <note>Vom Stock gedruckt</note>
                         </biblStruct>
                      </relatedItem>
                   </biblStruct>
@@ -158,7 +173,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="8" to="9">8-9</biblScope>
+                           <biblScope unit="page">8-9</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -168,9 +183,10 @@
                      <analytic>
                         <title level="a">
                            <seg type="main">Seidenfaden</seg>
+                           <seg type="sub">Erzählung</seg>
                         </title>
                         <respStmt>
-                           <persName>Erzählung</persName>
+                           <persName ref="http://viaf.org/viaf/54895426">Adolf Knoblauch</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -178,7 +194,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="9" to="10">9-10</biblScope>
+                           <biblScope unit="page">9-10</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -190,7 +206,7 @@
                            <seg type="main">Umberto Boccioni</seg>
                         </title>
                         <respStmt>
-                           <persName>Herwarth Waiden</persName>
+                           <persName>Herwarth Walden</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -198,7 +214,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="10" to="11">10-11</biblScope>
+                           <biblScope unit="page">10-11</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -230,7 +246,7 @@
                            <seg type="main">Maya</seg>
                         </title>
                         <respStmt>
-                           <persName>Kurt Striepe</persName>
+                           <persName ref="http://viaf.org/viaf/80566349">Kurt Striepe</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -492,93 +508,102 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0008.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0009.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0010.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0011.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1916/09/15_01/delivery/bmtnabg_1916-09-15_01_0012.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>DER STURM.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>MONATSSCHRIFT FÜR KULTUR UND DIE KÜNSTE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>Redaktion und Verlag<lb facs="P1_TL00004"/>Berlin W9 / Potsdamer Straße 134 a</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00007"/>Herausgeber und Schriftleiter<lb facs="P1_TL00008"/>HERWARTH WALDEN</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00005"/>Kunstausstellung<lb facs="P1_TL00006"/>Berlin / Potsdamer Straße 134 a</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00011">
+                     <ab facs="P1_TB00011">
                         <lb facs="P1_TL00017"/>SIEBENTER JAHRGANG</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00010">
+                     <ab facs="P1_TB00010">
                         <lb facs="P1_TL00016"/>BERLIN SEPTEMBER 1916</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00009">
+                     <ab facs="P1_TB00009">
                         <lb facs="P1_TL00015"/>SECHSTES HEFT</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P10_TB00008">
+                     <ab facs="P10_TB00008">
                         <lb facs="P10_TL00172"/>Fortsetzung folgt</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00001">
+                     <ab facs="P12_TB00001">
                         <lb facs="P12_TL00001"/>Verantwortlich für den gesamten Inhalt und Verlag:<lb facs="P12_TL00002"/>F Harnisch / Berlin W 35<lb facs="P12_TL00003"/>Druck Carl Hause / Berlin SO 26</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00007">
+                        <ab facs="P1_TB00007">
                            <lb facs="P1_TL00013"/>Inhalt:</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00006">
+                                 <ab facs="P1_TB00006">
                                     <lb facs="P1_TL00009"/>Herwarth Waiden: Ruf an August Stramm / Peter Baum: Kyland / Arthur Keleti: Klagegesang im Jahre Tausendneunhundertfünfzehn /<lb facs="P1_TL00010"/>Adolf Knoblauch: Seidenfaden / Kurt Striepe: Maya / Herwarth Waiden: Umberto Boccioni / Wilhelm Runge: Gedichte / Herwarth Waiden: Der ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00011"/>gessene Kern / Campendonk: Holzschnitt / Vom Stock gedruckt / Umberto Boccioni: Die Abfahrenden / Zeichnung / Georg Schrimpf: Holzschnitt /<lb facs="P1_TL00012"/>Vom Stock gedruckt</ab>
                               </div>
@@ -589,32 +614,24 @@
                   <div type="Illustration" corresp="c002">
                      <div type="Image"/>
                      <div type="Caption">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00008">
+                        <ab facs="P1_TB00008">
                            <lb facs="P1_TL00014"/>Campendonk: Holzschnitt / Vom Stock gedruckt</ab>
                      </div>
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00002">
+                        <ab facs="P2_TB00002">
                            <lb facs="P2_TL00002"/>Ruf an August Stramm</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00006">
+                        <ab facs="P2_TB00006">
                            <lb facs="P2_TL00178"/>Herwarth Waiden</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00003">
+                                 <ab facs="P2_TB00003">
                                     <lb facs="P2_TL00003"/>Rede zum ersten Sturm-Kunstabend in der Kunstausstellung<lb facs="P2_TL00004"/>Der Sturm am ersten September (916<lb facs="P2_TL00005"/>Die Sporen klirrten und seine Stimme jubelte<lb facs="P2_TL00006"/>durch diesel Räume, die uns die Weit deuten.<lb facs="P2_TL00007"/>Aus diesen Räumen wuchs der Hall seines Jubels<lb facs="P2_TL00008"/>in den Raum, über den Raum hinaus, in die Zeit<lb facs="P2_TL00009"/>über die Zeit hinaus. Tränen kreist der Raum.<lb facs="P2_TL00010"/>Das ist die Menschheit. Die Sporen fielen ab auf<lb facs="P2_TL00011"/>russischer Erde. Ein deutscher Hauptmann liegt<lb facs="P2_TL00012"/>unter ihr. Die Kunst macht ihm, macht uns die<lb facs="P2_TL00013"/>Erde leicht. Der Jubel hallt über Deutschland<lb facs="P2_TL00014"/>hinaus, über die Erde hinaus, über das Ende<lb facs="P2_TL00015"/>hinaus. Ueber den Anfang hinaus in das Reich des<lb facs="P2_TL00016"/>Unerreichbaren, das uns in die Ewigkeit führt.<lb facs="P2_TL00017"/>Die Kunst ist unmenschlich. Darum wollen ihr<lb facs="P2_TL00018"/>alle Menschen opfern. Aber solange die Men<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00019"/>schen ihr sich nicht selbst opfern, ist die Kunst<lb facs="P2_TL00020"/>in Rauch gehüllt. Solange sehen die Menschen<lb facs="P2_TL00021"/>das Feuer nicht, das wärmt, das glüht, das leuch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00022"/>tet. Und das verbrennt, wenn man an es greift<lb facs="P2_TL00023"/>Die Menschen wundern sich nur über das, was<lb facs="P2_TL00024"/>nicht geschieht. Das Geschehen wird bewiesen.<lb facs="P2_TL00025"/>Die Sonne scheint, denn es ist bewiesen. Die<lb facs="P2_TL00026"/>Erde dreht sich, denn es ist bewiesen. Der Mensch<lb facs="P2_TL00027"/>wird geboren, denn es ist bewiesen. Aber der<lb facs="P2_TL00028"/>Mensch wird nicht gestorben, was zu beweisen<lb facs="P2_TL00029"/>wäre. Der Mensch stirbt einfach. Und das ist<lb facs="P2_TL00030"/>den Menschen ein Wunder. Der Mensch stirbt<lb facs="P2_TL00031"/>einfach und stirbt milliardenfach. Die Unruhe<lb facs="P2_TL00032"/>hastet über die Erde, über die Ruhe des Ein<pc type="endhypen" pre="false">-</pc>
@@ -629,9 +646,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00004">
+                                 <ab facs="P2_TB00004">
                                     <lb facs="P2_TL00077"/>Lebens nüchtern finden. Denn die Kunstgeschichte<lb facs="P2_TL00078"/>ist romantisch. Der Künstler ist es nicht. Die<lb facs="P2_TL00079"/>Kunstgeschichte wird feststellen, daß August<lb facs="P2_TL00080"/>Stramm am neunundzwanzigsten Juli 1874 zu<lb facs="P2_TL00081"/>Münster in Westfalen geboren wurde, als Sohn<lb facs="P2_TL00082"/>des Obertelegraphenrevisors Albert Stramm. Sie<lb facs="P2_TL00083"/>wird feststellen, daß August Stramm das Gym<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00084"/>nasium in Eupen und Aachen besucht hat. Daß<lb facs="P2_TL00085"/>er auf Wunsch des Vaters seinen Beruf bei der<lb facs="P2_TL00086"/>Post suchte, die üblichen Studien hierzu machte,<lb facs="P2_TL00087"/>nebenbei auf die Universität ging und in Halle<lb facs="P2_TL00088"/>zum Doktor der Philosophie promoviert wurde.<lb facs="P2_TL00089"/>Die Kunstgeschichte wird weiter feststellen, daß<lb facs="P2_TL00090"/>er nach Zeugnis seiner Vorgesetzten ein sehr<lb facs="P2_TL00091"/>tüchtiger und fähiger Beamter gewesen ist, es bis<lb facs="P2_TL00092"/>zum Kaiserlichen Postinspektor brachte, und daß<lb facs="P2_TL00093"/>er im Jahre 1914 in das Reichspostamt berufen<lb facs="P2_TL00094"/>wurde. Die Kunstgeschichte wird ferner feststel<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00095"/>len, daß er nach Zeugnis seiner Vorgesetzten ein<lb facs="P2_TL00096"/>hervorragender Soldat und Offizier gewesen ist<lb facs="P2_TL00097"/>und bereits im Jahre 1913 zum Hauptmann der<lb facs="P2_TL00098"/>Reserve befördert wurde. Die Kunstgeschichte<lb facs="P2_TL00099"/>wird feststellen, daß er bei Ausbruch des<lb facs="P2_TL00100"/>Krieges in das Landwehrregiment 110 als Kom<pc type="endhypen" pre="false">-</pc>
@@ -647,9 +662,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00005">
+                                 <ab facs="P2_TB00005">
                                     <lb facs="P2_TL00153"/>Wir klagen und weinen um Dich, August<lb facs="P2_TL00154"/>Stramm. Um Dich, den Menschen und Freund.<lb facs="P2_TL00155"/>Aber wir jubeln mit dem Jubel Deiner Stimme<lb facs="P2_TL00156"/>Dir zu, August Stramm, Dir dem Künstler.<lb facs="P2_TL00157"/>Wir feiern das Wunder.<lb facs="P2_TL00158"/>Wir glauben an das Wunder. Denn wir wissen,<lb facs="P2_TL00159"/>daß es das Wunder gibt, weil wir es glauben.<lb facs="P2_TL00160"/>Wir sind das Meer, wir Nehmenden. Wir strah<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00161"/>len alle Farben im Spiel der Sonne. Froh<lb facs="P2_TL00162"/>leuchten wir blau und grün, nach ihrem Willen.<lb facs="P2_TL00163"/>Und wir stürmen nur, wenn Wind und Wolken<lb facs="P2_TL00164"/>uns die Sonne rauben, unser Spiel und unsern<lb facs="P2_TL00165"/>Glanz der Farben.<lb facs="P2_TL00166"/>Wir sind das Meer, wir Nehmenden. Die<lb facs="P2_TL00167"/>andern sehen vom Strand mit scharfen Gläsern<lb facs="P2_TL00168"/>die Wand, den Horizont. Wir aber fliessen vor<lb facs="P2_TL00169"/>und hinter dem Horizont und um ihn. Unser<lb facs="P2_TL00170"/>Gesichtskreis ist ein Kreis. Und ein Kreis der<lb facs="P2_TL00171"/>Gesichte.<lb facs="P2_TL00172"/>Tauchen wir unter, damit wir zur Feier ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00173"/>rüstet sind. Damit wir ruhig und offen liegen,<lb facs="P2_TL00174"/>eine Fläche, bereit zu spiegeln. Daß wir leuch<pc type="endhypen" pre="false">-</pc>
@@ -661,48 +674,36 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00007">
+                        <ab facs="P2_TB00007">
                            <lb facs="P2_TL00179"/>Kyland</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00008">
+                        <ab facs="P2_TB00008">
                            <lb facs="P2_TL00180"/>Peter Baum</ab>
                      </div>
                      <div type="Illustration" corresp="c005">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P5_TB00001">
+                           <ab facs="P5_TB00001">
                               <lb facs="P5_TL00001"/>Umberto Boccioni: Die Abfahreaden / Zeichnung</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c006">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P7_TB00001">
+                           <ab facs="P7_TB00001">
                               <lb facs="P7_TL00001"/>Georg Sehrimpf: Holzschnitt / Vom Stock gedruckt</ab>
                         </div>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P2_TB00009">
+                              <ab facs="P2_TB00009">
                                  <lb facs="P2_TL00181"/>I</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00010">
+                                 <ab facs="P2_TB00010">
                                     <lb facs="P2_TL00182"/>Das Gemach, in dem er am Leibe der Mutter<lb facs="P2_TL00183"/>zu ihr aufwuchs, war so niedrig, daß der Vater<lb facs="P2_TL00184"/>dort nur geneigten Hauptes stand. So verfloch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00185"/>ten ihn die Augen des Knaben in die leuchtenden<lb facs="P2_TL00186"/>Webereien an den Wänden und sahen ihn als<lb facs="P2_TL00187"/>Gott; bald stand er vor ihm im Gemach, bald sah<lb facs="P2_TL00188"/>er ihn über einen Baum, dessen Wipfel sich schon<lb facs="P2_TL00189"/>zur menschlichen Stirn rundete, aufglättete, über<lb facs="P2_TL00190"/>einen Stein, dessen Bart sproßte, auch über eine<lb facs="P2_TL00191"/>Quelle die Hand legen. Langsam: schwebte sie<lb facs="P2_TL00192"/>den aufsteigenden Fingern mit zu ihm hoch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00193"/>steigenden Brüsten nach.<lb facs="P2_TL00194"/>Das Gemach grenzte an die grünen Säulen des<lb facs="P2_TL00195"/>Hofes, der blau überwölbt war über dem Fallen<lb facs="P2_TL00196"/>des Brunnens. Im flüssigen Tönen bewegten sich<lb facs="P2_TL00197"/>für den Knaben die Figuren an den Wänden. An<lb facs="P2_TL00198"/>der einen Wand waren sich weitende Segel auf<lb facs="P2_TL00199"/>rückwärtsrollenden Wellen, die dem Gemache<lb facs="P2_TL00200"/>Raum gaben, ebenso wie an der linken Wand die<lb facs="P2_TL00201"/>durch die Luft sich überschlagenden Leiber. Der<lb facs="P2_TL00202"/>eine oder der andere sank schon geschmeidig mit<lb facs="P2_TL00203"/>den Schenkeln über die Rücken sich bäumender<lb facs="P2_TL00204"/>Pferde. Er mochte seither bis ins Alter mit In<pc type="endhypen" pre="false">-</pc>
@@ -714,9 +715,7 @@
                                     <lb facs="P2_TL00220"/>kränzte, es die Gesänge der Dichter vor der<lb facs="P2_TL00221"/>Menge umjubelten und umklagten.<lb facs="P2_TL00222"/>Sein Verhängnis war, daß seine Eitelkeit ihn<lb facs="P2_TL00223"/>trieb, seine Schriften in der Volksschrift zu schrei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00224"/>ben und durch seine fleissigen Schreiber ver<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00002">
+                                 <ab facs="P3_TB00002">
                                     <lb facs="P3_TL00002"/>breiten zu lassen. Bis dahin war es immer schon<lb facs="P3_TL00003"/>Sitte, daß ein König ein ersonnenes Lied oder ein<lb facs="P3_TL00004"/>Götterspiel vor der Menge tönen und reigen ließ.<lb facs="P3_TL00005"/>Es gab Dichter, die mit dem Namen eines ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00006"/>storbenen Königs ihre beschriebenen Tafeln<lb facs="P3_TL00007"/>fälschten und gerne im Dunkel blieben, damit ihr<lb facs="P3_TL00008"/>Werk Beifall fand. Aber es gab Gedanken und<lb facs="P3_TL00009"/>Kenntnisse, die die Könige, die obersten Krieger<lb facs="P3_TL00010"/>und Priester am besten nur in der Priesterschrift<lb facs="P3_TL00011"/>aufzeichneten.<lb facs="P3_TL00012"/>Der getötete König war nicht nur ein schwer<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00013"/>mütiger Dichter und wissender Pflanzen- und<lb facs="P3_TL00014"/>Tierfreund. Seine Neugier trieb ihn dazu, die<lb facs="P3_TL00015"/>Sitten vieler Völker zu sammeln. Einst, in einem<lb facs="P3_TL00016"/>andern Erdstrich, waren die Frauen ebenso wie<lb facs="P3_TL00017"/>bei den umliegenden Völkern wohlverborgene Ge<pc type="endhypen" pre="false">-</pc>
@@ -735,9 +734,7 @@
                                     <lb facs="P3_TL00058"/>wandelten sich die Sitten und Anschauungen des<lb facs="P3_TL00059"/>Volkes. Durch den Umgang mit Frauen, die in<lb facs="P3_TL00060"/>ihren Augen unberührbar waren, entstand bei den<lb facs="P3_TL00061"/>leicht schwärmerisch ausschweifenden Kyern eine<lb facs="P3_TL00062"/>Frauenverehrung, unter der die leicht zugäng<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00063"/>lichen Töchter, die unten blieben, tief im Ansehn<lb facs="P3_TL00064"/>sanken. Man unterschied unter der hohen und<lb facs="P3_TL00065"/>flachen Liebe und man verachtete die kleinen<lb facs="P3_TL00066"/>Dirnen, wenn man sie auch immer noch gern<lb facs="P3_TL00067"/>besang.<lb facs="P3_TL00068"/>Als der König befahl, daß von nun an die<lb facs="P3_TL00069"/>Frauen des Kylands überall an den Gesprächen<lb facs="P3_TL00070"/>der Männer teilhaben und öffentlich erscheinen<lb facs="P3_TL00071"/>durften, erregte es nur Beifall. Man war für diese<lb facs="P3_TL00072"/>Aenderung reif geworden.<lb facs="P3_TL00073"/>Bis zur Herrschaft dieses Königs waren die<lb facs="P3_TL00074"/>Handwerker bei den Kyleuten wenig geachtet,<lb facs="P3_TL00075"/>fast als Sklaven angesehn. Waffenübungen, Nach<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00076"/>denken, Forschen und Singen war eines Mannes<lb facs="P3_TL00077"/>würdige Beschäftigung. Wer Bildwerke schuf,</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00003">
+                                 <ab facs="P3_TB00003">
                                     <lb facs="P3_TL00078"/>mußte mühsam mit der Hand arbeiten. Wenn auch<lb facs="P3_TL00079"/>sein Geist im Holze tätig ist, seine Hand wurde<lb facs="P3_TL00080"/>ungeschlacht breit, und die Kyer waren ein Volk<lb facs="P3_TL00081"/>von Vornehmen. König Viro erhob die ausge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00082"/>zeichnetsten Rundbildner zu seinem täglichen Um<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00083"/>gang, was einen Glanz auf den ganzen Stand<lb facs="P3_TL00084"/>warf.<lb facs="P3_TL00085"/>Er war immer leicht bewegt von dem Winde<lb facs="P3_TL00086"/>der Worte, und sein Auge suchte immer den Klang<lb facs="P3_TL00087"/>alles durch Menschengeist mit der Hand Ge<pc type="endhypen" pre="false">-</pc>
@@ -755,9 +752,7 @@
                                     <lb facs="P3_TL00149"/>ren.<lb facs="P3_TL00150"/>So las man gläubig von dem Lande der Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00151"/>sichtskäfer, deren Menschenantlitz furchtbar aus<lb facs="P3_TL00152"/>den Panzerflügeln drohte. Blutlose Lippen zwi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00153"/>schen weißen Wangen lagen unter den zornigen</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00004">
+                                 <ab facs="P3_TB00004">
                                     <lb facs="P3_TL00154"/>Nasenflügeln, aus denen sie Giftpfeile in solcher<lb facs="P3_TL00155"/>Schnelligkeit hinter einander schnaubten, daß sie<lb facs="P3_TL00156"/>in einem Augenblicke ein ganzes Heer zu Boden<lb facs="P3_TL00157"/>röcheln machten. Dann fallen sie auf die Leichen<lb facs="P3_TL00158"/>nieder, die unter dem Atem ihrer Mäuler schmel<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00159"/>zen, wie der Schnee der Berge, jlen man zu Tale<lb facs="P3_TL00160"/>trägt. Sie sind ebenso unruhig wie boshaft in be<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00161"/>ständiger Wanderschaft und wohnen in den durch<lb facs="P3_TL00162"/>sie von Menschen entleerten und durchhöhlten<lb facs="P3_TL00163"/>Städten.<lb facs="P3_TL00164"/>Aergerlich lachten sie aber, als ihrer Gutgläubig<pc type="endhypen" pre="false">-</pc>
@@ -781,16 +776,12 @@
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P4_TB00002">
+                              <ab facs="P4_TB00002">
                                  <lb facs="P4_TL00002"/>II</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00003">
+                                 <ab facs="P4_TB00003">
                                     <lb facs="P4_TL00003"/>* Plaos Mutter war eine Tochter des Königs von<lb facs="P4_TL00004"/>der Insel Larini, des durch die Keuschheit seiner<lb facs="P4_TL00005"/>Frauen bekannten Reiches. Sein Vater holte sie<lb facs="P4_TL00006"/>von dort, und der König, der glaubte, daß sein<lb facs="P4_TL00007"/>Geschlecht noch den Reif, den er um die Stirne<lb facs="P4_TL00008"/>hatte, mit Recht trage, gab sie ihm gern. Hatte<lb facs="P4_TL00009"/>doch der frühere König von Kyland auf seinen<lb facs="P4_TL00010"/>Zügen bei seinem Vorfahr Rast gemacht.<lb facs="P4_TL00011"/>Plaos Mutter murrte nicht, daß sie keine Köni<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00012"/>gin wurde. Sie war dem Manne, dem sie ihr<lb facs="P4_TL00013"/>Vater gegeben hatte, vollkommen ergeben, ebenso<lb facs="P4_TL00014"/>wie dem Gott ihres Landes, dessen Gesetz der<lb facs="P4_TL00015"/>Frau Gehorsam gebot. Auch als der König nach<lb facs="P4_TL00016"/>der Geburt des Knaben seine Liebe einer der Vor<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00017"/>nehmen des unterworfenen Landes von der All<pc type="endhypen" pre="false">-</pc>
@@ -804,9 +795,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00002">
+                                 <ab facs="P6_TB00002">
                                     <lb facs="P6_TL00002"/>diene es nicht, weil ich es nicht ausnutze, mich<lb facs="P6_TL00003"/>nicht dem Herrn bemerkbar mache. Wer die<lb facs="P6_TL00004"/>Hand nicht aufmacht vor der Gabe der Götter,<lb facs="P6_TL00005"/>vor dem verschließt sie sich." Plao verstand nicht,<lb facs="P6_TL00006"/>was sie meinte. Aber die Worte „verdienen" und<lb facs="P6_TL00007"/>„ausnutzen" gingen nicht aus seinem Kopf. Er<lb facs="P6_TL00008"/>fühlte eine unbestimmte Verachtung gegen die<lb facs="P6_TL00009"/>Dienerin.<lb facs="P6_TL00010"/>Später kam er in die Tempelstadt. Die Götter<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00011"/>lehre der Kyer hatte sich während ihrer Wande<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00012"/>rungen manchmal verändert, hatte fremde Reli<pc type="endhypen" pre="false">-</pc>
@@ -825,9 +814,7 @@
                                     <lb facs="P6_TL00054"/>stieß. Den Knaben interessierte, daß er als ein<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00055"/>ziger Priester beim Ausfall gegen die Kütten,<lb facs="P6_TL00056"/>einen Spieß in der Hand, angeführt hatte.<lb facs="P6_TL00057"/>Mathematik und Dichtung waren außer der<lb facs="P6_TL00058"/>Sternbeschauung und Sternenwissenschaft die<lb facs="P6_TL00059"/>heiligen Dinge, womit die Schüler und einige<lb facs="P6_TL00060"/>Schülerinnen den Tag hinbrachten. Später wurden<lb facs="P6_TL00061"/>einige wenige in die ersten Gänge des Geheim<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00062"/>nisses eingeführt.<lb facs="P6_TL00063"/>Plao, der oft vor sich hinmurmelte: „Ihr wißt<lb facs="P6_TL00064"/>ja nicht, wer ich bin", fühlte sich allem Heiligen<lb facs="P6_TL00065"/>nah und glaubte daher, er werde große Begabung<lb facs="P6_TL00066"/>in der Mathematik zeigen. Hier begriff er bald<lb facs="P6_TL00067"/>wenig noch, weil seine Gedanken nicht ständig<lb facs="P6_TL00068"/>;auf demselben Weg bleiben konnten. Seinen<lb facs="P6_TL00069"/>Vater bekümmerte es, weil er auch einsah, daß<lb facs="P6_TL00070"/>er nie ein Führer im Kriege werden würde. Es<lb facs="P6_TL00071"/>fehlte ihm dazu das Ortsgefühl. Er konnte schon<lb facs="P6_TL00072"/>nicht den Weg zurückfinden, den er gegangen<lb facs="P6_TL00073"/>war. Denn unterwegs war ihm die Umgebung<lb facs="P6_TL00074"/>vor aufsteigenden Gesichten abhanden gekommen.<lb facs="P6_TL00075"/>Manchmal wies er andern den Weg, den er eben<lb facs="P6_TL00076"/>gegangen war, indem er sagte, er solle den breiten<lb facs="P6_TL00077"/>Elefantenweg gehen, wo er eben erst auf dem<lb facs="P6_TL00078"/>schmalen Sohleichpfad gekommen war. Er sagte</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00004">
+                                 <ab facs="P4_TB00004">
                                     <lb facs="P4_TL00079"/>„Sein eigener Vater stieß ihn deshalb nieder."<lb facs="P4_TL00080"/>„War er so bösartig?"<lb facs="P4_TL00081"/>„Nein, er wollte aber keinen Sohn mit niedriger<lb facs="P4_TL00082"/>Gesinnung haben."<lb facs="P4_TL00083"/>„Mit niedriger Gesinnung? Wie meinst du<lb facs="P4_TL00084"/>das?"<lb facs="P4_TL00085"/>„Er wollte eine Niedrige zu seinesgleichen<lb facs="P4_TL00086"/>machen. Ich war voller Freude. Aber es war<lb facs="P4_TL00087"/>nicht recht. Seit er tot ist, stellt er mir nach."<lb facs="P4_TL00088"/>„Was tut er?"<lb facs="P4_TL00089"/>„Er sucht mich zu fangen und zu essen."<lb facs="P4_TL00090"/>Der Knabe ließ den Schrei in der Kehle.<lb facs="P4_TL00091"/>„Ja, die Verstorbenen sind sehr böse, weil sie<lb facs="P4_TL00092"/>nicht mehr am Leben sind. Sie sind neidisch auf<lb facs="P4_TL00093"/>uns. Selbst eine Mutter stellt ihrem Kinde Schiin<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00094"/>_ yy<lb facs="P4_TL00095"/>gen.<lb facs="P4_TL00096"/>Solche und ähnliche Worte waren ein Same,<lb facs="P4_TL00097"/>aus dem der Baum seiner Todesfurcht hochstieg,<lb facs="P4_TL00098"/>der seitdem oft unversehens in seine Träume bei<lb facs="P4_TL00099"/>Schlaf und Wachen hineinrauschte. Den Tod<lb facs="P4_TL00100"/>fürchtete er seitdem im geheimen als eine grauen<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00101"/>hafte Umkehrung alles dessen, was er bisher emp<pc type="endhypen" pre="false">-</pc>
@@ -840,9 +827,7 @@
                                     <lb facs="P4_TL00148"/>trachtung.<lb facs="P4_TL00149"/>Er sah das Leben auch später, wie man Bilder<lb facs="P4_TL00150"/>ansieht. Er hörte aufmerksam zu, als sein Vater<lb facs="P4_TL00151"/>den Strich eines Malers lobte. Es war ein Bild,<lb facs="P4_TL00152"/>vor dem er mit seiner Mutter wohlriechende Kräu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00153"/>ter opferte. Er bildete sich eine Zeitlang ein, der<lb facs="P4_TL00154"/>Maler zu sein.<lb facs="P4_TL00155"/>Einmal zeigte er ihr eine durchgepauste Zeich<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00156"/>nung und sagte, er habe sie nachgezeichnet Sie</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00005">
+                                 <ab facs="P4_TB00005">
                                     <lb facs="P4_TL00157"/>brachte sie seinem Vater, und er hörte mit scham<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00158"/>roten Wangen, wie er gelobt wurde.<lb facs="P4_TL00159"/>Den nächsten Tag hörte er, wie sein Vater zur<lb facs="P4_TL00160"/>Mutter sagte: „Ich hätte ihm nicht die Geduld<lb facs="P4_TL00161"/>zugetraut. Auch dachte ich, er würde, wenn auch<lb facs="P4_TL00162"/>noch so ungeschickt, etwas hinzugefügt haben. Er<lb facs="P4_TL00163"/>ist doch ein Bilderkopf. Er ist besser, als er tut."<lb facs="P4_TL00164"/>Dann rief er ihn zu sich und sagte, er solle die<lb facs="P4_TL00165"/>Zeichnung noch einmal, aber etwas vergrößert<lb facs="P4_TL00166"/>machen.<lb facs="P4_TL00167"/>Es war ein Glück für Plao, daß sein Vater nicht<lb facs="P4_TL00168"/>mehr darauf zurückkam. Daß er ein Bilderkopf<lb facs="P4_TL00169"/>war, ging ihm nach. Er schloß mehr noch als<lb facs="P4_TL00170"/>früher die Augen und ließ aus schwankenden<lb facs="P4_TL00171"/>Farben Gebilde auftauchen und verschwimmend<lb facs="P4_TL00172"/>sich wandeln. Manchmal aber faßte ihn dabei Ent<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00173"/>setzen. Er dachte an die Grausenerzählungen der<lb facs="P4_TL00174"/>Sklavin. Zwischen Traumschlummer und Wachen<lb facs="P4_TL00175"/>stammelte er: „Werdet nicht rund!"<lb facs="P4_TL00176"/>Als er einmal im Fieber zwischen lauter Ge<pc type="endhypen" pre="false">-</pc>
@@ -859,9 +844,7 @@
                                     <lb facs="P4_TL00228"/>halten. Es gibt ärmliche unter ihnen, die auch<lb facs="P4_TL00229"/>nicht anders wohnen als ich. Dabei verachtet<lb facs="P4_TL00230"/>man sie noch mehr als mich, seit unsere Vor<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00231"/>nehmen wieder vornehm wurden. Aber die Götter<lb facs="P4_TL00232"/>schufen Große und Kleine, Schöne und Häßliche.<lb facs="P4_TL00233"/>Ich habe es noch gut getroffen. Aber ich ver<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00002">
+                                 <ab facs="P8_TB00002">
                                     <lb facs="P8_TL00002"/>sich besonders, da er trotz richtigem Wissen unter<lb facs="P8_TL00003"/>einem Zwange so gefragt hatte. Des Morgens<lb facs="P8_TL00004"/>schon beim Erwachen klopfte sein Herz aus Angst,<lb facs="P8_TL00005"/>was er den Tag über sagen werde. Er ging<lb facs="P8_TL00006"/>meistens in Qual der Angst umher, auf welche<lb facs="P8_TL00007"/>Art er im nächsten Augenblick gesenkten Hauptes<lb facs="P8_TL00008"/>gehen werde und Scham trage.<lb facs="P8_TL00009"/>Dazwischen hatte er Momente, wo er glücklich<lb facs="P8_TL00010"/>war, wo er sich trotzig gegen die Lehre, daß alles<lb facs="P8_TL00011"/>Schmerz sei, sagte, daß er jetzt vollkommen glück<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00012"/>lich sei. Es war, als er lange gegen die Sonne ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00013"/>schaut hatte und nun abgewendet in und unter den<lb facs="P8_TL00014"/>Wolken Farbeninseln über sich im Halbkreis hin-<lb facs="P8_TL00015"/>und herschweben sah, als er die paar Knaben, die<lb facs="P8_TL00016"/>viel um ihn waren, mit ersonnenen fabelhaften<lb facs="P8_TL00017"/>Erlebnissen gefangen hatte.<lb facs="P8_TL00018"/>„Des Nachts kamen drei Schwestern, nicht<lb facs="P8_TL00019"/>größer als mein kleiner Finger, in grünen, blauen<lb facs="P8_TL00020"/>und gelben Kleidern. Sie schwebten über meinen<lb facs="P8_TL00021"/>Augen, die zur Decke blickten, und ich wußte,<lb facs="P8_TL00022"/>daß sie des Tages in der Sonne wohnen. Die<lb facs="P8_TL00023"/>eine sagte zu mir so leise, daß es auch der Blinde,<lb facs="P8_TL00024"/>Qottäugige nicht gehört hätte: Wir waren zuerst<lb facs="P8_TL00025"/>im Auge Gottes. Da wölbte er um uns als Woh<pc type="endhypen" pre="false">-</pc>
@@ -877,9 +860,7 @@
                                     <lb facs="P8_TL00057"/>blasen konnte. Die Häuser der Stadt, durch die<lb facs="P8_TL00058"/>ich nun ging, glänzten wie lauter Tautropfen, die<lb facs="P8_TL00059"/>höher waren als ich. Wir spiegelten uns darin<lb facs="P8_TL00060"/>wie in Augen, die uns aber traurig ansahen. So<lb facs="P8_TL00061"/>wohnen wir immer in den Häusern, sagten die<lb facs="P8_TL00062"/>Mädchen, ohne hineinzugehn und ihre blickende<lb facs="P8_TL00063"/>Einsamkeit zu stören. Auch erschrecken wir sie<lb facs="P8_TL00064"/>nicht mit mathematischen Fragen. So sind sie<lb facs="P8_TL00065"/>so vollkommen unglücklich wie wir, deren Spiele<lb facs="P8_TL00066"/>sie ewig betrachten dürfen. Dann begannen sie<lb facs="P8_TL00067"/>einen so zierlichen Reigen, daß sie entzückt glänz<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00068"/>ten, ebenso wie ich.<lb facs="P8_TL00069"/>Da die Priester die Knaben oft im Geheimen<lb facs="P8_TL00070"/>belauschten, hörten sie auch so ein Märchen.<lb facs="P8_TL00071"/>Einige nahmen seine Partei. Aber der Blinde<lb facs="P8_TL00072"/>sagte:<lb facs="P8_TL00073"/>„Ein Sänger und kein Mathematiker ist eine<lb facs="P8_TL00074"/>Unsumme, nur wirklich bei unstät planlosen No<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00075"/>madenvölkern. Nur durch das Umfassen des<lb facs="P8_TL00076"/>planvollen Wandels der Sternenwelt, der sich</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00003">
+                                 <ab facs="P6_TB00003">
                                     <lb facs="P6_TL00079"/>es bestimmt, denn eine Anschauung von dem eben<lb facs="P6_TL00080"/>Erlebten tauchte sofort auf, wenn er gefragt wurde.<lb facs="P6_TL00081"/>Bei den Kriegsspielen der Knaben im Kinderhof<lb facs="P6_TL00082"/>liebte er es, sich allein gegen den dastehenden<lb facs="P6_TL00083"/>feindlichen Schwärm zu stürzen. Er verschwand<lb facs="P6_TL00084"/>einen Augenblick im dichten um ihn geballten<lb facs="P6_TL00085"/>Knäuel und kam lachend mit Beulen am Kopf dar<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00086"/>aus hervor. Auch wenn die gedrängten beiden<lb facs="P6_TL00087"/>Haufen gegeneinander liefen, war er immer vor<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00088"/>an. Die Achtung, die es ihm eintrug, schwand<lb facs="P6_TL00089"/>bald, als man sah, daß er kaum losschlug, sondern<lb facs="P6_TL00090"/>nur wild mit den Armen durch die Luft fuhr.<lb facs="P6_TL00091"/>Einige machten sich ein Vergnügen daraus, ihn in<lb facs="P6_TL00092"/>den Bauch zu stoßen, auch außerhalb der Kriegs<pc type="endhypen" pre="false">-</pc>
@@ -891,9 +872,7 @@
                                     <lb facs="P6_TL00134"/>ben wir ja ein besiegtes Volk unter uns wohnen<lb facs="P6_TL00135"/>lassen. Wir kennen nicht die Verwandtschaft mit<lb facs="P6_TL00136"/>uns, aber wir fühlen sie. Kein Priester darf eines<lb facs="P6_TL00137"/>ihrer Mädchen zur Gemahlin nehmen. Plaos<lb facs="P6_TL00138"/>Mutter ist zu demütig in ihm. Er fühlt es selbst<lb facs="P6_TL00139"/>und leidet darunter."<lb facs="P6_TL00140"/>Ein ebenso greiser, der Priester Weset, der<lb facs="P6_TL00141"/>immer mit dem Blinden, welcher der oberste<lb facs="P6_TL00142"/>Priester war, zusammen saß, erwiderte zornig:<lb facs="P6_TL00143"/>„Vielleicht bringt die Mündung eines Flusses in<lb facs="P6_TL00144"/>anderes Blut uns dem Wesen näher. Wir sind<lb facs="P6_TL00145"/>selbst zu göttlich geworden, um mit ihm noch<lb facs="P6_TL00146"/>Zusammenwind zu haben. Was er über die Er<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00147"/>schaffung sagte, war doch die Lehre, ohne unser<lb facs="P6_TL00148"/>Zutun gefunden. Fügen wir nicht Bilder aus Län<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00149"/>dern aller Völker in unsere Dichtungen? Wir<lb facs="P6_TL00150"/>verachten also nicht ihre Gesänge, wie das Volk,<lb facs="P6_TL00151"/>das ihr Bestes auf die Art empfängt. Wir sollten<lb facs="P6_TL00152"/>auch die Mischung der Menschen öfter vornehmen,<lb facs="P6_TL00153"/>ob nicht Offenbarung daraus dampft."<lb facs="P6_TL00154"/>„Nicht zu oft", erwiderte lächelnd der Blinde.<lb facs="P6_TL00155"/>„Ich sähe das Königsblut gern rein, obwohl das</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00004">
+                                 <ab facs="P6_TB00004">
                                     <lb facs="P6_TL00156"/>gerade den Versuch auffälliger machte. Dich<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00157"/>tungen und Menschen dürfen sich mischen, gewiß.<lb facs="P6_TL00158"/>Aber nur als Ausnahme. Und Priester sollen die<lb facs="P6_TL00159"/>augenlose Liebe bewachen."<lb facs="P6_TL00160"/>Dann bekämpfte man wieder die von dem<lb facs="P6_TL00161"/>Blinden aufgerichtete und von den andern immer<lb facs="P6_TL00162"/>wieder umgeworfene Lehre, daß die Sterne und<lb facs="P6_TL00163"/>die Erde gleicher Art und alle in einem dünnen<lb facs="P6_TL00164"/>Wasser schwebende Kugeln seien; die Erde war<lb facs="P6_TL00165"/>die größte für uns, aber vielleicht nicht für die<lb facs="P6_TL00166"/>Götter. Auf seinen Wunsch goß man wieder das<lb facs="P6_TL00167"/>Oel aus der heiligen Lampe in eine Schale Wasser.<lb facs="P6_TL00168"/>Triumphierend glitt sein blinder Blick umher. Er<lb facs="P6_TL00169"/>brachte sie zum Kreisen und bemerkte am Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00170"/>räusch der Bewegungen seiner Gegner, wann die<lb facs="P6_TL00171"/>Kügelchen sich von ihr lösten, um sie mitschwan<pc type="endhypen" pre="false">-</pc>
@@ -909,9 +888,7 @@
                                     <lb facs="P6_TL00213"/>stern und ihren Frauen gab er merkwürdige<lb facs="P6_TL00214"/>Antworten auf alle ihre Fragen. Immer wieder<lb facs="P6_TL00215"/>schüttelten sie fragend die Köpfe, ob er<lb facs="P6_TL00216"/>nicht doch den manchmal vorkommenden<lb facs="P6_TL00217"/>Blöden zuzuzählen sei. Einmal fragte ihn<lb facs="P6_TL00218"/>der Blinde, von dem gesagt wurde, sein<lb facs="P6_TL00219"/>Ohr sei so lauschend weise, daß er am Fluge<lb facs="P6_TL00220"/>des vorbeiziehenden Schmetterlings seinen Art<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00221"/>namen und Farbengestalt wisse: „Nun, was macht<lb facs="P6_TL00222"/>der kleine Plao?" „Ich gehe", antwortete er, tief<lb facs="P6_TL00223"/>überzeugt, indem er weiterschritt. „Nein, du<lb facs="P6_TL00224"/>kriechst", erwiderte der Blinde zornig, „und einen<lb facs="P6_TL00225"/>Augenblick, als du kamst, dachte ich, du flögest."<lb facs="P6_TL00226"/>Einmal zeigten sie ihm das Rundbild eines<lb facs="P6_TL00227"/>Vogels im Fluge, welches mit den Klauen über<lb facs="P6_TL00228"/>einem Brettchen befestigt war. Er fragte wie<lb facs="P6_TL00229"/>verwundert, ob das Holz angewachsen sei. Als<lb facs="P6_TL00230"/>man ihn frug, ob er scherze, antwortete er tief<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00231"/>ernst: Nein, er habe es so gemeint. Er litt sehr<lb facs="P6_TL00232"/>unter den geringschätzigen Blicken und schämte</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00003">
+                                 <ab facs="P8_TB00003">
                                     <lb facs="P8_TL00077"/>zu Tempelgängen aufbaut, kommt die Besclhauung<lb facs="P8_TL00078"/>von oben." Die Tempelstadt begann mit niedrigen<lb facs="P8_TL00079"/>Häusern und Höfen. Sie erhob sich in breiten<lb facs="P8_TL00080"/>Tempeln, einem Gewirr von Gärten und Schluch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00081"/>ten sich hinziehend und stieg auf den Hügel, ein<lb facs="P8_TL00082"/>hochsäuliger schlanker Tempel zum Himmel. Ihn<lb facs="P8_TL00083"/>sah man von überall weiß ragen. Um ihn ließ die<lb facs="P8_TL00084"/>Gottheit in der Dämmerung sein besticktes Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00085"/>wand wallen. Am Ende der breiten Tempel stan<pc type="endhypen" pre="false">-</pc>
@@ -931,33 +908,25 @@
                   </div>
                   <div type="TextContent" corresp="c007">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00004">
+                        <ab facs="P8_TB00004">
                            <lb facs="P8_TL00145"/>Klagegesang im Jahre<lb facs="P8_TL00146"/>Tausendneunhundert<pc type="endhypen" pre="false">-</pc>
                            <lb facs="P8_TL00147"/>fünfzehn</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00005">
+                        <ab facs="P8_TB00005">
                            <lb facs="P8_TL00148"/>Arthur Keleti</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00006">
+                                 <ab facs="P8_TB00006">
                                     <lb facs="P8_TL00149"/>Aus dem Ungarischen von Heinrich Horvät<lb facs="P8_TL00150"/>Weinet die ihr noch weinen könnt<lb facs="P8_TL00151"/>Weinet<lb facs="P8_TL00152"/>Beweinet die zwei Beine hatten<lb facs="P8_TL00153"/>Und haben jetzt nur eines noch<lb facs="P8_TL00154"/>Weinet<lb facs="P8_TL00155"/>Beweinet die zwei Augen hatten<lb facs="P8_TL00156"/>Und eines ist jetzt tot<lb facs="P8_TL00157"/>Weinet<lb facs="P8_TL00158"/>Beweinet die zwei gute starke Hände hatten<lb facs="P8_TL00159"/>Und haben jetzt nur eine Hand<lb facs="P8_TL00160"/>Weinet<lb facs="P8_TL00161"/>Beweinet die ein Kind einst hatten<lb facs="P8_TL00162"/>Ein schönes starkes gehegtes Kind<lb facs="P8_TL00163"/>Und die es nicht behalten durften<lb facs="P8_TL00164"/>Weinet<lb facs="P8_TL00165"/>Weint auch um die so noch sehen konnten als<lb facs="P8_TL00166"/>sie gingen<lb facs="P8_TL00167"/>Und die jetzt nichts mehr sehn nur ihr Leid<lb facs="P8_TL00168"/>Weinet<lb facs="P8_TL00169"/>Beweinet die nicht einmal gestorben sind<lb facs="P8_TL00170"/>Die sich verloren haben und brauchten<lb facs="P8_TL00171"/>keinen Sarg<lb facs="P8_TL00172"/>Weinet<lb facs="P8_TL00173"/>Beweinet die vielen armen Mütter<lb facs="P8_TL00174"/>Deren Schoß eine traurige Bahre geworden ist<lb facs="P8_TL00175"/>Weinet<lb facs="P8_TL00176"/>Kein Schmerz ist größer als ihr Schmerz<lb facs="P8_TL00177"/>In ihrem engen Schoß die vielen toten Kinder<lb facs="P8_TL00178"/>Die ihr versteht ihrer Herzen unermeßlich<lb facs="P8_TL00179"/>großen Schmerz<lb facs="P8_TL00180"/>0 weinet, beweinet sie<lb facs="P8_TL00181"/>Weinet<lb facs="P8_TL00182"/>Weinet um das viele verströmende teuere Blut<lb facs="P8_TL00183"/>Und um den endlosen furchtbaren Krieg<lb facs="P8_TL00184"/>Weinet<lb facs="P8_TL00185"/>Nicht trockne in eueren Augen der Bach<lb facs="P8_TL00186"/>der Tränen<lb facs="P8_TL00187"/>Die ihr noch weinen könnt<lb facs="P8_TL00188"/>Weinet<lb facs="P8_TL00189"/>Weinet um sie die schon sanfte selige Tote sind<lb facs="P8_TL00190"/>Und eine blaue Blume blüht aus ihrem zarten<lb facs="P8_TL00191"/>Gaumen<lb facs="P8_TL00192"/>Und um die Lebenden die leben müssen jetzt<lb facs="P8_TL00193"/>/Weinet<lb facs="P8_TL00194"/>Beweinet auch die guten kleinen Pferde<lb facs="P8_TL00195"/>Die mit wirren Mähnen und gebrochenen Augen-<lb facs="P8_TL00196"/>Schon langsam welken auf den schönen<lb facs="P8_TL00197"/>Schneefeldern.'<lb facs="P8_TL00198"/>Weinet<lb facs="P8_TL00199"/>Beweinet auch die vielen lieben kleinen Häuser<lb facs="P8_TL00200"/>Die die Flammen frassen<lb facs="P8_TL00201"/>Und die vielen kleinen Frauen<lb facs="P8_TL00202"/>Die erschrocken aus den brennenden kleinen<lb facs="P8_TL00203"/>Häusern liefen<lb facs="P8_TL00204"/>Weinet<lb facs="P8_TL00205"/>Beweinet die entblößt sind all ihrer Habe<lb facs="P8_TL00206"/>Vertrieben die Kuh, mit dem Kind auf dem Arm<lb facs="P8_TL00207"/>Und dem belasteten Esel (sie haben nichts als das)<lb facs="P8_TL00208"/>Wer weiß wohin sie ziehn und ihr Los o Gott<lb facs="P8_TL00209"/>wer weiß es —<lb facs="P8_TL00210"/>Weinet<lb facs="P8_TL00211"/>Beweinet die vielen lieben kleinen Waisen<lb facs="P8_TL00212"/>Die armen traurigen Elternlosen in langen<lb facs="P8_TL00213"/>blauen Reihen-<lb facs="P8_TL00214"/>Und in traurigen Schuhen von den Nonnen geführt<lb facs="P8_TL00215"/>Weinet<lb facs="P8_TL00216"/>Beweinet auch die vielen zertretenen und<lb facs="P8_TL00217"/>schwachen kleinen Mädchen*</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00002">
+                                 <ab facs="P9_TB00002">
                                     <lb facs="P9_TL00002"/>Die mit schmaler Kinderhand ihr Kind jetzt<lb facs="P9_TL00003"/>wiegen<lb facs="P9_TL00004"/>Und sich frühe verschliessen, weh geknickte<lb facs="P9_TL00005"/>bestaubte Blumen<lb facs="P9_TL00006"/>Weinet<lb facs="P9_TL00007"/>Beweinet auch die vielen traurigen kranzlosen<lb facs="P9_TL00008"/>Bräute<lb facs="P9_TL00009"/>Deren trauriges Haupt kein Schleier bedecken<lb facs="P9_TL00010"/>wird<lb facs="P9_TL00011"/>Und die in ihren Fenstern auf den toten<lb facs="P9_TL00012"/>Bräutigam warten<lb facs="P9_TL00013"/>Weinet<lb facs="P9_TL00014"/>Beweinet die Wittwen alle<lb facs="P9_TL00015"/>Weil ihr dünner Schleier welkt und traurig weht<lb facs="P9_TL00016"/>Und sie gehn wie ein Zug von Nonnen und in<lb facs="P9_TL00017"/>den bleichen Händen<lb facs="P9_TL00018"/>Blasst das Wachslicht der Erinnerung und tränt<lb facs="P9_TL00019"/>ohne Unterlaß<lb facs="P9_TL00020"/>Weinet<lb facs="P9_TL00021"/>Weinet denn viele schöne und alte Kirchen<lb facs="P9_TL00022"/>Und viele liebe Städte die unseren Herzen<lb facs="P9_TL00023"/>nahe waren<lb facs="P9_TL00024"/>Sind graue Trümmerhaufen geworden<lb facs="P9_TL00025"/>Und auch der liebe Altar in unser aller Herzen<lb facs="P9_TL00026"/>Daß wir Menschen sind — dein Bruder und<lb facs="P9_TL00027"/>mein Bruder —<lb facs="P9_TL00028"/>Weinet<lb facs="P9_TL00029"/>Beweinet die schon sitzen hinter Gartengittern<lb facs="P9_TL00030"/>unter den traurigen Weiden<lb facs="P9_TL00031"/>Mit bleichem erschrockenem Gesicht und sehr<lb facs="P9_TL00032"/>weit von sich selber<lb facs="P9_TL00033"/>Weinet<lb facs="P9_TL00034"/>Weinet denn am Rande der Landstraßen bei<lb facs="P9_TL00035"/>den Grenzsteinen sitzen Kinder<lb facs="P9_TL00036"/>Kleine Kinder in dünnen Tüchlein und friern und<lb facs="P9_TL00037"/>ihre arme Hand preßt ein Bündel<lb facs="P9_TL00038"/>Weinet<lb facs="P9_TL00039"/>Beweinet auch die sanfte kleine Ziege<lb facs="P9_TL00040"/>Die hoch in den Bergen vor Schreck ein Zicklein<lb facs="P9_TL00041"/>gebar mit zwei Köpfen<lb facs="P9_TL00042"/>Weinet<lb facs="P9_TL00043"/>Weinet denn wenn der Zug der Verstümmelten<lb facs="P9_TL00044"/>käme<lb facs="P9_TL00045"/>Nie würde er enden und bedeckten sie nicht<lb facs="P9_TL00046"/>die verstümmelten Glieder<lb facs="P9_TL00047"/>Wer von uns fände noch Schlaf —<lb facs="P9_TL00048"/>W einet<lb facs="P9_TL00049"/>Weinet denn keine Leinwand ist so lang und<lb facs="P9_TL00050"/>so breit ist nicht eine Leinwand<lb facs="P9_TL00051"/>Daß sie bedecken könnte alle die Wunden<lb facs="P9_TL00052"/>Und die viele weiße und milde Leinwand geht<lb facs="P9_TL00053"/>aus in der Welt<lb facs="P9_TL00054"/>Weinet<lb facs="P9_TL00055"/>Weinet denn auf den weichen grünen Feldern<lb facs="P9_TL00056"/>Stehn mehr der Kreuze als in den Friedhöfen<lb facs="P9_TL00057"/>stehen<lb facs="P9_TL00058"/>Weinet<lb facs="P9_TL00059"/>Weinet denn ferne ist der gute Hirte gezogen<lb facs="P9_TL00060"/>Und der böse Krieg wütet in seiner armen<lb facs="P9_TL00061"/>einfältigen Herde<lb facs="P9_TL00062"/>Weinet<lb facs="P9_TL00063"/>Weinet denn man läßt die Lebenden nicht mehr<lb facs="P9_TL00064"/>leben<lb facs="P9_TL00065"/>Und voll sind alle Friedhöfe und die Spitäler<lb facs="P9_TL00066"/>sind voll<lb facs="P9_TL00067"/>Weinet<lb facs="P9_TL00068"/>Weinet denn wenn diese Zeiten vergangen sind<lb facs="P9_TL00069"/>Dann grast das schwache Lämmlein: der Friede<lb facs="P9_TL00070"/>In rotem Grase nur<lb facs="P9_TL00071"/>(Nur rotes schlechtes Gras wächst für das arme<lb facs="P9_TL00072"/>unschuldige)<lb facs="P9_TL00073"/>Weinet<lb facs="P9_TL00074"/>Weinet .</ab>
                               </div>
                            </div>
@@ -966,36 +935,26 @@
                   </div>
                   <div type="TextContent" corresp="c008">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P9_TB00003">
+                        <ab facs="P9_TB00003">
                            <lb facs="P9_TL00075"/>Seidenfaden</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P9_TB00004">
+                        <ab facs="P9_TB00004">
                            <lb facs="P9_TL00076"/>Erzählung</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P9_TB00005">
+                              <ab facs="P9_TB00005">
                                  <lb facs="P9_TL00077"/>Adolf Knoblauch</ab>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P9_TB00006">
+                              <ab facs="P9_TB00006">
                                  <lb facs="P9_TL00078"/>V</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00007">
+                                 <ab facs="P9_TB00007">
                                     <lb facs="P9_TL00079"/>Die Eigentümerin des Landhauses hatte ausge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00080"/>macht, daß jeden Morgen das Stubenmädchen<lb facs="P9_TL00081"/>Seidenfadens Bodenkammer ausfegen und auf<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00082"/>räumen sollte. Obgleich das übertriebene Reini<pc type="endhypen" pre="false">-</pc>
@@ -1019,9 +978,7 @@
                                     <lb facs="P9_TL00141"/>haberei hätten.<lb facs="P9_TL00142"/>Herr Schneekamp hatte drei Töchter, von<lb facs="P9_TL00143"/>denen Seidenfaden behauptete, sie sähen aus als<lb facs="P9_TL00144"/>wüßten sie nicht, was ein Mann sei. Er nannte sie<lb facs="P9_TL00145"/>seine drei Milchbrödchen, alle waren blond, rot<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00146"/>bäckig, blauäugig. Sie verehrten heimlich Seiden<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00147"/>faden, aber machten sich über seine Braut lustig.<lb facs="P9_TL00148"/>Sie kamen hinausgelaufen und betrachteten von<lb facs="P9_TL00149"/>fern Sine, wenn sie vor den Beeten sich zierte</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00008">
+                                 <ab facs="P9_TB00008">
                                     <lb facs="P9_TL00150"/>und ihr blauer Böcklein-Schleier über des Bunten<lb facs="P9_TL00151"/>Buckel wehte, denn er bemühte sich um den<lb facs="P9_TL00152"/>Endivien. Dann ahmten die drei Schneekamps von<lb facs="P9_TL00153"/>fern der Braut nach und lachten, wie das Milch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00154"/>brödchen nun einmal eigen ist. Sine war tief be<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00155"/>leidigt.</ab>
@@ -1029,9 +986,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00009">
+                                 <ab facs="P9_TB00009">
                                     <lb facs="P9_TL00156"/>Auf die kalte Nacht war ein heißer Herbsttag<lb facs="P9_TL00157"/>gefolgt. Nach vielen Stunden Gartenarbeit lief<lb facs="P9_TL00158"/>Seidenfaden hungrig mit Gemüse beladen wieder<lb facs="P9_TL00159"/>zu seiner Stube hinauf. Er bereitete sich Thee<lb facs="P9_TL00160"/>und ein Häufchen zarter Brödchen zum Frühstück,<lb facs="P9_TL00161"/>tat einen Blick in die aufgeschlagenen Bücher von<lb facs="P9_TL00162"/>vergangener Nacht und beeilte sich, einige frische<lb facs="P9_TL00163"/>Zeilen den verstaubten, seit einem Jahr in Ar<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00164"/>beit befindlichen Manuskripten hinzuzufügen.<lb facs="P9_TL00165"/>Dies Manuskript war das entscheidende Werk<lb facs="P9_TL00166"/>gewesen, welches er sich verpflichtet fühlte, her<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00167"/>vorzubringen. Im Winter des vorigen Jahres hatte<lb facs="P9_TL00168"/>er sich nach Carrara an der italienischen Küste<lb facs="P9_TL00169"/>begeben, um an dem geweihten Orte Michelange<pc type="endhypen" pre="false">-</pc>
@@ -1053,23 +1008,17 @@
                                     <lb facs="P9_TL00212"/>berde der englischen Präraffaeliten, die in Seiden<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00213"/>fadens Kreise heimisch war. Sie bemerkten, daß<lb facs="P9_TL00214"/>der Bunte an diesem hochzeitlichen Tage die<lb facs="P9_TL00215"/>Schönheit Raff a eis mit der Weisheit Spinozas ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00216"/>einigte, und daß er Seele habe eben weil er schön<lb facs="P9_TL00217"/>war.<lb facs="P9_TL00218"/>Er hatte zu diesem Tage Sinen eine lange, lila<lb facs="P9_TL00219"/>seidenbandumwickelte Papierrolle als Geschenk<lb facs="P9_TL00220"/>seiner Heimkehr von starken Wegen überreicht.<lb facs="P9_TL00221"/>Es war eine Komposition zu Ehren Sinens zu<lb facs="P9_TL00222"/>einem Sonett von Michelangelo. Nachdem er<lb facs="P9_TL00223"/>Sinens Scheitel vor den Freunden geküßt hatte,<lb facs="P9_TL00224"/>stimmte er, indem er Sinen bei beiden Händen</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00002">
+                                 <ab facs="P10_TB00002">
                                     <lb facs="P10_TL00002"/>gefaßt hielt, mit lispelnder Stimme den ersten Vers<lb facs="P10_TL00003"/>der neuen Komposition an:<lb facs="P10_TL00004"/>Der goldne Kranz sieh, wie er voll Entzücken<lb facs="P10_TL00005"/>das blonde Haar mit Blüten rings umfängt.<lb facs="P10_TL00006"/>Er sang von der Blume, die Sinens Stirn küßte,<lb facs="P10_TL00007"/>vom Gewand, das sich um Sinens Schultern schloß,<lb facs="P10_TL00008"/>vom Haar, das ihre Wangen gern berührte, vom<lb facs="P10_TL00009"/>engen seidnen Band, das beglückt war, Sinens<lb facs="P10_TL00010"/>Busen zu berühren:<lb facs="P10_TL00011"/>Der Gürtel spricht: laß mich die Lust genießen,<lb facs="P10_TL00012"/>daß ewig meine Haft dies so entspannt —<lb facs="P10_TL00013"/>wie würden da erst Arme dich umschließen.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P10_TB00003">
+                              <ab facs="P10_TB00003">
                                  <lb facs="P10_TL00014"/>VI</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00004">
+                                 <ab facs="P10_TB00004">
                                     <lb facs="P10_TL00015"/>Siderius, Seidenfadens Freund von der Schul<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00016"/>bank auf, hatte den fressenden Ehrgeiz, ein eige<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00017"/>nes philosophisches System zu erfinden, ein eige<pc type="endhypen" pre="false">-</pc>
@@ -1084,9 +1033,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00005">
+                                 <ab facs="P10_TB00005">
                                     <lb facs="P10_TL00075"/>Gedanken, jedes Wort nachempfunden. Seiden<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00076"/>faden war der Vorläufer und eifernde Täufer, Si<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00077"/>derius der fanatische Heiland selber.<lb facs="P10_TL00078"/>Beiden gemeinsam war der germanische Zier<pc type="endhypen" pre="false">-</pc>
@@ -1097,9 +1044,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00006">
+                                 <ab facs="P10_TB00006">
                                     <lb facs="P10_TL00089"/>Der Verrat des Siderius gab den Anstoß zu<lb facs="P10_TL00090"/>Seidenfadens Neuwerden, seiner Herabkunft in<lb facs="P10_TL00091"/>erneuerter Fleischlichkeit. So war Mahadöh zum<lb facs="P10_TL00092"/>sechsten Mal herniedergestiegen, um Goethen<lb facs="P10_TL00093"/>gleich zu werden, mitzufühlen der Liebe Lust und<lb facs="P10_TL00094"/>Qual.<lb facs="P10_TL00095"/>Auf siebenfachem Regenbogen stieg Seiden<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00096"/>faden hernieder. Die ohrenbedeckenden Haare<lb facs="P10_TL00097"/>verschwanden und machten der Künstlerlocke<lb facs="P10_TL00098"/>Platz, das transzendentale Funkeln des Fra Ange<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00099"/>lico wurde zu Flammen in seinen hübschen roten<lb facs="P10_TL00100"/>Bäckchen, die Kniehosen wurden von Sine ver<pc type="endhypen" pre="false">-</pc>
@@ -1114,9 +1059,7 @@
                                     <lb facs="P10_TL00144"/>tisch oder ethisch. Dann durfte es keine Perversi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00145"/>tät mehr geben, kein Odium durfte darauf ruhen,<lb facs="P10_TL00146"/>wenn der liebevolle Seidenfaden kleine Mädchen<lb facs="P10_TL00147"/>küßte oder asketische Frauen umarmte. Die kreuz<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00007">
+                                 <ab facs="P10_TB00007">
                                     <lb facs="P10_TL00148"/>weis verknüpften Paare durften in ein Paradies<lb facs="P10_TL00149"/>treten als Sonnenbad, Kino, Theater der Tausend,<lb facs="P10_TL00150"/>Freilichtbühnen, Nackttänzen, Schönheitsabenden<lb facs="P10_TL00151"/>im bunten Wechsel, Wandervögelreisen!<lb facs="P10_TL00152"/>Aber einen düstren Winkel §*ab es, in den<lb facs="P10_TL00153"/>Seidenfadens Kuß der ganzen Welt nicht hinab<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00154"/>schimmerte, im prächtigen Hause der geistigen<lb facs="P10_TL00155"/>Liebe gab es noch immer den bösen Akt, das<lb facs="P10_TL00156"/>häßliche Anhängsel, den atavistischen Ueberrest,<lb facs="P10_TL00157"/>Wurzel aller Lasten und Qualen, Ursprung aller<lb facs="P10_TL00158"/>Verunstaltung und Vernichtung.<lb facs="P10_TL00159"/>Lohengrin kam nicht aus Nacht und Leiden,<lb facs="P10_TL00160"/>sondern aus Glanz und Wonne her und bestieg<lb facs="P10_TL00161"/>bei Frau Eisens erster böser Frage den Schwanen<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00162"/>nachen, um den „düstren Winkel" nächtlicher<lb facs="P10_TL00163"/>Leiden zu fliehen. So durften die freien Erotiker,<lb facs="P10_TL00164"/>die Eleganten des Geistes ihre geputzten Liebes<pc type="endhypen" pre="false">-</pc>
@@ -1131,24 +1074,18 @@
                   </div>
                   <div type="TextContent" corresp="c009">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P10_TB00009">
+                        <ab facs="P10_TB00009">
                            <lb facs="P10_TL00173"/>Umberto Boccioni</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00003">
+                        <ab facs="P11_TB00003">
                            <lb facs="P11_TL00041"/>Herwarth Waiden</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00010">
+                                 <ab facs="P10_TB00010">
                                     <lb facs="P10_TL00174"/>Nun hat auch Italien den größten künstlerischen<lb facs="P10_TL00175"/>Verlust erlitten: Umberto Boccioni ist am<lb facs="P10_TL00176"/>18. August durch Sturz vom Pferde gestorben. Er<lb facs="P10_TL00177"/>ist vierunddreißig Jahre alt geworden.<lb facs="P10_TL00178"/>Der Name Boccioni bedeutet für Italien und<lb facs="P10_TL00179"/>damit für Europa die Befreiung von der Auffassung<lb facs="P10_TL00180"/>der Kunst als Kunstgeschichte. Die Durchschnitts<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00181"/>maler der ganzen Erde lebten und leben seit Jahr<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00182"/>hunderten von den Meistern der Renaissance, alle<lb facs="P10_TL00183"/>die unzähligen Schüler und Schülersschüler wur<pc type="endhypen" pre="false">-</pc>
@@ -1162,9 +1099,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00002">
+                                 <ab facs="P11_TB00002">
                                     <lb facs="P11_TL00002"/>den Krieg: „Wir wollen den Krieg preisen — diese<lb facs="P11_TL00003"/>einzige Hygiene der Welt — den Militarismus, den<lb facs="P11_TL00004"/>Patriotismus". Dieser Satz Boccionis ist so oft<lb facs="P11_TL00005"/>falsch verstanden worden, als man Bilder zu ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00006"/>stehen sucht. Nicht nur Bilder, auch Gedanken<lb facs="P11_TL00007"/>werden in das beliebte Reich der Tatsachen hinab<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00008"/>gezogen. Alles Unglück dieser Erde stammt von<lb facs="P11_TL00009"/>der Verwirklichung des Geistigen. Davon, daß<lb facs="P11_TL00010"/>Gleichnisse in Bar umgesetzt werden. Während<lb facs="P11_TL00011"/>doch alles Vergängliche nur ein Gleichnis ist.<lb facs="P11_TL00012"/>Kunst ist Gleichnis und Gleichnis ist Tat. Was<lb facs="P11_TL00013"/>wir tun, ist geschehen und was wir nicht tun,<lb facs="P11_TL00014"/>geschieht. Es gibt keine andere Anschauung für<lb facs="P11_TL00015"/>den Künstler und für die Kunst. Diese Anschauung<lb facs="P11_TL00016"/>ist keine Richtung, es ist das Schauen. Boccioni<lb facs="P11_TL00017"/>war für den Krieg als geistiges Phänomen. Er<lb facs="P11_TL00018"/>war Künstler und wollte wie jeder Künstler das<lb facs="P11_TL00019"/>sogenannte Leben aus der Kunst drängen. Als er<lb facs="P11_TL00020"/>im Uebermut seines Kunstgefühls Kunst in das<lb facs="P11_TL00021"/>sogenannte Leben treiben wollte, stürzte er.<lb facs="P11_TL00022"/>Kunst ist unmenschlich, sie tötet, wer sie ver<pc type="endhypen" pre="false">-</pc>
@@ -1179,58 +1114,42 @@
                   </div>
                   <div type="TextContent" corresp="c010">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00018">
+                        <ab facs="P11_TB00018">
                            <lb facs="P11_TL00214"/>Lieder</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00004">
+                        <ab facs="P11_TB00004">
                            <lb facs="P11_TL00042"/>Wilhelm Runge</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P11_TB00005">
+                              <ab facs="P11_TB00005">
                                  <lb facs="P11_TL00043"/>I</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00006">
+                                 <ab facs="P11_TB00006">
                                     <lb facs="P11_TL00044"/>Brach liegt dein Auge<lb facs="P11_TL00045"/>irr drüberhin stottert mein Fuß<lb facs="P11_TL00046"/>Dürr flüstern Zweige herbstzeitlos<lb facs="P11_TL00047"/>die Wolken welken<lb facs="P11_TL00048"/>Des Herzens Türen schlagen heulend zu<lb facs="P11_TL00049"/>nach seinen Wänden zückt das Blut die Hände<lb facs="P11_TL00050"/>und würgt die Tränen in die Adern tot<lb facs="P11_TL00051"/>beschlagen blickt der Stirne helles Fenster<lb facs="P11_TL00052"/>Sturm Hattert auf des Herzens wanke Wipfel<lb facs="P11_TL00053"/>Der Tag hält seine blauen Augen zu<lb facs="P11_TL00054"/>und Nacht trieft nieder schwer aus allen Zweigen<lb facs="P11_TL00055"/>des Blutes Atem läuft auf leisen Zehn<lb facs="P11_TL00056"/>knickt um<lb facs="P11_TL00057"/>und stirbt<lb facs="P11_TL00058"/>die Hände perlen Weinen.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P11_TB00007">
+                              <ab facs="P11_TB00007">
                                  <lb facs="P11_TL00059"/>II</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00008">
+                                 <ab facs="P11_TB00008">
                                     <lb facs="P11_TL00060"/>Sterne himmelflüstern um die Stirn<lb facs="P11_TL00061"/>Denken schläfert sommerseidenweich<lb facs="P11_TL00062"/>Blut geht leise wolkenwellenunter<lb facs="P11_TL00063"/>gestern heute morgenabendrot<lb facs="P11_TL00064"/>golden von den Aesten fällt die Sonne<lb facs="P11_TL00065"/>und zerbricht im moosgen Schoß der Nacht<lb facs="P11_TL00066"/>Seele senkt das kleine Kicherköpfchen<lb facs="P11_TL00067"/>müde schließt das Gras die feine Hand<lb facs="P11_TL00068"/>Herz bückt nieder in das Beet der Sterne<lb facs="P11_TL00069"/>pflückt die strahle Heimat aus der Ferne<lb facs="P11_TL00070"/>Sonnenwälderduft und Nachtigallen blüht ihr<lb facs="P11_TL00071"/>Atem in den Abend auf.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P11_TB00009">
+                              <ab facs="P11_TB00009">
                                  <lb facs="P11_TL00072"/>III</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00010">
+                                 <ab facs="P11_TB00010">
                                     <lb facs="P11_TL00073"/>Frühe hebt die kleine bleiche Hand<lb facs="P11_TL00074"/>Sonne blinzelt durch die schmalen Finger<lb facs="P11_TL00075"/>Trillernd tropfend taumelnd<lb facs="P11_TL00076"/>tobend<lb facs="P11_TL00077"/>toll<lb facs="P11_TL00078"/>stürzt ihr strahlengoldenes Gelächter<lb facs="P11_TL00079"/>Necken schlängelt rosareihe Bänder<lb facs="P11_TL00080"/>Dämmern huscht verschämt die Augen blind<lb facs="P11_TL00081"/>schallend grö'hlt der klobe Tag und stemmt<lb facs="P11_TL00082"/>die Seiten<lb facs="P11_TL00083"/>flimmerleise durch die Adern spielt der Wind.</ab>
                               </div>
                            </div>
@@ -1239,33 +1158,25 @@
                   </div>
                   <div type="TextContent" corresp="c011">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00011">
+                        <ab facs="P11_TB00011">
                            <lb facs="P11_TL00084"/>Maya</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00014">
+                        <ab facs="P11_TB00014">
                            <lb facs="P11_TL00151"/>Kurt Striepe</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00012">
+                                 <ab facs="P11_TB00012">
                                     <lb facs="P11_TL00085"/>Mein Blut. Mein singendes, rauschendes Blut.<lb facs="P11_TL00086"/>Nun bin ich stolz.<lb facs="P11_TL00087"/>Heute bin ich der Prinz. Die Schmerzen sind<lb facs="P11_TL00088"/>meine Diener. Ich lache. Ich freue mich. Wie sie<lb facs="P11_TL00089"/>kommen. Alle mit roten Käppchen. Machen tiefe<lb facs="P11_TL00090"/>Verbeugungen. Ich bin der Prinz.<lb facs="P11_TL00091"/>Sie müssen nun Steine tragen. Einen zum<lb facs="P11_TL00092"/>anderen. Weiße Marmorsteine. Daraus bauen wir<lb facs="P11_TL00093"/>einen Tempel. Einen Wundertempel. Und den<lb facs="P11_TL00094"/>Thron. Ich will auf dem Thron sitzen.<lb facs="P11_TL00095"/>Das Leuchten Ihrer Rosennägel wappnet die;<lb facs="P11_TL00096"/>Türen. Der Altar ist aus Granat. Und über die<lb facs="P11_TL00097"/>Wände — über die weißen zarten Hände — springt<lb facs="P11_TL00098"/>mein lachendes Blut. Rot und weiß. Aus den hei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00099"/>ligen Tempeln hole ich die Leuchter. Mit sieben<lb facs="P11_TL00100"/>Armen. Aus Lapislazuli ist der Boden.<lb facs="P11_TL00101"/>Meine Nerven singen den Chor.<lb facs="P11_TL00102"/>Ich hülle mich in den Mantel aus syrischem<lb facs="P11_TL00103"/>Purpur. In den Händen den goldenen Kelch.<lb facs="P11_TL00104"/>Meine Hände zittern.<lb facs="P11_TL00105"/>Ich warte. Ich warte auf etwas, das kommen<lb facs="P11_TL00106"/>soll.<lb facs="P11_TL00107"/>Heute darf ich spielen. Ich lade Frauen in<lb facs="P11_TL00108"/>meinen Tempel, die tanzen. Darauf warte ich<lb facs="P11_TL00109"/>nicht.<lb facs="P11_TL00110"/>Meine Diener beugen ihre Nacken.<lb facs="P11_TL00111"/>Es kommen Mädchen. Die singen. Der Chor<lb facs="P11_TL00112"/>meiner Nerven übertönt ihr Singen.<lb facs="P11_TL00113"/>Der Kelch in meinen Händen zittert sehr. Mein<lb facs="P11_TL00114"/>Blut ist trocken darin.<lb facs="P11_TL00115"/>Mir hilft keine Freude mehr.<lb facs="P11_TL00116"/>Ich warte. Ich darf spielen.<lb facs="P11_TL00117"/>Wenn die Kugel kommt, dann soll Hochzeit<lb facs="P11_TL00118"/>sein.<lb facs="P11_TL00119"/>Dann werde ich König.<lb facs="P11_TL00120"/>Ich nehme mein Herz. Mein rotes Herz. Aus<lb facs="P11_TL00121"/>Smaragd ist ein Becher auf dem Altar. Dahinein<lb facs="P11_TL00122"/>stelle ich mein Herz.<lb facs="P11_TL00123"/>Alle fallen auf die Knie und beten.<lb facs="P11_TL00124"/>Die Diener.<lb facs="P11_TL00125"/>*<lb facs="P11_TL00126"/>Die Frauen.<lb facs="P11_TL00127"/>Die Mädchen.<lb facs="P11_TL00128"/>Ich allein stehe aufrecht. Ich warte nicht auf<lb facs="P11_TL00129"/>mein Herz.<lb facs="P11_TL00130"/>Vor dem Altar nimmt das Murmeln kein Ende.<lb facs="P11_TL00131"/>Das ärgert mich. Ich befehle Ruhe. Ich bin Prinz.<lb facs="P11_TL00132"/>Das Leuchten der Leuchter erlischt. Du strahlt<lb facs="P11_TL00133"/>der smaragdene Becher. Mein Blut sprudelt.<lb facs="P11_TL00134"/>Auf einer Platte aus Rubin bringen sie die<lb facs="P11_TL00135"/>Kugel. Nun bin ich König.<lb facs="P11_TL00136"/>Es wendet sich der Staat meines Hofes. Die<lb facs="P11_TL00137"/>Gesichter liegen auf dem Boden.<lb facs="P11_TL00138"/>Dann tanzen die Frauen.<lb facs="P11_TL00139"/>Dann singen die Mädchen.<lb facs="P11_TL00140"/>Die Diener pressen tiefer die Köpfe an den<lb facs="P11_TL00141"/>Boden.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00013">
+                                 <ab facs="P11_TB00013">
                                     <lb facs="P11_TL00142"/>Der Chor singt sein hellstes Lied.<lb facs="P11_TL00143"/>Sie — Maya — Sie lachen.<lb facs="P11_TL00144"/>Ihr Lachen wirft Goldstrahlen über meinen<lb facs="P11_TL00145"/>Tempel. Die Wände werden kostbar glänzen.<lb facs="P11_TL00146"/>Ich trage ieine leichte Krone über meinem<lb facs="P11_TL00147"/>Kopfe.<lb facs="P11_TL00148"/>Ich bin der König meiner Schmerzen.<lb facs="P11_TL00149"/>Ich grüße Sie —« Maya!<lb facs="P11_TL00150"/>Und warte —</ab>
                               </div>
                            </div>
@@ -1274,24 +1185,18 @@
                   </div>
                   <div type="TextContent" corresp="c012">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00015">
+                        <ab facs="P11_TB00015">
                            <lb facs="P11_TL00152"/>Der vergessene Kern</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00017">
+                        <ab facs="P11_TB00017">
                            <lb facs="P11_TL00213"/>Herwarth Walden</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00016">
+                                 <ab facs="P11_TB00016">
                                     <lb facs="P11_TL00153"/>Der Herr von der Täglichen Rundschau hat noch<lb facs="P11_TL00154"/>nie ein Bild gesehen. Er weiß aber auch nicht in<lb facs="P11_TL00155"/>der Strategie Bescheid, wie er sich gerne einreden<lb facs="P11_TL00156"/>möchte. „In geschlossenen Gruppen traten nur die<lb facs="P11_TL00157"/>Kriegsmaler auf, rechts die aus Oesterreich-Un<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00158"/>garn, links die Deutschen, die Bulgaren in der<lb facs="P11_TL00159"/>Mitte. Sie umlagern den Kern der Ausstellung<lb facs="P11_TL00160"/>als ein äußerer Ring. Weiter drinnen findet man<lb facs="P11_TL00161"/>noch einen Saal für die wohlwollenden neutralen<lb facs="P11_TL00162"/>Schweden, und dann ist auch wieder der Verband<lb facs="P11_TL00163"/>deutscher Illustratoren geschlossen beieinander."<lb facs="P11_TL00164"/>Den Kern der Ausstellung hat man nämlich ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00165"/>gessen. Die Große Berliner Kunstausstellung läßt<lb facs="P11_TL00166"/>die Kunst immer aus. Sie will sie jetzt durch<lb facs="P11_TL00167"/>Führungen suchen. Aber es ist nichts zu finden.<lb facs="P11_TL00168"/>Denn der Herr von der Täglichen Rundschau, ein<lb facs="P11_TL00169"/>gewiß einwandsfreier Zeuge, berichtet über des<lb facs="P11_TL00170"/>Pudels Kern: „Die Mittelsäle bieten das<lb facs="P11_TL00171"/>seit Jahren gewohnte Bild. Gipfelleistungen<lb facs="P11_TL00172"/>werden nicht geboten und sind in diesen<lb facs="P11_TL00173"/>Zeiten nicht zu erwarten. Man hält auf<lb facs="P11_TL00174"/>einen anständigen künstlerischen Durchschnitt,<lb facs="P11_TL00175"/>eine gewisse Schulgemeinsamkeit, die ohne<lb facs="P11_TL00176"/>Zweifel ein guter Grund ist, von dem<lb facs="P11_TL00177"/>sich tüchtige Persönlichkeiten abheben können."<lb facs="P11_TL00178"/>Es hat schon seinen guten Grund, daß sich auf dem<lb facs="P11_TL00179"/>guten Grund nichts abhebt. Nicht einmal tüchtige<lb facs="P11_TL00180"/>Persönlichkeiten lassen sich verpflanzen und noch<lb facs="P11_TL00181"/>weniger Künstler. Wenn auch „Bracht in seinem<lb facs="P11_TL00182"/>Pflüger wieder jene schlichte Größe zeigt, die wir<lb facs="P11_TL00183"/>in seiner Art verehren." Es ist aber nicht die rich<pc type="endhypen" pre="false">-</pc>
@@ -1313,93 +1218,63 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c013">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00002">
+                     <ab facs="P12_TB00002">
                         <lb facs="P12_TL00004"/>Der Sturm<lb facs="P12_TL00005"/>Standige Ausstellungen<lb facs="P12_TL00006"/>Berlin W Potsdamer Straße 134 9<lb facs="P12_TL00007"/>Geoff net taglich von 10—6 Uhr / Sonntags von<lb facs="P12_TL00008"/>11—2 Uhr<lb facs="P12_TL00009"/>Tageskarte 1 Mark I Jahreskarte 6 Mark<lb facs="P12_TL00010"/>Monatlicher Wechsel<lb facs="P12_TL00011"/>Vierundvierzigste Ausstellung<lb facs="P12_TL00012"/>Kandinsky<lb facs="P12_TL00013"/>Fiinfundvierzigste Ausstellung<lb facs="P12_TL00014"/>Campendonk<lb facs="P12_TL00015"/>Eroffnung: 1. Oktober<lb facs="P12_TL00016"/>Am 1. November: Gedachtnisausstellang Franz Marc<lb facs="P12_TL00017"/>Sturm-Ausstellung: zu Brfinn<lb facs="P12_TL00018"/>Kaiser Franz Joseph-Jubilaums-Kunstlerhaus<lb facs="P12_TL00019"/>15. September bis 15. Oktober</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c014">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00003">
+                     <ab facs="P12_TB00003">
                         <lb facs="P12_TL00020"/>Der Sturm vertritt folgende Kiinstler und verfiigt<lb facs="P12_TL00021"/>standig tiber deren Gemalde / Aquarelle I Zeich-<lb facs="P12_TL00022"/>nungen / Handdrucke I Plastiken<lb facs="P12_TL00023"/>Campendonk I Marc Chagall / Jacoba van Heems-<lb facs="P12_TL00024"/>kerck / Kandinsky I Franz Marc I Georg Muche '<lb facs="P12_TL00025"/>Gabriele Munter / Nell Walden<lb facs="P12_TL00026"/>Isaac Griinewald I Sigrid Hjerten-Griinewald<lb facs="P12_TL00027"/>Fernand Leger J Archipenko I Boccioni / Carlo D.<lb facs="P12_TL00028"/>Carra I Luigi Russolo I Gino Severini<lb facs="P12_TL00029"/>Fritz Baumann / Vincenc Benes I Albert-Bloch I<lb facs="P12_TL00030"/>Max Ernst / Emil Filla / Albert Gleizes / Otto Gut-<lb facs="P12_TL00031"/>freund I Oswald Herzog I Johannes Itten I Alexel<lb facs="P12_TL00032"/>Jawlensky / Paul Klee I Oskar Kokoschka / Ota-<lb facs="P12_TL00033"/>kar Kubin I Carl Mense I Jean Metzinger I Francis<lb facs="P12_TL00034"/>Picabia I Pablo Picasso I Georg Schrimpf I Ma-<lb facs="P12_TL00035"/>rianne von Werefkin I CSzanne I van Gogh /<lb facs="P12_TL00036"/>Munch</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c015">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00004">
+                     <ab facs="P12_TB00004">
                         <lb facs="P12_TL00037"/>Kunstschule Der Sturm<lb facs="P12_TL00038"/>Leitung Herwarth Walden<lb facs="P12_TL00039"/>Unterricht in der expressionistischen Kunst der<lb facs="P12_TL00040"/>Biihne I der Schauspielerei I der Vortragskunst I<lb facs="P12_TL00041"/>der Malerei I der Dichtung / der Musik<lb facs="P12_TL00042"/>Berlin / Potsdamer Straße 134 a<lb facs="P12_TL00043"/>Prospekte kostenlos durch das Sekretariat Der<lb facs="P12_TL00044"/>Sturm. Anmeldungen werden dort entgegen ge-<lb facs="P12_TL00045"/>nommen. Eintritt am Ersten jedes Monats.</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c016">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00005">
+                     <ab facs="P12_TB00005">
                         <lb facs="P12_TL00046"/>Sturm-Kunstabende<lb facs="P12_TL00047"/>Verein fiir Kunst / Dreizehntes Jahr<lb facs="P12_TL00048"/>Dreißig Abende September 1916 bis April 1917<lb facs="P12_TL00049"/>In der Kunstausstellung Der Sturm / Berlin<lb facs="P12_TL00050"/>Beginn aller Abende: 8 Uhr<lb facs="P12_TL00051"/>Zweiter Abend / Mittwoch den 20. September 1916<lb facs="P12_TL00052"/>Rudolf Bliimner I Vortragsabend:<lb facs="P12_TL00053"/>Mombert / Poe / Strindberg / Stramm<lb facs="P12_TL00054"/>Dritter Abend / Mittwoch den 27. September<lb facs="P12_TL00055"/>August Stramm / Gedachtnisfeier<lb facs="P12_TL00056"/>Vierter Abend / Mittwoch den 4. Oktober<lb facs="P12_TL00057"/>August Stramm / Gedachtnisfeier<lb facs="P12_TL00058"/>Fiinfter Abend / Mittwoch den 11. Oktober<lb facs="P12_TL00059"/>Rudolf Blumner / Vortragsabend<lb facs="P12_TL00060"/>Kartell 3 and 2 Mark / Stehplatz 1 Mark im Vorverkauf<lb facs="P12_TL00061"/>fur alle angezeigten Abende an der Kasse der Knnstaus-<lb facs="P12_TL00062"/>stellung Der Sturm und an der Abendkasse<lb facs="P12_TL00063"/>Obertragbare Dauerkarte fiir jede Serie Czehn<lb facs="P12_TL00064"/>Abende): 20 Mark / Verzeichnisse kostenlos</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c017">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00006">
+                     <ab facs="P12_TB00006">
                         <lb facs="P12_TL00065"/>Verlag Der Sturm<lb facs="P12_TL00066"/>Berlin W 9 Potsdamer Straße 134 a<lb facs="P12_TL00067"/>Ternruf Amt Lutzow 4443<lb facs="P12_TL00068"/>Monatsschrift Der Sturm<lb facs="P12_TL00069"/>Erscheint am fiinfzehnten jedes Monats<lb facs="P12_TL00070"/>Dauerbezug<lb facs="P12_TL00071"/>Gewdhnliche Ausgabe Fur Deutschland<lb facs="P12_TL00072"/>und Oesterreich-Ungarn: Ein Jahr 6<lb facs="P12_TL00073"/>Mark / Ein Halbjahr 3 Mark I Einzelheft 80 Pfennig<lb facs="P12_TL00074"/>./ Fiir das Ausland bei direkter Zu-<lb facs="P12_TL00075"/>stellung durch die Post: Ein Jahr 8 Mark<lb facs="P12_TL00076"/>/ Ein Halbjahr 4 Mark / Einzelheft 1 Mark<lb facs="P12_TL00077"/>Sonderausgabe: Ungebrochene Exem-<lb facs="P12_TL00078"/>plare, Versendung in Rollen direkt<lb facs="P12_TL00079"/>durch die Post fiir Deutschland und<lb facs="P12_TL00080"/>Oesterreich-Ungarn: Ein Jahr 12 Mark I<lb facs="P12_TL00081"/>Bin Halbjahr 6 Mark / Fflr das Ausland:<lb facs="P12_TL00082"/>Ein Jahr 14 Mark I Ein Halbjahr 7 Mark<lb facs="P12_TL00083"/>Der Sturm: Erster Jahrgang, Nummer 1—56:<lb facs="P12_TL00084"/>25 Mark / Zweiter Jahrgang, Nummer 57—104:<lb facs="P12_TL00085"/>20 Mark / Dritter Jahrgang, Nummer 105—152/53:<lb facs="P12_TL00086"/>20 Mark I Vierter Jahrgang 154—203: 20 Mark I<lb facs="P12_TL00087"/>Fiinfter Jahrgang und sechster Jahrgang je 6 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c018">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00007">
+                     <ab facs="P12_TB00007">
                         <lb facs="P12_TL00088"/>Bueher eus dem Verlag Der Sturm<lb facs="P12_TL00089"/>Jedes Buch 2 Mark<lb facs="P12_TL00090"/>Hermann Essig: Der Frauenmut / Lustspiel /<lb facs="P12_TL00091"/>Oberteufel / Tragodie / Ihr stilles<lb facs="P12_TL00092"/>Q1 ii c k —! I Drama / Ein Taubenschlag I<lb facs="P12_TL00093"/>Lustspiel aus dem Leben einer Dienstherrschaft I<lb facs="P12_TL00094"/>Napoleons Auf s t ie g I Tragodie<lb facs="P12_TL00095"/>Adolf Knoblauch: Die schwarze Fahne I<lb facs="P12_TL00096"/>Eine Dichtung<lb facs="P12_TL00097"/>Adolf Knoblauch: Kreis des Anfangs / Friihe<lb facs="P12_TL00098"/>Qedichte / 5 Mark / Sonderausgabe (Auflage 10):<lb facs="P12_TL00099"/>30 Mark<lb facs="P12_TL00100"/>Paul Leppin: Daniel Jesus / Roman<lb facs="P12_TL00101"/>Paul Scheerbart: Qlasarchitektur / In ein-<lb facs="P12_TL00102"/>hundertundelf Kapiteln / Sonderausgabe in zwanzig<lb facs="P12_TL00103"/>numerierten und gezeichneten Exemplaren auf<lb facs="P12_TL00104"/>Van Gelder Biitten, Decke und Vorsatzpapier von<lb facs="P12_TL00105"/>Anna Scheerbart fiinfundzwanzig Mark<lb facs="P12_TL00106"/>Herwarth Walden: Kunstmaler undKunst-<lb facs="P12_TL00107"/>kritiker / Qesammelte Schriften I<lb facs="P12_TL00108"/>Band I<lb facs="P12_TL00109"/>Jeder Band 2 Mark<lb facs="P12_TL00110"/>August Stramm: Du I Liebesgedichte<lb facs="P12_TL00111"/>Nur gebunden 3 Mark<lb facs="P12_TL00112"/>Sturm-Bttcher I: August Stramm: Sancta Su-<lb facs="P12_TL00113"/>sanna / II: August Stramm: Rudimentar /<lb facs="P12_TL00114"/>III: Mynona: Fur Hunde und andere Menschen /<lb facs="P12_TL00115"/>IV: August Stramm: Die Haidebraut / V: August<lb facs="P12_TL00116"/>Stramm: Erwachen / VI: Aage von Kohl: Die<lb facs="P12_TL00117"/>Hangematte des Riuge / VII: Adolf Behne: Zur<lb facs="P12_TL00118"/>neuen Kunst / VIII: August Stramm: Krafte /<lb facs="P12_TL00119"/>IX: Aage von Kohl: Die rote Sonne / X: Aage von<lb facs="P12_TL00120"/>Kohl: Der tierische Augenblick / XI: August<lb facs="P12_TL00121"/>Stramm: Qeschehen I XII: August Stramm: Die<lb facs="P12_TL00122"/>Unfruchtbaren<lb facs="P12_TL00123"/>Jedes Sturmbuch 50 Pfennig</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c019">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00008">
+                     <ab facs="P12_TB00008">
                         <lb facs="P12_TL00124"/>Handdrueke aus dem Verlag Der Sturm<lb facs="P12_TL00125"/>Oskar Kokoschka: PI ak at fQr die Zeitschrift<lb facs="P12_TL00126"/>Der Sturm I Originallithographie<lb facs="P12_TL00127"/>Der Abzug 10 Mark<lb facs="P12_TL00128"/>Anna Scheerbart: Handgefertigte farbige Vorsatz-<lb facs="P12_TL00129"/>und Deckelpapiere fur Biichereinbande / Format<lb facs="P12_TL00130"/>42 X 35 Mark 4</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c020">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00009">
+                     <ab facs="P12_TB00009">
                         <lb facs="P12_TL00131"/>Verein fur Kunst<lb facs="P12_TL00132"/>Leitung Herwarth Walden<lb facs="P12_TL00133"/>Dreizehntes Jahr 1. April 1916 bis 31. Marz 1917<lb facs="P12_TL00134"/>Jahresbeitrag 20 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c021">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00010">
+                     <ab facs="P12_TB00010">
                         <lb facs="P12_TL00135"/>Rechte der Mitglieder: Freier Bezug der Zeit-<lb facs="P12_TL00136"/>schrift Der Sturm / Freier Besuch aller Sturm-<lb facs="P12_TL00137"/>ausstellungen I Besuch der Sturm-Kunstabende zu<lb facs="P12_TL00138"/>halben Preisen / Jedes Jahr frei eine Sturmpubli-<lb facs="P12_TL00139"/>kation / 1916/17 nach Wahl:<lb facs="P12_TL00140"/>Heemskerck: handgedruckter und unterschriebener<lb facs="P12_TL00141"/>Holzschnitt auf Kaiserlich Japan-Papier oder zwel<lb facs="P12_TL00142"/>Kunstdrucke nach Wahl oder das Sturmplakat von<lb facs="P12_TL00143"/>Kokoschka</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c022">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00011">
+                     <ab facs="P12_TB00011">
                         <lb facs="P12_TL00144"/>Sturm-Austellungskataloge<lb facs="P12_TL00145"/>mit Abbildungen<lb facs="P12_TL00146"/>Der Blaue Reiter / Severini / Archipenko / Skupina<lb facs="P12_TL00147"/>/ Otakar Kubin / Marc Chagall I Kandinsky<lb facs="P12_TL00148"/>Je 50 Pfennig<lb facs="P12_TL00149"/>Die Futuristen I 60 Pfennig<lb facs="P12_TL00150"/>Erster Deutscher Herbstsalon / Mit ftinfzig Ab-<lb facs="P12_TL00151"/>bildungen in Kupfertiefdruck / 2 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c023">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00012">
+                     <ab facs="P12_TB00012">
                         <lb facs="P12_TL00152"/>Kunstdrueke aus dem Verlag Der Sturm<lb facs="P12_TL00153"/>Auf Japan- und Bilttenpapier<lb facs="P12_TL00154"/>Jeder Kunstdruck 5 Mark<lb facs="P12_TL00155"/>Oskar Kokoschka: Menschenkopfe: 1 Adolf<lb facs="P12_TL00156"/>Loos I 2 Herwarth Walden I 3 Karl Kraus I<lb facs="P12_TL00157"/>4 Richard Dehmel I 5 Paul Scheerbart I 6 Yvette<lb facs="P12_TL00158"/>Guilbert<lb facs="P12_TL00159"/>Oskar Kokoschka: Tierbilder<lb facs="P12_TL00160"/>Paul Klee: Kriegerischer Stamm</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c024">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00013">
+                     <ab facs="P12_TB00013">
                         <lb facs="P12_TL00161"/>Kunstlerpostkarten / Verlag Der Sturm<lb facs="P12_TL00162"/>Jede Karte 20 Pfennig<lb facs="P12_TL00163"/>Futuristen: Umberto Boccioni: Das Lachen<lb facs="P12_TL00164"/>I.uigi Russolo: Erinnerung einer Nacht / Zug in<lb facs="P12_TL00165"/>voller Fahrt<lb facs="P12_TL00166"/>Gino Severini: Die Modistin / Ruhelose Tanzerin I<lb facs="P12_TL00167"/>Pan-Pan Tanz<lb facs="P12_TL00168"/>36 verschiedene Karten</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c025">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00014">
+                     <ab facs="P12_TB00014">
                         <lb facs="P12_TL00169"/>Mappen und Alben / Verlag Der Sturm<lb facs="P12_TL00170"/>Oskar Kokoschka: Mappe mit zwanzig Blalt<lb facs="P12_TL00171"/>Zeiehnungen in Strichatzung<lb facs="P12_TL00172"/>An! Kaiserlich Japanpapier 25 Mark<lb facs="P12_TL00173"/>An! Costakarton 15 Mark<lb facs="P12_TL00174"/>Kandinsky-Album / Schrift des Kiinstlers über sich<lb facs="P12_TL00175"/>selbst mit sechzig ganzseitigen Abbildungen seiner<lb facs="P12_TL00176"/>Werke von 1901 bis 1913 I Album 10 Mark<lb facs="P12_TL00177"/>Heemskerck-Mappe: Sechs handgedruckte und<lb facs="P12_TL00178"/>einzeln unterschriebene Holzschnitte I Auflage 30<lb facs="P12_TL00179"/>Mappen<lb facs="P12_TL00180"/>Mappe je einhundert Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c026">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00015">
+                     <ab facs="P12_TB00015">
                         <lb facs="P12_TL00181"/>Neuanzeigen Der Sturm<lb facs="P12_TL00182"/>Herwiarth Walden: Das Buch der Menschenlieb© /<lb facs="P12_TL00183"/>Roman / Nummerierte Auflage von 500 Exem-<lb facs="P12_TL00184"/>plaren / 3 Mark I Sonderausgabe von Verfasser<lb facs="P12_TL00185"/>gezeichnet (Auflage 10): 30 Mark<lb facs="P12_TL00186"/>Am 15. September erscheint: Peter Baum:<lb facs="P12_TL00187"/>Schiitzengrabenverse / Qedichte / Gebunden 3 Mark<lb facs="P12_TL00188"/>Soeben erschienen: Marc Chagall: Zeichnung<lb facs="P12_TL00189"/>Kunstdruck auf Biitten / 5 Mark<lb facs="P12_TL00190"/>Soeben erschienen: Sturm-Kunstler / Lichtbild-<lb facs="P12_TL00191"/>karte 5: Rudolf Bliimner / 20 Pfennig / Lichtbild-<lb facs="P12_TL00192"/>karte 6: Campendonk / 20 Pfennig / Lichtbild-<lb facs="P12_TL00193"/>karte 7: Peter Baum / 20 Pfennig</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c027">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00016">
+                     <ab facs="P12_TB00016">
                         <lb facs="P12_TL00194"/>Anzeigen werden nicht aufgenommen<lb facs="P12_TL00195"/>Ausfiihrliche Verzeichnisse des V e r<lb facs="P12_TL00196"/>lags Der Sturm kostenlos<lb facs="P12_TL00197"/>Verlag Der Sturm</ab>
                   </div>
                </div>

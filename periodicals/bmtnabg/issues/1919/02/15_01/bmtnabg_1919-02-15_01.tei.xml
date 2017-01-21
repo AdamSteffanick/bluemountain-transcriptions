@@ -46,7 +46,7 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Inhalt:</seg>
+                           <seg type="main">Inhalt</seg>
                         </title>
                         <textLang mainLang="ger"/>
                      </analytic>
@@ -62,8 +62,12 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Hilla von Rebay: Zeichnung</seg>
+                           <seg type="main">Zeichnung</seg>
                         </title>
+                        <respStmt>
+                           <persName ref="http://viaf.org/viaf/66598165">Hilla von Rebay</persName>
+                           <resp>cre</resp>
+                        </respStmt>
                      </analytic>
                      <monogr>
                         <imprint>
@@ -86,7 +90,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="2" to="3">2-3</biblScope>
+                           <biblScope unit="page">2-3</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -115,7 +119,7 @@
                            <seg type="main">Gedichte</seg>
                         </title>
                         <respStmt>
-                           <persName>Kurt Heynicke</persName>
+                           <persName ref="http://viaf.org/viaf/52481285">Kurt Heynicke</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -123,7 +127,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                           <biblScope unit="page">3-4</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c006">
@@ -137,7 +141,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                                 <biblScope unit="page">3-4</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -239,7 +243,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="4" to="6">4-6</biblScope>
+                           <biblScope unit="page">4-6</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c013">
@@ -301,15 +305,19 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="4" to="6">4-6</biblScope>
+                                 <biblScope unit="page">4-6</biblScope>
                               </imprint>
                            </monogr>
                            <relatedItem type="constituent" xml:id="c017">
                               <biblStruct>
                                  <analytic>
                                     <title level="a">
-                                       <seg type="main">Untitled Image</seg>
+                                       <seg type="main">Untitled Image by W. W.</seg>
                                     </title>
+                                    <respStmt>
+                                       <persName>W. W.</persName>
+                                       <resp>cre</resp>
+                                    </respStmt>
                                  </analytic>
                                  <monogr>
                                     <imprint>
@@ -330,7 +338,7 @@
                            <seg type="main">Dem Tod Wilhelm Runges</seg>
                         </title>
                         <respStmt>
-                           <persName>Walter Mehring</persName>
+                           <persName ref="http://viaf.org/viaf/27068501">Walter Mehring</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -350,7 +358,7 @@
                            <seg type="main">Gedichte</seg>
                         </title>
                         <respStmt>
-                           <persName>Franz Richard Behrens</persName>
+                           <persName ref="http://viaf.org/viaf/51839856">Franz Richard Behrens</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -492,15 +500,19 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="6" to="8">6-8</biblScope>
+                           <biblScope unit="page">6-8</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c028">
                         <biblStruct>
                            <analytic>
                               <title level="a">
-                                 <seg type="main">William Wauer: Zeichnung</seg>
+                                 <seg type="main">Zeichnung</seg>
                               </title>
+                              <respStmt>
+                                 <persName ref="http://viaf.org/viaf/30305880">William Wauer</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
                            </analytic>
                            <monogr>
                               <imprint>
@@ -520,7 +532,7 @@
                            <seg type="sub">nach Ernst Marcus</seg>
                         </title>
                         <respStmt>
-                           <persName>S. Friedlaender</persName>
+                           <persName ref="http://viaf.org/viaf/59135104">Dr. S. Friedlaender</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -528,7 +540,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="8" to="10">8-10</biblScope>
+                           <biblScope unit="page">8-10</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -851,93 +863,102 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0008.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0009.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0010.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0011.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1919/02/15_01/delivery/bmtnabg_1919-02-15_01_0012.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>LCR STURM</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>MONATSSCHRIFT FÜR KULTUR UND DIE KÜNSTE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>Redaktion und Verlag<lb facs="P1_TL00004"/>Berlin W 9 Potsdamer Straße 134 a</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00007"/>Herausgeber und Schriftleiter<lb facs="P1_TL00008"/>HERWARTH WALDEN</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00005"/>Kunstausstellung<lb facs="P1_TL00006"/>Berlin / Potsdamer Straße 134 a</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00009">
+                     <ab facs="P1_TB00009">
                         <lb facs="P1_TL00014"/>NEUNTER JAHRGANG</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00011">
+                     <ab facs="P1_TB00011">
                         <lb facs="P1_TL00016"/>BERLIN FEBRUAR 1919</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00010">
+                     <ab facs="P1_TB00010">
                         <lb facs="P1_TL00015"/>ELFTES HEFT</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00002">
+                     <ab facs="P11_TB00002">
                         <lb facs="P11_TL00002"/>Verantwortlich für die Schriftleitung:<lb facs="P11_TL00003"/>Lothar Schreyer<lb facs="P11_TL00004"/>Verantwortlich für den gesamten Inhalt und Vertag<lb facs="P11_TL00005"/>F. Harnisch / Berlin W 35<lb facs="P11_TL00006"/>Druck Carl Hause / Berlin SO 26</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00002">
+                     <ab facs="P12_TB00002">
                         <lb facs="P12_TL00002"/>Alle Werke des Verlags Der Sturm sind<lb facs="P12_TL00003"/>in der Buchhandlung Hassing / Politikens<lb facs="P12_TL00004"/>Hus in Kopenhagen vorrätig<lb facs="P12_TL00005"/>Anzeigen werden nicht aufgenommen</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00006">
+                        <ab facs="P1_TB00006">
                            <lb facs="P1_TL00009"/>Inhalt: </ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00007">
+                                 <ab facs="P1_TB00007">
                                     <lb facs="P1_TL00010"/>Lothar Schreyer: Der Sinn des Mitleids / Adolf Allwohn: Nachspiel / Kurt Heynicke: Gedichte / Wilhelm Runge: Gedichte /<lb facs="P1_TL00011"/>Walter Mehring: Dem Tod Wilhelm Runges / Franz Richard Behrens: Gedichte / Herwarth Waiden: Der deformierte Professor / S Fried<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00012"/>aender: Kant und die Freiheit / Hilla von Rebay: Zeichnung / William Wauer: Zeichnung</ab>
                               </div>
@@ -948,32 +969,24 @@
                   <div type="Illustration" corresp="c002">
                      <div type="Image"/>
                      <div type="Caption">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00008">
+                        <ab facs="P1_TB00008">
                            <lb facs="P1_TL00013"/>Hilla von Rebay: Zeichnung</ab>
                      </div>
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00002">
+                        <ab facs="P2_TB00002">
                            <lb facs="P2_TL00002"/>Der Sinn des Mitleids</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00003">
+                        <ab facs="P2_TB00003">
                            <lb facs="P2_TL00003"/>Lothar Schreyer</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00004">
+                                 <ab facs="P2_TB00004">
                                     <lb facs="P2_TL00004"/>Das Leiden der Menschheit schreit zur Menschheit, Die Welt<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00005"/>wende, die wir erleben, zerreist Menschen und Völker, Noch<lb facs="P2_TL00006"/>suchen einzelne und viele die Stimme des Leidens zu überhören<lb facs="P2_TL00007"/>und wollen die Augen schließen vor der Not der Welt, Aber<lb facs="P2_TL00008"/>leugnen kann keiner die Tatsache des Leidens,<lb facs="P2_TL00009"/>In dieser vergeht eine alte und wird eine neue Welt.<lb facs="P2_TL00010"/>Das Leiden des Weltsterbens, das Leiden der Weltgeburt wan<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00011"/>delt uns Menschen der Welt wende. Wir können nicht mehr in<lb facs="P2_TL00012"/>den alten Werten fühlen und denken. Neue Werte werden in<lb facs="P2_TL00013"/>uns. Alte Werte empfangen einen neuen Sinn und der neue<lb facs="P2_TL00014"/>Sinn erzeugt in ihnen eine neue Kraft, Die Erkenntnis des neuen<lb facs="P2_TL00015"/>Sinnes, der nicht notwendig ein neuer, sondern nur ein anderer,<lb facs="P2_TL00016"/>der Weltwende gemäßer Sinn ist, erscheint grausam wie jeder<lb facs="P2_TL00017"/>Vorgang des Vergehens. Aber wie jedes Vergehen ein Vorgang<lb facs="P2_TL00018"/>der Reinigung ist, so entsteht ein gereinigter Wert, dessen reini<pc type="endhypen" pre="false">-</pc>
@@ -995,9 +1008,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00005">
+                                 <ab facs="P2_TB00005">
                                     <lb facs="P2_TL00072"/>dieses Mitleids nur auf die innerliche Wirkung an. Die inner<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00073"/>liche Wirkung ist geistige Beziehung des Mitleidigen zu dem<lb facs="P2_TL00074"/>Bemitleideten. Nur Handlungen dieser Art sind mitleidig. Und<lb facs="P2_TL00075"/>ohne solche Handlung ist dieses Mitleid nicht denkbar, Ist diese<lb facs="P2_TL00076"/>innerliche Wirkung zugleich eine Leidheilung? Es kann eine<lb facs="P2_TL00077"/>Leidheilung sein oder ein, Leidheilung kann die weitere Folge<lb facs="P2_TL00078"/>sein. Notwendig ist sie nicht. Die mitleiderfüllte Handlung wird<lb facs="P2_TL00079"/>nicht unmitleidig, wenn sie das Leid des Bemitleideten nicht<lb facs="P2_TL00080"/>heilt. Sie ist selbst dann nicht unmitleidig, wenn die innerliche<lb facs="P2_TL00081"/>Wirkung nur eine einseitige ist, wenn der Bemitleidete die<lb facs="P2_TL00082"/>Handlung des Mitleidigen ablehnt. Vielleicht hält man dem<lb facs="P2_TL00083"/>entgegen, daß zur späteren Zeit eine Nachwirkung eintritt oder<lb facs="P2_TL00084"/>die Wirkung sich unbewußt vollzieht. Das ist möglich. Aber<lb facs="P2_TL00085"/>wir nennen eine Handlung nicht erst dann mitleidig, wenn wir<lb facs="P2_TL00086"/>ihre Heilswirkung geprüft haben oder prüfen können. Es er<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00087"/>scheit sogar in vielen Fällen ausgeschlossen, eine Heilswirkung<lb facs="P2_TL00088"/>überhaupt festzustellen. Und es ist sehr wohl denkbar, daß das,<lb facs="P2_TL00089"/>was wir für eine Heilswirkung halten, keine solche ist. Wenn<lb facs="P2_TL00090"/>wir die Heilswirkung nicht oder nicht bestimmt erkennen kön<pc type="endhypen" pre="false">-</pc>
@@ -1022,9 +1033,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00002">
+                                 <ab facs="P3_TB00002">
                                     <lb facs="P3_TL00002"/>den anderen leiden. Ohne dieses unser Leiden ist dieses unser<lb facs="P3_TL00003"/>Mitleid gar nicht möglich. Dieses Leiden ist diesem Mitleid<lb facs="P3_TL00004"/>notwendig und wesentlich. Diese Mitleidigen selbst sind die<lb facs="P3_TL00005"/>Leidenden. Und sie suchen ihr eigenes Leiden zu stillen, zu be<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00006"/>ruhigen, während sie glauben, daß es ihnen nur um das Leiden<lb facs="P3_TL00007"/>der Bemitleideten zu tun ist. Sie befreien freilich ebenso wenig<lb facs="P3_TL00008"/>sich wie den Bemitleideten vom Leiden. Wesentlich für das<lb facs="P3_TL00009"/>Mitleid ist es nicht, daß ein anderer leidet. Es gibt Mitleid mit<lb facs="P3_TL00010"/>sich selbst. Der Mitleidige, der sich selbst zum Objekt setzt,<lb facs="P3_TL00011"/>vervielfacht sein Leiden. Er leidet an seinem Leiden, Kann<lb facs="P3_TL00012"/>aber ein Mensch zugleich Subjekt und Objekt seines eigenen<lb facs="P3_TL00013"/>Leidens sein? Das ist unmöglich. Was ich auch leide, immer<lb facs="P3_TL00014"/>ist es mein Ich, das leidet. Der Mitleidige mit sich selbst ist<lb facs="P3_TL00015"/>also der Leidende, Da ich das Leiden nut in mir fühlen kann,<lb facs="P3_TL00016"/>kann ich auch nur mein Leiden fühleh. Und wenn das Leiden<lb facs="P3_TL00017"/>anderer Wesen in mir Leiden erzeugt, so leide ich mein eigenes<lb facs="P3_TL00018"/>Leiden und nicht das Leiden anderer. Der Mitleidige mit einem<lb facs="P3_TL00019"/>anderen Wesen ist also der Leidende. Mein eigenes Leiden ist<lb facs="P3_TL00020"/>es, was ich stillen will, wenn ich das Leiden anderer stillen will<lb facs="P3_TL00021"/>und dadurch den Grund zu meinem eigenen Leiden zu beseiti<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00022"/>gen suche.<lb facs="P3_TL00023"/>Wir erkennen, daß das Objekt des Mitleids ein frommer<lb facs="P3_TL00024"/>Irrtum ist.<lb facs="P3_TL00025"/>Die mitleidige Handlung ist nun ihrer Heils Wirkung und ihres<lb facs="P3_TL00026"/>Objekts entkleidet. Die Handlung ist nicht mehr auf ein Ziel<lb facs="P3_TL00027"/>gerichtet. Der Mitleidsvorgang erfüllt sich im Subjekt. Der<lb facs="P3_TL00028"/>Leidende leidet. Dieses Leiden des nun erkannten Mitleidigen<lb facs="P3_TL00029"/>ist keine Handlung. Das Leiden ist reines Fühlen. Das Leiden<lb facs="P3_TL00030"/>kann Ursache und Folge einer Handlung sein. Das Leiden selbst<lb facs="P3_TL00031"/>kann sich als Handlung äußern. Jedoch wesentlich ist die Ver<pc type="endhypen" pre="false">-</pc>
@@ -1043,24 +1052,18 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00003">
+                        <ab facs="P3_TB00003">
                            <lb facs="P3_TL00065"/>Nachspiel</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00004">
+                        <ab facs="P3_TB00004">
                            <lb facs="P3_TL00066"/>Adolf Allwohn</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00005">
+                                 <ab facs="P3_TB00005">
                                     <lb facs="P3_TL00067"/>Für Arnold Topp<lb facs="P3_TL00068"/>Nur der Tote kann beten<lb facs="P3_TL00069"/>Lust trieb raffte den Tag erstorben<lb facs="P3_TL00070"/>Spielen Traumhand die Blüten<lb facs="P3_TL00071"/>Oh so leicht weihrauht der Dom in den Himmel des Letzten<lb facs="P3_TL00072"/>Häuser schmerzen Risse<lb facs="P3_TL00073"/>Der Schweiß tropft von den Weiden<lb facs="P3_TL00074"/>Die Liebe ist fern und gebeugt<lb facs="P3_TL00075"/>Der Purpur trauert die Tiere<lb facs="P3_TL00076"/>Klage schnittert der Mond<lb facs="P3_TL00077"/>Blut ist auf den Dächern &lt;<lb facs="P3_TL00078"/>Die Sonne ist groß und gefallen<lb facs="P3_TL00079"/>Der grüne Baum dunkelt die Schau<lb facs="P3_TL00080"/>Und die Tiere nüstern das Rätsel der Nacht.<lb facs="P3_TL00081"/>Wir spielen<lb facs="P3_TL00082"/>Blau blitzt der Stern die Fenster auf<lb facs="P3_TL00083"/>Goldene Früchte silbert das Lächeln in die Wiese<lb facs="P3_TL00084"/>Und grün klettern Wolken durch der Zäune Tag.<lb facs="P3_TL00085"/>Das Wunder wächst weint rot aus den Welten<lb facs="P3_TL00086"/>Du wanderst das schweigende Leid in dir<lb facs="P3_TL00087"/>Still staunt sich Verzücken tot in das Grab<lb facs="P3_TL00088"/>Türmen türmen den Berg<lb facs="P3_TL00089"/>Ich bete die Streben<lb facs="P3_TL00090"/>Steil<lb facs="P3_TL00091"/>Ich kreuze die Türme<lb facs="P3_TL00092"/>Handüber die Sterne<lb facs="P3_TL00093"/>Die Sterne und Monde<lb facs="P3_TL00094"/>Lichtnebel der Leuchten rauschüber gebaut in die Firnen der<lb facs="P3_TL00095"/>Wolke<lb facs="P3_TL00096"/>Rauschunter gebeugt in das Blau glimmer Gluten<lb facs="P3_TL00097"/>Kreise die Hände liebgolde die Tore<lb facs="P3_TL00098"/>Gottspiel die Träume Ineinsstrahl der Ring.</ab>
                               </div>
                            </div>
@@ -1069,55 +1072,41 @@
                   </div>
                   <div type="TextContent" corresp="c005">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00006">
+                        <ab facs="P3_TB00006">
                            <lb facs="P3_TL00099"/>Gedichte</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00007">
+                        <ab facs="P3_TB00007">
                            <lb facs="P3_TL00100"/>Kurt Heynicke</ab>
                      </div>
                      <div type="TextContent" corresp="c006">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00008">
+                           <ab facs="P3_TB00008">
                               <lb facs="P3_TL00101"/>Lieder an Gott</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00009">
+                                    <ab facs="P3_TB00009">
                                        <lb facs="P3_TL00102"/>Ich bin hinausgestoßen in die Welt<lb facs="P3_TL00103"/>den Gang der Erde kreisend mitzuwiegen,<lb facs="P3_TL00104"/>ich bin erhellt von deiner Flamme,<lb facs="P3_TL00105"/>Herr, ich bin!<lb facs="P3_TL00106"/>Ich bin im Kreise wandelnd festgeschlossen,<lb facs="P3_TL00107"/>ich bin hinausgegossen in das Meer,<lb facs="P3_TL00108"/>ich reige meinen Tanz an Händen fremder Brüder.<lb facs="P3_TL00109"/>Dein Willen will mich an mich binden,<lb facs="P3_TL00110"/>gottüberströmt will ich den Ursprung finden<lb facs="P3_TL00111"/>Herr<lb facs="P3_TL00112"/>ich bin!</ab>
                                  </div>
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00010">
+                                    <ab facs="P3_TB00010">
                                        <lb facs="P3_TL00113"/>Die Nächte rauschen auf mit fernem Urgesicht,<lb facs="P3_TL00114"/>In meine Augen fällt das blaue Licht.<lb facs="P3_TL00115"/>Stern meiner Seelen — Heimat glanzumflossen!<lb facs="P3_TL00116"/>Du W.eltgebärer in den tiefsten Sternen,<lb facs="P3_TL00117"/>entfernen will ich meinen Schlaf vor dir<lb facs="P3_TL00118"/>urewig wachend wie die Gottesaugen!</ab>
                                  </div>
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00011">
+                                    <ab facs="P3_TB00011">
                                        <lb facs="P3_TL00119"/>\<lb facs="P3_TL00120"/>Du hast mich hoch gebaut.<lb facs="P3_TL00121"/>Du gibst mein Haupt in deinen Schoß<lb facs="P3_TL00122"/>tief meine Glieder in den Staub der Erde»<lb facs="P3_TL00123"/>All meine Stimmen jauchzen dir entgegen,<lb facs="P3_TL00124"/>ich fühle tausend Segen niederrauschen<lb facs="P3_TL00125"/>am fernsten Ohr der Welt lauscht meine Seele.<lb facs="P3_TL00126"/>Von dir erhoben knie ich an der Sternentür:<lb facs="P3_TL00127"/>Herr<lb facs="P3_TL00128"/>Kröne mich mit dir!</ab>
                                  </div>
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00002">
+                                    <ab facs="P4_TB00002">
                                        <lb facs="P4_TL00002"/>/<lb facs="P4_TL00003"/>i<lb facs="P4_TL00004"/>Gott,<lb facs="P4_TL00005"/>Bruder spricht die stille Stimme in der Nacht.<lb facs="P4_TL00006"/>Mein Bruder, alle Wahrheit ist erwacht<lb facs="P4_TL00007"/>aus Schutt und Asche glüht ein Flammenturm empor<lb facs="P4_TL00008"/>o Bruder, Menschen knieen dir am Ohre in brausenden Gebeten,<lb facs="P4_TL00009"/>O Menschen — Gott<lb facs="P4_TL00010"/>gib viele Sünden, dich zu finden</ab>
                                  </div>
                               </div>
@@ -1126,18 +1115,14 @@
                      </div>
                      <div type="TextContent" corresp="c007">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00003">
+                           <ab facs="P4_TB00003">
                               <lb facs="P4_TL00011"/>Choral</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00004">
+                                    <ab facs="P4_TB00004">
                                        <lb facs="P4_TL00012"/>Es singt mein Herz.<lb facs="P4_TL00013"/>Herz, meiner Seele tiefstes, singt hinauf zu dir,<lb facs="P4_TL00014"/>singt den Choral dir ungemessnen Himmel<lb facs="P4_TL00015"/>weit in Unendlichkeit,<lb facs="P4_TL00016"/>Herz, meiner Seele tiefstes, singt hinauf zu dir,<lb facs="P4_TL00017"/>weit hingestreckt in deine Erde jauchzt mein Blick:<lb facs="P4_TL00018"/>Du bist!<lb facs="P4_TL00019"/>Nicht tote Kirchen künden deinen Namen<lb facs="P4_TL00020"/>nicht dunkle Priester tragen dich in ihren Worten,<lb facs="P4_TL00021"/>es strömt mein Blut in meiner Stirne<lb facs="P4_TL00022"/>mein Willen fühlt sich überströmt von dir<lb facs="P4_TL00023"/>Du bist! '<lb facs="P4_TL00024"/>Kein Odem stammelt dich,<lb facs="P4_TL00025"/>du namenloser Mensch im Menschenwald!</ab>
                                  </div>
                               </div>
@@ -1146,18 +1131,14 @@
                      </div>
                      <div type="TextContent" corresp="c008">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00005">
+                           <ab facs="P4_TB00005">
                               <lb facs="P4_TL00026"/>Meerwacht</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00006">
+                                    <ab facs="P4_TB00006">
                                        <lb facs="P4_TL00027"/>Auf dunkelblauen Himmeln reitet der Mond,<lb facs="P4_TL00028"/>Unten am Meere<lb facs="P4_TL00029"/>zischen die glühenden Schüsse auf Dünen<lb facs="P4_TL00030"/>und gebären im Sand<lb facs="P4_TL00031"/>Tod um Tod.<lb facs="P4_TL00032"/>Zerrissene Gesichter<lb facs="P4_TL00033"/>und schreiende Schmerzen<lb facs="P4_TL00034"/>und tiefe Augen<lb facs="P4_TL00035"/>von uns:<lb facs="P4_TL00036"/>Rache.<lb facs="P4_TL00037"/>Die eisernen Kästen im Meer<lb facs="P4_TL00038"/>verbluten<lb facs="P4_TL00039"/>nordwärts<lb facs="P4_TL00040"/>im Morgen,</ab>
                                  </div>
                               </div>
@@ -1166,18 +1147,14 @@
                      </div>
                      <div type="TextContent" corresp="c009">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00007">
+                           <ab facs="P4_TB00007">
                               <lb facs="P4_TL00041"/>Ferne Granate</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00008">
+                                    <ab facs="P4_TB00008">
                                        <lb facs="P4_TL00042"/>Der Wald springt auf,<lb facs="P4_TL00043"/>die Winde ächzen<lb facs="P4_TL00044"/>aufsternendhimmelende in* den Schrei!<lb facs="P4_TL00045"/>Die schwarze Maske<lb facs="P4_TL00046"/>reißt den gelben Fetzen<lb facs="P4_TL00047"/>hoch<lb facs="P4_TL00048"/>der blinden Sonne<lb facs="P4_TL00049"/>peitschenquer<lb facs="P4_TL00050"/>ins Abendgesicht,</ab>
                                  </div>
                               </div>
@@ -1186,18 +1163,14 @@
                      </div>
                      <div type="TextContent" corresp="c010">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00009">
+                           <ab facs="P4_TB00009">
                               <lb facs="P4_TL00051"/>Ueber den Sternen</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00010">
+                                    <ab facs="P4_TB00010">
                                        <lb facs="P4_TL00052"/>Morgensonne weist den Weg<lb facs="P4_TL00053"/>tausendabertausend Tage ist sie hingeflogen<lb facs="P4_TL00054"/>&lt;lir in deine offne Brust<lb facs="P4_TL00055"/>I<lb facs="P4_TL00056"/>mir in meine aufgeblühte Seele!<lb facs="P4_TL00057"/>Sonne trinken<lb facs="P4_TL00058"/>hoch die hohen Wege wallen<lb facs="P4_TL00059"/>o hoch sind wir<lb facs="P4_TL00060"/>groß erblühend über Allen!<lb facs="P4_TL00061"/>Einst sind unsre Seelen Eine,<lb facs="P4_TL00062"/>eine hochgehobne Siegerseele.<lb facs="P4_TL00063"/>Gott<lb facs="P4_TL00064"/>nimm unsre Leiber von der Seele,<lb facs="P4_TL00065"/>gib den süßen Tod in unsre Hände!</ab>
                                  </div>
                               </div>
@@ -1206,18 +1179,14 @@
                      </div>
                      <div type="TextContent" corresp="c011">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00011">
+                           <ab facs="P4_TB00011">
                               <lb facs="P4_TL00066"/>Dichter</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00012">
+                                    <ab facs="P4_TB00012">
                                        <lb facs="P4_TL00067"/>Auf uns stürzt Tag<lb facs="P4_TL00068"/>Nacht hebt uns auf<lb facs="P4_TL00069"/>um wirbelt peitscht uns Träne und Entzücken.<lb facs="P4_TL00070"/>i<lb facs="P4_TL00071"/>In unsern Himmel sinkt die blaue Welt<lb facs="P4_TL00072"/>aus ihrem Herzen blühen unsre Sterne<lb facs="P4_TL00073"/>dem Winke unsrer Hand singt Gott, der Geist.<lb facs="P4_TL00074"/>Wir sind, ein Kreuz aus tausend Schwertern<lb facs="P4_TL00075"/>weißblütenhingeflattert heller Klang.<lb facs="P4_TL00076"/>Wir sind Erbarmen, großer Schoß<lb facs="P4_TL00077"/>sind Gottes unermeßliches Erlösen,<lb facs="P4_TL00078"/>Wir<lb facs="P4_TL00079"/>Tanz der Welt.<lb facs="P4_TL00080"/>Wir Sonne!<lb facs="P4_TL00081"/>Ihr Menschen, kreist um unsre Seelen!</ab>
                                  </div>
                               </div>
@@ -1227,30 +1196,22 @@
                   </div>
                   <div type="TextContent" corresp="c012">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00013">
+                        <ab facs="P4_TB00013">
                            <lb facs="P4_TL00082"/>Gedichte</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00014">
+                        <ab facs="P4_TB00014">
                            <lb facs="P4_TL00083"/>Wilhelm Runge</ab>
                      </div>
                      <div type="TextContent" corresp="c013">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00015">
+                           <ab facs="P4_TB00015">
                               <lb facs="P4_TL00084"/>Lied</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00016">
+                                 <ab facs="P4_TB00016">
                                     <lb facs="P4_TL00085"/>Glocken weiden durch das träume Dorf<lb facs="P4_TL00086"/>Sonne schließt den märchenmüden Mund<lb facs="P4_TL00087"/>scheu auf schiele Dächer schleicht der Mond<lb facs="P4_TL00088"/>Wiese hebt ihr Mückenschwarmgeflüster<lb facs="P4_TL00089"/>summt die Wolkenwangen wankelmüd<lb facs="P4_TL00090"/>Bächlein mit den Augen in den Sternen<lb facs="P4_TL00091"/>stolpertänzelt<lb facs="P4_TL00092"/>stockend<lb facs="P4_TL00093"/>überstein<lb facs="P4_TL00094"/>Seeje wendet aus dem Wälderspiele<lb facs="P4_TL00095"/>senkt das Ringelrangelrosenköpfchen<lb facs="P4_TL00096"/>wogt<lb facs="P4_TL00097"/>der Schlaf,</ab>
                               </div>
                            </div>
@@ -1258,17 +1219,13 @@
                      </div>
                      <div type="TextContent" corresp="c014">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00017">
+                           <ab facs="P4_TB00017">
                               <lb facs="P4_TL00098"/>Lied</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00018">
+                                 <ab facs="P4_TB00018">
                                     <lb facs="P4_TL00099"/>In Deine Augen kehr ich ein des Abends wenn icÜ müde bin<lb facs="P4_TL00100"/>kühl über meine Schwüle rauscht ihr Blick.<lb facs="P4_TL00101"/>Liegt ein Lächeln leicht auf deinen Lippen<lb facs="P4_TL00102"/>biegen sie sich drunter weg zum Tanz<lb facs="P4_TL00103"/>und mein Atem gibt die Diele frei<lb facs="P4_TL00104"/>m<lb facs="P4_TL00105"/>ihrem wolkenzarten Flüsterfuss /<lb facs="P4_TL00106"/>Ginster schlingt die sommergoldnen Arme den geliebten Bienen<lb facs="P4_TL00107"/>um den Hals,<lb facs="P4_TL00108"/>Und der Himmel wirft die blauen Locken in des Nackens<lb facs="P4_TL00109"/>Apfelblütenschnee<lb facs="P4_TL00110"/>Trunken lehnt die Sonne an die Gärten<lb facs="P4_TL00111"/>Deiner Wangen Flieder steht in Duft<lb facs="P4_TL00112"/>zögernd dränge ich durch seine Zweige<lb facs="P4_TL00113"/>breche schnell die allerschönsten Blüten<lb facs="P4_TL00114"/>und nun steht des Herzens Haus voll Frühling.</ab>
                               </div>
                            </div>
@@ -1276,17 +1233,13 @@
                      </div>
                      <div type="TextContent" corresp="c015">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00019">
+                           <ab facs="P4_TB00019">
                               <lb facs="P4_TL00115"/>Winterlied</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00020">
+                                 <ab facs="P4_TB00020">
                                     <lb facs="P4_TL00116"/>Himmel flockt schneeab ins Tal der Wald<lb facs="P4_TL00117"/>Winde schlittenfegen drüber hin<lb facs="P4_TL00118"/>und die Füße unsrer Kompagnie spinnen Schnee<lb facs="P4_TL00119"/>stern diamantgewebt<lb facs="P4_TL00120"/>Maschen fallen aus ,<lb facs="P4_TL00121"/>Tritt holt sie ein<lb facs="P4_TL00122"/>Tannenwäldertief orgelt das Blut<lb facs="P4_TL00123"/>und verstummt die Lippen<lb facs="P4_TL00124"/>wenn die Sonne aus dem dunklen Traum der Wolken<lb facs="P4_TL00125"/>zum Feldrein tanzt hin auf weißem Teppich<lb facs="P4_TL00126"/>allerschneeweischen<lb facs="P4_TL00127"/>rosenrot.</ab>
                               </div>
                            </div>
@@ -1294,9 +1247,7 @@
                      </div>
                      <div type="TextContent" corresp="c016">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00021">
+                           <ab facs="P4_TB00021">
                               <lb facs="P4_TL00128"/>Lied</ab>
                         </div>
                         <div type="Illustration" corresp="c017">
@@ -1306,17 +1257,13 @@
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00022">
+                                    <ab facs="P4_TB00022">
                                        <lb facs="P4_TL00129"/>Wenn du langsam hingehst<lb facs="P4_TL00130"/>fühl ich Abend<lb facs="P4_TL00131"/>Nebel schieiert hock</ab>
                                  </div>
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00002">
+                                    <ab facs="P6_TB00002">
                                        <lb facs="P6_TL00002"/>mein Fuß geht irr durch die Macht deines Auges<lb facs="P6_TL00003"/>Meiner Hände Trauerweiden hängen<lb facs="P6_TL00004"/>und der Lippen Lerchen schlummern still<lb facs="P6_TL00005"/>bis der Lorgen sonnenlachengoldig wieder alle Wiesen über<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00006"/>springt<lb facs="P6_TL00007"/>und die Stirne wie der Himmel aufsteigt<lb facs="P6_TL00008"/>klar und unbewölkt<lb facs="P6_TL00009"/>frühwindum spült.</ab>
                                  </div>
@@ -1327,24 +1274,18 @@
                   </div>
                   <div type="TextContent" corresp="c018">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00003">
+                        <ab facs="P6_TB00003">
                            <lb facs="P6_TL00010"/>Dem Tod Wilhelm Runges</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00004">
+                        <ab facs="P6_TB00004">
                            <lb facs="P6_TL00011"/>Walter Mehring</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00005">
+                                 <ab facs="P6_TB00005">
                                     <lb facs="P6_TL00012"/>Erdenschoß wiegt erstes Grün<lb facs="P6_TL00013"/>WiegenhimmeJ ballt Wolkenfäustchen<lb facs="P6_TL00014"/>Lachen schaufelt Wangengrübchen<lb facs="P6_TL00015"/>Lachen sonnt von Astzuast<lb facs="P6_TL00016"/>Lachen wirrt in schrecke Augen'<lb facs="P6_TL00017"/>Lachen klirrt das Blut zu Eis<lb facs="P6_TL00018"/>Eisen schaufelt lüfteauf<lb facs="P6_TL00019"/>Eisen graben herzenauf<lb facs="P6_TL00020"/>Eisen läuten seelenauf<lb facs="P6_TL00021"/>Nahebei lacht &lt;<lb facs="P6_TL00022"/>Himmel werfen gräberauf<lb facs="P6_TL00023"/>Nahebei stürzt wirft erdenweit krallt ängstetief und zerrt das<lb facs="P6_TL00024"/>Lachen in den Tod<lb facs="P6_TL00025"/>Blühen pochen Tod<lb facs="P6_TL00026"/>Herzen pocht an Kinderfäustchen<lb facs="P6_TL00027"/>Kinderlachen stapft Rasenschnee<lb facs="P6_TL00028"/>Schneerosen lachen ins erste Grün<lb facs="P6_TL00029"/>Erdenschoß küßt Kindergrab</ab>
                               </div>
                            </div>
@@ -1353,31 +1294,23 @@
                   </div>
                   <div type="TextContent" corresp="c019">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00006">
+                        <ab facs="P6_TB00006">
                            <lb facs="P6_TL00030"/>Gedichte</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00007">
+                        <ab facs="P6_TB00007">
                            <lb facs="P6_TL00031"/>Franz Richard Behrens</ab>
                      </div>
                      <div type="TextContent" corresp="c020">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00008">
+                           <ab facs="P6_TB00008">
                               <lb facs="P6_TL00032"/>Es ist dieselbe Lerche</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00009">
+                                    <ab facs="P6_TB00009">
                                        <lb facs="P6_TL00033"/>Güldlache klettert Heideglühe<lb facs="P6_TL00034"/>Grau werden nie Veilchen werden<lb facs="P6_TL00035"/>Veilchen werden nie grau werden<lb facs="P6_TL00036"/>Die Sonne streichelt eine Mücke<lb facs="P6_TL00037"/>Gott stolpert über seine Sterne<lb facs="P6_TL00038"/>Wir purzeln in die blauen Blumen<lb facs="P6_TL00039"/>Lippenzerbissen den Mond zerschnitten</ab>
                                  </div>
                               </div>
@@ -1386,18 +1319,14 @@
                      </div>
                      <div type="TextContent" corresp="c021">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00010">
+                           <ab facs="P6_TB00010">
                               <lb facs="P6_TL00040"/>Margot</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00011">
+                                    <ab facs="P6_TB00011">
                                        <lb facs="P6_TL00041"/>Irislispeln<lb facs="P6_TL00042"/>Gartunden<lb facs="P6_TL00043"/>Irissielen *<lb facs="P6_TL00044"/>Besichelung<lb facs="P6_TL00045"/>Irissieden<lb facs="P6_TL00046"/>Hirschblutblitzen<lb facs="P6_TL00047"/>Irislinden<lb facs="P6_TL00048"/>Platzbloßtank , -<lb facs="P6_TL00049"/>Irissiedeln<lb facs="P6_TL00050"/>Such es,mg en<lb facs="P6_TL00051"/>In Irishissen Herz gefieder</ab>
                                  </div>
                               </div>
@@ -1406,18 +1335,14 @@
                      </div>
                      <div type="TextContent" corresp="c022">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00012">
+                           <ab facs="P6_TB00012">
                               <lb facs="P6_TL00052"/>An die Füße der Geliebten</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00013">
+                                    <ab facs="P6_TB00013">
                                        <lb facs="P6_TL00053"/>Lilien streuen linke Lichter<lb facs="P6_TL00054"/>Rechte Strahlen rosen Tanzen<lb facs="P6_TL00055"/>Knien leuchten Küssen<lb facs="P6_TL00056"/>Stehen<lb facs="P6_TL00057"/>Scharlachsandalenschbee<lb facs="P6_TL00058"/>Fließen<lb facs="P6_TL00059"/>Märzbirkensonne<lb facs="P6_TL00060"/>Flattern<lb facs="P6_TL00061"/>Tempelwiese</ab>
                                  </div>
                               </div>
@@ -1426,18 +1351,14 @@
                      </div>
                      <div type="TextContent" corresp="c023">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00014">
+                           <ab facs="P6_TB00014">
                               <lb facs="P6_TL00062"/>Der graue Tau</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00015">
+                                    <ab facs="P6_TB00015">
                                        <lb facs="P6_TL00063"/>Braune Rosen sensen Sengen<lb facs="P6_TL00064"/>Wetter wühlen winkenauf<lb facs="P6_TL00065"/>Lande letzen Lächeln<lb facs="P6_TL00066"/>Immer Winter winterwurzelweich<lb facs="P6_TL00067"/>Immer weiße Weite eichenweiß<lb facs="P6_TL00068"/>Immer schwarze Schimmel<lb facs="P6_TL00069"/>Glocken faulen wenn sie brennen<lb facs="P6_TL00070"/>Metzeln mühlen rot und grau 1<lb facs="P6_TL00071"/>Brennen blüht Gottunddublau</ab>
                                  </div>
                               </div>
@@ -1446,18 +1367,14 @@
                      </div>
                      <div type="TextContent" corresp="c024">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00016">
+                           <ab facs="P6_TB00016">
                               <lb facs="P6_TL00072"/>Er hat sich an den Sternen aufgehangen</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00017">
+                                    <ab facs="P6_TB00017">
                                        <lb facs="P6_TL00073"/>Blutet<lb facs="P6_TL00074"/>Sichgesicht<lb facs="P6_TL00075"/>Rau<lb facs="P6_TL00076"/>So<lb facs="P6_TL00077"/>Ö<lb facs="P6_TL00078"/>o<lb facs="P6_TL00079"/>Gerädert __<lb facs="P6_TL00080"/>Ranke<lb facs="P6_TL00081"/>Rist<lb facs="P6_TL00082"/>Hei</ab>
                                  </div>
                               </div>
@@ -1466,18 +1383,14 @@
                      </div>
                      <div type="TextContent" corresp="c025">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00018">
+                           <ab facs="P6_TB00018">
                               <lb facs="P6_TL00083"/>Goethe</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00019">
+                                    <ab facs="P6_TB00019">
                                        <lb facs="P6_TL00084"/>Namen leeren Zitterwellen<lb facs="P6_TL00085"/>Wimmel scharen allen Sitz<lb facs="P6_TL00086"/>Flügel flattern Schlagen<lb facs="P6_TL00087"/>Milde blitzen<lb facs="P6_TL00088"/>Augen schlingen<lb facs="P6_TL00089"/>Ketten kreisen<lb facs="P6_TL00090"/>Krumme schelmen<lb facs="P6_TL00091"/>Angst weiß Hals<lb facs="P6_TL00092"/>Wölben inseln flüstern inseln<lb facs="P6_TL00093"/>Säusel schweben wurzelauf<lb facs="P6_TL00094"/>Ure menschen Kraft</ab>
                                  </div>
                               </div>
@@ -1486,18 +1399,14 @@
                      </div>
                      <div type="TextContent" corresp="c026">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P6_TB00020">
+                           <ab facs="P6_TB00020">
                               <lb facs="P6_TL00095"/>Peter Baum</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00021">
+                                    <ab facs="P6_TB00021">
                                        <lb facs="P6_TL00096"/>Gefallen am 5. Juni 1916<lb facs="P6_TL00097"/>Mann sichelt Veilchenwälder<lb facs="P6_TL00098"/>Gott stillt grün 1 '<lb facs="P6_TL00099"/>Heime seiden Träumetanz<lb facs="P6_TL00100"/>Violen violinen</ab>
                                  </div>
                               </div>
@@ -1507,23 +1416,17 @@
                   </div>
                   <div type="TextContent" corresp="c027">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00022">
+                        <ab facs="P6_TB00022">
                            <lb facs="P6_TL00101"/>Der deformierte Professor</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00004">
+                        <ab facs="P8_TB00004">
                            <lb facs="P8_TL00012"/>Herwarth Walden</ab>
                      </div>
                      <div type="Illustration" corresp="c028">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P7_TB00001">
+                           <ab facs="P7_TB00001">
                               <lb facs="P7_TL00001"/>William Wauer: Zeichnung</ab>
                         </div>
                      </div>
@@ -1531,9 +1434,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00023">
+                                 <ab facs="P6_TB00023">
                                     <lb facs="P6_TL00102"/>Herr Professor Dessoir hat im Eden-Hotel die Berliner Sezession<lb facs="P6_TL00103"/>und ihre Gesellschaft über Expressionismus aufgeklärt. Herr<lb facs="P6_TL00104"/>Professor Dessoir hat sich in abseitigen Universitätskreisen da<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00105"/>durch einen Namen gemacht, daß er neben Goethe und Schiller<lb facs="P6_TL00106"/>auch ihren Epigonen Stefan George ästhetisch rechtfertigte. Herr<lb facs="P6_TL00107"/>Dessoir hält den Expressionismus für einen Geheimbund, der<lb facs="P6_TL00108"/>auf Anregung von Rudolf Steiner durch August Strindberg,<lb facs="P6_TL00109"/>Gustav Meyrink und Franz Werfel gegründet ist. Besonders<lb facs="P6_TL00110"/>das Stuhlproblem hat es Herrn Dessoir angetan. Er kann es<lb facs="P6_TL00111"/>sich nicht erklären, daß ein Stuhl durch „Deformation" uns<lb facs="P6_TL00112"/>menschlich näher gebracht werden soll. Dieses Stuhlproblem<lb facs="P6_TL00113"/>des Expressionismus läßt ihn nicht etwa aufsitzen. Im Gegen<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00114"/>teil, er findet den Stuhl nur falsch gefaßt. Der Astralleib des<lb facs="P6_TL00115"/>Stuhles scheint ihm physiologisch unhaltbar. Und die Stuhl<pc type="endhypen" pre="false">-</pc>
@@ -1546,9 +1447,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00002">
+                                 <ab facs="P8_TB00002">
                                     <lb facs="P8_TL00002"/>Herrn Werfel werden nur noch durch die Aesthetik des Herrn<lb facs="P8_TL00003"/>Professor Dessoir übertroffen, ohne die Verdienste des Traum<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00004"/>spiels von August Strindberg um das Wesen des Expressionis<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00005"/>mus schmälern zu wollen.<lb facs="P8_TL00006"/>Die Stühle bogen sich, die Sezessionisten saßen trotzdem ganz<lb facs="P8_TL00007"/>ernsthaft und solide. Sie freuten sich, daß sie ihren numerier<pc type="endhypen" pre="false">-</pc>
@@ -1558,9 +1457,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00003">
+                                 <ab facs="P8_TB00003">
                                     <lb facs="P8_TL00011"/>nächst ernannt werden</ab>
                               </div>
                            </div>
@@ -1569,30 +1466,22 @@
                   </div>
                   <div type="TextContent" corresp="c029">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00005">
+                        <ab facs="P8_TB00005">
                            <lb facs="P8_TL00013"/>Kant und die Freiheit</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00006">
+                        <ab facs="P8_TB00006">
                            <lb facs="P8_TL00014"/>nach Ernst Marcus</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00007">
+                        <ab facs="P8_TB00007">
                            <lb facs="P8_TL00015"/>Dr, S. Friedlaender</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00008">
+                                 <ab facs="P8_TB00008">
                                     <lb facs="P8_TL00016"/>Was Freiheit sei, versteht man am leichtesten aus deren Beein<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00017"/>trächtigungen. Das aber, was da beeinträchtigt wird, ist ein<lb facs="P8_TL00018"/>Wesen, welches so selbstverständlich wie wunderbar erscheint;<lb facs="P8_TL00019"/>es ist der Wille, Nach der Freiheit des Willens zu fragen, ist<lb facs="P8_TL00020"/>eigentlich überflüssig; denn wenn es überhaupt so etwas wie<lb facs="P8_TL00021"/>Willen gibt, so ist er seinem Wesen nach die Freiheit selber,<lb facs="P8_TL00022"/>sonst ist er eben kein Wille, sondern irgend eine leblose Me<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00023"/>chanik. Der freie Wille ist eine unleugbar derbe Tatsache des<lb facs="P8_TL00024"/>Bewußtseins. Ja, wie könnte man nach Freiheit überhaupt fra<pc type="endhypen" pre="false">-</pc>
@@ -1611,9 +1500,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00009">
+                                 <ab facs="P8_TB00009">
                                     <lb facs="P8_TL00070"/>noch unkritisch naiv. Aristoteles unterscheidet die Willkür vojb<lb facs="P8_TL00071"/>der Notwendigkeit, bekommt aber damit das eigentliche Pro<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00072"/>blem noch garnicht zu Gesicht. Auch Cicero beruhigt sich vor<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00073"/>eilig mit der natürlichen Freiheit des Wallens, die er dem<lb facs="P8_TL00074"/>Schicksal entgegensetzt. Die christlichen Denker wahren das<lb facs="P8_TL00075"/>Interesse der Kirche, indem sie bemüht sind, dem menschlichen<lb facs="P8_TL00076"/>Willen, trotzdem er von Gott erschaffen ist, die Wahlfreiheit<lb facs="P8_TL00077"/>zwischen Gut und Böse zü lassen, weil ja sonst Gott selber zun*<lb facs="P8_TL00078"/>Urheber der Sünde werden müßte. Mit dieser Verlegenheit<lb facs="P8_TL00079"/>quält sich zumal der Kirchenvater Augustin. Es ist eine Ver<pc type="endhypen" pre="false">-</pc>
@@ -1641,9 +1528,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00002">
+                                 <ab facs="P9_TB00002">
                                     <lb facs="P9_TL00002"/>gendsten und unentbehrlichsten Erheblichkeit. Das Reich der<lb facs="P9_TL00003"/>Freiheit ist ebenso stark, ja stärker gewährleistet als das der<lb facs="P9_TL00004"/>Natur, welches allerdings die sonnenklare Anschaulichkeit vor.<lb facs="P9_TL00005"/>ihm voraus hat, sonst aber in jedem Moment explodieren kann;<lb facs="P9_TL00006"/>während die dunkle Freiheit unseres innersten Willens und<lb facs="P9_TL00007"/>Wesens auf ein Reich, ein Ideal hinausdeutet, welches ewigen<lb facs="P9_TL00008"/>Bestand verspricht.<lb facs="P9_TL00009"/>Welche Gefahren drohen herauf, wenn der Mensch Vermeint,<lb facs="P9_TL00010"/>die Freiheit plump mit Händen greifen zu können. Wie der<lb facs="P9_TL00011"/>naive Mensch sich täuscht, wenn er die Gesetze seines Vier<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00012"/>standes für die Gesetze der Natur der Dinge hält; wenn er<lb facs="P9_TL00013"/>seine eigenen Organe, Raum und Zeit, von draußen passiv zu<lb facs="P9_TL00014"/>empfangen wähnt: so entstehen die entsetzlichsten Verirrungen,<lb facs="P9_TL00015"/>namentlich in der Politik, wenn man die Freiheit sinnlich un<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00016"/>mittelbar als Natur verwirklichen möchte, fier Traum aller<lb facs="P9_TL00017"/>radikalen Revolutionäre, das praktische Gegenstück zur theore<pc type="endhypen" pre="false">-</pc>
@@ -1674,9 +1559,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00003">
+                                 <ab facs="P9_TB00003">
                                     <lb facs="P9_TL00073"/>seiner Natur, d. h. seiner Neigungen; er kann die einen auf Ko<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00074"/>sten der anderen bevorzugen und einem dauernden Glück zu<lb facs="P9_TL00075"/>Liebe auf viele flüchtige Genüsse verzichten; damit kommt er<lb facs="P9_TL00076"/>aber von der Neigung überhaupt noch nicht los. Er erwirbt all<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00077"/>mählich praktische Weisheit, und die kurze Kette, womit das<lb facs="P9_TL00078"/>Tier an seine Begierde gefesselt ist, kann beim Menschen lang<lb facs="P9_TL00079"/>und elastisch werden; eine Kette bleibt es aber trotzdem. Der<lb facs="P9_TL00080"/>handelnde Mensch ist dem Schicksal nicht unterworfen, aber er<lb facs="P9_TL00081"/>beherrscht es erst dann absolut frei, wenn er auch von seiner<lb facs="P9_TL00082"/>Neigung absolut unabhängig ist; wenn er rein aus sich selber<lb facs="P9_TL00083"/>wirkt. Man hält gemeinhin diese Souveränität des handelnden<lb facs="P9_TL00084"/>Willens für unmöglich oder mindestens für so zweifelhaft, daß<lb facs="P9_TL00085"/>man sich seit tausenden von Jahren darum streitet. Man hält<lb facs="P9_TL00086"/>den Willen — - es ist das Thema der Schicksalsdramen und des<lb facs="P9_TL00087"/>türkischen Fatalismus — für unentrinnbar in die Ursächlichkeit<lb facs="P9_TL00088"/>der Natur verflochten, vernichtet ihn damit, ohne es recht zu<lb facs="P9_TL00089"/>merken, und leugnet jede Möglichkeit von Schuld und Verant<pc type="endhypen" pre="false">-</pc>
@@ -1698,9 +1581,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00002">
+                                 <ab facs="P10_TB00002">
                                     <lb facs="P10_TL00002"/>politisch, bald patriotisch, bald kriegerisch, bald friedlich.<lb facs="P10_TL00003"/>Ohne eine streng wissenschaftliche Ethik wird sich das nicht<lb facs="P10_TL00004"/>ändern, Kants Freiheitslehre ist diese Wissenschaft vom freien<lb facs="P10_TL00005"/>Willen lind seiner einzig möglichen Handlungsweise. Diese<lb facs="P10_TL00006"/>Handlungsweise ist keine Geschmacksache, sondern gesetzlich;<lb facs="P10_TL00007"/>sie unterscheidet sich von der natürlichen nur durch diese reine<lb facs="P10_TL00008"/>Gesetzlichkeit. Das Gesetz kennt keine Ausnahme, und es<lb facs="P10_TL00009"/>unterwirft sich seinen Gegenstand restlos. Der freie Wille ist<lb facs="P10_TL00010"/>keine Natur-, sondern eine vernünftige, also logisch gesetzliche<lb facs="P10_TL00011"/>Kraft. Er ist also Niemandem Untertan als den logischen Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00012"/>setzen seiner eigenen Vernunft, diesen aber ausnahmslos. Frei<lb facs="P10_TL00013"/>von der Natur, von allen Motiven der natürlichen Begierde, sind<lb facs="P10_TL00014"/>nur vernünftige Wesen, deren es außer dem Menschen vielleicht<lb facs="P10_TL00015"/>noch andere geben mag; und keines von diesen ist, was ihre<lb facs="P10_TL00016"/>Freiheit anbelangt, vor dem anderen bevorzugt. Ihre natür<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00017"/>lichen Verschiedenheiten mögen noch so groß sein, aber vor<lb facs="P10_TL00018"/>dem Vernunftgesetz ihres übernatürlich freien Willens sind sie<lb facs="P10_TL00019"/>gleich. Der revolutionäre Schrei nach Gleichheit gellt allzu<lb facs="P10_TL00020"/>sehr von natürlicher Begierde; die Sprache der reinen Vernunft<lb facs="P10_TL00021"/>durchdringt hier noch nicht den trüben Jargon der Natur. Die<lb facs="P10_TL00022"/>vernünftige Begierde lechzt nicht wie die natürliche nach Vor<pc type="endhypen" pre="false">-</pc>
@@ -1723,9 +1604,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00003">
+                                 <ab facs="P10_TB00003">
                                     <lb facs="P10_TL00075"/>Wissenschaft jedem einzelnen Menschen überlassen bleibt, weil<lb facs="P10_TL00076"/>Wissenschaft nur das Allgemeine feststellt, ohne in das Kon<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00077"/>krete selbst zu gelangen,<lb facs="P10_TL00078"/>Der freie Wille ist also nichts anderes, als der gute, der sitt<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00079"/>liche Wille, während der naturgebundene Wille weder gut noch<lb facs="P10_TL00080"/>böse, sondern eine sittlich indifferente Naturkraft ist. Im Mo<pc type="endhypen" pre="false">-</pc>
@@ -1757,129 +1636,87 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c030">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00003">
+                     <ab facs="P11_TB00003">
                         <lb facs="P11_TL00007"/>Verlag Der Siurm<lb facs="P11_TL00008"/>Berlin W 9 Potsdamer Straße 134 a<lb facs="P11_TL00009"/>Fernruf Amt Liitzow 4443<lb facs="P11_TL00010"/>Monatsschriit Der Sturm<lb facs="P11_TL00011"/>Erscbeint am iunizehnten jedes Monats<lb facs="P11_TL00012"/>Dauerbezug<lb facs="P11_TL00013"/>GewShnliche Ausgabe: Fur Deutsch-<lb facs="P11_TL00014"/>land: Ein Jalir 9 Mk / Em Halbjahr 5 Mk /<lb facs="P11_TL00015"/>Einzelheft 1 Mark /FiirdasAusland;<lb facs="P11_TL00016"/>Ein Jahr 12 Mark / Ein Halbjahr 7 Mark I<lb facs="P11_TL00017"/>Einzelheft 1 Mark 50 Pfennig<lb facs="P11_TL00018"/>Sender - Ausgabe: Ungebrochene<lb facs="P11_TL00019"/>Exemplare, Versendung in Rol-<lb facs="P11_TL00020"/>len direkt durch die Post / Fur<lb facs="P11_TL00021"/>Deutschland: Ein Jahr 15 Mark /<lb facs="P11_TL00022"/>Fiir das Ausland : Ein Jahr 20 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c031">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00004">
+                     <ab facs="P11_TB00004">
                         <lb facs="P11_TL00023"/>Pre is e der friiheren Jahrgange<lb facs="P11_TL00024"/>Voilst&amp;ndige Ausgabe<lb facs="P11_TL00025"/>L Jahrgang<lb facs="P11_TL00026"/>2. Jahrgang<lb facs="P11_TL00027"/>3- Jahrgang<lb facs="P11_TL00028"/>4. Jahrgang<lb facs="P11_TL00029"/>5. Jahrgang<lb facs="P11_TL00030"/>6. Jahrgang<lb facs="P11_TL00031"/>7. Jahrgang<lb facs="P11_TL00032"/>8. Jahrgang<lb facs="P11_TL00033"/>1910/11<lb facs="P11_TL00034"/>1911/12<lb facs="P11_TL00035"/>1913/14<lb facs="P11_TL00036"/>1914/15<lb facs="P11_TL00037"/>1915/16<lb facs="P11_TL00038"/>1916/17<lb facs="P11_TL00039"/>1917/18<lb facs="P11_TL00040"/>Gewohnliche Sonder-<lb facs="P11_TL00041"/>Ausgabe: ausgabe:<lb facs="P11_TL00042"/>30 Mark —<lb facs="P11_TL00043"/>30 Mark —<lb facs="P11_TL00044"/>30 Mark vergriffen<lb facs="P11_TL00045"/>— 40 Mark<lb facs="P11_TL00046"/>20 Mark<lb facs="P11_TL00047"/>20 Mark<lb facs="P11_TL00048"/>20 Mark<lb facs="P11_TL00049"/>30 Mark<lb facs="P11_TL00050"/>30 Mark<lb facs="P11_TL00051"/>30 Mark<lb facs="P11_TL00052"/>30 Mark<lb facs="P11_TL00053"/>40 Mark<lb facs="P11_TL00054"/>iifljzelhefte, soweit vorhanden, erster bis<lb facs="P11_TL00055"/>achter Jahrgang je 1 Mark fiinfzig Pfennig</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c032">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00005">
+                     <ab facs="P11_TB00005">
                         <lb facs="P11_TL00056"/>Bucher aus dem Verlag Der Sturm<lb facs="P11_TL00057"/>Peter Baum<lb facs="P11_TL00058"/>Schutzengr abenverse<lb facs="P11_TL00059"/>Gebunden 5 Mark<lb facs="P11_TL00060"/>Franz Richard Behrens<lb facs="P11_TL00061"/>Blutbliite I Gedichte<lb facs="P11_TL00062"/>Geheftet 3 Mark / Gebunden 4 Mark 50 Pfennig<lb facs="P11_TL00063"/>Hermann Essig<lb facs="P11_TL00064"/>Der Frauenmut / Lustspiel<lb facs="P11_TL00065"/>Oberteufel / Tragodie<lb facs="P11_TL00066"/>Ihr stilles Gliick / Drama<lb facs="P11_TL00067"/>Ein Taubenschlag / Lustspiel<lb facs="P11_TL00068"/>Napoleons Aufstieg / Tragodie<lb facs="P11_TL00069"/>Der Wetterfrosch / Erzahlung<lb facs="P11_TL00070"/>Jedes Buch 3 Mark / Gebunden 5 Alark<lb facs="P11_TL00071"/>Kurt Heynicke<lb facs="P11_TL00072"/>Rings fallen Sterne / Gedichte<lb facs="P11_TL00073"/>Oefaeftet 3 Mark / Gebunden 4 Mark 50 Pfennig<lb facs="P11_TL00074"/>\<lb facs="P11_TL00075"/>Adolf Knoblauch<lb facs="P11_TL00076"/>Die schwarze F a h n e / Eine Dichtung<lb facs="P11_TL00077"/>Geheftet 3 Mark<lb facs="P11_TL00078"/>Kreis des Anfangs / Friihe Gedichte<lb facs="P11_TL00079"/>5 Mark / Sonderausgabe 30 Mark<lb facs="P11_TL00080"/>Oskar Kokoschka<lb facs="P11_TL00081"/>Morder Hoffnung der Frauen<lb facs="P11_TL00082"/>Drama mit Zeichnungen<lb facs="P11_TL00083"/>Gebunden 15 Mark (Auflage 100)<lb facs="P11_TL00084"/>Sonderausgabe yergrlffen<lb facs="P11_TL00085"/>Ernst Marcus<lb facs="P11_TL00086"/>Das Problem der exzentrischen<lb facs="P11_TL00087"/>Empfindung und 6eine L 6 s un g<lb facs="P11_TL00088"/>A.ij<lb facs="P11_TL00089"/>Wilhelm Runge<lb facs="P11_TL00090"/>D a s D enken traumt / Gedichte<lb facs="P11_TL00091"/>2 Mark 112 Gebunden 4 Mark 50 Pfennig</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c033">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00006">
+                     <ab facs="P11_TB00006">
                         <lb facs="P11_TL00092"/>Paul Scheerbart<lb facs="P11_TL00093"/>Glasarchitektur / In 111 Kapiteln<lb facs="P11_TL00094"/>Geheftet 2 Mark / Sonderausgabe 50 Mark<lb facs="P11_TL00095"/>Lotkar Schreyer<lb facs="P11_TL00096"/>Meer / Sehnte / Mann / Dramen<lb facs="P11_TL00097"/>3 Mark<lb facs="P11_TL00098"/>August Stramm<lb facs="P11_TL00099"/>Du /\Liebesgedichte<lb facs="P11_TL00100"/>Qeheftet 3 Mark<lb facs="P11_TL00101"/>Die Menschheit<lb facs="P11_TL00102"/>1 Mark 50 Pfennig:<lb facs="P11_TL00103"/>Herwarth Walden<lb facs="P11_TL00104"/>Das Buch der Mensche n 1 ie b c<lb facs="P11_TL00105"/>Geheftet 3 Mark / Sonderausgabe 30 Mark<lb facs="P11_TL00106"/>Die Harte der Weltenliebe /<lb facs="P11_TL00107"/>! '<lb facs="P11_TL00108"/>Roman<lb facs="P11_TL00109"/>4 Mark / Gebunden 6 Mark 50 Pfennig<lb facs="P11_TL00110"/>Sonderausgabe (Auflage 10) 50 Mark<lb facs="P11_TL00111"/>Gesamnielte Schriften: Band I<lb facs="P11_TL00112"/>Kunstmaler und Kunstkritiker<lb facs="P11_TL00113"/>Geheftet 2 Mark 50 Pfennig<lb facs="P11_TL00114"/>Weib I Komitragodie<lb facs="P11_TL00115"/>Geheftet 8 Mark / Sonderausgabe 50 Mark<lb facs="P11_TL00116"/>Erste Liebe / Ein Spiel mit dem Leben<lb facs="P11_TL00117"/>Die Beiden / Ein Spiel mit dem Tode<lb facs="P11_TL00118"/>5 li n d e / Ein Spiel an der Liebe<lb facs="P11_TL00119"/>Letzte Liebe / Komitragodie<lb facs="P11_TL00120"/>G1 au be / Komitragodie<lb facs="P11_TL00121"/>Jedes Buch 1 Mark 50 Pfennig<lb facs="P11_TL00122"/>Kind I Tragodie<lb facs="P11_TL00123"/>T r ie b / Eine biirgerliche Komitragodie<lb facs="P11_TL00124"/>Menschen / Tragodie<lb facs="P11_TL00125"/>Jedes Buch 3 Mark<lb facs="P11_TL00126"/>Sturm-Bucher I: August Stramm: Sancta<lb facs="P11_TL00127"/>Susanna / II: August Stramm: Rudi-<lb facs="P11_TL00128"/>mentar / III: Mynona: Fur Hunde und<lb facs="P11_TL00129"/>andere Menschen / IV: August Stramm:<lb facs="P11_TL00130"/>Die Haidebraut / V- August Stramm: Er-<lb facs="P11_TL00131"/>wachen / VI: Aage von Kohl: Die Hange-<lb facs="P11_TL00132"/>matte des Riuge / VII: Adol! Behne: Zur<lb facs="P11_TL00133"/>neuen Kunst / VIII: August Stramm;<lb facs="P11_TL00134"/>Krafte / IX: Aage von Kohl: Die rote<lb facs="P11_TL00135"/>Sonne / X: Aage Kohl: Der tierische<lb facs="P11_TL00136"/>Augenblick / XI: August Stramm: Ge-<lb facs="P11_TL00137"/>schehen: / XII: August Stramm: Die Un-<lb facs="P11_TL00138"/>frucKtbaren / XIII: Peter Baum: Kyland /<lb facs="P11_TL00139"/>XIV: Lothar Schreyer: Jungfrau<lb facs="P11_TL00140"/>Jedes Sturrnbuch 1 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c034">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00007">
+                     <ab facs="P11_TB00007">
                         <lb facs="P11_TL00141"/>Musik<lb facs="P11_TL00142"/>Herwarth Walden<lb facs="P11_TL00143"/>Qesammelte Tonwerke<lb facs="P11_TL00144"/>Dann / Vergeltung / Verdammnis<lb facs="P11_TL00145"/>Dichtungen von Else Lasker-Schuler<lb facs="P11_TL00146"/>Fiir Gesang und Klavier / Je 2 Mark<lb facs="P11_TL00147"/>Bruder Liederlich / Werk 51<lb facs="P11_TL00148"/>Fiir Gesang und Klavier I 2 Mark<lb facs="P11_TL00149"/>Entbietung / Werk 92<lb facs="P11_TL00150"/>Dichtung von Richard Dehmel<lb facs="P11_TL00151"/>Fur Qesang und Klavier / 2 Mark<lb facs="P11_TL00152"/>Zehn Dafnislieder / Werk 11<lb facs="P11_TL00153"/>Zu Gedichten von Arno Holz<lb facs="P11_TL00154"/>Fiir Gesang und Klavier / 3 Mark<lb facs="P11_TL00155"/>Die Judentochter I Werk 17<lb facs="P11_TL00156"/>Farbige Umschlagzeichnung von Oskar Kokoschka<lb facs="P11_TL00157"/>Fur Gesang und Klavier / 1 Mark 50 Pfennig<lb facs="P11_TL00158"/>Schwertertanz / Werk 18<lb facs="P11_TL00159"/>Fiir Klavier / 4 Mark<lb facs="P11_TL00160"/>Der Sturm / Heeresmarsch / Werk 21<lb facs="P11_TL00161"/>Fiir Klavier / 1 Mark<lb facs="P11_TL00162"/>Tanz der Tone I Werk 23<lb facs="P11_TL00163"/>Fiir Klavier / 3 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c035">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00008">
+                     <ab facs="P11_TB00008">
                         <lb facs="P11_TL00164"/>Handdrucke<lb facs="P11_TL00165"/>Oskar Kokoschka:<lb facs="P11_TL00166"/>schrift der Sturm<lb facs="P11_TL00167"/>Abzug 30 Mark<lb facs="P11_TL00168"/>P1 ak a t fur die Zeit-<lb facs="P11_TL00169"/>/ Originallithographie</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c036">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00009">
+                     <ab facs="P11_TB00009">
                         <lb facs="P11_TL00170"/>Sturm-Kartcn<lb facs="P11_TL00171"/>Jede Kar(e 30 Pfennig<lb facs="P11_TL00172"/>Nach Gemalden. Zeichnungen und Bild-<lb facs="P11_TL00173"/>werken folgender Kunstler:<lb facs="P11_TL00174"/>Alexander Archipenko 4<lb facs="P11_TL00175"/>Rudolf Bauer 4<lb facs="P11_TL00176"/>Vincenc Benes 1<lb facs="P11_TL00177"/>Umberto Boccioni 2<lb facs="P11_TL00178"/>Campendonk 2<lb facs="P11_TL00179"/>Marc Chagall 7<lb facs="P11_TL00180"/>Robert Delaunay 1<lb facs="P11_TL00181"/>Lyonel Feininger 1<lb facs="P11_TL00182"/>Albert Gleizes 2<lb facs="P11_TL00183"/>Jacobavan Heemskerck 3<lb facs="P11_TL00184"/>Hiert6n-Gninewald 1<lb facs="P11_TL00185"/>Alexei von Jawlensky 2<lb facs="P11_TL00186"/>Kandinsky 3<lb facs="P11_TL00187"/>Paul Klee 1<lb facs="P11_TL00188"/>Oskar Kokoschka 2<lb facs="P11_TL00189"/>Otakar Kubin 1<lb facs="P11_TL00190"/>Fernand L6g©r 2<lb facs="P11_TL00191"/>August Macke 1<lb facs="P11_TL00192"/>F'ranz Marc 2<lb facs="P11_TL00193"/>Carl Mense l<lb facs="P11_TL00194"/>Jean Metzinger I<lb facs="P11_TL00195"/>Georg Muche 1<lb facs="P11_TL00196"/>Gabriele Munter 1<lb facs="P11_TL00197"/>Negerplastik 1<lb facs="P11_TL00198"/>Georg Schrimpf I<lb facs="P11_TL00199"/>Gino Severini 4<lb facs="P11_TL00200"/>Arnold Topp 1<lb facs="P11_TL00201"/>Maria Uhden 1<lb facs="P11_TL00202"/>Nell Walden 1<lb facs="P11_TL00203"/>William Wauer 5<lb facs="P11_TL00204"/>Marianne von Werefkin 2</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c037">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00010">
+                     <ab facs="P11_TB00010">
                         <lb facs="P11_TL00205"/>Sturm- Ausstellungskataloge<lb facs="P11_TL00206"/>Mit A bbildungen<lb facs="P11_TL00207"/>Alexander Archipenko ' Kandinsky<lb facs="P11_TL00208"/>Rudolf Bauer Gino Severini<lb facs="P11_TL00209"/>Marc Chagall Skupina<lb facs="P11_TL00210"/>Je 60 Pfennig<lb facs="P11_TL00211"/>Franz Marc<lb facs="P11_TL00212"/>T Mark<lb facs="P11_TL00213"/>Erster Deutscher Herbstsalon Der Sturm 1913<lb facs="P11_TL00214"/>Mit 50 Abbildungen in Kupfertiefdruck<lb facs="P11_TL00215"/>2 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c038">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00011">
+                     <ab facs="P11_TB00011">
                         <lb facs="P11_TL00216"/>Kunstdrucke aus dem Verlag Der Stum<lb facs="P11_TL00217"/>Aui Japan- und Buttenpapier<lb facs="P11_TL00218"/>Jeder Kunstdruck 5 Mark<lb facs="P11_TL00219"/>Rudolf Bauer<lb facs="P11_TL00220"/>Schwarz-Weiß-Komposition 14<lb facs="P11_TL00221"/>Umbcrto Boccioni: Abschicd / Die Ab&amp;ah-<lb facs="P11_TL00222"/>renden / Die Zuriickbleibenden<lb facs="P11_TL00223"/>Marc Chagall: Intcfrieur / Der Jude / Der<lb facs="P11_TL00224"/>Gelgenspieler / Die Schwangere / Esseuder<lb facs="P11_TL00225"/>Bauer / Madchen<lb facs="P11_TL00226"/>Robert Delaunay: Der Turin<lb facs="P11_TL00227"/>Lyonel Feininger: Klein ScKmidtKausen I<lb facs="P11_TL00228"/>Mark Wippach II<lb facs="P11_TL00229"/>Jacoba van Heemskerck: Baum / Land-<lb facs="P11_TL00230"/>schaft<lb facs="P11_TL00231"/>Paul Klee: Kriegerischer Stamm<lb facs="P11_TL00232"/>Oskar Kokoschka Menschenkidpfe;<lb facs="P11_TL00233"/>1 Adolf Loos I 2 Herwarth Walden / 3 Karl<lb facs="P11_TL00234"/>fCraus I 4 Richard Dehmel / 5 Paul Scheer-<lb facs="P11_TL00235"/>bart I 6 Yvette Guilbert<lb facs="P11_TL00236"/>Oskar Kokoschka: Tierbilder<lb facs="P11_TL00237"/>Fernand Leger: Akt</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c039">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00012">
+                     <ab facs="P11_TB00012">
                         <lb facs="P11_TL00238"/>Sturm-Kiinstler / Lichtbildkarten<lb facs="P11_TL00239"/>Jede Karte 30 Pfennig<lb facs="P11_TL00240"/>I. August Stramm<lb facs="P11_TL00241"/>11. Herwarth Waldei<lb facs="P11_TL00242"/>111. van Heemskerck<lb facs="P11_TL00243"/>IV. Kandinsky<lb facs="P11_TL00244"/>V. Rudolf Blumner<lb facs="P11_TL00245"/>VI. Campendonk<lb facs="P11_TL00246"/>VII. Peter Baum<lb facs="P11_TL00247"/>VIII. Hermann Essig<lb facs="P11_TL00248"/>IX. Os'kar Kokoschka<lb facs="P11_TL00249"/>X. Adolf Knoblawfih<lb facs="P11_TL00250"/>XI. Paul Klee<lb facs="P11_TL00251"/>XII. Gabriele<lb facs="P11_TL00252"/>XIII. Rudolf Bauer<lb facs="P11_TL00253"/>XIV. Nell Walden<lb facs="P11_TL00254"/>XV- Mynona<lb facs="P11_TL00255"/>XVI. Kurt Heynicke<lb facs="P11_TL00256"/>XVIII. William Wauer<lb facs="P11_TL00257"/>XIX. Lothar Schreyer<lb facs="P11_TL00258"/>XX. Georg Muche</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c040">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00003">
+                     <ab facs="P12_TB00003">
                         <lb facs="P12_TL00006"/>Der Sturm<lb facs="P12_TL00007"/>Standige Ausstellungen<lb facs="P12_TL00008"/>Berlin / Poisdamer Sirafje 134 a<lb facs="P12_TL00009"/>Gedfinet taglicfe yob 10—6 Uhr / Sonntags<lb facs="P12_TL00010"/>von 11—2 Uhr<lb facs="P12_TL00011"/>Tageskarte 1 Mark 50 Pfemdg<lb facs="P12_TL00012"/>Jahreskarte 9 Mark<lb facs="P12_TL00013"/>Monatlichcr Wcchsel<lb facs="P12_TL00014"/>i<lb facs="P12_TL00015"/>Einundsiebzigste Aussiellung<lb facs="P12_TL00016"/>Februar 1919<lb facs="P12_TL00017"/>Sturm-Gesamtschau<lb facs="P12_TL00018"/>Zweiundsiebzigste Ausstellung<lb facs="P12_TL00019"/>Marz 1919<lb facs="P12_TL00020"/>William Wauer<lb facs="P12_TL00021"/>Gemalde / Zeiclmungen / Plastiken<lb facs="P12_TL00022"/>Eroffnung: Sonntag den 2. Marz 1919</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c041">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00004">
+                     <ab facs="P12_TB00004">
                         <lb facs="P12_TL00023"/>DER STURM<lb facs="P12_TL00024"/>▼ertritt iolgende Kunstler ausschliefilich<lb facs="P12_TL00025"/>and veriiigt iiber ihre Wcrke (Gem aide /<lb facs="P12_TL00026"/>Graphik / Holzschnitte j Handdrncke) zum<lb facs="P12_TL00027"/>Yerkauf and za Ausstellungen in der gan-<lb facs="P12_TL00028"/>zen Welt;<lb facs="P12_TL00029"/>Rudolf Bauer / Campendonk / Marc Cha-<lb facs="P12_TL00030"/>gall I Jacoba van Heemskerck / Kandinsky /<lb facs="P12_TL00031"/>Georg Muche / Nell Walden I William<lb facs="P12_TL00032"/>Wauer<lb facs="P12_TL00033"/>DER STURM<lb facs="P12_TL00034"/>vertritt fiir Deutschland lolgende Kunstler<lb facs="P12_TL00035"/>and yerfiigt fiber ihre Werkc zum Verkau!<lb facs="P12_TL00036"/>and fiir Ausstellungen:<lb facs="P12_TL00037"/>Gosta Adrian-Nilsson / Alexander Archi-<lb facs="P12_TL00038"/>penko j Fritz Baumann / Vincenc Benes /<lb facs="P12_TL00039"/>Umberto Boccioni / Carlo D„ Carra / Mas<lb facs="P12_TL00040"/>Ernst I Lyonel Feininger / Emil Filla /<lb facs="P12_TL00041"/>Albert Gleizes / Otto Gutireund / Oswald<lb facs="P12_TL00042"/>Herzog / Sigrid Hjerten-Grunewald / Isaac<lb facs="P12_TL00043"/>Griinewald / Johannes It ten / Alexei von<lb facs="P12_TL00044"/>Jawlensky / Paul Klee / Oskar Kokoschka<lb facs="P12_TL00045"/>/ Otakar Kubin / Fernand Leger / Franz<lb facs="P12_TL00046"/>Marc I Gabriele Miinter / Jean Metzinger /<lb facs="P12_TL00047"/>Johannes Molzahn / Francis Picabia /<lb facs="P12_TL00048"/>Gino Severini / Arnold Topp / Maria<lb facs="P12_TL00049"/>Uhden / Marianne von Werefkin</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c042">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00005">
+                     <ab facs="P12_TB00005">
                         <lb facs="P12_TL00050"/>Sturmschule<lb facs="P12_TL00051"/>Leitung : Herwarth WaMan<lb facs="P12_TL00052"/>Drittes Jahr<lb facs="P12_TL00053"/>Berlin / Potsdamcr Strafie 134 a<lb facs="P12_TL00054"/>Unterricht and Ausbildung in der<lb facs="P12_TL00055"/>expressionistischen Kunst<lb facs="P12_TL00056"/>Biihne / Schauspielerei / Vortragskunst /<lb facs="P12_TL00057"/>Maierei / Dichtung / Mnsik<lb facs="P12_TL00058"/>Lehrer der Sturmschule<lb facs="P12_TL00059"/>Rudoli Bauer<lb facs="P12_TL00060"/>Rudolf Bliimner<lb facs="P12_TL00061"/>Campendonk<lb facs="P12_TL00062"/>Jacoba van Heemskerck<lb facs="P12_TL00063"/>Paul Klee<lb facs="P12_TL00064"/>Georg Muche<lb facs="P12_TL00065"/>Lothar Schreyer<lb facs="P12_TL00066"/>Herwarth Wialden i<lb facs="P12_TL00067"/>William Wauer<lb facs="P12_TL00068"/>Sprechstimden der Leitung: Dienstag, Mittwoch,<lb facs="P12_TL00069"/>Freitag, Sonnabend 4—5 / Das Sekretariat ist<lb facs="P12_TL00070"/>taglich von 10—6 geoffnet</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c043">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00006">
+                     <ab facs="P12_TB00006">
                         <lb facs="P12_TL00071"/>Leitung dcr Sturmschule liir Holland;<lb facs="P12_TL00072"/>Jacoba van Heemskerck / Den Haag<lb facs="P12_TL00073"/>Anmeldungen durch den Sturm / Berlin W 9</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c044">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00007">
+                     <ab facs="P12_TB00007">
                         <lb facs="P12_TL00074"/>Sturm -Abende<lb facs="P12_TL00075"/>Verein flir Kunst / Fiinizehntes Jahr<lb facs="P12_TL00076"/>In dcr Kunstausstellung Der Sturm / Berlin<lb facs="P12_TL00077"/>Jeden Mittwoch %8 Uhr<lb facs="P12_TL00078"/>Vortragender: Rudolf Blumner<lb facs="P12_TL00079"/>Karten zu 5, 4, 3, 2, 1 Mark im Vorverkauf und an<lb facs="P12_TL00080"/>der Abendkasse</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c045">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00008">
+                     <ab facs="P12_TB00008">
                         <lb facs="P12_TL00081"/>Essen: 3. Februar<lb facs="P12_TL00082"/>Hamburg: 17. Februar</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c046">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00009">
+                     <ab facs="P12_TB00009">
                         <lb facs="P12_TL00083"/>Verein fiir Kunst<lb facs="P12_TL00084"/>Fiinfzehntes Jahr<lb facs="P12_TL00085"/>Jahresbeitrag 25 Mark<lb facs="P12_TL00086"/>Rechte; Freier Bezug der Zeitschrift Der<lb facs="P12_TL00087"/>Sturm I Freier Besuch der Sturm-Ausstel-<lb facs="P12_TL00088"/>limgen / Jahrlich 2 Kunstdrucke<lb facs="P12_TL00089"/>Anmeldungen durcli den Sturm</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c047">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00010">
+                     <ab facs="P12_TB00010">
                         <lb facs="P12_TL00090"/>Von alien Holzschnitten der Zeitschrift Der Sturm<lb facs="P12_TL00091"/>sind signierte und numerierte Handdrucke<lb facs="P12_TL00092"/>von den meisten Zeichnungen Kunstdrucke<lb facs="P12_TL00093"/>kauflich zu erwerben. Die Originate sind ver-<lb facs="P12_TL00094"/>kauflich.<lb facs="P12_TL00095"/>Ausiuhrliche Verzeichnisse des Verlags<lb facs="P12_TL00096"/>Der Sturm kostenlos</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c048">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00011">
+                     <ab facs="P12_TB00011">
                         <lb facs="P12_TL00097"/>Kunsibuchhandlung<lb facs="P12_TL00098"/>Der Sturm<lb facs="P12_TL00099"/>Potsdamer Straße 138 a<lb facs="P12_TL00100"/>Fernruf Liitzow 4443<lb facs="P12_TL00101"/>hat gute und seltene Bucher tmd Note©<lb facs="P12_TL00102"/>vorratig und mmmt Bestellungen entgcgcc</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c049">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00012">
+                     <ab facs="P12_TB00012">
                         <lb facs="P12_TL00103"/>Verein Sturmbiihne<lb facs="P12_TL00104"/>Vorsitzender: Dr. John Schikowski<lb facs="P12_TL00105"/>Geschaftsstelle: Charlottenburg /' Scharrenstra£e I!<lb facs="P12_TL00106"/>Aufrui und Satzungen kostenlos<lb facs="P12_TL00107"/>Sturmbiihne<lb facs="P12_TL00108"/>Theater der Expressionisten<lb facs="P12_TL00109"/>N u r vor Mitgliedern des Vereins Sturm-<lb facs="P12_TL00110"/>buhne<lb facs="P12_TL00111"/>Anmeldungen zur Mitgliedschaft werden atich km<lb facs="P12_TL00112"/>Sturm entgegengenommen</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c050">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00013">
+                     <ab facs="P12_TB00013">
                         <lb facs="P12_TL00113"/>Neuanzeigen Der Sturm<lb facs="P12_TL00114"/>Socbcn erschienen: Max Verwora:<lb facs="P12_TL00115"/>Keltische Kunst / Mit Abbildungen<lb facs="P12_TL00116"/>Expressionismus / Die Kunstwende<lb facs="P12_TL00117"/>Herausgegeben von Herwarth Walden<lb facs="P12_TL00118"/>Beitrage von Kandinsky Herwarth Wal-<lb facs="P12_TL00119"/>den / Lothar Schreyer / Rudolf Bliimner /<lb facs="P12_TL00120"/>Rudolf Bauer / William Wauer / Max Ver-<lb facs="P12_TL00121"/>worn I und anderen<lb facs="P12_TL00122"/>Mit 140 Abbildungen / zum Teil ganzseittg<lb facs="P12_TL00123"/>nach Bildern und Bildwerken samtlicher<lb facs="P12_TL00124"/>Ktinstler des Sturm / der Urvolker und der<lb facs="P12_TL00125"/>Volkskunst / Mit mehrfarbigen Beilagen<lb facs="P12_TL00126"/>Farbige Umschlagzeichnung von William Waner<lb facs="P12_TL00127"/>25 Mark / Gebunden 35 Mark / Museums-<lb facs="P12_TL00128"/>ausgabe mit Originalen Nummer I—lo1—10<lb facs="P12_TL00129"/>M 200— Nummer 11—50 M 100—<lb facs="P12_TL00130"/>Sturm-Abende / Ausgewahlte Gedichte<lb facs="P12_TL00131"/>Das Buch enthalt die Gedichte, die Ru »,<lb facs="P12_TL00132"/>dolf B1 iimner an den S t u r m-A be<lb facs="P12_TL00133"/>den vortragt<lb facs="P12_TL00134"/>4 Mark<lb facs="P12_TL00135"/>Sigraierte Sonderausgafoe 12 Mark<lb facs="P12_TL00136"/>Die Sturm-Biihne<lb facs="P12_TL00137"/>Jahrbueh des Theaters der Expressionisten<lb facs="P12_TL00138"/>Jede Folge 60 Pfennig<lb facs="P12_TL00139"/>Jahrbueh 6 Mark<lb facs="P12_TL00140"/>Vierte und funfte Folge erschienen<lb facs="P12_TL00141"/>Herwarth Walden: Einblick in Kunst<lb facs="P12_TL00142"/>Mit vierundsechzig Abbildungen nach Ge~<lb facs="P12_TL00143"/>maiden der Sturm-Kiinstler<lb facs="P12_TL00144"/>Zweite Anflage<lb facs="P12_TL00145"/>5 Mark<lb facs="P12_TL00146"/>j<lb facs="P12_TL00147"/>Sturm-Bilderbiicher<lb facs="P12_TL00148"/>Ganzseitige Abbildungen der <lb facs="P12_TL00149"/>h Marc Chagall<lb facs="P12_TL00150"/>4 Mark<lb facs="P12_TL00151"/>II: Alexander Archipenko<lb facs="P12_TL00152"/>4 Mark<lb facs="P12_TL00153"/>III: Paul Klee<lb facs="P12_TL00154"/>Mark 50 Pfenni</ab>
                   </div>
                </div>

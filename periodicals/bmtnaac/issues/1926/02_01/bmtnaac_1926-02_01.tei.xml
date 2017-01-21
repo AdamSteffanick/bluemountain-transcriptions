@@ -64,7 +64,7 @@
                            <seg type="main">AVANT-PROPOS</seg>
                         </title>
                         <respStmt>
-                           <persName>L. C</persName>
+                           <persName ref="">L. C</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -72,7 +72,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                           <biblScope unit="page">3-4</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c003">
@@ -100,7 +100,7 @@
                            <seg type="main">Pavillon d'honneur de la Belgique</seg>
                         </title>
                         <respStmt>
-                           <persName>Charles CONRARDY</persName>
+                           <persName ref="http://viaf.org/viaf/7744555">Charles CONRARDY</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -108,7 +108,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="5" to="6; 11">5-6; 11</biblScope>
+                           <biblScope unit="page">5-6; 11</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -120,7 +120,7 @@
                            <seg type="main">AVIS IMPORTANT</seg>
                         </title>
                         <respStmt>
-                           <persName>ADMINISTRATION DE « LA CITE »</persName>
+                           <persName ref="">ADMINISTRATION DE « LA CITE »</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -144,7 +144,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="12" to="30">12-30</biblScope>
+                           <biblScope unit="page">12-30</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c007">
@@ -152,9 +152,15 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE I.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="nonSort">LE</seg>
                                  <seg type="main">PAVILLON D'HONNEUR DE LA BELGIQUE. ARCHITECTE : VICTOR HORTA</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Cliché de « La Construction Moderne ».</seg>
                               </title>
                            </analytic>
@@ -171,9 +177,15 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE II.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="nonSort">LE</seg>
                                  <seg type="main">PAVILLON D'HONNEUR DE LA BELGIQUE. ARCHITECTE : VICTOR HORTA</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Cliché de « La Construction Moderne ».</seg>
                               </title>
                            </analytic>
@@ -190,8 +202,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE III.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PAVILLON D'HONNEUR. LE GRAND HALL D'ENTREE. ARCHITECTE Victor HORTA</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Cliché de « La Construction Moderne ».</seg>
                               </title>
                            </analytic>
@@ -208,8 +226,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE IV.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Eugène CANNEEL statuaire. JOIE DU PRINTEMPS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Groupe décoratif placé dans les jardins du Commissariat général français</seg>
                               </title>
                            </analytic>
@@ -226,6 +250,8 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLAN DU PAVILLON D'HONNEUR.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Architecte Victor HORTA, Bruxelles</seg>
                               </title>
                            </analytic>
@@ -242,9 +268,17 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE V.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PAVILLON D'HONNEUR DE LA BELGIQUE</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">C. MONTALD.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="nonSort">LA</seg>
                                  <seg type="main">BARQUE DE L'IDEAL</seg>
                               </title>
@@ -262,8 +296,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE VI.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PAVILLON D'HONNEUR DE LA BELGIQUE</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">« Vers l'ldéal », tapisserie de Mlle F. Dubois, d'après l'œuvre de C. Montal</seg>
                               </title>
                            </analytic>
@@ -280,8 +320,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE VII.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES A RTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PAVILLON D'HONNEUR DE LA BELGIQUE. ENSEMBLE « GIOCONDA ». (SALLE A MANGER) PHILIPPE WOLFERS, STATUAIRE BRUXELLES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Vue d'ensemble : Plan général par Ph. Wolfers. Marbres de la Société anonyme Merbes-Sprimont à Bruxelles. Le mobilier dessiné par Ph. Wolfers, exécuté et édité par la Compagnie des Arts à Bruxelles. Le tapis : dessiné par Ph. Wolfers, exécuté et édité par Mme Hulpiau-Van Wtberghe, à Courtrai. Cliché de « La Construction Moderne ».</seg>
                               </title>
                            </analytic>
@@ -298,10 +344,18 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE VIII.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">ENSEMBLE « GIOCONDA » SALLE A MANGER PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="nonSort">Le</seg>
                                  <seg type="main">tapis, dessiné par Ph. Wolfers; exécut et édité par Mme Hulpiau-Van Wtberghe, de Courtrai.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve année, N" I I</seg>
                               </title>
                            </analytic>
@@ -318,9 +372,17 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE IX.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">ENSEMBLE « GIOCONDA ». UNE DES NICHES PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Buste en bronze par Ph. Wolters; fondeurs : Fonderie Nationale des Bronzes à Bruxelles. Appareil d éclairage, dessine par Ph. exécuté par Boin-Moyersoen à Bruxelles. Marbres de la Société Anonyme Merbes Sprimont à Bruxelles.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve Année, N° 11</seg>
                               </title>
                            </analytic>
@@ -337,9 +399,17 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE X.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">ENSEMBLE « GIOCONDA ». LA VERRIERE DU FOND.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">L'offrande. Statue en bronze par Ph. Wolfers; fondeurs : Fonderie Nationale des Bronzes, Société anonyme à Bruxelles. Marbres de la Société Merbes- Sprimont, à Bruxelles.— Vitraux de F.-P. Colpaert, à Bruxelles.</seg>
                               </title>
                            </analytic>
@@ -356,8 +426,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XI.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">SALLE COMMUNE FLAMANDE ATELIERS D'ART DE COURTRAI, DE COENE FRERES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve Année, N° 11</seg>
                               </title>
                            </analytic>
@@ -374,7 +450,11 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XII</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">SALLE COMMUNE FLAMANDE CHEMINEE EN MARBRE VERT ATELIERS D'ART DE COURT RAI DE COENE FRERES</seg>
                               </title>
                            </analytic>
@@ -406,6 +486,8 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XIII.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
                               </title>
                            </analytic>
@@ -438,6 +520,8 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XIV.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
                               </title>
                            </analytic>
@@ -469,9 +553,17 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XV.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">« REMOUS » Carpette en point noué, 2m. 20 X 2m. 20.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Carton de Albert VAN HUFFEL, Architecte. Exécué par les « Tapis d'Art DE SAEDELEER ET Cie à Etichove (Flandre Orientale).</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve Année, N° 11.</seg>
                               </title>
                            </analytic>
@@ -488,11 +580,23 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XVI.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PORTE EN FER FORGE. LACOSTE, Tournai</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Cliché de la Revue « Savoir et Beauté »</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">PORTE EN FER FORGE F. ALEXANDRE Bruxelles</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve Année, N° 11</seg>
                               </title>
                            </analytic>
@@ -515,7 +619,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="12" to="13">12-13</biblScope>
+                                 <biblScope unit="page">12-13</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -527,7 +631,7 @@
                                  <seg type="main">GRAND PALAIS</seg>
                               </title>
                               <respStmt>
-                                 <persName>Charles CONRARDY</persName>
+                                 <persName ref="http://viaf.org/viaf/7744555">Charles CONRARDY</persName>
                                  <resp>cre</resp>
                               </respStmt>
                               <textLang mainLang="fre"/>
@@ -535,7 +639,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="13" to="14">13-14</biblScope>
+                                 <biblScope unit="page">13-14</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -553,7 +657,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="31" to="40">31-40</biblScope>
+                           <biblScope unit="page">31-40</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c030">
@@ -561,10 +665,20 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XVII</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">APPARTEMENT TRANSFORMABLE</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Auteur : Albert Van Huffel, Architecte.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Elditeur : Maison Ch. Rosel, à Bruxelles.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve année. N° 11.</seg>
                               </title>
                            </analytic>
@@ -581,10 +695,20 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">PLANCHE XVIII</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">APPARTEMENT TRANSFORMABLE</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Auteur : Albert Van Huffel, Architecte.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Editeur : Maison Ch. Rosel, à Bruxelles.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Supplément à la Revue « La Cité », Ve année. N° 11.</seg>
                               </title>
                            </analytic>
@@ -783,137 +907,220 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0008.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0009.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0010.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0011.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0012.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0013.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0014.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0015.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0016.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0017.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0018.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0019.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0020.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0021.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0022.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0023.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0024.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0025.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0026.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0027.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0028.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0029.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0030.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0031.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0032.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0033.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0034.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0035.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0036.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0037.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0038.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0039.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0040.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0041.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1926/02_01/delivery/bmtnaac_1926-02_01_0042.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>mrrv&amp;H HreëKl</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P2_TB00001">
+                     <ab facs="P2_TB00001">
                         <lb facs="P2_TL00001"/>RtVUfc MENSUELLE BELGE<lb facs="P2_TL00002"/>LA CITÉ<lb facs="P2_TL00003"/>URBANISEE a ARCHITECTURE ■ ART PUBLIC<lb facs="P2_TL00004"/>RECONSTRUCTION<lb facs="P2_TL00005"/>DES RÉGIONS DÉVASTÉES</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P2_TB00002">
+                     <ab facs="P2_TB00002">
                         <lb facs="P2_TL00006"/>REDACTEURS :<lb facs="P2_TL00007"/>MM. Fern. BQDSON, architecte (Bruxelles) ; J. DE LIGNE, architecte<lb facs="P2_TL00008"/>(Bruxelles) ; J. EGGERICX, architecte (Bruxelles) ; Huib. HOSTE, architecte<lb facs="P2_TL00009"/>(Bruges) ; Raymond MOENAERT, architecte (Bruxelles) ; L. van der<lb facs="P2_TL00010"/>SWAELMEN, architecte-paysagiste (Bruxelles) ; J. M. van HARDEVELD<lb facs="P2_TL00011"/>(Amsterdam); M. Raph. VERWILGHEN, Ingénieur Urbaniste (Bruxelles),<lb facs="P2_TL00012"/>Secrétaire de la Rédaction.<lb facs="P2_TL00013"/>COLLABORATEURS<lb facs="P2_TL00014"/>ARCHITECTES :<lb facs="P2_TL00015"/>Richard ACKE (Courtrai) ; H. P. BERLAGE (La Haye) ; H. J. BIRNSTINGL<lb facs="P2_TL00016"/>A. R. E. B. A. (Londres) ; Gaston BOGHEMANS (Menin) ; J. BORLEE<lb facs="P2_TL00017"/>(Jodoigne) ; Victor BOURGEOIS (Bruxelles) ; Ch. CONRARDY (Bruxelles) ;<lb facs="P2_TL00018"/>Julien de RIDDER (Bruxelles) ; Marcel GUILLËMINAULT (Paris) ; Léon<lb facs="P2_TL00019"/>GRAS (Anvers) ; J. E. HOEBEN (Bruxelles) ; V. HUSZAR (Hollande) ;<lb facs="P2_TL00020"/>LE CORBUSIER SAUGNIER (Paris); Edw. LEONARD (Anvers); J. J.<lb facs="P2_TL00021"/>P. OUD (Rotterdam, Hollande); Jozef PEETERS (Anvers); Gust. SCHLEI<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P2_TL00022"/>CHER (Allemagne) ; F. SEROEN (Bruxelles) ; Raym. THIBAUT (Bru<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P2_TL00023"/>xelles) ; Carlos THIRION (Verviers) ; Henri VAN DE VELDE (La Haye,<lb facs="P2_TL00024"/>Hollande) ; Théo van DOESBURG (Paris) ; P. VORIN (Paris) ; E. A. VAN<lb facs="P2_TL00025"/>TONDEREN (architecte). «<lb facs="P2_TL00026"/>' ■ ... . Jijt'À<lb facs="P2_TL00027"/>CRITIQUES D'ART :<lb facs="P2_TL00028"/>Maurice CASTEELS (Bruxelles) ; André de RIDDER (Anvers) ; Elie FAURE<lb facs="P2_TL00029"/>(Paris) ; FIERENS-GEVAERT (Bruxelles) ; Julien LEONARD (Paris) ; Paul<lb facs="P2_TL00030"/>LEON (Paris); Jacques MESNIL (Paris); Léon ROSENTHAL, Paris), etc.<lb facs="P2_TL00031"/>TECHNICIENS :<lb facs="P2_TL00032"/>Charles de GRONCKEL (Bruxelles) ; A. KNAPEN (Bruxelles); L. J. SERIN<lb facs="P2_TL00033"/>(Bruxelles), etc., etc.<lb facs="P2_TL00034"/>Les Rédacteurs et Collaborateurs sont seuls<lb facs="P2_TL00035"/>responsables de leurs articles. Il sera rendu<lb facs="P2_TL00036"/>compte dans « La Cité » de tout ouvrage dont<lb facs="P2_TL00037"/>deux exemplaires seront envoyés à la Revue<lb facs="P2_TL00038"/>Pour la rédaction, l'administration et le<lb facs="P2_TL00039"/>au Siège de la Revue : 10, Place Saint-Gilles-Bruxettes-<lb facs="P2_TL00040"/>Pour la vente au numéro s'adresser<lb facs="P2_TL00041"/>principal : Librairie LAMERTIN, 58-62 Coudenberg, Bruxelles.<lb facs="P2_TL00042"/>ABONNEMENT: Belgique, 20 francs; Etranger 25 francs. Le numéro, 2 francs<lb facs="P2_TL00043"/>Les abonnements peuvent se prendre e2O<lb facs="P2_TL00044"/>crédit du Compte chèques'postaux n° 166.21 (Revue : « La Cité »). Moyennant<lb facs="P2_TL00045"/>un supplément de 3 francs les numéros<lb facs="P2_TL00046"/>enveloppe cartonnée</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P3_TB00005">
+                     <ab facs="P3_TB00005">
                         <lb facs="P3_TL00023"/>LA CITE. FEVR.-MARS 1926.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P4_TB00001">
+                     <ab facs="P4_TB00001">
                         <lb facs="P4_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P5_TB00001">
+                     <ab facs="P5_TB00001">
                         <lb facs="P5_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00001">
+                     <ab facs="P6_TB00001">
                         <lb facs="P6_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P11_TB00001">
+                     <ab facs="P11_TB00001">
                         <lb facs="P11_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P12_TB00001">
+                     <ab facs="P12_TB00001">
                         <lb facs="P12_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P13_TB00001">
+                     <ab facs="P13_TB00001">
                         <lb facs="P13_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P14_TB00002">
+                     <ab facs="P14_TB00002">
                         <lb facs="P14_TL00002"/>L A C I T E V O L. 5 N U M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P31_TB00001">
+                     <ab facs="P31_TB00001">
                         <lb facs="P31_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P32_TB00001">
+                     <ab facs="P32_TB00001">
                         <lb facs="P32_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P33_TB00001">
+                     <ab facs="P33_TB00001">
                         <lb facs="P33_TL00001"/>LA CITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P34_TB00001">
+                     <ab facs="P34_TB00001">
                         <lb facs="P34_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P36_TB00001">
+                     <ab facs="P36_TB00001">
                         <lb facs="P36_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P37_TB00001">
+                     <ab facs="P37_TB00001">
                         <lb facs="P37_TL00001"/>LA CITE V O L. 5 N U M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P39_TB00001">
+                     <ab facs="P39_TB00001">
                         <lb facs="P39_TL00001"/>LACITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P40_TB00002">
+                     <ab facs="P40_TB00002">
                         <lb facs="P40_TL00002"/>LA CITE VOL. 5 NU M. 11</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P42_TB00001">
+                     <ab facs="P42_TB00001">
                         <lb facs="P42_TL00001"/>Imprimerie H. KUMPS-ROBYN, 81-85, rue Keyenveld, Ix«lles. Téléphone : W4.Bi.</ab>
                   </div>
                </div>
@@ -923,15 +1130,11 @@
                   </div>
                   <div type="TextContent" corresp="c002">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00002">
+                        <ab facs="P3_TB00002">
                            <lb facs="P3_TL00002"/>AVANT-PROPOS</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00004">
+                        <ab facs="P4_TB00004">
                            <lb facs="P4_TL00022"/>L. C</ab>
                      </div>
                      <div type="Illustration" corresp="c003">
@@ -941,9 +1144,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00003">
+                                 <ab facs="P3_TB00003">
                                     <lb facs="P3_TL00003"/>Les lecteurs de « La Cité » connaissent nos sentiments à l'égard<lb facs="P3_TL00004"/>de l'Exposition de Paris et plus particulièrement de la participation<lb facs="P3_TL00005"/>belge à cette Exposition. Dans la préface d'une étude consacrée à<lb facs="P3_TL00006"/>cette manifestation artistique (i), un de nos rédacteurs, M. Louis<lb facs="P3_TL00007"/>Van der Swaelmen, a démontré avec la vigueur de la foi qui l'anime,<lb facs="P3_TL00008"/>quelles furent, d'une part, les faiblesses de notre représentation natio<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00009"/>nale, et, d'autre part, ce que celle-ci aurait pu être, si l'on avait fourni<lb facs="P3_TL00010"/>à nos artistes, créateurs d'avant-garde, l'occasion d'y déployer dans<lb facs="P3_TL00011"/>une plus large mesure, leur activité.<lb facs="P3_TL00012"/>Nous espérons pouvoir publier prochainement la suite de cet<lb facs="P3_TL00013"/>exposé critique. Cependant, il nous a semblé que celui-ci n'en acquer<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00014"/>rait que plus de poids s'il était appuyé d'une documentation abon<pc type="endhypen" pre="false">-</pc>
@@ -953,9 +1154,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00003">
+                                 <ab facs="P4_TB00003">
                                     <lb facs="P4_TL00003"/>mêmes rédigés dans le but de préciser la pensée qui a inspiré ces<lb facs="P4_TL00004"/>œuvres et non pour en donner une appréciation personnelle.<lb facs="P4_TL00005"/>Nous ne surprendrons personne en avouant que nous n'aurions<lb facs="P4_TL00006"/>pu entreprendre une édition aussi luxueuse sans avoir recours aux<lb facs="P4_TL00007"/>industriels qui exposaient à Paris; nous n'aurions pu, sans leur con<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00008"/>cours, fournir une documentation graphique aussi importante. Mais<lb facs="P4_TL00009"/>tous n'ont pas répondu à notre appel.<lb facs="P4_TL00010"/>De là l'arbitraire dans le choix des œuvres reproduites, et l'ab<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00011"/>sence regrettable de bien d'autres d'un réel intérêt.<lb facs="P4_TL00012"/>L'emprunt de clichés parus dans d'autres revues nous a permis<lb facs="P4_TL00013"/>de combler en partie ces lacunes. Nous tenons à remercier ici nos<lb facs="P4_TL00014"/>confrères et plus particulièrement « La Construction Moderne »,<lb facs="P4_TL00015"/>« Sept Arts » et « Savoir et Beauté » de leur aimable assistance.<lb facs="P4_TL00016"/>Enfin, signalons que nous n'avons pas voulu étendre notre<lb facs="P4_TL00017"/>documentation à la Section d'Architecture Belge et plus particuliè<pc type="endhypen" pre="false">-</pc>
@@ -964,9 +1163,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00004">
+                                 <ab facs="P3_TB00004">
                                     <lb facs="P3_TL00022"/>(1) « La Cité ». V 6 année. N° 7.</ab>
                               </div>
                            </div>
@@ -975,24 +1172,18 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P5_TB00003">
+                        <ab facs="P5_TB00003">
                            <lb facs="P5_TL00003"/>Le Pavillon d'honneur de la Belgique</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P11_TB00005">
+                        <ab facs="P11_TB00005">
                            <lb facs="P11_TL00029"/>Charles CONRARDY.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00004">
+                                 <ab facs="P5_TB00004">
                                     <lb facs="P5_TL00004"/>Le pavillon d'honneur de la Belgique dû à l'architecte Victor<lb facs="P5_TL00005"/>Horta, directeur de la classe des Beaux-Arts de l'Académie de Bel<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00006"/>gique, directeur de l'lnstitut supérieur des Beaux-Arts d'Anvers,<lb facs="P5_TL00007"/>recteur de l'Académie royale des Beaux-Arts et de l'école des Arts<lb facs="P5_TL00008"/>Décoratifs de Bruxelles, était construit en bois couvert de plâtre, et<lb facs="P5_TL00009"/>revêtu de pierre liquide. Nous n'avons pas à retracer ici la carrière, ni<lb facs="P5_TL00010"/>à vanter les mérites de M. Victor Horta. Son nom est attaché à<lb facs="P5_TL00011"/>l'histoire de notre architecture depuis près de quarante ans, sa répu<lb facs="P5_TL00012"/>tation a franchi nos frontières.<lb facs="P5_TL00013"/>Dans sa conception de notre pavillon M. Horta a changé sa<lb facs="P5_TL00014"/>manière. Jadis, il demandait à la tige des fleurs le secret des belles<lb facs="P5_TL00015"/>lignes. Il demandait aussi à l'art médiéval les secrets des constructions<lb facs="P5_TL00016"/>solides et belles. Aujourd'hui il ne dédaigne pas la leçon du cubisme.<lb facs="P5_TL00017"/>« En technicien habile, en artiste érudit il prend même sans en avoir<lb facs="P5_TL00018"/>l'air à l'Egypte ou à la Grèce les belles proportions des temples ou<lb facs="P5_TL00019"/>des hypogées. Il sait rajeunir tout cela par un goût parfait et un sens<lb facs="P5_TL00020"/>de la mesure incomparable. On croit toujours avec lui arriver à<lb facs="P5_TL00021"/>l'exagération et à l'outrance et tout à coup il sait nous ramener à la<lb facs="P5_TL00022"/>logique et à la raison. Sa rigide construction (qui rappelle une cons<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00023"/>truction en bois), où les poutres s'enchevêtrent et s'emboîtent<lb facs="P5_TL00024"/>ornée de modillons, protégée de corniches, soutenue par des petits<lb facs="P5_TL00025"/>contreforts n'est cependant ni désagréable ni lourde à la vue.<lb facs="P5_TL00026"/>Le portail et les salles sont de proportions heureuses. Les salles<lb facs="P5_TL00027"/>sont éclairées par des baies supérieures, par des fenêtres ornées de<lb facs="P5_TL00028"/>vitraux dus à MM. Horta, Montald, Anto Carte et garnie de fers<lb facs="P5_TL00029"/>forgés originaux du maître architecte. Dans le décor et sur le terrain<lb facs="P5_TL00030"/>imposés M. Horta a su réaliser une œuvre sans escamoter, comme<lb facs="P5_TL00031"/>beaucoup de ses confrères, les difficultés du problème.<lb facs="P5_TL00032"/>Dans le catalogue officiel de la Section belge, le maître Victor<lb facs="P5_TL00033"/>Horta a signalé que le plan de son pavillon trouvait son origine dans<lb facs="P5_TL00034"/>la forme très particulière des emplacements qui avaient été réservés<lb facs="P5_TL00035"/>par la Commission organisatrice aux quatre grandes nations alliées.<lb facs="P5_TL00036"/>« Ces terrains, originairement similaires, en forme de marteau<lb facs="P5_TL00037"/>ou té, avaient en tête 15 m.XB m. et en prolongement 32 m.Xi2 m.<lb facs="P5_TL00038"/>de largeur au sol, diminuée, à partir de 3 mètres de hauteur, propor-</ab>
@@ -1000,9 +1191,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00003">
+                                 <ab facs="P6_TB00003">
                                     <lb facs="P6_TL00003"/>tionncllement à la surface couvrante de la couronne des arbres du<lb facs="P6_TL00004"/>Cours la Reine, dont la conservation intégrale était imposée en<lb facs="P6_TL00005"/>servitude.<lb facs="P6_TL00006"/>C'est à la solution de ce problème que l'architecte belge seul<lb facs="P6_TL00007"/>s'est attaché. Il en a tiré l'originalité première de son œuvre.<lb facs="P6_TL00008"/>L'emploi rationnel des feuilles de staff sur charpente en bois<lb facs="P6_TL00009"/>caractérisant l'Architecture par simple superposition de plans, sans<lb facs="P6_TL00010"/>imitation ornementale ou de matériaux pierreux simulés, constitue<lb facs="P6_TL00011"/>l'originalité seconde du Pavillon. Ainsi, celui-ci atteint dans son<lb facs="P6_TL00012"/>ensemble le but assigné par le programme d'une exposition tempo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00013"/>raire d'art décoratif belge : montrer le niveau que l'art moderne a<lb facs="P6_TL00014"/>conservé dans son pays d'origine et faire grand nonobstant l'exiguité<lb facs="P6_TL00015"/>du terrain et malgré les ressources restreintes d'un pays à peine relevé<lb facs="P6_TL00016"/>de ses ruines. »<lb facs="P6_TL00017"/>Le maître architecte donne ensuite du pavillon et des œuvres<lb facs="P6_TL00018"/>qu'il renfermait une description fort précise que nous croyons inté<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00019"/>ressant de reproduire ici :<lb facs="P6_TL00020"/>« Le Pavillon belge se compose en plan de trois grandes salles<lb facs="P6_TL00021"/>et de six salles secondaires; chacune d'elles ayant un caractère archi<pc type="endhypen" pre="false">-</pc>
@@ -1011,9 +1200,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00003">
+                                 <ab facs="P11_TB00003">
                                     <lb facs="P11_TL00003"/>thème et les dispositions des locaux intérieurs en trois grandes<lb facs="P11_TL00004"/>parties : le portique d'entrée qui abrite une superbe statue symbo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00005"/>lisant l'Art Décoratif du sculpteur Pierre Braecke et que surmonte<lb facs="P11_TL00006"/>une grande frise décorative du même artiste; le Hall dont les terrasses<lb facs="P11_TL00007"/>se terminent par une sorte de dôme en gradin et, enfin, la salle<lb facs="P11_TL00008"/>Montald, flanquée d'une tour rectangulaire qui domine toute l'Ex<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00009"/>position et au sommet de laquelle se profilent six motifs architec<pc type="endhypen" pre="false">-</pc>
@@ -1024,9 +1211,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P11_TB00004">
+                                 <ab facs="P11_TB00004">
                                     <lb facs="P11_TL00016"/>Au point de vue architectural à part la réalisation de M. Victor<lb facs="P11_TL00017"/>Horta et les quelques stands aménagés par des architectes belges dont<lb facs="P11_TL00018"/>nous parlerons, il n'y avait à l'exposition que des dessins de certains<lb facs="P11_TL00019"/>de nos artistes. Il est déplorable que nous n'ayons pu montrer que<lb facs="P11_TL00020"/>cela, alors qu'il y a chez nous un véritable mouvement moderniste<lb facs="P11_TL00021"/>très avancé et conduit par des jeunes de grande valeur. Le budget était<lb facs="P11_TL00022"/>limité c'est entendu, mais puisqu'il s'agissait d'une exhibition inter<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00023"/>nationale d'architecture moderne il me semble logique qu'il fallait y<lb facs="P11_TL00024"/>envoyer des modernistes. Malgré la faiblesse donc de notre participa<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P11_TL00025"/>tion nous pouvons nous réjouir de l'effort réalisé surtout si nous le<lb facs="P11_TL00026"/>comparons à celui des autres nations. Nos envois ont été remarqués<lb facs="P11_TL00027"/>et désormais il faudra compter avec nous pour les manifestations<lb facs="P11_TL00028"/>futures et les luttes pacifiques, les joûtes en l'honneur de l'Art neuf.</ab>
@@ -1037,24 +1222,18 @@
                   </div>
                   <div type="TextContent" corresp="c005">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00001">
+                        <ab facs="P8_TB00001">
                            <lb facs="P8_TL00001"/>AVIS IMPORTANT</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00003">
+                        <ab facs="P8_TB00003">
                            <lb facs="P8_TL00026"/>ADMINISTRATION DE « LA CITE ».</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00002">
+                                 <ab facs="P8_TB00002">
                                     <lb facs="P8_TL00002"/>EN VUE D'EVITER DES RETARDS ET DES FRAIS<lb facs="P8_TL00003"/>INUTILES, NOUS SERIONS RECONNAISSANTS A NOS<lb facs="P8_TL00004"/>ABONNES DE VERSER A NOTRE COMPTE CHEQUE<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00005"/>POSTAL N° 166.21 REVUE « LA CITE », LE MONTANT<lb facs="P8_TL00006"/>DE LEUR ABONNEMENT POUR LE 6e VOLUME DE<lb facs="P8_TL00007"/>« LA CITE », SOIT VINGT-CINQ FRANCS. ILS SONT<lb facs="P8_TL00008"/>PRIES D'INDIQUER SUR LE BULLETIN DE VERSEMENT<lb facs="P8_TL00009"/>LEUR NOM ET ADRESSE COMPLETE.<lb facs="P8_TL00010"/>CEUX DE NOS ABONNES QUI DESIRERAIENT<lb facs="P8_TL00011"/>RECEVOIR MENSUELLEMENT LA REVUE, SOUS ENVE<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00012"/>LOPPE CARTONNEE, SONT PRIES DE PAYER UN SUP<pc type="endhypen" pre="false">-</pc>
@@ -1067,413 +1246,263 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P12_TB00003">
+                        <ab facs="P12_TB00003">
                            <lb facs="P12_TL00003"/>PROMENADE dans la SECTION BELGE</ab>
                      </div>
                      <div type="Illustration" corresp="c007">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P15_TB00001">
+                           <ab facs="P15_TB00001">
                               <lb facs="P15_TL00001"/>PLANCHE I. </ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P15_TB00002">
+                           <ab facs="P15_TB00002">
                               <lb facs="P15_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P15_TB00003">
+                           <ab facs="P15_TB00003">
                               <lb facs="P15_TL00003"/>LE PAVILLON D'HONNEUR DE LA BELGIQUE. ARCHITECTE : VICTOR HORTA</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P15_TB00004">
+                           <ab facs="P15_TB00004">
                               <lb facs="P15_TL00004"/>Cliché de « La Construction Moderne ».</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c008">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P16_TB00001">
+                           <ab facs="P16_TB00001">
                               <lb facs="P16_TL00001"/>PLANCHE II.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P16_TB00002">
+                           <ab facs="P16_TB00002">
                               <lb facs="P16_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P16_TB00003">
+                           <ab facs="P16_TB00003">
                               <lb facs="P16_TL00003"/>LE PAVILLON D'HONNEUR DE LA BELGIQUE. ARCHITECTE : VICTOR HORTA</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P16_TB00004">
+                           <ab facs="P16_TB00004">
                               <lb facs="P16_TL00004"/>Cliché de « La Construction Moderne ».</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c009">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P17_TB00001">
+                           <ab facs="P17_TB00001">
                               <lb facs="P17_TL00001"/>PLANCHE III. </ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P17_TB00002">
+                           <ab facs="P17_TB00002">
                               <lb facs="P17_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P17_TB00003">
+                           <ab facs="P17_TB00003">
                               <lb facs="P17_TL00003"/>PAVILLON D'HONNEUR. LE GRAND HALL D'ENTREE. ARCHITECTE Victor HORTA</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P17_TB00004">
+                           <ab facs="P17_TB00004">
                               <lb facs="P17_TL00004"/>Cliché de « La Construction Moderne ».</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c010">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00001">
+                           <ab facs="P18_TB00001">
                               <lb facs="P18_TL00001"/>PLANCHE IV.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00002">
+                           <ab facs="P18_TB00002">
                               <lb facs="P18_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00003">
+                           <ab facs="P18_TB00003">
                               <lb facs="P18_TL00003"/>Eugène CANNEEL statuaire. JOIE DU PRINTEMPS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00004">
+                           <ab facs="P18_TB00004">
                               <lb facs="P18_TL00004"/>Groupe décoratif placé dans les jardins du Commissariat général français</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c011">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00005">
+                           <ab facs="P18_TB00005">
                               <lb facs="P18_TL00005"/>PLAN DU PAVILLON D'HONNEUR.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P18_TB00006">
+                           <ab facs="P18_TB00006">
                               <lb facs="P18_TL00006"/>Architecte Victor HORTA, Bruxelles</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c012">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P19_TB00001">
+                           <ab facs="P19_TB00001">
                               <lb facs="P19_TL00001"/>PLANCHE V.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P19_TB00002">
+                           <ab facs="P19_TB00002">
                               <lb facs="P19_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P19_TB00003">
+                           <ab facs="P19_TB00003">
                               <lb facs="P19_TL00003"/>PAVILLON D'HONNEUR DE LA BELGIQUE</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P19_TB00004">
+                           <ab facs="P19_TB00004">
                               <lb facs="P19_TL00004"/>C. MONTALD.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P19_TB00005">
+                           <ab facs="P19_TB00005">
                               <lb facs="P19_TL00005"/>LA BARQUE DE L'IDEAL</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c013">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P20_TB00001">
+                           <ab facs="P20_TB00001">
                               <lb facs="P20_TL00001"/>PLANCHE VI.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P20_TB00002">
+                           <ab facs="P20_TB00002">
                               <lb facs="P20_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P20_TB00003">
+                           <ab facs="P20_TB00003">
                               <lb facs="P20_TL00003"/>PAVILLON D'HONNEUR DE LA BELGIQUE</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P20_TB00004">
+                           <ab facs="P20_TB00004">
                               <lb facs="P20_TL00004"/>« Vers l'ldéal », tapisserie de Mlle F. Dubois, d'après l'œuvre de C. Montal</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c014">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P21_TB00001">
+                           <ab facs="P21_TB00001">
                               <lb facs="P21_TL00001"/>PLANCHE VII.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P21_TB00002">
+                           <ab facs="P21_TB00002">
                               <lb facs="P21_TL00002"/>EXPOSITION INTERNATIONALE DES A RTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P21_TB00003">
+                           <ab facs="P21_TB00003">
                               <lb facs="P21_TL00003"/>PAVILLON D'HONNEUR DE LA BELGIQUE. ENSEMBLE « GIOCONDA ». (SALLE A MANGER)<lb facs="P21_TL00004"/>PHILIPPE WOLFERS, STATUAIRE BRUXELLES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P21_TB00004">
+                           <ab facs="P21_TB00004">
                               <lb facs="P21_TL00005"/>Vue d'ensemble : Plan général par Ph. Wolfers. Marbres de la Société anonyme Merbes-Sprimont à Bruxelles. Le mobilier dessiné<lb facs="P21_TL00006"/>par Ph. Wolfers, exécuté et édité par la Compagnie des Arts à Bruxelles. Le tapis : dessiné par Ph. Wolfers, exécuté<lb facs="P21_TL00007"/>et édité par Mme Hulpiau-Van Wtberghe, à Courtrai. Cliché de « La Construction Moderne ».</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c015">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P22_TB00001">
+                           <ab facs="P22_TB00001">
                               <lb facs="P22_TL00001"/>PLANCHE VIII.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P22_TB00002">
+                           <ab facs="P22_TB00002">
                               <lb facs="P22_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P22_TB00003">
+                           <ab facs="P22_TB00003">
                               <lb facs="P22_TL00003"/>ENSEMBLE « GIOCONDA » SALLE A MANGER<lb facs="P22_TL00004"/>PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P22_TB00004">
+                           <ab facs="P22_TB00004">
                               <lb facs="P22_TL00005"/>Le tapis, dessiné par Ph. Wolfers; exécut et édité par Mme Hulpiau-Van Wtberghe, de Courtrai.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P22_TB00005">
+                           <ab facs="P22_TB00005">
                               <lb facs="P22_TL00006"/>Supplément à la Revue « La Cité », Ve année, N" I I</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c016">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P23_TB00001">
+                           <ab facs="P23_TB00001">
                               <lb facs="P23_TL00001"/>PLANCHE IX.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P23_TB00002">
+                           <ab facs="P23_TB00002">
                               <lb facs="P23_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P23_TB00003">
+                           <ab facs="P23_TB00003">
                               <lb facs="P23_TL00003"/>ENSEMBLE « GIOCONDA ». UNE DES NICHES<lb facs="P23_TL00004"/>PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P23_TB00004">
+                           <ab facs="P23_TB00004">
                               <lb facs="P23_TL00005"/>Buste en bronze par Ph. Wolters; fondeurs : Fonderie Nationale des Bronzes à<lb facs="P23_TL00006"/>Bruxelles. Appareil d éclairage, dessine par Ph. exécuté par<lb facs="P23_TL00007"/>Boin-Moyersoen à Bruxelles. Marbres de la Société Anonyme Merbes Sprimont<lb facs="P23_TL00008"/>à Bruxelles.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P23_TB00005">
+                           <ab facs="P23_TB00005">
                               <lb facs="P23_TL00009"/>Supplément à la Revue « La Cité », Ve Année, N° 11</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c017">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P24_TB00001">
+                           <ab facs="P24_TB00001">
                               <lb facs="P24_TL00001"/>PLANCHE X.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P24_TB00002">
+                           <ab facs="P24_TB00002">
                               <lb facs="P24_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P24_TB00003">
+                           <ab facs="P24_TB00003">
                               <lb facs="P24_TL00003"/>ENSEMBLE « GIOCONDA ». LA VERRIERE DU FOND.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P24_TB00004">
+                           <ab facs="P24_TB00004">
                               <lb facs="P24_TL00004"/>PHILIPPE WOLFERS, STATUAIRE, BRUXELLES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P24_TB00005">
+                           <ab facs="P24_TB00005">
                               <lb facs="P24_TL00005"/>L'offrande. Statue en bronze par Ph. Wolfers; fondeurs : Fonderie Nationale des<lb facs="P24_TL00006"/>Bronzes, Société anonyme à Bruxelles. Marbres de la Société Merbes-<lb facs="P24_TL00007"/>Sprimont, à Bruxelles.— Vitraux de F.-P. Colpaert, à Bruxelles.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c018">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P25_TB00001">
+                           <ab facs="P25_TB00001">
                               <lb facs="P25_TL00001"/>PLANCHE XI.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P25_TB00002">
+                           <ab facs="P25_TB00002">
                               <lb facs="P25_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P25_TB00003">
+                           <ab facs="P25_TB00003">
                               <lb facs="P25_TL00003"/>SALLE COMMUNE FLAMANDE<lb facs="P25_TL00004"/>ATELIERS D'ART DE COURTRAI, DE COENE FRERES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P25_TB00004">
+                           <ab facs="P25_TB00004">
                               <lb facs="P25_TL00005"/>Supplément à la Revue « La Cité », Ve Année, N° 11</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c019">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P26_TB00001">
+                           <ab facs="P26_TB00001">
                               <lb facs="P26_TL00001"/>PLANCHE XII</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P26_TB00002">
+                           <ab facs="P26_TB00002">
                               <lb facs="P26_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P26_TB00003">
+                           <ab facs="P26_TB00003">
                               <lb facs="P26_TL00003"/>SALLE COMMUNE FLAMANDE CHEMINEE EN MARBRE VERT<lb facs="P26_TL00004"/>ATELIERS D'ART DE COURT RAI DE COENE FRERES</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c020">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P26_TB00004">
+                           <ab facs="P26_TB00004">
                               <lb facs="P26_TL00005"/>SALLE COMMUNE FLAMANDE.<lb facs="P26_TL00006"/>ATELIERS D'ART DE COURT RAI DE COENE FRERES</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c021">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P27_TB00001">
+                           <ab facs="P27_TB00001">
                               <lb facs="P27_TL00001"/>PLANCHE XIII.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P27_TB00002">
+                           <ab facs="P27_TB00002">
                               <lb facs="P27_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c022">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P27_TB00003">
+                           <ab facs="P27_TB00003">
                               <lb facs="P27_TL00003"/>LA BOUTIQUE. (Collectivité de la Société Nationale des Arts Décoratifs<lb facs="P27_TL00004"/>Paul Hamesse et frères, architectes. Editeur : Compagnie des Arts (Poppe et Cie) Bruxelles.<lb facs="P27_TL00005"/>Cliché de la Revue « Savoir et Beauté »</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c023">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P28_TB00001">
+                           <ab facs="P28_TB00001">
                               <lb facs="P28_TL00001"/>PLANCHE XIV.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P28_TB00002">
+                           <ab facs="P28_TB00002">
                               <lb facs="P28_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c024">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P28_TB00003">
+                           <ab facs="P28_TB00003">
                               <lb facs="P28_TL00003"/>BUREAU-FUMOIR<lb facs="P28_TL00004"/>Huib. HOSTE et SERVRANCKX, Architectes d'lntérieur<lb facs="P28_TL00005"/>Editeur « HET BINNENHUIS » Roulers</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c025">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P29_TB00001">
+                           <ab facs="P29_TB00001">
                               <lb facs="P29_TL00001"/>PLANCHE XV.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P29_TB00002">
+                           <ab facs="P29_TB00002">
                               <lb facs="P29_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P29_TB00003">
+                           <ab facs="P29_TB00003">
                               <lb facs="P29_TL00003"/>« REMOUS »<lb facs="P29_TL00004"/>Carpette en point noué, 2m. 20 X 2m. 20.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P29_TB00004">
+                           <ab facs="P29_TB00004">
                               <lb facs="P29_TL00005"/>Carton de Albert VAN HUFFEL, Architecte. Exécué par les « Tapis d'Art<lb facs="P29_TL00006"/>DE SAEDELEER ET Cie à Etichove (Flandre Orientale).</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P29_TB00005">
+                           <ab facs="P29_TB00005">
                               <lb facs="P29_TL00007"/>Supplément à la Revue « La Cité », Ve Année, N° 11.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c026">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00001">
+                           <ab facs="P30_TB00001">
                               <lb facs="P30_TL00001"/>PLANCHE XVI.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00002">
+                           <ab facs="P30_TB00002">
                               <lb facs="P30_TL00002"/>EXPOSITION INTERNATIONALE DES</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00003">
+                           <ab facs="P30_TB00003">
                               <lb facs="P30_TL00003"/>PORTE EN FER FORGE.<lb facs="P30_TL00004"/>LACOSTE, Tournai</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00004">
+                           <ab facs="P30_TB00004">
                               <lb facs="P30_TL00005"/>Cliché de la Revue « Savoir et Beauté »</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00005">
+                           <ab facs="P30_TB00005">
                               <lb facs="P30_TL00006"/>ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00006">
+                           <ab facs="P30_TB00006">
                               <lb facs="P30_TL00007"/>PORTE EN FER FORGE<lb facs="P30_TL00008"/>F. ALEXANDRE Bruxelles</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P30_TB00007">
+                           <ab facs="P30_TB00007">
                               <lb facs="P30_TL00009"/>Supplément à la Revue « La Cité », Ve Année, N° 11</ab>
                         </div>
                      </div>
                      <div type="TextContent" corresp="c027">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P12_TB00004">
+                           <ab facs="P12_TB00004">
                               <lb facs="P12_TL00004"/>GALERIE DE L'ESPLANADE DES INVALIDES<lb facs="P12_TL00005"/>GALERIE DES INTÉRIEURS</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P12_TB00005">
+                                    <ab facs="P12_TB00005">
                                        <lb facs="P12_TL00006"/>Au lieu de grouper toutes les œuvres d'un même pays la Commission<lb facs="P12_TL00007"/>organisatrice avait décidé de réunir sans distinction d'origine tout ce<lb facs="P12_TL00008"/>qui concernait l'enseignement, la joaillerie, le mobilier, etc. C'est ainsi que la<lb facs="P12_TL00009"/>plupart des Intérieurs complets exposés par des artistes et industriels belges,<lb facs="P12_TL00010"/>étaient réunis dans une Galerie spéciale, installée au quai d'Orsay, bien loin<lb facs="P12_TL00011"/>de notre pavillon national.<lb facs="P12_TL00012"/>La décoration générale de cette Galerie était due à M. Oscar Van<lb facs="P12_TL00013"/>de Voor d e, architecte, directeur de l'Académie des Beaux-Arts de Gand<lb facs="P12_TL00014"/>dont nous n'avons pas à faire l'éloge. Son hall était orné d'une bonne nature<lb facs="P12_TL00015"/>morte de Saverys. Les frères Hamesse avaient conçu la Boutique<lb facs="P12_TL00016"/>d'art. Elle était d'une belle sobriété et traitée avec un soin minutieux. Les<lb facs="P12_TL00017"/>montres, rayons et vitrines étaient garnis par les soins de la Société nationale<lb facs="P12_TL00018"/>des Arts Décoratifs. Des objets en fer forgé de M. Alexa n d r e, des<lb facs="P12_TL00019"/>bronzes et terres cuites du bon sculpteur Eugène Canneel, un) bois<lb facs="P12_TL00020"/>sculpté deStoffyn très caractéristique de la manière de cet artiste moderne<lb facs="P12_TL00021"/>Le coffret, le châle et les batiks de Mlle Lucienne Perrée sont parmi<lb facs="P12_TL00022"/>les meilleures choses exposées.<lb facs="P12_TL00023"/>Le studio d'architecture de M. Raymond Thibaut renfermait<lb facs="P12_TL00024"/>outre des dessins : plans, élévations du Directeur du « Document », des pein<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P12_TL00025"/>tures vigoureuses de M. Gustave Balenghien ainsi que des tapis de pieds.<lb facs="P12_TL00026"/>La cheminée que le sculpteur Wansart a ornée d'une figure originale, les<lb facs="P12_TL00027"/>vitraux et le lustre de M. Walther Vosch contribuaient à rendre ce studio très<lb facs="P12_TL00028"/>confortable si l'on y ajoute aussi les meubles de bureau du bon architecte<lb facs="P12_TL00029"/>Hebbelynck.<lb facs="P12_TL00030"/>La salle à manger de M. M. Blondel était fort luxueuse, mais ne<lb facs="P12_TL00031"/>s'éloigne pas assez des anciens styles. Une belle tapisserie de Strebelle, un<lb facs="P12_TL00032"/>tapis de Guillon, du granito (vasque fontaine) de Henri Baudoux font un<lb facs="P12_TL00033"/>ensemble homogène. Le salon-fumoir de MM. Tritsch et Marquet<lb facs="P12_TL00034"/>est un bon travail sans plus. Nous lui préférons de loin l'appartement trans<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P12_TL00035"/>formable infiniment pratique et rationnel de M. Albert Van Huffel<lb facs="P12_TL00036"/>avec son lit repliable. La salle est à deux usages : chambre à coucher et siting<lb facs="P12_TL00037"/>room, D'une haute valeur aussi le fumoir bibliothèque de M. Hui b.</ab>
@@ -1481,9 +1510,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P13_TB00003">
+                                    <ab facs="P13_TB00003">
                                        <lb facs="P13_TL00003"/>H o st e avec la collaboration de M. Victor Servranckx, dont il sera<lb facs="P13_TL00004"/>question plus loin.<lb facs="P13_TL00005"/>La chambre d'enfant de M. Sta Jasinsky, que nous regrettons<lb facs="P13_TL00006"/>de n'avoir pu reproduire, est simple et rare. Les meubles peuvent<lb facs="P13_TL00007"/>être décomposés, le lit peut être agrandi, on peut superposer les armoires; la<lb facs="P13_TL00008"/>table et les chaises peuvent être élevées.<lb facs="P13_TL00009"/>Le but poursuivi par l'architecte est d'entourer l'enfant d'une sorte de<lb facs="P13_TL00010"/>cadre extensible. L'ameublement pourra se prêter à des solutions diverses qui<lb facs="P13_TL00011"/>lui seront suggérées par son esprit. L'enfant grandira et, les meubles seront<lb facs="P13_TL00012"/>encore à sa portée. Il en aura encore le même usage pratique ou récréatif.</ab>
                                  </div>
                               </div>
@@ -1492,24 +1519,18 @@
                      </div>
                      <div type="TextContent" corresp="c028">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P13_TB00004">
+                           <ab facs="P13_TB00004">
                               <lb facs="P13_TL00013"/>GRAND PALAIS</ab>
                         </div>
                         <div type="Byline">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P14_TB00004">
+                           <ab facs="P14_TB00004">
                               <lb facs="P14_TL00043"/>Charles CONRARDY.</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P13_TB00005">
+                                    <ab facs="P13_TB00005">
                                        <lb facs="P13_TL00014"/>Une autre section de la Participation belge se trouvait abritée dans le<lb facs="P13_TL00015"/>Grand Palais.<lb facs="P13_TL00016"/>Le salon du groupement des industries belges du vêtement et accessoires<lb facs="P13_TL00017"/>était dû à M. Driesmans qui avait fait appel au Plasticolor pour le revê<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P13_TL00018"/>tement des murs. Nous arrivons ensuite à la salle commune flamande conçue<lb facs="P13_TL00019"/>et exécutée par les atel i e r s De Coene, de Courtrai, dont on connaît<lb facs="P13_TL00020"/>le bon goût. Nous y reviendrons. La salle à manger et le salonnet de<lb facs="P13_TL00021"/>M. S n e y e r s faisaient suite. Ici encore l'auteur du pavillon belge de Venise a<lb facs="P13_TL00022"/>su déployer ses belles qualités. Le stand de la collectivité des joailliers et orfè<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P13_TL00023"/>vres était de MM. Julien De R i d d e r, architecte, et Her m a n T eir<pc type="endhypen" pre="false">-</pc>
@@ -1520,9 +1541,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P14_TB00003">
+                                    <ab facs="P14_TB00003">
                                        <lb facs="P14_TL00003"/>La section de l'enseignement a été décorée par M. Van Averbeke,<lb facs="P14_TL00004"/>architecte de la ville d'Anvers. On y trouvait des dessins, des peintures, des<lb facs="P14_TL00005"/>projets pour cretonnes, batiks, etc., des tapis, coussins, dentelles, broderies,<lb facs="P14_TL00006"/>etc., exécutés par les élèves des Académies des Beaux-Arts de Bruges, Cour<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P14_TL00007"/>trai, Louvain, Mons, Saint-Gilles, Anvers, Gand, Liège, de nos écoles d'art ou<lb facs="P14_TL00008"/>de nos écoles professionnelles.<lb facs="P14_TL00009"/>Cette section a son importance puisqu'il s'agit de mettre de la beauté<lb facs="P14_TL00010"/>partout et surtout de donner enfin aux arts dits mineurs une place pré<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P14_TL00011"/>pondérante.<lb facs="P14_TL00012"/>Longtemps ces arts ont été dédaignés au profit de ce que l'on appelait<lb facs="P14_TL00013"/>le Grand Art. Aujourd'hui grâce à l'exposition de Paris, justice sera rendue<lb facs="P14_TL00014"/>à l'effort vigoureux qui a été fourni par nos écoles d'art. Il reste certes<lb facs="P14_TL00015"/>beaucoup à faire. Fatalement les vieilles méthodes sont appliquées dans nos<lb facs="P14_TL00016"/>Académies. Mais déjà un renouveau s'annonce. Quelques artistes «nouveaux»<lb facs="P14_TL00017"/>espèrent les guider dans la voie des réalisations nettement délivrées du passé.<lb facs="P14_TL00018"/>Les arts du théâtre étaient représentés par trois réalisations. Des décors<lb facs="P14_TL00019"/>pour la pièce « Hemel op Aarde », de M. De Meester ne manquent pas<lb facs="P14_TL00020"/>d'originalité; enfin les scènes, celle du « Vlaamsche Volks Tooneel », par<lb facs="P14_TL00021"/>MM. De Meester et René Moulaert et ta scène tournante de M. Van Vlaen<pc type="endhypen" pre="false">-</pc>
@@ -1536,66 +1555,40 @@
                   </div>
                   <div type="TextContent" corresp="c029">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P31_TB00003">
+                        <ab facs="P31_TB00003">
                            <lb facs="P31_TL00003"/>NOS PLANCHES</ab>
                      </div>
                      <div type="Illustration" corresp="c030">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00001">
+                           <ab facs="P35_TB00001">
                               <lb facs="P35_TL00001"/>PLANCHE XVII</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00002">
+                           <ab facs="P35_TB00002">
                               <lb facs="P35_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00003">
+                           <ab facs="P35_TB00003">
                               <lb facs="P35_TL00003"/>APPARTEMENT TRANSFORMABLE</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00005">
+                           <ab facs="P35_TB00005">
                               <lb facs="P35_TL00005"/>Auteur : Albert Van Huffel, Architecte.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00004">
+                           <ab facs="P35_TB00004">
                               <lb facs="P35_TL00004"/>Elditeur : Maison Ch. Rosel, à Bruxelles.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P35_TB00006">
+                           <ab facs="P35_TB00006">
                               <lb facs="P35_TL00006"/>Supplément à la Revue « La Cité », Ve année. N° 11.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c031">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00001">
+                           <ab facs="P38_TB00001">
                               <lb facs="P38_TL00001"/>PLANCHE XVIII</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00002">
+                           <ab facs="P38_TB00002">
                               <lb facs="P38_TL00002"/>EXPOSITION INTERNATIONALE DES ARTS DECORATIFS MODERNES A PARIS</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00003">
+                           <ab facs="P38_TB00003">
                               <lb facs="P38_TL00003"/>APPARTEMENT TRANSFORMABLE</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00004">
+                           <ab facs="P38_TB00004">
                               <lb facs="P38_TL00004"/>Auteur : Albert Van Huffel, Architecte.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00005">
+                           <ab facs="P38_TB00005">
                               <lb facs="P38_TL00005"/>Editeur : Maison Ch. Rosel, à Bruxelles.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P38_TB00006">
+                           <ab facs="P38_TB00006">
                               <lb facs="P38_TL00006"/>Supplément à la Revue « La Cité », Ve année. N° 11.</ab>
                         </div>
                      </div>
@@ -1605,73 +1598,53 @@
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P31_TB00004">
+                              <ab facs="P31_TB00004">
                                  <lb facs="P31_TL00004"/>PLANCHES I, II, III, IV.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P31_TB00005">
+                                 <ab facs="P31_TB00005">
                                     <lb facs="P31_TL00005"/>LE PAVILLON D'HONNEUR DE LA BELGIQUE. ARCHITECTE : VICTOR HORTA.<lb facs="P31_TL00006"/>Nous renvoyons nos lecteurs à la description détaillée du pavillon<lb facs="P31_TL00007"/>d'Honneur que nous avons publiée en tête de ces pages.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P31_TB00006">
+                              <ab facs="P31_TB00006">
                                  <lb facs="P31_TL00008"/>PLANCHE IV.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P31_TB00007">
+                                 <ab facs="P31_TB00007">
                                     <lb facs="P31_TL00009"/>GROUPE DÉCORATIF : LES JOIES DU PRINTEMPS. EUGÈNE CANNEEL, STATUAIRE.<lb facs="P31_TL00010"/>Si nous reproduisons cette oeuvre, c'est pour caractériser la manière dont<lb facs="P31_TL00011"/>notre statuaire belge était représentée à l'Exposition de Paris. Le réalisme mou<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P31_TL00012"/>vementé et le charme de ce groupe d'aimables bambins avaient conquis les<lb facs="P31_TL00013"/>organisateurs de l'Exposition de Paris au point qu'ils lui avaient réservé une<lb facs="P31_TL00014"/>place de choix dans les jardins du commissariat général français.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P31_TB00008">
+                              <ab facs="P31_TB00008">
                                  <lb facs="P31_TL00015"/>PLANCHE V.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P31_TB00009">
+                                 <ab facs="P31_TB00009">
                                     <lb facs="P31_TL00016"/>LA BARQUE DE L'IDÉAL, par C. MONTALD.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P31_TB00010">
+                              <ab facs="P31_TB00010">
                                  <lb facs="P31_TL00017"/>PLANCHE VI.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P31_TB00011">
+                                 <ab facs="P31_TB00011">
                                     <lb facs="P31_TL00018"/>TAPISSERIE de Mlle F. DUBOIS, d'après l'œuvre de C. MONTALD.<lb facs="P31_TL00019"/>Dans le pavillon d'honneur de la Belgique se retrouvaient des oeuvres de<lb facs="P31_TL00020"/>tendance analogue. C'est ainsi qu'y figuraient, comme complément direct dti<lb facs="P31_TL00021"/>cadre architectural, les compositions décoratives du peintre C. Montald. L'une<lb facs="P31_TL00022"/>d'elles était interprétée en haute lisse par Mlle Fernande Dubois, qui, dit-on,<lb facs="P31_TL00023"/>y a consacré douze années d'un patient labeur. Espérons que cette oeuvre<lb facs="P31_TL00024"/>incontestablement fort habile coopérera à la renaissance d'un art qui fit<lb facs="P31_TL00025"/>autrefois la renommée de nos provinces brabançonnes.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P31_TB00012">
+                              <ab facs="P31_TB00012">
                                  <lb facs="P31_TL00026"/>PLANCHES VII, VIII, IX, X.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P31_TB00013">
+                                 <ab facs="P31_TB00013">
                                     <lb facs="P31_TL00027"/>ENSEMBLE : « GIOCONDA », SALLE A MANGER. AUTEUR : PHILIPPE WOLFERS,<lb facs="P31_TL00028"/>statuaire, à Bruxelles.<lb facs="P31_TL00029"/>C'est dans le pavillon d'honneur que se trouvait cet ensemble important.<lb facs="P31_TL00030"/>Son auteur, M. Philippe Wolfeirs, en avait conçu tous les éléments, depuis la<lb facs="P31_TL00031"/>disposition architecturale de la salle jusqu'aux moindres objets qui en com<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P31_TL00032"/>plétaient le mobilier, tels que céramiques, orfèvreries, napperons, etc. Il<lb facs="P31_TL00033"/>réussit à laisser en chacun d'eux l'empreinte de sa personnalité au point que<lb facs="P31_TL00034"/>cet ensemble avait un caractère d'homogénéité rarement atteint.<lb facs="P31_TL00035"/>Un lambrissa ge complet en marbre port or ou vert antique fournissait<lb facs="P31_TL00036"/>à ces objets un cadre d'une éblouissante richesse.<lb facs="P31_TL00037"/>M. Wolfers sut réunir une pléiade d'artisans habiles et capables de réali<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P31_TL00038"/>ser avec une intelligente compréhension ses études, plans et épures. Signalons<lb facs="P31_TL00039"/>les noms du peintre verrier Colpaert qui interpréta un carton d'Anto Carte, la</ab>
@@ -1679,25 +1652,19 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P32_TB00003">
+                                 <ab facs="P32_TB00003">
                                     <lb facs="P32_TL00003"/>Maison Wolfers frères, de Bruxelles, qui exécuta les argenteries, les cristalleries<lb facs="P32_TL00004"/>du Val Saint-Lambertj et la firme « Keramis », de La Louvière, qui fabri<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P32_TL00005"/>quèrent les objets en cristal et en céramique, la firme Boin-Moyersoen, de Bru<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P32_TL00006"/>xellesf qui réalisa les appareils d'éclairage. Une mention spéciale revient à<lb facs="P32_TL00007"/>Mme Hulpiau-Van Witberghe, de Courtrai, qui édita avec une perfection<lb facs="P32_TL00008"/>technique remarquable et une abondante richesse de tons les moelleux tapis de<lb facs="P32_TL00009"/>cette somptueuse salle à manger dont les meubles furent fabriqués par l'a<lb facs="P32_TL00010"/>Comagnie des Arts : Poppe et Cie.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P32_TB00004">
+                              <ab facs="P32_TB00004">
                                  <lb facs="P32_TL00011"/>PLANCHES XI, XIL.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P32_TB00005">
+                                 <ab facs="P32_TB00005">
                                     <lb facs="P32_TL00012"/>SALLE COMMUNE FLAMANDE. ATELIERS D'ART DE COURTRAI. DE COENE FRÈRES.<lb facs="P32_TL00013"/>Les « Ateliers d'Art » des fier es de Coene à Courtrai sont trop connus,<lb facs="P32_TL00014"/>pour que nous insistions longuement sur la place de premier rang que cette<lb facs="P32_TL00015"/>entreprise a conquise parmi les industries d'art de notre pays. Ces formidables<lb facs="P32_TL00016"/>ateliers, fondés en 1900, occupent aujourd'hui 1,200 artisans et ouvriers<lb facs="P32_TL00017"/>pratiquant 36 corps de métier distincts. Ils n'ont rien à envier comme orga<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P32_TL00018"/>nisation technique, comme qualité de travail, aux « Werkstatte » et autres<lb facs="P32_TL00019"/>centres d'art industriel de l'étranger; ils constituent un exemple magnifique de<lb facs="P32_TL00020"/>l'essor que peut donner à une industrie le renouveau des idées. Les ateliers<lb facs="P32_TL00021"/>de Coene furent en effet, lors de leur création, à l'avant-garde de la rénova<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P32_TL00022"/>tion artistique en notre pays et leurs ateliers, qui constituent à présent encore<lb facs="P32_TL00023"/>la plus précieuse des écoles d'apprentissage de la technique des arts appliqués,<lb facs="P32_TL00024"/>furent une véritable pépinière d'artistes novateurs. D'aucuns regrettent que<lb facs="P32_TL00025"/>ce centre puissant de production se soit cristallisé dans une formule d'art,<lb facs="P32_TL00026"/>toujours à la mode auprès du grand public, mais que les créateurs d'avant<pc type="endhypen" pre="false">-</pc>
@@ -1707,25 +1674,19 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P33_TB00003">
+                                 <ab facs="P33_TB00003">
                                     <lb facs="P33_TL00003"/>du critique cité plus haut lorsqu'il loue les qualités techniques, la perfection<lb facs="P33_TL00004"/>d'exécution, l'effet somptueux de cette production des Ateliers d'Art de<lb facs="P33_TL00005"/>Courtrai.<lb facs="P33_TL00006"/>Voici la descriptoni qu'il en donne dans la Revue française<lb facs="P33_TL00007"/>« L'lllustration » :<lb facs="P33_TL00008"/>« La salle commune flamande des frères de Coene, de Courtrai, est une<lb facs="P33_TL00009"/>œuvre de premier ordre. On ne saurait traduire sur le papier l'impression de<lb facs="P33_TL00010"/>richesse paisible, assurée d'elle-même, ennemie du factice, que sa somptueuse<lb facs="P33_TL00011"/>simplicité dégage.<lb facs="P33_TL00012"/>» La pelouse épaisse d'un tapis de haute laine, de fond vert, largement<lb facs="P33_TL00013"/>dessiné, d'une inspiration pleine de ressources, recouvre le parquet. Aux<lb facs="P33_TL00014"/>murs, des revêtements de palissandre. La table, longue, massive, d'une puis<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P33_TL00015"/>sance à défier le travail de désagrégation des siècles, le dressoir bas, douce<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P33_TL00016"/>ment renflé en son centre estampé de bronze, un guéridon placé plus loin<lb facs="P33_TL00017"/>devant la haute cheminée de marbre vert, majestueuse comme un autel de<lb facs="P33_TL00018"/>cathédrale, sont de palissandre aussi, mais d'un palissandre plus clair. Une<lb facs="P33_TL00019"/>large porte trapue, de fer ouvragé, et vitrée, ouvre sur une vérandah qu'on<lb facs="P33_TL00020"/>devine; elle est rehaussée sur chacun de ses quatre volets d'un fin panneau<lb facs="P33_TL00021"/>de bronze.<lb facs="P33_TL00022"/>L'éclat moelleux d'un velours écariate chante au milieu du bois grave<lb facs="P33_TL00023"/>d'un canapé énorme, large, magnifique, où l'on sent que le repos doit être<lb facs="P33_TL00024"/>bon, la rêverie douce, la causerie charmante. Un cuir de même teinte, d'un<lb facs="P33_TL00025"/>rouge d'une vivacité mesurée, revêt les fauteuils profonds, faits pour encadrer<lb facs="P33_TL00026"/>les corps las. Il habille aussi les chaises élégantes et robustes, au dossier<lb facs="P33_TL00027"/>arrondi comme un bras ami en un geste d'accueil.<lb facs="P33_TL00028"/>Chacun de ces meubles, jusqu'au tapis, jusqu'aux lustres de cuivre qui<lb facs="P33_TL00029"/>éclairent doucement l'ensemble, sort des Ateliers d'Art de Courtrai. »<lb facs="P33_TL00030"/>Ajoutons que ce bel ensemble a pour auteurs MM. J. et A. de Coene<lb facs="P33_TL00031"/>eux-mêmes et leur beau-frère M. A. De Leu, de Courtrai, secondés par deux<lb facs="P33_TL00032"/>artistes de talent : le sculpteur Géo Verbanck, de Gand, et le peintre<lb facs="P33_TL00033"/>A. Saverys, de Deynze, et par les maîtres dessinateurs Karl Noppe, L. Malfait.<lb facs="P33_TL00034"/>Géo Windels, des Ateliers d'Art.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P33_TB00004">
+                              <ab facs="P33_TB00004">
                                  <lb facs="P33_TL00035"/>PLANCHE XIII.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P33_TB00005">
+                                 <ab facs="P33_TB00005">
                                     <lb facs="P33_TL00036"/>LA BOUTIQUE. COLLECTIVITÉ DE LA SOCIÉTÉ NATIONALE DES ARTS DÉCORATIFS.<lb facs="P33_TL00037"/>AUTEURS : PAUL HAMESSE ET FRÈRES, ARCHITECTES. EDITEUR : COM<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P33_TL00038"/>PAGNIE DES ARTS (POPPE ET Cie), BRUXELLES.<lb facs="P33_TL00039"/>La Société Nationale des Arts Décoratifs aux destinées de laquelle pré<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P33_TL00040"/>side le très actif directeur de l'lnstitut provincial des Arts et Métiers de Saint-<lb facs="P33_TL00041"/>Ghislain, M. Marius Renard, avait chargé] les architectes P. Hamesse et frères<lb facs="P33_TL00042"/>de construire une boutique dans laquelle les travaux des membres, de cette</ab>
@@ -1733,23 +1694,17 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P34_TB00003">
+                                 <ab facs="P34_TB00003">
                                     <lb facs="P34_TL00003"/>Société pouvaient trouver place. « Bien vivante, cette boutique d'art a le<lb facs="P34_TL00004"/>mérite rare de grouper harmonieusement les oeuvres les plus disparates dans<lb facs="P34_TL00005"/>un cadre choisi aidant à leur mise en valeur ». C'est ainsi que s'exprime au<lb facs="P34_TL00006"/>sujet de cette œuvre un des rédacteurs de « L'Emulation », qui souligne que<lb facs="P34_TL00007"/>ce stand fut exécuté en matériaux définitifs : marbres, acajou, glaces et<lb facs="P34_TL00008"/>vitraux. *</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P34_TB00004">
+                              <ab facs="P34_TB00004">
                                  <lb facs="P34_TL00009"/>PLANCHE XIV.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P34_TB00005">
+                                 <ab facs="P34_TB00005">
                                     <lb facs="P34_TL00010"/>BUREAU - FUMOIR - BIBLIOTHÈQUE, par HUIB. HOSTE et VICTOR SERVRANCKX.<lb facs="P34_TL00011"/>EDITEUR : « HET BINNENHUIS », ROULERS.<lb facs="P34_TL00012"/>Si bien des œuvres figurant dans ce numéro spécial de « La Cité »<lb facs="P34_TL00013"/>s'écartent du programme habituel de cette Revue, nous n'en sommes que plus<lb facs="P34_TL00014"/>heureux de pouvoir reproduire l'intérieur créé pour l'Exposition de Paris, par<lb facs="P34_TL00015"/>l'architecte brugeois Huib. Hoste en collaboration avec Victor Servranckx, un<lb facs="P34_TL00016"/>des chefs de file de l'école belge de peinture néo-plastique.<lb facs="P34_TL00017"/>Ici nous sommes à Y avant-garde du mouvement moderniste. Simplicité<lb facs="P34_TL00018"/>de conception, abandon de toute recherche romantique, de tout caprice de<lb facs="P34_TL00019"/>la mode et surtout des mauvaises habitudes. Mais en plus équilibre des<lb facs="P34_TL00020"/>volumes, rythme des surfaces planes dont le mobilier amène tout naturelle<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P34_TL00021"/>ment l'a mise en évidence. Rythme également des surfaces colorées dont les<lb facs="P34_TL00022"/>tons et les contrastes sont des plus heureux.<lb facs="P34_TL00023"/>Cet intérieur, dénué de toute caresse ornementale, réalise une harmonie<lb facs="P34_TL00024"/>d'un autre ordre qui constitue, une véritable délectation pour l'esprit; il y<lb facs="P34_TL00025"/>trouve la tranquillité et le repos indispensables dans une chambre de travail<lb facs="P34_TL00026"/>ou de conversation.<lb facs="P34_TL00027"/>Une autre caractéristique de cet intérieur c'est que tout esprit indivi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P34_TL00028"/>dualiste en a été banni. MM. Hoste et Servranckx son parvenus de la sorte<lb facs="P34_TL00029"/>à créer un ensemble fonctionnel et organique dont chaque organe correspond<lb facs="P34_TL00030"/>si parfaitement à la fonction qu'il remplit dans l'ensemble, qu'il paraît être<lb facs="P34_TL00031"/>impossible d'enlever un seul de ces éléments ou d'en changer la forme.<lb facs="P34_TL00032"/>Il est intéressant constater combien ce mobilier si peu individuel<lb facs="P34_TL00033"/>s'harmonise parfaitement avec notre physionomie et notre vie moderne. Nos<lb facs="P34_TL00034"/>instruments de travail, telle la machine à écrire, les compléments inévitables<lb facs="P34_TL00035"/>de notre vie domestique, tel le radiateur à ailettes, s'y adaptent et le complè<pc type="endhypen" pre="false">-</pc>
@@ -1758,37 +1713,27 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P36_TB00003">
+                                 <ab facs="P36_TB00003">
                                     <lb facs="P36_TL00003"/>la Foire parisienne. Aussi le mobilier exposé par le « Binnenhuis » est-il<lb facs="P36_TL00004"/>franchement et sainement moderne.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P36_TB00004">
+                              <ab facs="P36_TB00004">
                                  <lb facs="P36_TL00005"/>PLANCHE XVI.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P36_TB00005">
+                                 <ab facs="P36_TB00005">
                                     <lb facs="P36_TL00006"/>PORTE EN FER FORGÉ. AUTEUR ET ÉDITEUR : F. ALEXANDRE, A BRUXELLES.<lb facs="P36_TL00007"/>Nos ferronniers sont célèbres pour leur virtuosité qui les porte souvent<lb facs="P36_TL00008"/>à méconnaître les exigences de la matière qu'ils œuvrent. M. Alexandre avait<lb facs="P36_TL00009"/>tenu à faire montre de l'habileté de ses ateliers et c'est de ce point de vue<lb facs="P36_TL00010"/>qu'il faut apprécier l'effort qu'il avait fait pour maintenir à Paris la renommée<lb facs="P36_TL00011"/>d'une industrie qui aurait pu être plus largement représentée.<lb facs="P36_TL00012"/>PORTE EN FER FORGE. LACOSTE, TOURNAI.<lb facs="P36_TL00013"/>Cette porte était destinée au studio d'un ferronnier. MM. Lacoste avaient<lb facs="P36_TL00014"/>cru lui donner plus d'originalité en empruntant au métier de la forge un décor<lb facs="P36_TL00015"/>dont le symbolisme se traduit comme suit :<lb facs="P36_TL00016"/>« En son milieu, un fer rouge maintenu sur la table de l'enclume par une<lb facs="P36_TL00017"/>tenaille dont les branches se composent avec les diagonales du panneau; de<lb facs="P36_TL00018"/>part et d'autref profilée sur les bigornes, la silhouette d'un marteau au manche<lb facs="P36_TL00019"/>enchâssé dans la bordure décorative. Sous l'enclume, le billot de bois se trouve<lb facs="P36_TL00020"/>traduit ici par des jeux contrariés de petits fers, ingénieux emprunt à ces<lb facs="P36_TL00021"/>frettes de métrai qui, habituellement, l'entourent et le consolident. Toute cette<lb facs="P36_TL00022"/>page s'inscrit dans une bordure ornementale dont le motif est formé de<lb facs="P36_TL00023"/>compas d'épaisseur entrelacés. Leurs branches enserrent des barrettes de fer<lb facs="P36_TL00024"/>incandescent, broderie noire et cerise du plus somptueux effet ».<lb facs="P36_TL00025"/>Voilà, pour le moins, de l'art décoratif symbolique!</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P36_TB00006">
+                              <ab facs="P36_TB00006">
                                  <lb facs="P36_TL00026"/>PLANCHE XV.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P36_TB00007">
+                                 <ab facs="P36_TB00007">
                                     <lb facs="P36_TL00027"/>« KEMOUS », d'après un carton de ALBERT VAN HuFFEL, architecte. Tapis d'Art<lb facs="P36_TL00028"/>DE SAEDELEER ET Cie.<lb facs="P36_TL00029"/>La Société des Tapis d'Art De Saedeleer et Cie eut! des débuts modestes:<lb facs="P36_TL00030"/>ils se résument dans l'apprentissage que firent les filles du peintre flamand<lb facs="P36_TL00031"/>De Saedeleer durant la guerre, au Pays de Galles, de la technique délicate<lb facs="P36_TL00032"/>du tapis haute laine, point noué à la main. Ce qui fut d'abord un passe-temps<lb facs="P36_TL00033"/>aimable devint une industrie : les ateliers se développèrent, puis se complé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P36_TL00034"/>tèrent par la teinture des laines et amélioration de leur production.<lb facs="P36_TL00035"/>Aujourd'hui la Société des Tapis d'Art De Saedeleer est célèbre en<lb facs="P36_TL00036"/>Belgique et à l'étranger, non pas à cause de son importance productive qui<lb facs="P36_TL00037"/>reste limitée à des séries peu nombreuses, mais pour la qualité artistique des<lb facs="P36_TL00038"/>œuvres qu'elle produit. Les expositions qu'elle organise sont visitées avec le<lb facs="P36_TL00039"/>même intérêt que celles de nos meilleurs peintres, et constituent pour les yeux<lb facs="P36_TL00040"/>et le sens plastique une source de contentement rarement égalée.<lb facs="P36_TL00041"/>Ce niveau artistique est sans doute dû au fait que malgré que les diri<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P36_TL00042"/>geants de la Société des Tapis d'Art de Sadeleer aient eux-mêmes créé des</ab>
@@ -1796,33 +1741,25 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P37_TB00003">
+                                 <ab facs="P37_TB00003">
                                     <lb facs="P37_TL00003"/>cartons fort intéressants, ils ont tenu à faire néanmoins appel à une phalange<lb facs="P37_TL00004"/>nombreuses d'artistes peintres et constructeurs. Pour ma part, je<lb facs="P37_TL00005"/>le crois volontiers, car c'est la collaboration artistique si multiple qui donne à<lb facs="P37_TL00006"/>cette industrie une vitalité peu commune et lui assure une richesse d'idées, qui<lb facs="P37_TL00007"/>facilitera les recherches vers une technique définitive.<lb facs="P37_TL00008"/>Dois-je avouer que dans cette variété d'œuvres, ce sont les tableaux inter<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P37_TL00009"/>prétés en laine qui me plaisent le moins, et qu'il semble bien que c'est aux<lb facs="P37_TL00010"/>constructeurs, aux architectes qu'appartiendra de fixer la voie définitive de<lb facs="P37_TL00011"/>cette nouvelle industrie.<lb facs="P37_TL00012"/>L'architecte Albert Van Huffel semble être le plus compétent et le plus<lb facs="P37_TL00013"/>savant de nos « cartonniers » modernes. C'est à lui que la Société des Tapis<lb facs="P37_TL00014"/>d'Art De Saedeleer et Cie avait fait appel pour sa participation à l'Exposition<lb facs="P37_TL00015"/>des Arts Décoratifs de Paris.<lb facs="P37_TL00016"/>La carpette que nous reproduisons est d'une composition hardie. Elle<lb facs="P37_TL00017"/>ligure ces lueurs irisées que les « Remous » font naître à la surface des eaux<lb facs="P37_TL00018"/>lorsqu'ils y tracent ces lignes brillantes qui se jouent comme des serpents<lb facs="P37_TL00019"/>lumineux au sommet des vagues, et qui contrastent avec les teintes foncées<lb facs="P37_TL00020"/>des replis qui les séparent. Cette idée se trouve clairement exprimée par un<lb facs="P37_TL00021"/>dessin purement géométrique dont le caractère « expressionniste » est d'une<lb facs="P37_TL00022"/>noble sévérité,<lb facs="P37_TL00023"/>La reproduction des « Remous » ne permet malheureusement pas de se<lb facs="P37_TL00024"/>lendte compte des effets de transparence si ingénieusement obtenus par la<lb facs="P37_TL00025"/>juxtaposition raffinée des tons, grâce à laquelle les champs mobiles d'un<lb facs="P37_TL00026"/>dessin expressionniste prenaient des reflets de nacre.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P37_TB00004">
+                              <ab facs="P37_TB00004">
                                  <lb facs="P37_TL00027"/>PLANCHES XVII ET XVIII.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P37_TB00005">
+                                 <ab facs="P37_TB00005">
                                     <lb facs="P37_TL00028"/>APPARTEMENT TRANSFORMABLE. AUTEUR ; ALBERT VAN HUFFEL, architecte à<lb facs="P37_TL00029"/>Bruxelles. Editeur : Maison CH. ROSEL, 239, rue Royale, Bruxelles.<lb facs="P37_TL00030"/>M. Ch. Rosel s'était appliqué presqu'exclusivement jusqu'en ces derniers<lb facs="P37_TL00031"/>temps à la fabrication du meuble de style. Ce faisant, il ne s'efforçait pas <lb facs="P37_TL00032"/>en recourant à des procédés faciles de tromper les amateurs sur l'âge des<lb facs="P37_TL00033"/>objets qui leur étaient efforts en vente. Il s'appliquait, au contraire, à égaler<lb facs="P37_TL00034"/>les probes artisans d'autrefois par une exécution parfaite et une mise en oeuvre<lb facs="P37_TL00035"/>d'une sincérité inconnue dans le monde de la brocante. Cet honnête homme,<lb facs="P37_TL00036"/>au sens du XVIIe siècle, aurait eu plus de droits que tout autre à s'abstenir<lb facs="P37_TL00037"/>de prendre part à une exposition d'art « moderne ».<lb facs="P37_TL00038"/>Si c'était pour lui un mérite d'y figurer, c'en était un autre de s'y pré<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P37_TL00039"/>senter avec un programme qui ne rappelle pas le temps de nos aïeux. M. Rosel<lb facs="P37_TL00040"/>a voulu, en effet, montrer à Paris un « appartement transformable », idée<lb facs="P37_TL00041"/>ingénieuse en notre temps de loyers chers, d'appartements exigus et de vie<lb facs="P37_TL00042"/>intense qui nous habitue au... wagon-lit !</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P39_TB00003">
+                                 <ab facs="P39_TB00003">
                                     <lb facs="P39_TL00003"/>Le « Sitting-Room », de la Maison Rosel, salon spacieux et confortable,<lb facs="P39_TL00004"/>peut, en un clin d'oeil se transformer en chambre à coucher... non moini<lb facs="P39_TL00005"/>confortable! Pour réaliser cette tranfsormation magique, il suffit d'ouvrir<lb facs="P39_TL00006"/>deux grands panneaux d'une des parois de fond du salon et d'abaisser le lit<lb facs="P39_TL00007"/>complet et moelleux que le panneau de gauche dérobait. Une suspension<lb facs="P39_TL00008"/>savante avec contrepoids permet de réaliser cette manœuvre des plus aisé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P39_TL00009"/>ment. Le panneau de droite en pivotant ramène dans la chambre devenue à<lb facs="P39_TL00010"/>coucher une armoire à lingerie, « cependant dit la notice à laquelle nous<lb facs="P39_TL00011"/>empruntons ces lignes que par la brèche ainsi faite, l'espace tantôt caché<lb facs="P39_TL00012"/>occupé par les meubles se trouve apparaître salle de bain prête à<lb facs="P39_TL00013"/>fonctionner et cabinet de toilette «: en attente » de l'heureux locataire ».<lb facs="P39_TL00014"/>Aux mérites d'avoir eu cette idée et de l'avoir fait connaître à Paris,<lb facs="P39_TL00015"/>M. Rosel ajoute celui plus grand encore de s'être adressé en vue de<lb facs="P39_TL00016"/>sa réalisation technique et esthétique à l'un de nos plus éminents artistes, à<lb facs="P39_TL00017"/>l'un de nos plus savants décorateurs, l'architecte Albert Van Huffel.<lb facs="P39_TL00018"/>Il a réalisé de la sorte cette union entre les industriels et les artistes<lb facs="P39_TL00019"/>novateurs, que hélas! les organisateurs de la Participation Belge se)<lb facs="P39_TL00020"/>sont si peu appliqués d'assurer.<lb facs="P39_TL00021"/>Nous ne nous étendrons pas ici sur les mérites de cette oeuvre que nous<lb facs="P39_TL00022"/>espérons bien pouvoir un jour reproduire dans tous ses détails.<lb facs="P39_TL00023"/>Signalons seulement que la préoccupation dominante de l'artiste avait<lb facs="P39_TL00024"/>été de créer un ensemble de caractère tranquille et modeste, qui, malgré la<lb facs="P39_TL00025"/>richesse et le fini des matériaux, reste intime et habitable. On y trouvait en<lb facs="P39_TL00026"/>nombre des détails fort beaux et d'un grand raffinement; mais ils étaient si<lb facs="P39_TL00027"/>parfaitement en place qu'ils passaient pour ainsi dire inaperçus dans l'ensemble.<lb facs="P39_TL00028"/>L'œuvre de Van Huffel contrastait avantageusement avec nombre de mobi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P39_TL00029"/>liers tapageurs et de mauvais aloi.<lb facs="P39_TL00030"/>Le stand de la Maison Rosel fut mis « Hors Concours » par suite des<lb facs="P39_TL00031"/>titres officiels de son auteur et de son éditeur.<lb facs="P39_TL00032"/>Il n'en retint pas moins très vivement l'attention du Juiry International<lb facs="P39_TL00033"/>chargé de distribuer les récompenses. Nous n'en voulons d'autre preuve que<lb facs="P39_TL00034"/>la lettre que M. André Ventre, architecte en chef des Monuments Historiques,<lb facs="P39_TL00035"/>adressa à M. Rosel, et dont nous croyons intéressant d'extraire un passage<lb facs="P39_TL00036"/>qui servira de conclusion à notre trop succinct compte rendu.<lb facs="P39_TL00037"/>« Vous avez bien voulu me démander mon avis sur l'installation de<lb facs="P39_TL00038"/>» chambre transformable que vous avez exposée à la section des ensembles<lb facs="P39_TL00039"/>» mobiliers à l'Exposition des Arts Décoratifs.<lb facs="P39_TL00040"/>» C'est avec plaisir que je vous donne ici, non seulement mon opinion<lb facs="P39_TL00041"/>» personnelle, mais celle des 19 architectes composant le Jury International<lb facs="P39_TL00042"/>» des récompenses de la classe I, Architecture- Nous considérons que vos<lb facs="P39_TL00043"/>» recherches correspondent admirablement aux nécessités de notre époque et</ab>
@@ -1830,18 +1767,14 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P40_TB00003">
+                                 <ab facs="P40_TB00003">
                                     <lb facs="P40_TL00003"/>» qu'elles apportent une solution pratique au problème si complexe de l'habi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P40_TL00004"/>» tation, en donnant un maximum de confort dans un minimum de surface.<lb facs="P40_TL00005"/>» L'ingéniosité du système permet de rappliquer à tous les cas et nous en<lb facs="P40_TL00006"/>» voyons l'utilisation aussi bien dans les habitations ouvrières que dans les<lb facs="P40_TL00007"/>» appartements bourgeois. Il permet de doubler le coefficient d'habitabilité<lb facs="P40_TL00008"/>» puisqu'on peut installer dans une surface donnée le mobilier nécessaire à<lb facs="P40_TL00009"/>» une affectation de jour et de nuit. C'est ainsi que dans un appartement de<lb facs="P40_TL00010"/>» famille aisée, on peut trouver le salon, cabinet de travail, la salle à manger,<lb facs="P40_TL00011"/>» chambre de secours, la chambre à coucher, cabinet de toilette, boudoir, la<lb facs="P40_TL00012"/>» chambre toilette, studio pour jeunes! gens, la chambre toilette, salle de<lb facs="P40_TL00013"/>» musique pour jeunes filles, etc.<lb facs="P40_TL00014"/>« Dans une habitation ouvrière, votre combinaison permet de supprimer<lb facs="P40_TL00015"/>» une partie importante du mobilier familial qui encombre bien inutilement<lb facs="P40_TL00016"/>» la surface restreinte et constitue d'ailleurs une lourde charge pour les<lb facs="P40_TL00017"/>» familles ouvrières; on trouvera en l'utilisant la possibilité de faire vivre<lb facs="P40_TL00018"/>» confortablement une famille de 7 personnes dans trois pièces et une cuisine:<lb facs="P40_TL00019"/>» 1. salle à manger, toilette, chambre de deux garçons; 2. atelier, toilette,<lb facs="P40_TL00020"/>» chambre pour deux jeunes filles; 3. chambre des parents, toilette, lingerie,<lb facs="P40_TL00021"/>» chambre pour un enfant en bas âge; le tout dans une surface de 60 m 2.<lb facs="P40_TL00022"/>» Grâce à votre système, une partie du grave problème de l'habitation<lb facs="P40_TL00023"/>» se trouve résolue, puisqu'il permet, ou de diminuer de moitié la surface à<lb facs="P40_TL00024"/>» bâtir ou de doubler l'habitablité d'une surface construite.<lb facs="P40_TL00025"/>» Je suis heureux de pouvoir vous déclarer que nous avons considéré<lb facs="P40_TL00026"/>» votre exposition comme la chose la plus intéressante ».<lb facs="P40_TL00027"/>On ne saurait donner meilleur encouragement aux efforts faits par notre<lb facs="P40_TL00028"/>industrie nationale pour résoudre un des problèmes de la vie moderne.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P40_TB00004">
+                                 <ab facs="P40_TB00004">
                                     <lb facs="P40_TL00029"/>L'ABONDANCE DES MATIERES NOUS OBLIGE A REPORTER A NOTRE PROCHAIN NUMERO<lb facs="P40_TL00030"/>LA PUBLICATION DE LA SUITE DES PLANCHES ET DE LEUR COMMENTAIRE.<lb facs="P40_TL00031"/>LE PRESENT NUMERO RENFERME DIX-HUIT PLANCHES HORS-TEXTE</ab>
                               </div>
                            </div>
@@ -1853,9 +1786,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P41_TB00001">
+                                 <ab facs="P41_TB00001">
                                     <lb facs="P41_TL00001"/>PRIX DE L'ABONNEMENT A LA SIXEME ANNEE DE *Ti£V*<lb facs="P41_TL00002"/>«LA CITE 25.00 30.00<lb facs="P41_TL00003"/>Tout nouvel abonné peut obtenir, à titre de prime :<lb facs="P41_TL00004"/>a) La 5e année de «La Cité », au prix réduit de . .... 10.00 12.50<lb facs="P41_TL00005"/>Les 3e et 4e années de «La Cité », au prix réduit de ... 5.00 7.50<lb facs="P41_TL00006"/>(Le prix en librairie est de 10 francs Belgique, 15 francs étranger),<lb facs="P41_TL00007"/>b) Le Cœur de la Ville de Bruxellest par Charles Buis, avec traduction d*une confé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P41_TL00008"/>rence de C. Giirlitt sur la « Conservation du cœur d'anciennes villes ». Une bro<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P41_TL00009"/>chure de 24 pages. (Prix en librairie : 2 francs.) ..... gratuit<lb facs="P41_TL00010"/>c) L'Abbaye de la Cambre, par G. des Marez. (Prix en librairie : fr. 1.50). . gratuit<lb facs="P41_TL00011"/>d) Paul Hankar (1859-1901), par Ch. Conrardy, et Raym. Thibaut. Une bro<pc type="endhypen" pre="false">-</pc>
@@ -1870,9 +1801,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P41_TB00002">
+                                 <ab facs="P41_TB00002">
                                     <lb facs="P41_TL00013"/>Editions " TEKHNÉ<lb facs="P41_TL00014"/>LA CITE. Première année. (Rare.) . fr. 20.<lb facs="P41_TL00015"/>Deuxième aimée. (Rare.) fr. 10.—<lb facs="P41_TL00016"/>L'Art et la Société, par H.-P. Berlage, architecte à Amsterdam. Tirés à part de la Revue<lb facs="P41_TL00017"/>« Art et Technique » (septembre 19 ! 3-février 1914). Un volume luxueusement im<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P41_TL00018"/>primé et illustré de 98 clichés fr. 20.<lb facs="P41_TL00019"/>Matériaux de substitution dans la construction de maisons, par J Seroen, architecte. Une<lb facs="P41_TL00020"/>brochure illustrée . # , fr. 2.<lb facs="P41_TL00021"/>L'habitation coloniale Sa construction au Congo Belge, par Gast. Boghemans. Une brochure<lb facs="P41_TL00022"/>de 20 pages abondamment illustrée • fr. 3.<lb facs="P41_TL00023"/>Constantin Meunier. L'historique de son monument au travail, par R. Thiry et G. Henr<lb facs="P41_TL00024"/>drickx. Une brochure illustrée , # fr. I.—<lb facs="P41_TL00025"/>L'Art des jardins et le nouveau jardin pittoresque, par Louis van der Swaelmen, architecte<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P41_TL00026"/>paysagiste t fr. I.<lb facs="P41_TL00027"/>LA REVUE « TEKHNE » Collection complète de la 2,m® année (1912-1913). Beau<lb facs="P41_TL00028"/>volume de 516 pages, sur papier couché, illustré de 250 clichés . . . . . fr. 15.<lb facs="P41_TL00029"/>Pour s'abonner à « La Cité » ou obtenir des livres, il suffit<lb facs="P41_TL00030"/>de verser, dans n'importe quel bureau des postes, au crédit du<lb facs="P41_TL00031"/>compte chèques postaux n° 166.21 Revue « La Cité », la somme<lb facs="P41_TL00032"/>due et d'inscrire sur le bulletin de versement le titre du livre et les<lb facs="P41_TL00033"/>nom et adresse du souscripteur.</ab>
@@ -1884,57 +1813,39 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c035">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P7_TB00001">
+                     <ab facs="P7_TB00001">
                         <lb facs="P7_TL00001"/>Carreaux Céramiques<lb facs="P7_TL00002"/>(unis masse pleine)<lb facs="P7_TL00003"/>PAVEMENTS<lb facs="P7_TL00004"/>REVETEMENTS<lb facs="P7_TL00005"/>CHEMINEES<lb facs="P7_TL00006"/>miiiiiiiiiiiii<lb facs="P7_TL00007"/>N.V. Tegelfabriek "Schiedam,,<lb facs="P7_TL00008"/>SCHIEDAM (HOLLANDE)<lb facs="P7_TL00009"/>WIIIIIIIHUII<lb facs="P7_TL00010"/>BUREAU DE VENTE :<lb facs="P7_TL00011"/>4, rue Léopold, Liège<lb facs="P7_TL00012"/>iiiiiiiiiiiiiiiiiiiiiiiiniitr</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c036">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P7_TB00002">
+                     <ab facs="P7_TB00002">
                         <lb facs="P7_TL00013"/>FERRONNERIE<lb facs="P7_TL00014"/>D'A RT<lb facs="P7_TL00015"/>F. ALEXANDRE<lb facs="P7_TL00016"/>Aven. Van Volxem<lb facs="P7_TL00017"/>= 264 =<lb facs="P7_TL00018"/>FORES T<lb facs="P7_TL00019"/>BRUXELLES<lb facs="P7_TL00020"/>Grilles - Rampes - Portes<lb facs="P7_TL00021"/>Balcons - Luminaires<lb facs="P7_TL00022"/>... Anciens &amp; Modernes ...</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c037">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P7_TB00003">
+                     <ab facs="P7_TB00003">
                         <lb facs="P7_TL00023"/>Meubles et Décoration<lb facs="P7_TL00024"/>Modernes<lb facs="P7_TL00025"/>Œ3<lb facs="P7_TL00026"/>BINNENHUIB<lb facs="P7_TL00027"/>s n.<lb facs="P7_TL00028"/>E<lb facs="P7_TL00029"/>tl<lb facs="P7_TL00030"/>FDULEFS<lb facs="P7_TL00031"/>Avenue de la Gare<lb facs="P7_TL00032"/>DIPLOME MÉDAILLE D'OR<lb facs="P7_TL00033"/>POUR<lb facs="P7_TL00034"/>ENSEMBLES . D'INTÉRIEUR<lb facs="P7_TL00035"/>A<lb facs="P7_TL00036"/>L'EXPOSITION DES ARTS<lb facs="P7_TL00037"/>DÉCORÂT IFS DE PARIS<lb facs="P7_TL00038"/>1925<lb facs="P7_TL00039"/>328</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c038">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P9_TB00001">
+                     <ab facs="P9_TB00001">
                         <lb facs="P9_TL00001"/>PEINTURE<lb facs="P9_TL00002"/>LES TRAVAUX DE PEiN T U R E que vous avez<lb facs="P9_TL00003"/>à faire exécuter ne seront faits à bas prix et<lb facs="P9_TL00004"/>en vous donnant toutes les garanties de soli-<lb facs="P9_TL00005"/>dité et de durée que si votre peintre emploie<lb facs="P9_TL00006"/>les produits de la maison - <lb facs="P9_TL00007"/>DE KEYN FRÈRES<lb facs="P9_TL00008"/>27, Rue aux Ohoux, 27, BRUXELLES<lb facs="P9_TL00009"/>Téléphones : 258.1 2-1 63,64<lb facs="P9_TL00010"/>ANVERS GAND<lb facs="P9_TL00011"/>Canal des Vieux Lions, 37-39, Avenue de la Cour. 1<lb facs="P9_TL00012"/>Tel. : 7477<lb facs="P9_TL00013"/>LIÈGE NAMUR<lb facs="P9_TL00014"/>Rue dee Guillemins, 59, 3, Rue Delvaux, 3<lb facs="P9_TL00015"/>Tél. : 7047 Tél. : 1220<lb facs="P9_TL00016"/>USINES :<lb facs="P9_TL00017"/>I 4? Impasse du Vernis, ANDERLECHT 13, Av. de l'lndependance, KOEKELBERG<lb facs="P9_TL00018"/>Tél.: 458,32 Tél.: 635,46<lb facs="P9_TL00019"/>Tournez ce feuillet pour en avoir la preuve.<lb facs="P9_TL00020"/>'</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c039">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P10_TB00001">
+                     <ab facs="P10_TB00001">
                         <lb facs="P10_TL00001"/>PARCE-QUE...^^<lb facs="P10_TL00002"/>La Maison DE KEYN Frères est;<lb facs="P10_TL00003"/>La plus ancienne firme Belge (fondée en 1840);<lb facs="P10_TL00004"/>La plus grande vente du pays (5 maisons de<lb facs="P10_TL00005"/>vente, 2 usines) ;<lb facs="P10_TL00006"/>è<lb facs="P10_TL00007"/>Fournissant aux plus bas prix (suppression de<lb facs="P10_TL00008"/>l'intermédiaire, vente directe du fabricant aux<lb facs="P10_TL00009"/>consommateurs) ;<lb facs="P10_TL00010"/>Ne livrant que des produits purs (certificats d'ana-<lb facs="P10_TL00011"/>lyse délivré sur demandé avectoute commande);<lb facs="P10_TL00012"/>La firme ne fournissant pas aux particuliers,<lb facs="P10_TL00013"/>s'adresser à un entrepreneur de peinture pour<lb facs="P10_TL00014"/>obtenir ses produits.<lb facs="P10_TL00015"/>Si votre peintre ne les emploie pas nous tenons à votre disposition des<lb facs="P10_TL00016"/>adresses de Patrons peintres sérieux dont les travaux vous donneront<lb facs="P10_TL00017"/>entière satisfaction.<lb facs="P10_TL00018"/>m<lb facs="P10_TL00019"/>os</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c040">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P42_TB00002">
+                     <ab facs="P42_TB00002">
                         <lb facs="P42_TL00002"/>Établissements F. BIVORT,M.CORNET 6C°<lb facs="P42_TL00003"/>U, rue Fossé aux Loups i 4 BRUXELLES<lb facs="P42_TL00004"/>BUREAU D'ÉTUDES TECHNIQUES<lb facs="P42_TL00005"/>Ingénieurs Conseils<lb facs="P42_TL00006"/>Appareils de levage et de manutention Ponts roulants Ascenseurs <lb facs="P42_TL00007"/>Montes«charges Mono-rails Élévateurs Câbles transporteurs aériens<lb facs="P42_TL00008"/>CRICS ET VÉRINS<lb facs="P42_TL00009"/>CONSTRUCTIONS MÉTALLIQUES PONTS CHARPENTES - PyLONES</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c041">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P42_TB00003">
+                     <ab facs="P42_TB00003">
                         <lb facs="P42_TL00010"/>HENAUX FRÈRES<lb facs="P42_TL00011"/>ROULERS<lb facs="P42_TL00012"/>QUAI DU CANAL, Téléphone 318.<lb facs="P42_TL00013"/>DALLES « PORPHYRITE » de 300 X 300<lb facs="P42_TL00014"/>sur toutes épaisseurs.<lb facs="P42_TL00015"/>Dalles « Porphyrite » qualité Etat, répondant<lb facs="P42_TL00016"/>aux exigences des cahiers des charges de<lb facs="P42_TL00017"/>l'Etat.<lb facs="P42_TL00018"/>Dalles « Porphyrite », qualité Trottoir.<lb facs="P42_TL00019"/>Dalles rouges peur Tennis.<lb facs="P42_TL00020"/>PIERRE BLANCHE D'EUVILLE MOULUE<lb facs="P42_TL00021"/>POUR SIMILI.</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c042">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P42_TB00004">
+                     <ab facs="P42_TB00004">
                         <lb facs="P42_TL00022"/>Toileries et briqueteries do " PROGRES „<lb facs="P42_TL00023"/>Société anonyme à Hennuyères (Belg)<lb facs="P42_TL00024"/>PLANCHERS transportables<lb facs="P42_TL00025"/>en briques creuses armées<lb facs="P42_TL00026"/>CHEMINÉES DE FUMÉE ET DE VENTILATION<lb facs="P42_TL00027"/>A CONDUITS SIMPLES ET MULTIPLES<lb facs="P42_TL00028"/>(firevete)<lb facs="P42_TL00029"/>BETON » Poutres « Charpentes<lb facs="P42_TL00030"/>305</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c043">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P42_TB00005">
+                     <ab facs="P42_TB00005">
                         <lb facs="P42_TL00031"/>PMOTOGRAPH<lb facs="P42_TL00032"/>D'ARCHITECTURE<lb facs="P42_TL00033"/>&amp; D'OEUVRES D'ART<lb facs="P42_TL00034"/>50 RUE ROOCE.UCCI<lb facs="P42_TL00035"/>BRUXELLES.TÉL4O<lb facs="P42_TL00036"/>'k&amp;k</ab>
                   </div>
                </div>

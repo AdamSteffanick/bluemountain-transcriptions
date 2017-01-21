@@ -80,11 +80,11 @@
                            <seg type="main">1859 PAUL HANKAR 1901</seg>
                         </title>
                         <respStmt>
-                           <persName>Charles CONRARDY</persName>
+                           <persName ref="http://viaf.org/viaf/7744555">Charles CONRARDY</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <respStmt>
-                           <persName>Raymond THIBAUT Architectes</persName>
+                           <persName ref="">Raymond THIBAUT</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -92,7 +92,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="6">3-6</biblScope>
+                           <biblScope unit="page">3-6</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c004">
@@ -123,7 +123,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="7" to="8">7-8</biblScope>
+                           <biblScope unit="page">7-8</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -133,10 +133,12 @@
                      <analytic>
                         <title level="a">
                            <seg type="main">ARCHITECTURE</seg>
+                        </title>
+                        <title level="a">
                            <seg type="main">L'ARCHITECTURE RELIGIEUSE</seg>
                         </title>
                         <respStmt>
-                           <persName>Léandre VAILLAT</persName>
+                           <persName ref="http://viaf.org/viaf/19711488">Léandre VAILLAT</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -144,7 +146,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="9" to="17">9-17</biblScope>
+                           <biblScope unit="page">9-17</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c007">
@@ -152,7 +154,11 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">Paul HANKAR 1859-1901</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">D'après une chromolithographie de A. CRESPIN (1894).</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Editions „Tekhné” Revue La Cité.</seg>
                               </title>
                            </analytic>
@@ -169,8 +175,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">L'Œuvre de Paul HANKAR</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Avant-projet de l'lmmeuble situé 25, rue de Ruysbroeck, à Bruxelles.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">D'après un dessin original conservé au Musée des Arts Décoratifs.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Editions „Tekhné” Revue La Cité.</seg>
                               </title>
                            </analytic>
@@ -187,7 +199,11 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">L'Œuvre de Paul HANKAR</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Mur de clôture de la maison du peintre Ciamberlani, Avenue de la Cambre, à Bruxelles.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Editions „Tekhné” Revue La Cité.</seg>
                               </title>
                            </analytic>
@@ -204,8 +220,14 @@
                            <analytic>
                               <title level="a">
                                  <seg type="main">L'Œuvre de Paul HANKAR</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Chandelier en cuivre rouge.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">D'après un dessin original conservé au Musée des Arts Décoratifs.</seg>
+                              </title>
+                              <title level="a">
                                  <seg type="main">Editions „Tekhné“ La Cité</seg>
                               </title>
                            </analytic>
@@ -226,7 +248,7 @@
                            <seg type="main">CONCOURS PUBLIC POUR LA CONSTRUCTION D'UNE ÉGLISE</seg>
                         </title>
                         <respStmt>
-                           <persName>Le Directeur Général, (S.) DEMEUR</persName>
+                           <persName ref="">S. DEMEUR</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="fre"/>
@@ -234,7 +256,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="18" to="20">18-20</biblScope>
+                           <biblScope unit="page">18-20</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -250,7 +272,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="21" to="22">21-22</biblScope>
+                           <biblScope unit="page">21-22</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -288,27 +310,92 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0008.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0009.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0010.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0011.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0012.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0013.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0014.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0015.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0016.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0017.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0018.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0019.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0020.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0021.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0022.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0023.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnaac/issues/1923/07_01/delivery/bmtnaac_1923-07_01_0024.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>ROUND VAH MOecKK</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P2_TB00001">
+                     <ab facs="P2_TB00001">
                         <lb facs="P2_TL00001"/>KtVUt MENSUELLE BELGE<lb facs="P2_TL00002"/>LA CITÉ<lb facs="P2_TL00003"/>URBANISME ® ARCHITECTURE ■ ART PUBLIC<lb facs="P2_TL00004"/>RECONSTRUCTION<lb facs="P2_TL00005"/>DES REGIONS DÉVASTÉES<lb facs="P2_TL00006"/>tssna a 1 . . , . . .î . ~ . -- - ■■ ■ ■■■ ■ ■■ ■ - •<lb facs="P2_TL00007"/>Rédacteurs : MM. Fern. BODSON, architecte (Bruxelles); J. DE LIGNE, architecte<lb facs="P2_TL00008"/>(Bruxelles); J. EGGERICX, architecte (Bruxelles); Huib. HOSTE, archi<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P2_TL00009"/>tecte (Bruges); Raymond MOENAERT, architecte (Bruxelles); L. van der<lb facs="P2_TL00010"/>Swaelmen, architecte-paysagiste (Bruxelles); J. M. van HARDEVELD (Am<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P2_TL00011"/>sterdam; M. Raph. VERWILGHEN, Ingénieur Urbaniste (Bruxelles), Secré<pc type="endhypen" pre="false">-</pc>
@@ -317,100 +404,68 @@
                         <lb facs="P2_TL00022"/>plément de 3 francs les numéros sont envoyés mensuellement sous enveloppe<lb facs="P2_TL00023"/>cartonnée.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P3_TB00004">
+                     <ab facs="P3_TB00004">
                         <lb facs="P3_TL00024"/>LA CITÉ. Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P4_TB00002">
+                     <ab facs="P4_TB00002">
                         <lb facs="P4_TL00002"/>L A CITÉ. Juillet~Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P5_TB00002">
+                     <ab facs="P5_TB00002">
                         <lb facs="P5_TL00002"/>L A CITÉ. Juillet-Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00002">
+                     <ab facs="P6_TB00002">
                         <lb facs="P6_TL00002"/>LA CITÉ. Juillet-Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P7_TB00002">
+                     <ab facs="P7_TB00002">
                         <lb facs="P7_TL00002"/>LA CITÉ. Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00002">
+                     <ab facs="P8_TB00002">
                         <lb facs="P8_TL00002"/>LA CITÉ. Juillet-Août 1923</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P10_TB00001">
+                     <ab facs="P10_TB00001">
                         <lb facs="P10_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P15_TB00001">
+                     <ab facs="P15_TB00001">
                         <lb facs="P15_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P16_TB00001">
+                     <ab facs="P16_TB00001">
                         <lb facs="P16_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P17_TB00001">
+                     <ab facs="P17_TB00001">
                         <lb facs="P17_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P18_TB00001">
+                     <ab facs="P18_TB00001">
                         <lb facs="P18_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P19_TB00001">
+                     <ab facs="P19_TB00001">
                         <lb facs="P19_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P20_TB00001">
+                     <ab facs="P20_TB00001">
                         <lb facs="P20_TL00001"/>ARCHITECTURE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P22_TB00002">
+                     <ab facs="P22_TB00002">
                         <lb facs="P22_TL00002"/>ECHOS</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P23_TB00001">
+                     <ab facs="P23_TB00001">
                         <lb facs="P23_TL00001"/>i ' i<lb facs="P23_TL00002"/>i i<lb facs="P23_TL00003"/>j r î<lb facs="P23_TL00004"/>Je soussigné, souscris un aboa- IMPRIMÉ<lb facs="P23_TL00005"/>nement à la quatrième année de <lb facs="P23_TL00006"/>La Cité, au prix de 10 fr. 10 et<lb facs="P23_TL00007"/>désire recevoir à titre de prime :<lb facs="P23_TL00008"/>* Les Ira,1ra, 2e et 3® année» de «La Cité&gt;<lb facs="P23_TL00009"/>i à 5 francs l'année (prix en librai<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P23_TL00010"/>rie 10 francs). L 1<lb facs="P23_TL00011"/>* L» Cœur de la Vîtte &lt;k Broxdbit<lb facs="P23_TL00012"/>par Ch. BuU. Gratuit (prix an<lb facs="P23_TL00013"/>• laSS?* ÏTcSd,... p., g. &lt;u. Administration<lb facs="P23_TL00014"/>Marex. Gratuit (prix an librairie<lb facs="P23_TL00015"/>s^ure de la Revue LA CITÉ<lb facs="P23_TL00016"/>Adn&amp;te <lb facs="P23_TL00017"/>• Burrar ccil* &lt;U» priaM fH l'a M . .<lb facs="P23_TL00018"/>désire recevoir. IU, r iHCC LOIX<lb facs="P23_TL00019"/>N. B. Afia &lt;Térk« dm fram dt lien<lb facs="P23_TL00020"/>ÎTIACSSV2 BRUXELLES j<lb facs="P23_TL00021"/>an crédit da coapto chiqaet a* 16631,<lb facs="P23_TL00022"/>Ritw La CM, la aoalwt da la mmaa Aa.<lb facs="P23_TL00023"/>Découpez cette carte et mettez-la à la poste.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P24_TB00001">
+                     <ab facs="P24_TB00001">
                         <lb facs="P24_TL00001"/>tM*. M, KUara-ftOWN, Tél. : 1«*</ab>
                   </div>
                </div>
@@ -423,9 +478,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00002">
+                                 <ab facs="P2_TB00002">
                                     <lb facs="P2_TL00024"/>Editions " TEKHNÉ „<lb facs="P2_TL00025"/>LA CITE. Première, deuxième et troisième années. Par volume £r. 10.—<lb facs="P2_TL00026"/>L'Art et la Société, par H.-P. Berlage, architecte à Amsterdam. Tirés à part cfe la Revue<lb facs="P2_TL00027"/>« Art et Technique » (septembre î 913-février 1914). Un volume luxueusement im<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00028"/>primé et illustré de 98 clichés **...■•»» fr. 20.<lb facs="P2_TL00029"/>Paul Hankar (1859-1901), par Charles Conrardy et Raym. Thibaut. Une brochure<lb facs="P2_TL00030"/>illustrée . • fr. 3.<lb facs="P2_TL00031"/>Matériaux de substitution dans la construction de maisons, par J Seroen, architecte. Une<lb facs="P2_TL00032"/>brochure illustrée » . ♦ , , fr. 2.<lb facs="P2_TL00033"/>La Conservation du cœur de la Ville de Bruxelles, par Charles Buis, avec traduction d une<lb facs="P2_TL00034"/>conférence de C. Giïnlitt sur la « Conservation du cœur d'anciennes villes ». Une bro<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00035"/>chure de 24 pages ♦ fr. 2.<lb facs="P2_TL00036"/>L'habitation coloniale Sa construction au Congo Belge, par Gast. Boghemans. Une brochure<lb facs="P2_TL00037"/>de 20 pages abondamment illustrée fr. 3.<lb facs="P2_TL00038"/>Constantin Meunier. L'historique de son monument au travail par R, Thiry et G. Hen<pc type="endhypen" pre="false">-</pc>
@@ -439,15 +492,11 @@
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00002">
+                        <ab facs="P3_TB00002">
                            <lb facs="P3_TL00002"/>1859 PAUL HANKAR 1901</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00004">
+                        <ab facs="P6_TB00004">
                            <lb facs="P6_TL00021"/>Charles CONRARDY<lb facs="P6_TL00022"/>&amp; Raymond THIBAUT<lb facs="P6_TL00023"/>Architectes.</ab>
                      </div>
                      <div type="Illustration" corresp="c004">
@@ -457,17 +506,13 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00003">
+                                 <ab facs="P3_TB00003">
                                     <lb facs="P3_TL00003"/>(SUITE ET FIN DE L'ARTÏCLE PARU<lb facs="P3_TL00004"/>DANS LE PRÉCÉDENT NUMÉRO.)<lb facs="P3_TL00005"/>Nous pourrions citer bien d'autres créations de P. Hankar,<lb facs="P3_TL00006"/>tant en province qu'à Bruxelles, mais nos reproductions diront<lb facs="P3_TL00007"/>mieux que des descriptions la mesure de son talent, la logique de sa<lb facs="P3_TL00008"/>conception, l'élévation de son idéal.<lb facs="P3_TL00009"/>Dans les environs de la capitale, il a construit des villas, des<lb facs="P3_TL00010"/>cottages, des ateliers d'artistes. Son imagination trouvait là, pour le<lb facs="P3_TL00011"/>travail du bois surtout, un champ d'action que, sans aucun doute, il<lb facs="P3_TL00012"/>a dû affectionner. Ses trouvailles sont nombreuses et si elles n'offrent<lb facs="P3_TL00013"/>pas toujours au regard la pondération que l'on souhaiterait y<lb facs="P3_TL00014"/>trouver, il faut en accuser d'abord, peut-être une imagination trop<lb facs="P3_TL00015"/>riche et trop impétueuse, mais surtout cette inertie de l'époque qui<lb facs="P3_TL00016"/>poussait les vrais tempéraments à l'excès. Une sorte d'instinct leur<lb facs="P3_TL00017"/>disait qu'il fallait, pour se faire entendre des sourds, crier et trépigner.<lb facs="P3_TL00018"/>Il y a autour de telles propriétés champêtres des clôtures en<lb facs="P3_TL00019"/>bois qui sont des merveilles de pittoresque et d'imprévu. De ces murs<lb facs="P3_TL00020"/>en pans de bois qui font si aisément tomber dans la banalité, il a su<lb facs="P3_TL00021"/>tirer des effets charmants. Il appliqua notamment ce procédé pour<lb facs="P3_TL00022"/>les agrandissements du château de Campenhout. Àu reste, c'est dans<lb facs="P3_TL00023"/>le travail du bois et dans celui du fer qu'il excellait avant tout.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00003">
+                                 <ab facs="P4_TB00003">
                                     <lb facs="P4_TL00003"/>Aucun matériau n'a été traité par lui de façon médiocre, mais à ces<lb facs="P4_TL00004"/>deux-là il vouait un culte tout spécial. Cela se devine dans ses<lb facs="P4_TL00005"/>réalisations et cela se confirme d'une façon indiscutable pour ceux<lb facs="P4_TL00006"/>qui ont vu ses plans et ses épures. Une grande partie de ceux-ci ont<lb facs="P4_TL00007"/>été donnés par sa veuve au Service des Documents d'Art National<lb facs="P4_TL00008"/>établi aux Musées du Cinquantenaire. Il est tout à fait regrettable<lb facs="P4_TL00009"/>que, si cette collection est assez complète pour les dessins d'ordre<lb facs="P4_TL00010"/>technique, elle le soit beaucoup moins pour les ensembles de façades<lb facs="P4_TL00011"/>et de décoration.<lb facs="P4_TL00012"/>Nous n'avons ncore rien dit de cette autre face de son talent :<lb facs="P4_TL00013"/>l'installation et l'aménagement de magasins. Il y a montré une<lb facs="P4_TL00014"/>ingéniosité et un esprit novateur que tout le monde peut vérifier<lb facs="P4_TL00015"/>en passant soit rue Royale, soit rue Neuve, soit rue Lebeau, soit en<lb facs="P4_TL00016"/>bien d'autres lieux. Moderniste convaincu, il a mis dans ces compo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00017"/>sitions, comme dans les autres, la fougue qui, de-ci de-là, l'entraînait<lb facs="P4_TL00018"/>à des enchevêtrements compliqués de lignes courbes et lui faisait<lb facs="P4_TL00019"/>dépasser un peu la mesure. N'importe, restaurants, pâtisseries,<lb facs="P4_TL00020"/>chemiseries, etc., sont des œuvres de grande envolée et d'une audace<lb facs="P4_TL00021"/>exceptionnelle si l'on tient compte de l'époque à laquelle l'artiste les<lb facs="P4_TL00022"/>composait. Et précisément, ce qui compte ici plus que tout le reste,<lb facs="P4_TL00023"/>c'est la place prépondérante prise par lui dans le mouvement moder<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00024"/>niste à ses débuts et l'essor qu'il donna chez nous à ce mouvement.<lb facs="P4_TL00025"/>Nous sommes, pour notre part, convaincus que s'il avait pu achever<lb facs="P4_TL00026"/>sa tâche, ses conceptions se seraient épurées. Déjà il tendait à délaisser<lb facs="P4_TL00027"/>les courbes trop enchevêtrées pour confier plus spécialement à la<lb facs="P4_TL00028"/>ligne droite le soin d'être harmonieux. En ferronnerie il oubliait les<lb facs="P4_TL00029"/>boucles qu'il tenait de Beyaert; en menuiserie il recourait aux petits<lb facs="P4_TL00030"/>panneaux carrés et rectangulaires pour lesquels il savait trouver des<lb facs="P4_TL00031"/>combinaisons à l'infini.<lb facs="P4_TL00032"/>En collaboration avec M. Adolphe Crespin, Hankar fut appelé<lb facs="P4_TL00033"/>à créer, en 1897, l'installation de l'exposition coloniale de Tervueren<lb facs="P4_TL00034"/>qui reste comme la plus heureuse des tentatives aussi bien pour<lb facs="P4_TL00035"/>l'ameublement que pour la décoration. Le choix de tels hommes<lb facs="P4_TL00036"/>pour une telle chose était un réconfortant symptôme; on commen-</ab>
@@ -475,9 +520,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00003">
+                                 <ab facs="P5_TB00003">
                                     <lb facs="P5_TL00003"/>çait à comprendre; on ne prenait plus un tapissier et un entrepreneur<lb facs="P5_TL00004"/>pour installer une exposition, on prenait un architecte et un décora<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00005"/>teur et, mieux encore, on prenait des jeunes, des novateurs. On s'en<lb facs="P5_TL00006"/>méfiait encore cependant. Contemporains des poètes symbolistes, du<lb facs="P5_TL00007"/>mouvement d'art impressionniste, ceux que l'on nommait des esthè<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00008"/>tes étaient peut-être, étaient sûrement des rêveurs habitués au clair<lb facs="P5_TL00009"/>de lune, favoris des chimères, amis des gnomes et des lutins. Ils<lb facs="P5_TL00010"/>faisaient des dessins bizarres. Or, l'on voulait du « pratique ». Et<lb facs="P5_TL00011"/>le public fut fort étonné lorsqu'il s'aperçut que les rêveurs, les amants<lb facs="P5_TL00012"/>des formes blanches fuyant au galop des chèvres-pieds et des satyres,<lb facs="P5_TL00013"/>savaient ce qu'ils voulaient, qu'ils étaient capables de créer des choses<lb facs="P5_TL00014"/>qui fussent belles autant qu'utiles, qu'ils étaient capables de cons<pc type="endhypen" pre="false">-</pc>
@@ -487,9 +530,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00003">
+                                 <ab facs="P6_TB00003">
                                     <lb facs="P6_TL00003"/>prendre à ces jeunes gens la technique de la construction des diffé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00004"/>rents éléments d'une bâtisse. Il leur faisait aussi disséquer les vestiges<lb facs="P6_TL00005"/>des monuments anciens, tels les premiers temples de l'ère chrétienne,<lb facs="P6_TL00006"/>en Asie Mineure. Par cette méthode, il avait fait en quelques années,<lb facs="P6_TL00007"/>d'un manœuvre-maçon, l'employé principal de ses bureaux. Le<lb facs="P6_TL00008"/>succès de l'architecte interrompit la carrière du professeur, et l'archi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00009"/>tecte lui-même fut, comme nous l'avons dit, interrompu trop tôt,<lb facs="P6_TL00010"/>beaucoup trop tôt, dans sa tâche, par la mort implacable.<lb facs="P6_TL00011"/>Hankar avait certainement mis beaucoup d'espoir en son fils.<lb facs="P6_TL00012"/>Le destin avait été cruel pour lui, son fils porterait le flambeau.<lb facs="P6_TL00013"/>Nous avons fait nos études ensemble à l'Académie des Beaux-Arts<lb facs="P6_TL00014"/>de Bruxelles. Hankar fils tout jeune était déjà épris de l'art neuf.<lb facs="P6_TL00015"/>Il cherchait. Il mettait dans ses compositions le souci d'être<lb facs="P6_TL00016"/>personnel. Vint 1914, Pierre Hankar s'engagea et ne revint pas. Les<lb facs="P6_TL00017"/>forces mystérieuses avaient éteint ce cœur généreux, le fils du maître<lb facs="P6_TL00018"/>qui portait peut-être en lui les réalisations futures. L'œuvre reste<lb facs="P6_TL00019"/>inachevée, incomplète, mais belle malgré tout, plus belle que bien<lb facs="P6_TL00020"/>d'autres, fruits pourtant de maturité.</ab>
@@ -503,26 +544,20 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00003">
+                                 <ab facs="P7_TB00003">
                                     <lb facs="P7_TL00003"/>Lettre inédite de Paul Hankar du 11 novembre 1896.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00004">
+                                 <ab facs="P7_TB00004">
                                     <lb facs="P7_TL00004"/>MonsieurX...,<lb facs="P7_TL00005"/>Il m'a été très agréable d'apprendr<lb facs="P7_TL00006"/>des chemins batus n'avaient pas passés inaperçus et je m'empresse de<lb facs="P7_TL00007"/>vous donner les renseignements dem<lb facs="P7_TL00008"/>Je suis né à Frameries (Hainaut), le 11 décembre 1859. J'ai<lb facs="P7_TL00009"/>donc 57 ans. J'ai appris la taille et l'appareil des pierres, puis je suis<lb facs="P7_TL00010"/>entré, après un stage chez le sculpteur<lb facs="P7_TL00011"/>feu Henri Beyaert, en 1879. J' suis resté jusqu'à sa mort en 1894,<lb facs="P7_TL00012"/>Pendant cette période de 15 années, j'ai collaboré à presque<lb facs="P7_TL00013"/>tous les travaux exécutés par Beyaert (château de Wespelaer, square<lb facs="P7_TL00014"/>du Sablon, Palais de la Nation, Caisse d'Epargne, illuminations de<lb facs="P7_TL00015"/>1880 et 1890, Eglise de Borgerh<lb facs="P7_TL00016"/>Hanrez, etc.)<lb facs="P7_TL00017"/>J'ai continué, après sa mort,<lb facs="P7_TL00018"/>actuellement la décoration et l'ameublement, conçus dans les prin<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00019"/>cipes les plus opposés à ceux de l'école Saint-Luc.<lb facs="P7_TL00020"/>J'ai fréquenté pendant deux ans la classe de composition<lb facs="P7_TL00021"/>d'Architecture à l'Académie de B<lb facs="P7_TL00022"/>bien avoir été un des plus mauvais<lb facs="P7_TL00023"/>écrivant celà, je me remémore le no<lb facs="P7_TL00024"/>et je constate que de quinze que nous étions, il en reste sept ou huit ;<lb facs="P7_TL00025"/>trois sont fous, deux vendent du<lb facs="P7_TL00026"/>sont oubliés; l'architecture mène à<lb facs="P7_TL00027"/>Je crois pouvoir me dire l'élève de Beyaert, bien que je doive lui<lb facs="P7_TL00028"/>avoir procuré parfois la sensation<lb facs="P7_TL00029"/>un oeuf de canard.<lb facs="P7_TL00030"/>J'étais, dans son bureau, celu<lb facs="P7_TL00031"/>forgé. J'en ai dessiné énormément,<lb facs="P7_TL00032"/>Bruxelles, surtout pour P. Desmedt.<lb facs="P7_TL00033"/>spéciale, l'amour de la forge et la<lb facs="P7_TL00034"/>fonte plus ou moins malléable.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00003">
+                                 <ab facs="P8_TB00003">
                                     <lb facs="P8_TL00003"/>Voici, pour compléter, la liste des constructions que je crois<lb facs="P8_TL00004"/>pouvoir avouer :<lb facs="P8_TL00005"/>Maison chaussée de Charleroi,B3 (1888-1889);<lb facs="P8_TL00006"/>Maison avenue Louise, 367 (1894-95);<lb facs="P8_TL00007"/>Maison avenue Louise,36s (1895-<lb facs="P8_TL00008"/>1896);<lb facs="P8_TL00009"/>Maison rue De Facqz,63 (1893) ;<lb facs="P8_TL00010"/>Maison de commerce, rue Lebeau, 8 (1895-96) ;<lb facs="P8_TL00011"/>Magasins de la maison Claessen, rue de VEcuyer, 58 (1896),<lb facs="P8_TL00012"/>vitrines et mobilier;<lb facs="P8_TL00013"/>Monument du poète Van Beers, dans le Parc d'Anvers (1892),<lb facs="P8_TL00014"/>en collaboration avec le statuaire Crick (concours .<lb facs="P8_TL00015"/>Décoration de la façade de la Boulangerie Timmermans, chaus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P8_TL00016"/>sée de Wavre(lB96),<lb facs="P8_TL00017"/>teur Crespin (concours de l'art à la rue d'lxelles).<lb facs="P8_TL00018"/>Je ne possède malheureusement pas de photographies de toutes<lb facs="P8_TL00019"/>ces constructions. Je vous fait parvenir celles que je possède. Les<lb facs="P8_TL00020"/>autres vous parviendront aussitôt que mon photographe me les<lb facs="P8_TL00021"/>livrera .<lb facs="P8_TL00022"/>Les études faites, en collaboration<lb facs="P8_TL00023"/>projet de Ville Moderne, à l'exposition 1897,<lb facs="P8_TL00024"/>tront dans un des prochains numéros du Studio de Londres.</ab>
                               </div>
@@ -532,94 +567,60 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P9_TB00002">
+                        <ab facs="P9_TB00002">
                            <lb facs="P9_TL00002"/>ARCHITECTURE</ab>
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P9_TB00003">
+                        <ab facs="P9_TB00003">
                            <lb facs="P9_TL00003"/>L'ARCHITECTURE RELIGIEUSE</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P17_TB00005">
+                        <ab facs="P17_TB00005">
                            <lb facs="P17_TL00082"/>Léandre VAILLAT.</ab>
                      </div>
                      <div type="Illustration" corresp="c007">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P11_TB00001">
+                           <ab facs="P11_TB00001">
                               <lb facs="P11_TL00001"/>Paul HANKAR 1859-1901</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P11_TB00002">
+                           <ab facs="P11_TB00002">
                               <lb facs="P11_TL00002"/>D'après une chromolithographie<lb facs="P11_TL00003"/>de A. CRESPIN (1894).</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P11_TB00003">
+                           <ab facs="P11_TB00003">
                               <lb facs="P11_TL00004"/>Editions<lb facs="P11_TL00005"/>„Tekhné”<lb facs="P11_TL00006"/>Revue<lb facs="P11_TL00007"/>La Cité.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c008">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P12_TB00001">
+                           <ab facs="P12_TB00001">
                               <lb facs="P12_TL00001"/>L'Œuvre de Paul HANKAR</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P12_TB00002">
+                           <ab facs="P12_TB00002">
                               <lb facs="P12_TL00002"/>Avant-projet de l'lmmeuble situé<lb facs="P12_TL00003"/>25, rue de Ruysbroeck, à Bruxelles.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P12_TB00003">
+                           <ab facs="P12_TB00003">
                               <lb facs="P12_TL00004"/>D'après un dessin original conservé<lb facs="P12_TL00005"/>au Musée des Arts Décoratifs.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P12_TB00004">
+                           <ab facs="P12_TB00004">
                               <lb facs="P12_TL00006"/>Editions<lb facs="P12_TL00007"/>„Tekhné”<lb facs="P12_TL00008"/>Revue<lb facs="P12_TL00009"/>La Cité.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c009">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P13_TB00001">
+                           <ab facs="P13_TB00001">
                               <lb facs="P13_TL00001"/>L'Œuvre de Paul HANKAR</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P13_TB00002">
+                           <ab facs="P13_TB00002">
                               <lb facs="P13_TL00002"/>Mur de clôture de la maison<lb facs="P13_TL00003"/>du peintre Ciamberlani,<lb facs="P13_TL00004"/>Avenue de la Cambre, à Bruxelles.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P13_TB00003">
+                           <ab facs="P13_TB00003">
                               <lb facs="P13_TL00005"/>Editions<lb facs="P13_TL00006"/>„Tekhné”<lb facs="P13_TL00007"/>Revue<lb facs="P13_TL00008"/>La Cité.</ab>
                         </div>
                      </div>
                      <div type="Illustration" corresp="c010">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P14_TB00001">
+                           <ab facs="P14_TB00001">
                               <lb facs="P14_TL00001"/>L'Œuvre de Paul HANKAR</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P14_TB00002">
+                           <ab facs="P14_TB00002">
                               <lb facs="P14_TL00002"/>Chandelier en<lb facs="P14_TL00003"/>cuivre rouge.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P14_TB00003">
+                           <ab facs="P14_TB00003">
                               <lb facs="P14_TL00004"/>D'après un dessin original conservé au<lb facs="P14_TL00005"/>Musée des Arts Décoratifs.</ab>
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P14_TB00004">
+                           <ab facs="P14_TB00004">
                               <lb facs="P14_TL00006"/>Editions<lb facs="P14_TL00007"/>„Tekhné“<lb facs="P14_TL00008"/>La Cité</ab>
                         </div>
                      </div>
@@ -627,26 +628,20 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P9_TB00004">
+                                 <ab facs="P9_TB00004">
                                     <lb facs="P9_TL00004"/>Entrant très tardivement dans une voie préconisée depuis f armistice par les grou<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00005"/>pements d'architectes, l'Etat organise, en Vue de la reconstruction d'une des églises des<lb facs="P9_TL00006"/>Régions Dévastées, un concours dont nous publions plus loin le programme. Si, peut-être,<lb facs="P9_TL00007"/>d'aucuns feront des réserves au sujet de quelques-unes des clauses de ce programme, on<lb facs="P9_TL00008"/>sera, cependant, unanime, croyons-nous, à approuver Vidée maîtresse qui a dicté Y orga<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00009"/>nisation de ce concours : faire appel à toutes les initiatives en Vue d'arriver, dans des.<lb facs="P9_TL00010"/>conditions aussi avantageuses que possible, à créer un édifice qui réponde aux exigences<lb facs="P9_TL00011"/>du culte et traduise en des formes esthétiques les aspirations actuelles de la communauté<lb facs="P9_TL00012"/>des fidèles auxquels l'église est destinée.<lb facs="P9_TL00013"/>Tous ceux qui croient en la possibilité d'un renouveau de l'architecture et sont con<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00014"/>vaincus du rôle économique, social et spirituel qu'elle devrait remplir dans la Société<lb facs="P9_TL00015"/>contemporaine, ont regretté que les centaines d'églises qui ont été reconstruites dans les<lb facs="P9_TL00016"/>Régions Dévastées soient des décalques, trop souvent médiocres, d'édifices conçus pour<lb facs="P9_TL00017"/>d'autres temps et d'autres besoins. Il n'y a pas de doute que si l'on avait Voulu mettre<lb facs="P9_TL00018"/>à profit toutes les ressources de la technique moderne, en même temps que l'enthousiasme<lb facs="P9_TL00019"/>qui anime quelques architectes d'avant-garde, on aurait pu créer des édifices d'un<lb facs="P9_TL00020"/>caractère moderne parfaitement adaptés à leur but liturgique.<lb facs="P9_TL00021"/>Sans insister pour le moment sur les impérieuses raisons d'ordre moral qui auraient dû<lb facs="P9_TL00022"/>faire agir de la sorte, contentons-nous de signaler quen ce faisant on aurait fait réa<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00023"/>liser de sérieuses économies aux finances de l'Etat.<lb facs="P9_TL00024"/>C'est ce dernier argument, sans doute, qui malgré son importance secondaire <lb facs="P9_TL00025"/>a finalement décidé les pouvoirs publics à faire appel aux chercheurs de nouveau, aux<lb facs="P9_TL00026"/>artistes créateurs.<lb facs="P9_TL00027"/>Il n'est pas sans intérêt de souligner que, même en ce qui concerne l'architecture reli<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P9_TL00028"/>gieuse, c'est le besoin d économie qui ouvre la porte à des possibilités artistiques nouvelles.<lb facs="P9_TL00029"/>C'est de la sorte que la France nous a devancés en matière d'architecture religieuse.<lb facs="P9_TL00030"/>La séparation de l'Eglise et de l'Etat a laissé les paroisses dans une situation fort<lb facs="P9_TL00031"/>précaire qui les détourne de la copie des modèles anciens trop ornés et trop coûteux.<lb facs="P9_TL00032"/>Tout comme à l'époque romane, l'église redevient l'abri des fidèles. Ce qui n'exclut<lb facs="P9_TL00033"/>pas l'intensité du sentiment religieux qui, éprouvé par la pauvreté, se concentre à nouveau<lb facs="P9_TL00034"/>sur les vérités essentielles de la doctrine et l'objet principal du culte catholique.<lb facs="P9_TL00035"/>C'est à la faveur de ces circonstances qu'est née chez nos voisins du Sud <lb facs="P9_TL00036"/>une architecture religieuse moderne dont le mérite artistique n'est pas moindre que celui de<lb facs="P9_TL00037"/>l'école littéraire dont Claudel fut le pionnier et du groupe de peintres religieux dont Maurice<lb facs="P9_TL00038"/>Denis et Desvallières sont les plus connus.<lb facs="P9_TL00039"/>Afin de permettre à nos lecteurs de prendre connaissance avec ce mouvement de<lb facs="P9_TL00040"/>renaissance de l'architecture religieuse, nous reproduisons in extenso un article que Léandre</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00003">
+                                 <ab facs="P10_TB00003">
                                     <lb facs="P10_TL00003"/>Vaillat publiait il y a plus d'une année dans le grand quotidien « Le Temps » à Voccasion<lb facs="P10_TL00004"/>de l'effort financier que Yépiscopat français venait de faire pour assurer la reconstruction<lb facs="P10_TL00005"/>des églises des Régions Dévastées françaises. R. C.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00004">
+                                 <ab facs="P10_TB00004">
                                     <lb facs="P10_TL00006"/>Ce n'est un secret pour personne que l'em<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00007"/>prunt en faveur des églises dévastées a été<lb facs="P10_TL00008"/>couvert. Nous n'avons jamais éprouvé d'in<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00009"/>quiétude là-dessus, et nous savons bien que<lb facs="P10_TL00010"/>l'Eglise de France ne fait jamais appel en<lb facs="P10_TL00011"/>vain à ses fidèles. Où commence notre per<pc type="endhypen" pre="false">-</pc>
@@ -664,9 +659,7 @@
                                     <lb facs="P10_TL00039"/>casion nous semble bonne, aujourd'hui que<lb facs="P10_TL00040"/>l'emprunt est complètement souscrit, les coo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00041"/>pératives constituées à peu près partout,<lb facs="P10_TL00042"/>d'examiner de quelle manière les sessour<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P10_TB00005">
+                                 <ab facs="P10_TB00005">
                                     <lb facs="P10_TL00043"/>ces mises à la disposition des sinistrés peu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00044"/>vent judicieusement être employées.<lb facs="P10_TL00045"/>Abordons le problème par son côté le<lb facs="P10_TL00046"/>plus général, celui par lequel la construction<lb facs="P10_TL00047"/>d une église ressemble à celle de n'importe<lb facs="P10_TL00048"/>quelle maison. Il est certain que dans la plu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00049"/>part des cas et sauf exception, inhérente par<lb facs="P10_TL00050"/>exemple à la restauration d'un monument<lb facs="P10_TL00051"/>historique ou à l'édification d une église con<pc type="endhypen" pre="false">-</pc>
@@ -679,9 +672,7 @@
                                     <lb facs="P10_TL00067"/>gences de l'heure et du lieu.<lb facs="P10_TL00068"/>Les formes seront conditionnées par les<lb facs="P10_TL00069"/>matériaux et par le programme. S'il y a dans<lb facs="P10_TL00070"/>les carrières avoisinantes, comme il arrive<lb facs="P10_TL00071"/>en Ile-de-France, en Lorraine ou en Alsace,<lb facs="P10_TL00072"/>suffisamment de pierre facile à exploiter et<lb facs="P10_TL00073"/>à transporter sur le chantier, l'architecte ne<lb facs="P10_TL00074"/>manquera pas de s'inspirer des formes régio<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00075"/>nales, non pour les imiter,mais parce qu'elles<lb facs="P10_TL00076"/>furent déterminées, elles aussi, par les mêmes<lb facs="P10_TL00077"/>conditions. Nous pouvons dire à ce propos<lb facs="P10_TL00078"/>que le style roman nous paraît mieux conve<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P10_TL00079"/>nir à la rusticité que le style gothique, qui</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P15_TB00003">
+                                 <ab facs="P15_TB00003">
                                     <lb facs="P15_TL00003"/>est un ensemble de lignes élégantes et rela<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00004"/>tivement fragiles; spécialement en ce qui<lb facs="P15_TL00005"/>concerne la Lorraine, la seule vue des gran<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00006"/>des poites charretières largement cintrées<lb facs="P15_TL00007"/>suggérera fatalement à l'architecte l'entrée<lb facs="P15_TL00008"/>de son église. Mais que ce régionalisme n'ait<lb facs="P15_TL00009"/>rien d'absolu ni de factice; qu'il se déduise<lb facs="P15_TL00010"/>de notre goût véritable pour les choses du<lb facs="P15_TL00011"/>pays, d'une recherche d'harmonie générale,<lb facs="P15_TL00012"/>de l'obligation où l'on est d'employer tels<lb facs="P15_TL00013"/>matériaux. Le même raisonnement vaut pour<lb facs="P15_TL00014"/>le cas où, comme en Flandre, en Artois et<lb facs="P15_TL00015"/>en Picardie, il y a de l'argile, par conséquent<lb facs="P15_TL00016"/>des briques et des équipes de rejointoyeurs,<lb facs="P15_TL00017"/>et à celui où, comme en Champagne, il n'y<lb facs="P15_TL00018"/>a que du torchis que l'on encadre avec les<lb facs="P15_TL00019"/>bois venus d'Alsace ou d'Argonne.<lb facs="P15_TL00020"/>L'exemple le plus significatif de ce régio<pc type="endhypen" pre="false">-</pc>
@@ -694,9 +685,7 @@
                                     <lb facs="P15_TL00040"/>pente, imitée des anciennes basiliques, mais<lb facs="P15_TL00041"/>dans une note moderne. Les églises de Bé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00042"/>con-les-Bruyères et de Nanterre, par M. Bar<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00043"/>bier; celle de SaintJPaul, à Genève, par</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P15_TB00004">
+                                 <ab facs="P15_TB00004">
                                     <lb facs="P15_TL00044"/>M. Guyonnet; les deux églises élevées par<lb facs="P15_TL00045"/>dom Bellet, l'une, celle des bénédictins fran<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00046"/>çais, dans l'île de Wight, l'autre, celle de<lb facs="P15_TL00047"/>l'abbaye de Oosterhout (Hollande), où une<lb facs="P15_TL00048"/>merveilleuse combinaison des arcs et un jeu<lb facs="P15_TL00049"/>de briques alternativement claires et sombres<lb facs="P15_TL00050"/>produisent un effet saisissant, me paraissent<lb facs="P15_TL00051"/>devoir être étudiées par tous ceux qui cher<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00052"/>chent la vérité dans les canons "traditionnels<lb facs="P15_TL00053"/>et régionalistes. Je dois remarquer en toute<lb facs="P15_TL00054"/>justice qu'en ce qui concerne les ouvrages<lb facs="P15_TL00055"/>cités de dom Bellet, il s'agissait là d'une ab<pc type="endhypen" pre="false">-</pc>
@@ -707,9 +696,7 @@
                                     <lb facs="P15_TL00076"/>mandait le climat du lieu, par exemple l'in<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00077"/>clinaison des toits pour l'écoulement des<lb facs="P15_TL00078"/>eaux de pluie et le glissement de la neige.<lb facs="P15_TL00079"/>Le béton armé fut traité pendant un certain<lb facs="P15_TL00080"/>temps par des architectes qui étaient péné<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P15_TL00081"/>trés de leur éducation classique, habitués à<lb facs="P15_TL00082"/>des formes inventées pour des matériaux<lb facs="P15_TL00083"/>naturels. Ils accomodèrent tant bien que mal<lb facs="P15_TL00084"/>les antiques canons de beauté avec la matière</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P16_TB00003">
+                                 <ab facs="P16_TB00003">
                                     <lb facs="P16_TL00003"/>qui était mise à leur disposition, la considé<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00004"/>rant comme une matière de remplacement et<lb facs="P16_TL00005"/>non comme un élément nouveau dont il fal<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00006"/>lait tirer une structure nouvelle, s'ingéniant<lb facs="P16_TL00007"/>à imiter les joints de la pierre dans une<lb facs="P16_TL00008"/>masse qui doit compter et produire son effet<lb facs="P16_TL00009"/>comme monolithe, à dissimuler derrière une<lb facs="P16_TL00010"/>façade composée selon les types anciens les<lb facs="P16_TL00011"/>dispositifs cellulaires logiquement déduits<lb facs="P16_TL00012"/>du procédé. Ce furent des ingénieurs qui,<lb facs="P16_TL00013"/>plus dégagés que les architectes de la tradi<pc type="endhypen" pre="false">-</pc>
@@ -724,9 +711,7 @@
                                     <lb facs="P16_TL00039"/>mer des idées d'ascension spirituelle et reli<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00040"/>gieuse. M. Ballu, avec la collaboration des<lb facs="P16_TL00041"/>frères Perret qui sont passés maîtres en ce<lb facs="P16_TL00042"/>genre, construisit la cathédrale d'Oran, la<lb facs="P16_TL00043"/>plus grande qui existe en bétop armé. Mon<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00044"/>sieur Placide Thomas réalisa de la même</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P16_TB00004">
+                                 <ab facs="P16_TB00004">
                                     <lb facs="P16_TL00045"/>manière Saint-Joseph des Epi-nettes, à Paris,<lb facs="P16_TL00046"/>dans le 1 7e arrondissement. Enfin, un exem<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00047"/>ple achevé fut donné à de Vin<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00048"/>cennes par MM. Droz et Marrast; ici, à vrai<lb facs="P16_TL00049"/>dire, les murs sont en pierre meulière et la<lb facs="P16_TL00050"/>couverture est une charpente en bois; mais<lb facs="P16_TL00051"/>T ossature, formée de huit piliers et de qua<pc type="endhypen" pre="false">-</pc>
@@ -744,9 +729,7 @@
                                     <lb facs="P16_TL00083"/>être même dans le presbytère qui sera relié<lb facs="P16_TL00084"/>à elle par un passage couvert, prétexte à jolis<lb facs="P16_TL00085"/>portiques, à décrochements de toits agréa<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P16_TL00086"/>bles, des salles qui seront consacrées à la mu<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P17_TB00003">
+                                 <ab facs="P17_TB00003">
                                     <lb facs="P17_TL00003"/>sique religieuse, aux conférences, au caté<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P17_TL00004"/>chisme, aux œuvres de charité et de paroisse,<lb facs="P17_TL00005"/>aux patronages, bref, à toutes les œuvres so<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P17_TL00006"/>ciales qui relèvent du prêtre et qui font de<lb facs="P17_TL00007"/>lui non plus seulement le médecin des âmes,<lb facs="P17_TL00008"/>mais un homme de bien, mêlé à la vie du<lb facs="P17_TL00009"/>pays et coordonnant les bienfaits, l'entraide,<lb facs="P17_TL00010"/>Tassistance. Une grande économie peut être<lb facs="P17_TL00011"/>réalisée en supprimant le clocher ou du<lb facs="P17_TL00012"/>moins en 1 abaissant, en le réduisant aux<lb facs="P17_TL00013"/>proportions strictement nécessaires pour<lb facs="P17_TL00014"/>abriter les cloches. N oublions pas qu'autre<pc type="endhypen" pre="false">-</pc>
@@ -761,9 +744,7 @@
                                     <lb facs="P17_TL00039"/>mencé par le commencement. Les ateliers<lb facs="P17_TL00040"/>d'art sacré comme l'Arche, la Rosace, les<lb facs="P17_TL00041"/>Artisans de l'autel, dont je visitais les inté<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P17_TL00042"/>ressants ouvrages ces jours derniers à la ga<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P17_TB00004">
+                                 <ab facs="P17_TB00004">
                                     <lb facs="P17_TL00043"/>lerie Artes, se sont occupés de rénover le<lb facs="P17_TL00044"/>goût du mobilier et du vêtement liturgiques,<lb facs="P17_TL00045"/>avant de songer à l'architecture qui les de<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P17_TL00046"/>vait contenir. La Société Saint-Jean nous a<lb facs="P17_TL00047"/>accoutumés à ces amples expositions du pa<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P17_TL00048"/>villon de Marsan, où les moindres détails du<lb facs="P17_TL00049"/>culte étaient envisagés d'une manière sou<pc type="endhypen" pre="false">-</pc>
@@ -787,38 +768,28 @@
                   </div>
                   <div type="TextContent" corresp="c011">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P18_TB00003">
+                        <ab facs="P18_TB00003">
                            <lb facs="P18_TL00003"/>CONCOURS PUBLIC POUR LA<lb facs="P18_TL00004"/>CONSTRUCTION D'UNE ÉGLISE</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P20_TB00007">
+                        <ab facs="P20_TB00007">
                            <lb facs="P20_TL00089"/>Le Directeur Général,<lb facs="P20_TL00090"/>(S.) DEMEUR.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P18_TB00004">
+                                 <ab facs="P18_TB00004">
                                     <lb facs="P18_TL00005"/>à (Flandre Occidentale), avec faculté, pour<lb facs="P18_TL00006"/>les concurrents, de proposer des procédés de construction nouveaux.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P18_TB00005">
+                              <ab facs="P18_TB00005">
                                  <lb facs="P18_TL00007"/>I. Objet du concours</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P18_TB00006">
+                                 <ab facs="P18_TB00006">
                                     <lb facs="P18_TL00008"/>Art. I. —Le Ministère des Affaires Eco<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00009"/>nomiques (Office des Régions Dévastées)<lb facs="P18_TL00010"/>ouvre le 10 août 1923, entre les construc<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00011"/>teurs belges, domiciliés depuis plus d'un an<lb facs="P18_TL00012"/>dans le pays, un concours pour la construc<pc type="endhypen" pre="false">-</pc>
@@ -828,16 +799,12 @@
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P18_TB00007">
+                              <ab facs="P18_TB00007">
                                  <lb facs="P18_TL00019"/>II. Conditions du concours. Instructions pour<lb facs="P18_TL00020"/>les concurrents</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P18_TB00008">
+                                 <ab facs="P18_TB00008">
                                     <lb facs="P18_TL00021"/>Art. 2. Les concurrents devront four<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00022"/>nir :<lb facs="P18_TL00023"/>a)- Un plan terrier de l'église, à l'échelle<lb facs="P18_TL00024"/>de 1 cm. par mètre;<lb facs="P18_TL00025"/>b) Des vues extérieures et les coupes né<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00026"/>cessaires à l'échelle de 1 cm.;<lb facs="P18_TL00027"/>c) Une note explicative, décrivant le<lb facs="P18_TL00028"/>mode de construction adopté, la nature et<lb facs="P18_TL00029"/>éventuellement la composition des maté<pc type="endhypen" pre="false">-</pc>
@@ -848,9 +815,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P18_TB00009">
+                                 <ab facs="P18_TB00009">
                                     <lb facs="P18_TL00041"/>Si le projet prévoit l'emploi de béton, le<lb facs="P18_TL00042"/>système de construction doit être tel que les<lb facs="P18_TL00043"/>parois intérieures ne soient pas exposées à<lb facs="P18_TL00044"/>devenir humides, sans que, cependant, il soit<lb facs="P18_TL00045"/>nécessaire d'y apposer périodiquement des<lb facs="P18_TL00046"/>enduits hydrofuges.<lb facs="P18_TL00047"/>A moins que le bâtiment projeté ne soit<lb facs="P18_TL00048"/>exécuté en briques et pierres, le concurrent<lb facs="P18_TL00049"/>devra pouvoir indiquer des églises ou bâti<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00050"/>ments importants érigés au moyen de son<lb facs="P18_TL00051"/>système.<lb facs="P18_TL00052"/>d) Un métré récapitulatif avec devis in<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00053"/>diquant les conditions et prix auxquels le<lb facs="P18_TL00054"/>concurrent s'engage à exécuter le projet<lb facs="P18_TL00055"/>qu'il soumet, tout en se conformant aux clau<pc type="endhypen" pre="false">-</pc>
@@ -861,9 +826,7 @@
                                     <lb facs="P18_TL00069"/>tions. Ils devront faire disparaître les ruines<lb facs="P18_TL00070"/>avec faculté d'en utiliser les éléments, sus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00071"/>ceptibles de remploi. Ils auront en outre,<lb facs="P18_TL00072"/>s'ils Iç désirent, l'usage gratuit de briquail<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P18_TL00073"/>lons à prélever au dépôt d'Ypres, les frais<lb facs="P18_TL00074"/>de transport étant à leur charge.<lb facs="P18_TL00075"/>L'offre introduite par les concurrents<lb facs="P18_TL00076"/>devra être maintenue durant un délai de</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00003">
+                                 <ab facs="P19_TB00003">
                                     <lb facs="P19_TL00003"/>60 jours à partir de la remise des projets.<lb facs="P19_TL00004"/>Art. 3. Les dessins auront le caractère<lb facs="P19_TL00005"/>d'esquisses et seront suffisamment cotés<lb facs="P19_TL00006"/>pour permettre la vérification du métré des<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P19_TL00007"/>criptif; ils seront fixés sur carton ou montés<lb facs="P19_TL00008"/>sur châssis.<lb facs="P19_TL00009"/>Art. 4. Les envois seront anonymes.<lb facs="P19_TL00010"/>Ils porteront une devise ou marque, repro<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P19_TL00011"/>duite sur deux enveloppes fermées; la pre<pc type="endhypen" pre="false">-</pc>
@@ -878,35 +841,25 @@
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P19_TB00004">
+                              <ab facs="P19_TB00004">
                                  <lb facs="P19_TL00031"/>III. Primes</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00005">
+                                 <ab facs="P19_TB00005">
                                     <lb facs="P19_TL00032"/>Art. 5. Une somme de 1 5,000 francs<lb facs="P19_TL00033"/>maximum sera mise à la disposition du jury.<lb facs="P19_TL00034"/>Le jury n'est cependant pas tenu à partager<lb facs="P19_TL00035"/>toute cette somme, dans le cas où le con<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P19_TL00036"/>cours ne donnerait pas le résultat désiré.<lb facs="P19_TL00037"/>Les projets primés resteront la propriété<lb facs="P19_TL00038"/>de leur auteur.</ab>
                               </div>
                            </div>
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P19_TB00006">
+                              <ab facs="P19_TB00006">
                                  <lb facs="P19_TL00039"/>IV. Jury</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00007">
+                                 <ab facs="P19_TB00007">
                                     <lb facs="P19_TL00040"/>Art. 6. Le jury sera composé de MM.<lb facs="P19_TL00041"/>1. Demeur, Directeur Général de l'Office<lb facs="P19_TL00042"/>des Régions Dévastées;<lb facs="P19_TL00043"/>2. Le Chanoine Callewaert, délégué de<lb facs="P19_TL00044"/>l'évêché;<lb facs="P19_TL00045"/>3. Dom Sébastian Braun, Directeur de</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00008">
+                                 <ab facs="P19_TB00008">
                                     <lb facs="P19_TL00046"/>T école des Arts et Métiers à Ma<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P19_TL00047"/>redsous ;<lb facs="P19_TL00048"/>4. Le Curé de Brielen, représentant la<lb facs="P19_TL00049"/>Fabrique d'église;<lb facs="P19_TL00050"/>5. Verbeke, Ingénieur, architecte provin<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P19_TL00051"/>cial à Bruges;<lb facs="P19_TL00052"/>6. Carbon, H., architecte, rue de l'Eglise,<lb facs="P19_TL00053"/>à Ostende;<lb facs="P19_TL00054"/>7. Verwilghen, R., ingénieur urbaniste;<lb facs="P19_TL00055"/>8. Toetenel, E., directeur à l'Office des<lb facs="P19_TL00056"/>Régions Dévastées;<lb facs="P19_TL00057"/>9. Un délégué des concurrents.<lb facs="P19_TL00058"/>Le délégué de l'Administration remplira<lb facs="P19_TL00059"/>auprès du jury les fonctions de rapporteur.<lb facs="P19_TL00060"/>Les membres du jury ne peuvent, ni di<pc type="endhypen" pre="false">-</pc>
@@ -919,22 +872,16 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00009">
+                                 <ab facs="P19_TB00009">
                                     <lb facs="P19_TL00084"/>Exécution</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P19_TB00010">
+                                 <ab facs="P19_TB00010">
                                     <lb facs="P19_TL00085"/>Art. 7. — L'Administration se réserve le<lb facs="P19_TL00086"/>droit de choisir entre les trois projets classés<lb facs="P19_TL00087"/>par le jury comme étant les meilleurs, celui<lb facs="P19_TL00088"/>qu elle exécutera éventuellement.<lb facs="P19_TL00089"/>Elle pourra si elle le juge utile inviter au<lb facs="P19_TL00090"/>préalable les auteurs de ces trois projets à<lb facs="P19_TL00091"/>préciser et développer leurs offres. Indépen<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P20_TB00003">
+                                 <ab facs="P20_TB00003">
                                     <lb facs="P20_TL00003"/>damment de la prime qui leur aurait été<lb facs="P20_TL00004"/>ail ouée, elle accordera, pour ce travail, à<lb facs="P20_TL00005"/>chacun d'eux, une indemnité forfaitaire de<lb facs="P20_TL00006"/>2,000 francs.<lb facs="P20_TL00007"/>Cette seconde épreuve a pour but de pré<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00008"/>ciser et de détailler l'offre faite lors de la<lb facs="P20_TL00009"/>première épreuve. Les concurrents n'y seront<lb facs="P20_TL00010"/>admis que s'ils s'engagent à respecter les<lb facs="P20_TL00011"/>prix partiels et le prix global de leur pre<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00012"/>mière offre.<lb facs="P20_TL00013"/>Ils seront tenus de fournir tous renseigne<pc type="endhypen" pre="false">-</pc>
@@ -953,9 +900,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P20_TB00004">
+                                 <ab facs="P20_TB00004">
                                     <lb facs="P20_TL00049"/>1. Le plan terrier dont question à l'art. 1.<lb facs="P20_TL00050"/>2. Le cahier des charges dont question à<lb facs="P20_TL00051"/>1 art. 2 peut être obtenu moyennant la<lb facs="P20_TL00052"/>somme de 2 francs, au Ministère des Affai<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00053"/>res Economiques, Office des Régions Dévas<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00054"/>tées, Service des Constructions, 1, rue Mon<pc type="endhypen" pre="false">-</pc>
@@ -964,17 +909,13 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P20_TB00005">
+                                 <ab facs="P20_TB00005">
                                     <lb facs="P20_TL00056"/>Programme</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P20_TB00006">
+                                 <ab facs="P20_TB00006">
                                     <lb facs="P20_TL00057"/>Le but poursuivi en organisant oc con<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00058"/>cours est d assurer, dans des conditions éco<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P20_TL00059"/>nomiques, la reconstruction dune église<lb facs="P20_TL00060"/>adoptée aux besoins du culte et répondant<lb facs="P20_TL00061"/>aux exigences de la liturgie et de l'esthé<pc type="endhypen" pre="false">-</pc>
@@ -991,18 +932,14 @@
                   </div>
                   <div type="TextContent" corresp="c012">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P21_TB00002">
+                        <ab facs="P21_TB00002">
                            <lb facs="P21_TL00002"/>ECHOS</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P21_TB00003">
+                                 <ab facs="P21_TB00003">
                                     <lb facs="P21_TL00003"/>IX* CONGRES NATIONAL DES ARCHITEC<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00004"/>TES BELGES, organisé par la Fédération des So<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00005"/>ciétés 6*Architectes de Belgique. Anvers, le 15-16<lb facs="P21_TL00006"/>et 17 septembre 1923. — Programme. — Sa<pc type="endhypen" pre="false">-</pc>
@@ -1015,9 +952,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P21_TB00004">
+                                 <ab facs="P21_TB00004">
                                     <lb facs="P21_TL00048"/>VOYAGE D'ETUDES EN BEJJGIQUE organisé<lb facs="P21_TL00049"/>par l'Union des villes et communes belges. L'ef<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00050"/>fort belge en matière d'habitations à bon marché<lb facs="P21_TL00051"/>s'est manifesté par la création d'ensembles dont la<lb facs="P21_TL00052"/>visite, dès aujourd'hui, offre un réel intérêt.<lb facs="P21_TL00053"/>Anvers, Bruxelles, Garni, Liège, la Flandre Occi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00054"/>dentale, la irégion minière du iLmbourg, offrent<lb facs="P21_TL00055"/>des exemples de réalisation très suggestifs.<lb facs="P21_TL00056"/>L'Union des Villes considère que le moment est<lb facs="P21_TL00057"/>venu d'en organiser la visite, en vue de permettre<lb facs="P21_TL00058"/>aux villes et communes qui ont à intervenir à un<lb facs="P21_TL00059"/>titre quelconque, à présent ou éventuellement dans<lb facs="P21_TL00060"/>l'avenir, ainsi que les dirigeants des sociétés d'ha<pc type="endhypen" pre="false">-</pc>
@@ -1033,9 +968,7 @@
                                     <lb facs="P21_TL00086"/>versoise et la région du Ruppel. Logement à Bru<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00087"/>xelles.<lb facs="P21_TL00088"/>Quatrième journée : Bruxelles et les environs.<lb facs="P21_TL00089"/>Logement à Bruxelles.<lb facs="P21_TL00090"/>Cinquième journée : Liège et les environs. Lo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P21_TL00091"/>gement à Liège pour ceux qui participent à la<lb facs="P21_TL00092"/>sixième journée.<lb facs="P21_TL00093"/>Sixième journée : Bassin houiller du Limbourg.</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P22_TB00003">
+                                 <ab facs="P22_TB00003">
                                     <lb facs="P22_TL00003"/>Départ à 7 h. 55 par Liége-Herstal, en vicinal<lb facs="P22_TL00004"/>spécial.<lb facs="P22_TL00005"/>Les organisateurs demandent aux adhérents d'in<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P22_TL00006"/>diquer (sans engagement) :<lb facs="P22_TL00007"/>1° A quelles journées ils désirent prendre part;<lb facs="P22_TL00008"/>2° Si l'Union des Villes doit s'occuper de leur<lb facs="P22_TL00009"/>retenir un logement et, d'une façon précise, pour<lb facs="P22_TL00010"/>quelles nuits.<lb facs="P22_TL00011"/>11 est entendu que TU. d,. V. s'occupera des<lb facs="P22_TL00012"/>moyens de transport et des repas du midi. Elle<lb facs="P22_TL00013"/>examinera aussi s'il paraît intéressant de s'occuper<lb facs="P22_TL00014"/>des repas du soir.<lb facs="P22_TL00015"/>Toutes communications concernant ce voyage<lb facs="P22_TL00016"/>doivent être adressées à l'Union des Villes et Com<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P22_TL00017"/>munes Belges, 3bis, rue de la Régence, Bruxelles.<lb facs="P22_TL00018"/>RESULTAT DE LA PREMIERE EPREUVE DU<lb facs="P22_TL00019"/>COFNCOURS POUR L'ERECTION D'UN INSTI<pc type="endhypen" pre="false">-</pc>
@@ -1051,9 +984,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P22_TB00004">
+                                 <ab facs="P22_TB00004">
                                     <lb facs="P22_TL00041"/>PARIS. UN GROUPE DES ARCHITECTES<lb facs="P22_TL00042"/>MODERNES. Un groupe des Architectes Mo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P22_TL00043"/>dernes s'est constitué à Paris au mois de juin der<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P22_TL00044"/>nier dans le but de soutenir les conceptions archi<pc type="endhypen" pre="false">-</pc>
@@ -1067,9 +998,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P22_TB00005">
+                                 <ab facs="P22_TB00005">
                                     <lb facs="P22_TL00078"/>LE PRÉSENT NUMÉRO RENFERME QUATRE PLANCHES HORS-TEXTE</ab>
                               </div>
                            </div>
@@ -1079,15 +1008,11 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c013">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P23_TB00002">
+                     <ab facs="P23_TB00002">
                         <lb facs="P23_TL00024"/>MONOBLOC<lb facs="P23_TL00025"/>176, ch" de Boondael * Bruxelles<lb facs="P23_TL00026"/>&amp;<lb facs="P23_TL00027"/>'*<lb facs="P23_TL00028"/>C, A-<lb facs="P23_TL00029"/>— P)s. 'Â-:<lb facs="P23_TL00030"/>P,<lb facs="P23_TL00031"/>/ h<lb facs="P23_TL00032"/>":m'MJL-<lb facs="P23_TL00033"/>&lt;£gr?rTr"^<lb facs="P23_TL00034"/>«»<lb facs="P23_TL00035"/>»%<lb facs="P23_TL00036"/>■»i&gt;4<lb facs="P23_TL00037"/>jM<lb facs="P23_TL00038"/>IU<lb facs="P23_TL00039"/>»»<lb facs="P23_TL00040"/>- *<lb facs="P23_TL00041"/>.-••'W.c.<lb facs="P23_TL00042"/>Maisons ouvrières et rurales<lb facs="P23_TL00043"/>en agglomérés poreux et en briques<lb facs="P23_TL00044"/>USINES<lb facs="P23_TL00045"/>Béton armé de tous systèmes<lb facs="P23_TL00046"/>Mis creux sans coffrages<lb facs="P23_TL00047"/>BLOCS ATHERMANES KNAPEN<lb facs="P23_TL00048"/>MACHINES PILONNEUSES</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c014">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P24_TB00002">
+                     <ab facs="P24_TB00002">
                         <lb facs="P24_TL00002"/>V '<lb facs="P24_TL00003"/>ÉTABLISSEMENT S<lb facs="P24_TL00004"/>Chapel<lb facs="P24_TL00005"/>Pluntz<lb facs="P24_TL00006"/>SOCIÉTÉ ANONYME Q 0 Firme exclusivement Belge depuis sa fondation en 1884<lb facs="P24_TL00007"/>BUREAUX . MAGASINS et ATELIERS :<lb facs="P24_TL00008"/>7, Rue René Dubreucq ce* r ovieaae) 138, Chaussée de Wavre<lb facs="P24_TL00009"/>IXELLES-BRUXELLES<lb facs="P24_TL00010"/>Téléphone : 247.43<lb facs="P24_TL00011"/>• ••<lb facs="P24_TL00012"/>Directeur-Administrateur ! MARTIAL CHAPEL<lb facs="P24_TL00013"/>Spécialité d'articles pour bâtiments :<lb facs="P24_TL00014"/>Colonnes (plus de 200 modèles), Pilastres, Colonettes ornées, Tuyaux de descente» Gargouilles,<lb facs="P24_TL00015"/>Châssis dégoûts, de Citernes, Sierfputs, Glissières de cheminée, Plaques d'ancrage, Marches<lb facs="P24_TL00016"/>et Grilles à jour, Cloches de calorifère, Barreaux, Pots de cuisine, Taques ornées, etc.,<lb facs="P24_TL00017"/>Poulies, Volants» Engrenages et toutes Pièces Mécaniques. Toutes pièces de Poil trie<lb facs="P24_TL00018"/>d'Ornementation. Petite Mécanique» etc., en grande série.<lb facs="P24_TL00019"/>ATELIER DE NICKELAGE<lb facs="P24_TL00020"/>MODELES ET PRIX SPECIAUX POUR ADJUDICATIONS PUBLIQUES EN :<lb facs="P24_TL00021"/>Margelles (Trous d'homme), Avaloirs, Regards dégoûts, Tuyaux, Poteaux indicateurs, Cas»<lb facs="P24_TL00022"/>délabres, etc. ALBUMS OU PLANCHES SEPAREES SUR DEMANDE<lb facs="P24_TL00023"/>Dépôt de Poutrelles en Acier<lb facs="P24_TL00024"/>Fers et Aciers pour Constructions<lb facs="P24_TL00025"/>RONDS, FILS, FEUILLARDS, etc. Coudés et façonnés sur demande mirant ptm<lb facs="P24_TL00026"/>cTexécution pour BETON ARME. Ingénieur spécialiste à la disposition des entrapreiewi<lb facs="P24_TL00027"/>«t architectes pour devis, dessins, élaboration de plans, calculs de résistance* etc.<lb facs="P24_TL00028"/>Boulons «Perçage • Charpentes• Gitages complets• Poutres tirées.«te.<lb facs="P24_TL00029"/>111 111 111 111 111<lb facs="P24_TL00030"/>i !<lb facs="P24_TL00031"/>r- 4<lb facs="P24_TL00032"/>rr<lb facs="P24_TL00033"/>m « «<lb facs="P24_TL00034"/>• • •<lb facs="P24_TL00035"/>♦ » » « • • » » •<lb facs="P24_TL00036"/>• • •<lb facs="P24_TL00037"/>♦ • ♦<lb facs="P24_TL00038"/>U<lb facs="P24_TL00039"/>• t » * t<lb facs="P24_TL00040"/>T"""-V" •<lb facs="P24_TL00041"/>\/-<lb facs="P24_TL00042"/>* «</ab>
                   </div>
                </div>

@@ -51,7 +51,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="1" to="2">1-2</biblScope>
+                           <biblScope unit="page">1-2</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -77,7 +77,7 @@
                                  <seg type="main">Z Milána. (Opery: Snoubenci. — Ruy Blas. — Maestro Marchetti. —</seg>
                               </title>
                               <respStmt>
-                                 <persName>A. Bt</persName>
+                                 <persName ref="">A. Bt</persName>
                                  <resp>cre</resp>
                               </respStmt>
                               <textLang mainLang="cze"/>
@@ -97,7 +97,7 @@
                                  <seg type="main">Z Olomúce. (Oslava dne 8. prosince.)</seg>
                               </title>
                               <respStmt>
-                                 <persName>—a—</persName>
+                                 <persName ref="">—a—</persName>
                                  <resp>cre</resp>
                               </respStmt>
                               <textLang mainLang="cze"/>
@@ -139,7 +139,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                           <biblScope unit="page">3-4</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c007">
@@ -149,7 +149,7 @@
                                  <seg type="main">* České divadlo. Dne 10. pros. Kryšpín a kmotra. —</seg>
                               </title>
                               <respStmt>
-                                 <persName>P</persName>
+                                 <persName ref="">P</persName>
                                  <resp>cre</resp>
                               </respStmt>
                               <textLang mainLang="cze"/>
@@ -157,7 +157,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                                 <biblScope unit="page">3-4</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -203,7 +203,7 @@
                            <seg type="main">Návěští.</seg>
                         </title>
                         <respStmt>
-                           <persName>Em. Meliš</persName>
+                           <persName ref="http://viaf.org/viaf/83825067">Em. Meliš</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="cze"/>
@@ -219,97 +219,82 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1869/12/20_01/delivery/bmtnabd_1869-12-20_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1869/12/20_01/delivery/bmtnabd_1869-12-20_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1869/12/20_01/delivery/bmtnabd_1869-12-20_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1869/12/20_01/delivery/bmtnabd_1869-12-20_01_0004.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00006">
+                     <ab facs="P1_TB00006">
                         <lb facs="P1_TL00022"/>DALIBOR.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>Číslo 30.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>20. prosince 1800.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>Ročník VIII.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00004"/>Yychází 1., 10., 20. každého mě<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00005"/>síce o 11. hod.<lb facs="P1_TL00006"/>Expedice se nachází na ostrově<lb facs="P1_TL00007"/>Kampa 508—111.<lb facs="P1_TL00008"/>Předplatní výminky:<lb facs="P1_TL00009"/>Pro Prahu: čtvrtletně9o kr., půl<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00010"/>letně 1 zl. 80 kr., celoročně<lb facs="P1_TL00011"/>3 zl. 60 kr.<lb facs="P1_TL00012"/>(Předplacení pro Prahu přijímá též Národní<lb facs="P1_TL00013"/>kněhkupeetví Em. Petříka.)</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00014"/>S poštou v říši rakouské: čtvrt<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00015"/>letně 1 zl, půlletně 2 zl., celo<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00016"/>ročně 4 zl.<lb facs="P1_TL00017"/>V státech německých: čvrtletně<lb facs="P1_TL00018"/>25 stř. gr., půlletně 1 tol. 20 stř.<lb facs="P1_TL00019"/>gr., celoročně 3 tol. 10 stř. gr.<lb facs="P1_TL00020"/>Pro Rusko: čtvrtletně 1 rubl.<lb facs="P1_TL00021"/>půlletně 2 rubly, celoročně 4rubly,</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00007">
+                     <ab facs="P1_TB00007">
                         <lb facs="P1_TL00023"/>časopis pro liii/llri a umění vůbec.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00012">
+                     <ab facs="P1_TB00012">
                         <lb facs="P1_TL00110"/>36</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P4_TB00014">
+                     <ab facs="P4_TB00014">
                         <lb facs="P4_TL00136"/>Redaktor a nakladatel Emanuel M eliš. (K mluvení od11120—12 h. ráno aod 2—4b.odp.) —■ Tiskem Rohlíčka a Siverse v Praze-</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00008">
+                        <ab facs="P1_TB00008">
                            <lb facs="P1_TL00024"/>Snadný a rychlý vyučovací spůsob hraní škál<lb facs="P1_TL00025"/>čili stupnic na piano.<lb facs="P1_TL00026"/>Podává Václav Proška.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P1_TB00009">
+                              <ab facs="P1_TB00009">
                                  <lb facs="P1_TL00027"/>V.</ab>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00010">
+                                 <ab facs="P1_TB00010">
                                     <lb facs="P1_TL00028"/>Kclyž byl učitel dostatečně vycvičil žáka ve hře stupnice<lb facs="P1_TL00029"/>C-dur oběma rukama v rovném pohybu, nastává mu otázka,<lb facs="P1_TL00030"/>má-lr též vyučovati všem ostatním dle stupnice té se v prsto<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00031"/>kladu řídícím stupnicím, aneb má-li dříve předevzíti jen vše<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00032"/>cky stupnice Dur dle kvintového kruhu, třeba tyto i jiného<lb facs="P1_TL00033"/>prstokladu vyžadovaly a má-li se pak ku Moll-stupnicím na<pc type="endhypen" pre="false">-</pc>
@@ -321,9 +306,7 @@
                                     <lb facs="P1_TL00051"/>kového prstokladu, jako stupnice C-dur. Žák se jim tedy<lb facs="P1_TL00052"/>jen opět v pravé ruce přiučiti musí. Jak lze ale zase H-dur<lb facs="P1_TL00053"/>i H moll v levé, a F dur i F moll v pravé ruce vyučovati?<lb facs="P1_TL00054"/>Opět dle názoru C-dur stupnice. Učitel řekne žáku, že<lb facs="P1_TL00055"/>hraje-li se stupnice H dur a H moll levou rukou dolů, pátý<lb facs="P1_TL00056"/>prst opět nehraje, ani neuzavírá stupnici tu, tedy že je zá<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00057"/>věrečný prst čtvrtý, a že se nepočítá více 1 2 3, 1 23 4,<lb facs="P1_TL00058"/>1 2 3, 1 23 4, nýbrž 1 23 4, 1 23 123 4, 123<lb facs="P1_TL00059"/>a že jen čtvrtý uzavírá. Dále podotkne učitel, že se nahoru<lb facs="P1_TL00060"/>čtvrtý prst co závěreáný nebéře do počtu, a že hned hraje<lb facs="P1_TL00061"/>třetí (prsty se dohrají) atd. Při F dur a F moll v pravé<lb facs="P1_TL00062"/>ruce, že se počítá nahoru téz 1 23 4, 1 23 1 23 4<lb facs="P1_TL00063"/>12 3a čtvrtý zakončí.<lb facs="P1_TL00064"/>Nazpátky již každý sám si domyslí dle mého ná<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00065"/>zoru prstoklad stupnice té. Žák se upozorní opět při hraní</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00011">
+                                 <ab facs="P1_TB00011">
                                     <lb facs="P1_TL00066"/>stupnic těch oběma rukama, že jest nutno, by sobě jednu<lb facs="P1_TL00067"/>ruku od druhé neodvisle myslil. Po stupnicích těch se nám<lb facs="P1_TL00068"/>naskytují stupnice Des dur a Ges dur, které žák snadno<lb facs="P1_TL00069"/>dovede, užije li se při vyučování jich jen dobrého názoru.<lb facs="P1_TL00070"/>Učitel, učiniv žáka pozorná na vrchní klávesy obou těchto<lb facs="P1_TL00071"/>stupnic, řekne pak, že se v obou těchto stupnicích nalézají<lb facs="P1_TL00072"/>dvě skupení z vrchních klávesnic, které oboum stupnicím<lb facs="P1_TL00073"/>přináleží, a sice jedno ze dvou (Des, Es) a druhé ze třech<lb facs="P1_TL00074"/>(Jes, As, Hes) krátkých klávesů. Hraje-li se stupnice Des<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00075"/>dur, že se začíná skupením dvouklávesovým ÍDes, Es) a po<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00076"/>kračuje teprv ke skupení tříklávesovému (Jes, As, Hes);<lb facs="P1_TL00077"/>hraje-li se ale stupnice Jes dur, tu že nalézáme skupeniny<lb facs="P1_TL00078"/>tyto v opáčném pořádku, tedy: (Jes, As, Hes; Des, Es).<lb facs="P1_TL00079"/>Hraje-li se tedy stupnice Des dur od prvního stupně nahoru,<lb facs="P1_TL00080"/>že se již hraje táké současně stupnice stupnice Jes dur od<lb facs="P1_TL00081"/>pátého stupně nahoru, a hraje-li se stupnice Jes dur nahoru<lb facs="P1_TL00082"/>od prvního stupně, tu že se též hraje stupnice Des dur od<lb facs="P1_TL00083"/>čtvrtého stupně současně nahoru. Z toho vidno, jak jedna<lb facs="P1_TL00084"/>stupnice ve druhé až na jednu klávesu (CesnebC) obsažena<lb facs="P1_TL00085"/>jest, tak že je hrajeme-li jednu, hrajeme již současně též i<lb facs="P1_TL00086"/>druhou, až na jeden kláves, kterého není třeba si ale pro<pc type="endhypen" pre="false">-</pc>
@@ -336,9 +319,7 @@
                                     <lb facs="P1_TL00105"/>tel k praktickému hraní stupnic těch. Kterou z nich dřív<lb facs="P1_TL00106"/>chce předsevzíti, zůstane si stejno. Předevezme-li ale stud<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00107"/>nici Des-dur, řekne žáku, aby pro skupení Des, Es, také<lb facs="P1_TL00108"/>použil dvouprstového skupení, tedy druhého a třetího prstu;<lb facs="P1_TL00109"/>podotkne dále, aby prsty"ty na ony klávesy na jednou polo<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00002">
+                                 <ab facs="P2_TB00002">
                                     <lb facs="P2_TL00002"/>žil; tedy na Des druhý a na Es třetí prst. Mezi tím aby<lb facs="P2_TL00003"/>ale palec, dokavád prsty ty leží na zmíněných klávesích, už<lb facs="P2_TL00004"/>zároveň pod ně podložil a nechal jej ležeti na klávesu F.<lb facs="P2_TL00005"/>Mezi tím ale, co palec dopadne na kláves F, aby druhý a<lb facs="P2_TL00006"/>třetí prst (dvouprstové skupení) pustil a hned zase druhý a<lb facs="P2_TL00007"/>třetí a čtvrtý prst (tříprstové skupení) na klávesy Jes, As,<lb facs="P2_TL00008"/>Hes na jednou položil. Dokavád prsty leží na zmíněných<lb facs="P2_TL00009"/>klávesích, aby již hned zase palec na klávesnici C podvino<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00010"/>val atd. ve vyšších oktávech. (Levou ruku každý učitel dle<lb facs="P2_TL00011"/>tohoto návodu žáku sám již snadno znázorní.)<lb facs="P2_TL00012"/>Tím se stane, že učitel žáku odhalí celou kostru prsto<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00013"/>kladu stupnic těch. Napotom řekne žáku, aby prsty, ktere<lb facs="P2_TL00014"/>drive položil najednou na klávesy, teď na ty samé klávesy<lb facs="P2_TL00015"/>po sobě kladl, anto palec, jak již známo, dolením klávesům<lb facs="P2_TL00016"/>přináleží. Tak se to má též se stupnici Ges-dur, hraj e-li se<lb facs="P2_TL00017"/>jen místo C Ces. Žák tedy počne tříklávesovým skupením<lb facs="P2_TL00018"/>Ges, As, Hes a pokračuje ke dvojklásovému Des, Es. Při<lb facs="P2_TL00019"/>těchto stupnicích se tedy prsty neodpočítávají, protože se<lb facs="P2_TL00020"/>v pořádku takovém, v jakém se cifry 23 1, 23 4 1, aneb<lb facs="P2_TL00021"/>v stupnici Jes: 23 4 1, 23 1 nacházejí u prstokladu toho,<lb facs="P2_TL00022"/>nepočítá.<lb facs="P2_TL00023"/>Prstoklad melodické stupnice Des moll (Cis moll), obou<lb facs="P2_TL00024"/>rukou pak Jes moll (Fis moll) pravé ruky řídí se prstokladem<lb facs="P2_TL00025"/>stupnice Des dur. Melodická i harmonická stupnice Fis moll<lb facs="P2_TL00026"/>jde ale v levé ruce podle prstokladu stupnice Fis dur. Uči<pc type="endhypen" pre="false">-</pc>
@@ -346,9 +327,7 @@
                                     <lb facs="P2_TL00037"/>slednost prstokladu nezachová.<lb facs="P2_TL00038"/>Ještě jednoduší pomůcka jest, práví-li se žáku: aby při<lb facs="P2_TL00039"/>hře stupnice Hes dur v pravé ruce nahoru hned podložil pod<lb facs="P2_TL00040"/>každý vrchní kláves, a tak dlouho dle pořádku prsty kladl,<lb facs="P2_TL00041"/>až zase k nějakému vrchnímu klávesu přijde. Tím se mu<lb facs="P2_TL00042"/>prstoklad sám odhalí. Žák položiv čtvrtý prst na kláves Hes,<lb facs="P2_TL00043"/>jest nucena, hned na C podložiti, a dohrav až na Es, musí<lb facs="P2_TL00044"/>opět na F podložiti a prsty až do Hes dohráti atd, Tím se<lb facs="P2_TL00045"/>mu prstoklad sám objeví.<lb facs="P2_TL00046"/>Hraj e-li se ale stupnice tato v pravé ruce dolů, tu se<lb facs="P2_TL00047"/>střídá čtvrtý prst ve běhu jen se třetím; tedy: čtvrtý (prsty<lb facs="P2_TL00048"/>se dohrají) třetí (prsty se dohrají) atd. Levá ruka ale, hra<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00049"/>je li se dolů, podléhá opáčnému prstokladu, když se nebéře<lb facs="P2_TL00050"/>třetí prst, kterým se začíná, též do počtu; nýbrž se hned<lb facs="P2_TL00051"/>vedle ležícím klávesem A začíná. Tedy 1 23 4, 1 23 atd.<lb facs="P2_TL00052"/>Nahoru se ale střídá třetí prst ve běhu se čtvrtým. Tedy:<lb facs="P2_TL00053"/>třetí (prsty se dohrají) čtvrtý (prsty se dohrají) atd. Dle<lb facs="P2_TL00054"/>Hes dur se řídí též prstoklad stupnice Hes moll melodická<lb facs="P2_TL00055"/>i harmonická jen pro pravou ruku, levá ruka se ale liší od<lb facs="P2_TL00056"/>tohoto prstokladu zminěné stupnice moll a nezbývá nic ji<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00057"/>ného, anto vše do podrobná popisovati zde nelze, než jen<lb facs="P2_TL00058"/>aby učitel odhalil odchylku její, jakož i snad ještě některých</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00003">
+                                 <ab facs="P2_TB00003">
                                     <lb facs="P2_TL00059"/>jiných, kterě se pod jeden klobouk uvésti nedají, sám žákovi.<lb facs="P2_TL00060"/>Stupnice Es-dur začíná v pravé ruce nahoru třetím prstem*<lb facs="P2_TL00061"/>který se ale do počtu nebéře. Platí o jejím prstokladu ten<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00062"/>týž návod, jako o stupnici Hes dur, jen že se počítá 123<lb facs="P2_TL00063"/>4, 1 23 1 23 4, 1 23 atd., též vedlejším klávesem F<lb facs="P2_TL00064"/>počínajíc. Dolů se střídá třetí prst ve běhu se čtvrtým. <lb facs="P2_TL00065"/>Tedy: třetí (prsty se dohrají) čtvrtý (prsty se dohrají) atd.<lb facs="P2_TL00066"/>V levé ruce dolů přijde třetí prst na Es a nebéře se<lb facs="P2_TL00067"/>do počtu, nýbrž se počne s vedlejším klávesem D, a počítá<lb facs="P2_TL00068"/>se 1 23 4, 1 23. Též se žáku řekne, že uemusí ani dle<lb facs="P2_TL00069"/>počítání prsty klásti, podložiti jen vždy pod vrchní kláves<lb facs="P2_TL00070"/>první prst. Nahoru se střídá třetí prst se ztvrtým a prsty<lb facs="P2_TL00071"/>se dohrají.<lb facs="P2_TL00072"/>Stupnice Es-moll melodická i harmonická jdou v pravé<lb facs="P2_TL00073"/>ruce dle stupnice Es dur, v levé ruce jest ale odchýlka.<lb facs="P2_TL00074"/>Při hře stupnice As dur v pravé ruce nahoru se třetím<lb facs="P2_TL00075"/>prstem začne a se vždy podloží jen pod každý vrchní kláves<lb facs="P2_TL00076"/>a prsty se dle pořádku dohrají. Tím se prstoklad objeví<lb facs="P2_TL00077"/>sám. Naspátky připadne na As vždy třetí, ana Hes čtvrtý<lb facs="P2_TL00078"/>prst, ostatní prsty se vždy jen dohrají. Levá ruka nazpět<lb facs="P2_TL00079"/>začíná třetím prstem, který se ale do počtu nebéře, nýbrž<lb facs="P2_TL00080"/>se začne až od vedlejšího klávesu Je a počítá se 1 23 4,<lb facs="P2_TL00081"/>123 atd.<lb facs="P2_TL00082"/>Nahoru ale střídá se třetí prst se čtvrtým ve běhu, tedy<lb facs="P2_TL00083"/>tři (prsty se dohrají) čtyry (prsty se dohrají) atd. Stupnice<lb facs="P2_TL00084"/>As moll melodická i harmonická v pravé ruce jde též podle<lb facs="P2_TL00085"/>stupnice As dur pravé ruky v prstokladu. Stupnice As mo 1<lb facs="P2_TL00086"/>melodická jde v levé ruce nahoru též dle stupnice As dur<lb facs="P2_TL00087"/>Dolů se ale podkládá jen pod vrchní klávesy na Fes a Ces,.<lb facs="P2_TL00088"/>a prstoklad se sám objeví. Stupnice As moll harmonická<lb facs="P2_TL00089"/>jde v levé ruce nahoru i dolů dle prstokladu levé ruky As<lb facs="P2_TL00090"/>dur.<lb facs="P2_TL00091"/>Konečně učiň učitel žáka i na to pozorná, že se nedá<lb facs="P2_TL00092"/>jiného prstokladu pro veškeré stupnice užiti, protože ho uči<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00093"/>telové piana sami neurčili; nýbrž že je určen pořádkem klá<pc type="endhypen" pre="false">-</pc>
@@ -361,25 +340,19 @@
                   </div>
                   <div type="TextContent" corresp="c002">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00002">
+                        <ab facs="P3_TB00002">
                            <lb facs="P3_TL00002"/>Dopisy.</ab>
                      </div>
                      <div type="TextContent" corresp="c003">
                         <div type="Byline">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00005">
+                           <ab facs="P3_TB00005">
                               <lb facs="P3_TL00067"/>A. Bt.</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00003">
+                                    <ab facs="P3_TB00003">
                                        <lb facs="P3_TL00003"/>Z Milána. (Opery: Snoubenci. — Ruy Blas. — Maestro Marchetti. —<lb facs="P3_TL00004"/>Steger.)<lb facs="P3_TL00005"/>Navrativ se ze své cesty po jižní Itálie do Milána sdělím<lb facs="P3_TL00006"/>Vám, co jsem kde zajímavého v operním oboru slyšel. V Tu<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00007"/>ríne, podařilo se mi slyšeti nejnovejsí Petreílovu operu: Snon<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00008"/>benci (I promessi sposi) a mohu dotvrdili, že se v této parti<pc type="endhypen" pre="false">-</pc>
@@ -407,9 +380,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00004">
+                                    <ab facs="P3_TB00004">
                                        <lb facs="P3_TL00066"/>rozjařené obecenstvo až dlouho po půl noci.</ab>
                                  </div>
                               </div>
@@ -418,24 +389,18 @@
                      </div>
                      <div type="TextContent" corresp="c004">
                         <div type="Byline">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00009">
+                           <ab facs="P3_TB00009">
                               <lb facs="P3_TL00097"/>—a—</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00006">
+                                    <ab facs="P3_TB00006">
                                        <lb facs="P3_TL00068"/>Z Olomúce. (Oslava dne 8. prosince.)<lb facs="P3_TL00069"/>Započetí sněmu církevního oslavovali jsme velkou sla<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00070"/>vnosti eírkevnou. V pul b. hod. ráno sloužena d. p. před<pc type="endhypen" pre="false">-</pc>
                                     </ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00007">
+                                    <ab facs="P3_TB00007">
                                        <lb facs="P3_TL00071"/>staveným Ig. Haasem s četnou assistencí mše sv„ při které<lb facs="P3_TL00072"/>údové obou bohosl. pěveckých jednot „Ohlasu" (slov.) a<lb facs="P3_TL00073"/>„Eintracht" provedli mši Horákovu. Co vložek použito ku<lb facs="P3_TL00074"/>Graduale dvojsboru „Tu es Petrus" od J. Lev. Belly, k<lb facs="P3_TL00075"/>Offertorium velkého dvojsboru „Felix es sacra Virgo Ma<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00076"/>ria" od Fr. Witta. Provedení bylo vesměs zdařilé, zvlášť<lb facs="P3_TL00077"/>nesnadné dvojsbory zpívány s nevšední jistotou a precísno<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00078"/>stí. Tu zajisté každý nepředpojatý posuzovatel poznal ce<pc type="endhypen" pre="false">-</pc>
@@ -448,9 +413,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00008">
+                                    <ab facs="P3_TB00008">
                                        <lb facs="P3_TL00096"/>šlendriánům. </ab>
                                  </div>
                               </div>
@@ -459,18 +422,14 @@
                      </div>
                      <div type="TextContent" corresp="c005">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00010">
+                           <ab facs="P3_TB00010">
                               <lb facs="P3_TL00098"/>Kronika zpěváckých spolků.</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00011">
+                                    <ab facs="P3_TB00011">
                                        <lb facs="P3_TL00099"/>v<lb facs="P3_TL00100"/>Ženský zpěváčky spolek vstoupil v Polici n. Metují<lb facs="P3_TL00101"/>do života. Spolek ten čítá již nyní 26 údů, kteří vedením<lb facs="P3_TL00102"/>p. učitele Hausmanna velmi zdařile sí počínají. Stanovy<lb facs="P3_TL00103"/>spolku, dle pardubického, od pí. Jahnové a sl. Hrubé spol<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00104"/>ku laskavě odeslané, sestaveny budou co nejdříve a místo<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00105"/>držitelství k potvrzení odeslány. Jméno spolku bude „Vla<pc type="endhypen" pre="false">-</pc>
@@ -487,25 +446,19 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00012">
+                        <ab facs="P3_TB00012">
                            <lb facs="P3_TL00122"/>Zprávy.</ab>
                      </div>
                      <div type="TextContent" corresp="c007">
                         <div type="Byline">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P4_TB00004">
+                           <ab facs="P4_TB00004">
                               <lb facs="P4_TL00051"/>P.</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00013">
+                                    <ab facs="P3_TB00013">
                                        <lb facs="P3_TL00123"/>* České divadlo. Dne 10. pros. Kryšpín a kmotra. —<lb facs="P3_TL00124"/>Dne 11. pros. Doktor Pandolfo, komická opera; slova dle Du<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00125"/>nieckélio přel. B. Peška, hudba od Stan. Dunieckého (poprvé).<lb facs="P3_TL00126"/>Dne 12. pros. Romeo a Julie. Dne 17. pros. Ruslan a Ludmila.<lb facs="P3_TL00127"/>Dne 17. pros. U věrného pastýře, komická opera v 3 jed. Text<lb facs="P3_TL00128"/>dle Scribea a Saint-Georgesa přel. Em. Ziingl. Hudba od Ad.<lb facs="P3_TL00129"/>Adama. (Ve prospěch kapelníka Ad. Čecha, poprvé.)<lb facs="P3_TL00130"/>„Dne 11, pros. o Čtvrt na desát. hod. večer skonal na našem<lb facs="P3_TL00131"/>jevišti doktor Pandolfo, nikoliv snad následkem vnitřní slabosti<lb facs="P3_TL00132"/>neb tělesné vady; nýbrž pozvolnou vraždou, která na něm mimo<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00133"/>volne spáchána byla." Tak zní úmrtní lístek nejnovějŠí operetty<lb facs="P3_TL00134"/>„Doktor Pandolfo" od St. Dunieckého, jehož rozkošný „Šotek"<lb facs="P3_TL00135"/>patrně svědčí o jeho komposičních vlohách. Operettka „Doktor<lb facs="P3_TL00136"/>Pandolfo" je mnohem lepší, než leckterá operetta od Zajíce a<lb facs="P3_TL00137"/>Offenbacha, které se u nás líbí; hudba její je mnohem důklad<pc type="endhypen" pre="false">-</pc>
@@ -514,9 +467,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00002">
+                                    <ab facs="P4_TB00002">
                                        <lb facs="P4_TL00002"/>plody moderních operettních fabrikantů; avšak ona vyžaduje vý<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00003"/>tečných ve hře úplně obratných pěvců a kde se této podmínce<lb facs="P4_TL00004"/>neučiní zadost, tam nelze také příznivý výsledek očekávat. Ko<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00005"/>nečně vadí operettce té recitativy, které by se raději prosou<lb facs="P4_TL00006"/>nahraditi mohli. Libretto je dosti zajímavé. Hlavní roli hraje<lb facs="P4_TL00007"/>přihlouplý pan Doktor Pandolfo, jemuž jistá pacientka vymění<lb facs="P4_TL00008"/>láhviČku s lékem, z níž jí byl doktor Pandolfo medicinu k pití<lb facs="P4_TL00009"/>nalil, v jeho nepřítomnosti za jinou nápisem utrejch opatřenou.<lb facs="P4_TL00010"/>Když se doktor opět navrátí, tváří se pacientka, jakoby snášela<lb facs="P4_TL00011"/>ukrutné bolesti, svalujíc při tom veškerou vinu na láhviČku, doktor<lb facs="P4_TL00012"/>nevěda, že ji pacientka za jinou vyměnila, ulekne se k smrti,<lb facs="P4_TL00013"/>vida, že jí nalil místo mediciny utrejchu. Pacientka sklesne na<lb facs="P4_TL00014"/>oko na pohovku a dělá se umrlou. V tom vstoupí do pokoje<lb facs="P4_TL00015"/>sluha Pandolfův, jenž za velkou doktorem mu slíbenou od<pc type="endhypen" pre="false">-</pc>
@@ -533,9 +484,7 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00003">
+                                    <ab facs="P4_TB00003">
                                        <lb facs="P4_TL00050"/>a jeho milenkou a mezi oběma a matkou nevěstinou. </ab>
                                  </div>
                               </div>
@@ -547,18 +496,14 @@
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00005">
+                                    <ab facs="P4_TB00005">
                                        <lb facs="P4_TL00052"/>* Druhý filharmonický koncerty jenž odbýval se řízením<lb facs="P4_TL00053"/>p. Bedř. Smetany v neděli dne 12. prosince, došel rovněž<lb facs="P4_TL00054"/>tak skvělého výsledku, jako první. Program obsahoval<lb facs="P4_TL00055"/>tentokráte zajímavé skladby instrumentální jako ouverturu<lb facs="P4_TL00056"/>ke Calderonově: Magico prodigioso od A. Y. Ambrose, ou<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00057"/>verturu k „Juliu Cásaru" od R. Schumanna; předehru ke<lb facs="P4_TL00058"/>komické opeře: „Meistersinger" od Richarda Wagnera a ko<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00059"/>nečně synfonii do C-dur od časně zesnulého Fr. Schuberta,<lb facs="P4_TL00060"/>geniálního skladatele světoznámých písní. Že by se byl<lb facs="P4_TL00061"/>hudební svět dočkal na poli synfonie mnoho krásných a vý<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00062"/>tečných plodů od Frant. Schuberta, jenž nadán byl vzácnou<lb facs="P4_TL00063"/>bohatostí myšlének, není pochybnosti; nebof by se bylo<lb facs="P4_TL00064"/>mistru tomu vbrzku podařilo, zachrániti hojný proud svých<lb facs="P4_TL00065"/>skladeb před burácející zátopou a uvésti jej v řečiště, v<lb facs="P4_TL00066"/>němž by nezkalene a velebně dál se übíral. To patrně vy<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00067"/>svítá z této synfonie, v níž se zjevně zračí bohatý talent a<lb facs="P4_TL00068"/>tu a tam jiskra božského genia. Ovšem jeví se to ještě<lb facs="P4_TL00069"/>spůsobem, jenž jasně poukazuje na bouři vnitřního tvůrčí<pc type="endhypen" pre="false">-</pc>
                                     </ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P4_TB00006">
+                                    <ab facs="P4_TB00006">
                                        <lb facs="P4_TL00070"/>ho pudu, který je příliš mocoý a bezuzdný k uměleckému<lb facs="P4_TL00071"/>překonání látky. Skladatel vylévá v synfonii té veškeré<lb facs="P4_TL00072"/>své síly, zabíhajíc tím až k marnotratnosti a domnívá se,<lb facs="P4_TL00073"/>nepamatujíc ani dost málo na povážlivé hospodaření a rozdělová<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00074"/>ní, ještě k tomu, že udělal ještě příliš málo, jak to obyčejně dělá<lb facs="P4_TL00075"/>všichni a Činné mládí, které neskrblí svými statky; nýbrž chce,<lb facs="P4_TL00076"/>aby bujné lidé hojně požívali z jejich majetku. Z toho vyplývá, že<lb facs="P4_TL00077"/>všechny sady této synfonie vyjma snad scherzo se<lb facs="P4_TL00078"/>zdají býti příliš dlouhé a příliš rozpředeny; kdežto jejich<lb facs="P4_TL00079"/>svěžest a zajímavé obraty nedávají přístupu žádné jedno<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P4_TL00080"/>tvornosti, ano z toho vyplývá, že se tu objeví lecos co bujný<lb facs="P4_TL00081"/>výrůstek, jejž by povážlivý zahradník byl zajisté odstranil,<lb facs="P4_TL00082"/>který však jest právě znamením puČivé síly a bujnosti mla<pc type="endhypen" pre="false">-</pc>
@@ -581,26 +526,20 @@
                   </div>
                   <div type="TextContent" corresp="c009">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00007">
+                        <ab facs="P4_TB00007">
                            <lb facs="P4_TL00123"/>Listárna. </ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00008">
+                                 <ab facs="P4_TB00008">
                                     <lb facs="P4_TL00124"/>Panu AI. H. v Chrudimi a zp. sp. Krakonoši ve V. :</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00009">
+                                 <ab facs="P4_TB00009">
                                     <lb facs="P4_TL00125"/>Půlletní předplatní peníze odevzdám „Pěvecké jednotě".<lb facs="P4_TL00126"/>SI. zp. sp. v R.: „Vlašský salát" můžete vždy obdržeti.</ab>
                               </div>
                            </div>
@@ -609,29 +548,21 @@
                   </div>
                   <div type="TextContent" corresp="c010">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00010">
+                        <ab facs="P4_TB00010">
                            <lb facs="P4_TL00127"/>Návěští.</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00013">
+                        <ab facs="P4_TB00013">
                            <lb facs="P4_TL00135"/>Em. Meliš.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00011">
+                                 <ab facs="P4_TB00011">
                                     <lb facs="P4_TL00128"/>Přenechav časopis „Daliboru slavné Pěvecké<lb facs="P4_TL00129"/>je dl no té v Praze, která jej novým rokem dále vy<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00130"/>dávati bude, skládám vzdávaje se zároveň redakce<lb facs="P4_TL00131"/>srdečný dík vsem pánům spolupracovníkům, jmenovité<lb facs="P4_TL00132"/>ale p. Otakaru Hostinskému a Václ. Proskovif<lb facs="P4_TL00133"/>kteří mne s nezištnou horlivostí literárními příspěvky</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00012">
+                                 <ab facs="P4_TB00012">
                                     <lb facs="P4_TL00134"/>podporovali. </ab>
                               </div>
                            </div>

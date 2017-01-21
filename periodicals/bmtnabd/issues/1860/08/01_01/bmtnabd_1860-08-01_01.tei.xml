@@ -51,7 +51,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="1" to="2">1-2</biblScope>
+                           <biblScope unit="page">1-2</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -79,7 +79,7 @@
                            <seg type="main">Z Odessy.</seg>
                         </title>
                         <respStmt>
-                           <persName>Marie Pfohlová</persName>
+                           <persName ref="">Marie Pfohlová</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="cze"/>
@@ -87,7 +87,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="2" to="3">2-3</biblScope>
+                           <biblScope unit="page">2-3</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -103,7 +103,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                           <biblScope unit="page">3-4</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -119,7 +119,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="4" to="5">4-5</biblScope>
+                           <biblScope unit="page">4-5</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -135,7 +135,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="5" to="8">5-8</biblScope>
+                           <biblScope unit="page">5-8</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c007">
@@ -159,7 +159,7 @@
                                        <seg type="main">Novoměstské divadlo. Repertoir naší opery se v posledním</seg>
                                     </title>
                                     <respStmt>
-                                       <persName>Bžk</persName>
+                                       <persName ref="">Bžk</persName>
                                        <resp>cre</resp>
                                     </respStmt>
                                     <textLang mainLang="cze"/>
@@ -185,7 +185,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="5" to="6">5-6</biblScope>
+                                 <biblScope unit="page">5-6</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -201,7 +201,7 @@
                            <monogr>
                               <imprint>
                                  <classCode scheme="CCS">TextContent</classCode>
-                                 <biblScope unit="page" from="6" to="8">6-8</biblScope>
+                                 <biblScope unit="page">6-8</biblScope>
                               </imprint>
                            </monogr>
                         </biblStruct>
@@ -275,110 +275,103 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabd/issues/1860/08/01_01/delivery/bmtnabd_1860-08-01_01_0008.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00006">
+                     <ab facs="P1_TB00006">
                         <lb facs="P1_TL00022"/>DALIBOR.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>Číslo 22.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>1860</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00012"/>Ročník 3.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>Vychází 1., 10., 20.<lb facs="P1_TL00004"/>každého měsíce o 10.<lb facs="P1_TL00005"/>hod. Expedicí se nachází<lb facs="P1_TL00006"/>v obchodnictví musikalií<lb facs="P1_TL00007"/>u „Beethovenu44 u Ro<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00008"/>berta Veita v No<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00009"/>vých alejích č. 116. Kdo<lb facs="P1_TL00010"/>všechna čtyry čtvrtletí<lb facs="P1_TL00011"/>odebere, obdrží praemii.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00013"/>Předplácí se: čtvrti. 1 zl.<lb facs="P1_TL00014"/>pull. 2 zl., celor. 4 zl.<lb facs="P1_TL00015"/>rak. č. S poštou: čtvrti.<lb facs="P1_TL00016"/>1 zl. 15 kr, půli. 2 zl.<lb facs="P1_TL00017"/>30 kr., celor. 4 zl. 60 kr.<lb facs="P1_TL00018"/>rak. čísla. Pro státy ně<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00019"/>mecké: půlletně 1 tol.<lb facs="P1_TL00020"/>10 nov. gr., celoročně<lb facs="P1_TL00021"/>2 tol. 20 nov. gr</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00007">
+                     <ab facs="P1_TB00007">
                         <lb facs="P1_TL00023"/>Hudební časopis s měsíční notovou přílohou as rocni praemií.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00008">
+                     <ab facs="P1_TB00008">
                         <lb facs="P1_TL00024"/>Odpovědný redaktor :<lb facs="P1_TL00025"/>Emanuel Melis.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00010">
+                     <ab facs="P1_TB00010">
                         <lb facs="P1_TL00028"/>1. srpna.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00009">
+                     <ab facs="P1_TB00009">
                         <lb facs="P1_TL00026"/>Nakladalel:<lb facs="P1_TL00027"/>Robert Veit.</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00010">
+                     <ab facs="P8_TB00010">
                         <lb facs="P8_TL00111"/>Tiskem Antonína Renna v Praze, v Kolovratské střídě „u tří lip."</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00011">
+                        <ab facs="P1_TB00011">
                            <lb facs="P1_TL00029"/>Slovo o českých národních písních.<lb facs="P1_TL00030"/>Podává L. Zvonař.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00013">
+                                 <ab facs="P1_TB00013">
                                     <lb facs="P1_TL00070"/>(Pokračování.)</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00014">
+                                 <ab facs="P1_TB00014">
                                     <lb facs="P1_TL00071"/>česká národní píseň jest původní, a jeví ve své<lb facs="P1_TL00072"/>hlavní stránce zvláštní svůj ráz. Zde a tam se snad<lb facs="P1_TL00073"/>vyskytující nepatrné upomínky na cizé písné nejsou pů<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00074"/>vodnosti této na ujmu, an se dokázati nedá, že by pouhé<lb facs="P1_TL00075"/>napodobování byly. Upomínky lakové nejsou nic jiného,<lb facs="P1_TL00076"/>než věcně se opakující pravda, že právě cítěné a my<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00077"/>šlené stejně aneb podobně se vyslovuje.<lb facs="P1_TL00078"/>v<lb facs="P1_TL00079"/>Cechům se dělala a dělá až do-posud předhůzka<lb facs="P1_TL00080"/>od cizích i domácích, že rádi cizí živly přijímají. Před<pc type="endhypen" pre="false">-</pc>
@@ -391,9 +384,7 @@
                                     <lb facs="P1_TL00102"/>rodních stopy římského chorálu nalezáme. Příroda byla<lb facs="P1_TL00103"/>vždy, jest doposavad a bude ještě dlouho učitelkou lidu.<lb facs="P1_TL00104"/>Máme dost důkazů, že to, co mu od vzdělanců vští<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00105"/>peno bylo, často zle bylo od něho vykládáno i užíváno,<lb facs="P1_TL00106"/>pro to že špatně rozumíno. Jsme přesvědčeni, že se lid<lb facs="P1_TL00107"/>při mnohém jednání pouze přírodou vésti dává. Pot<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00108"/>káváme-li se již v životě obyčejném s touto okolností,</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00012">
+                                 <ab facs="P1_TB00012">
                                     <lb facs="P1_TL00031"/>tím více to bude v umění tak přirozeném jako jest<lb facs="P1_TL00032"/>hudba. Víme, že národy to, co slovem vysloviti ne<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00033"/>mohou, zpěvem pronášejí; a jelikož hudba na podrobné<lb facs="P1_TL00034"/>výrazy chudá jest, nelze jinak, než že k vyjádření stej<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00035"/>ných cituv, stejných aneb podobných melodických po<pc type="endhypen" pre="false">-</pc>
@@ -409,9 +400,7 @@
                                     <lb facs="P1_TL00063"/>jen co do kantileny ale ico do rhythmu. Od nápěvů, které<lb facs="P1_TL00064"/>by si s nápěvy původního obyvatele pralesův ameri<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P1_TL00065"/>ckých tykali mohly, až do kantilen, které by i král<lb facs="P1_TL00066"/>melodiji, Italian, za své přijmouti mohl, od nejsprostš,ího<lb facs="P1_TL00067"/>až k nejvybranějšímu, někdy i podivínskému rhythmu<lb facs="P1_TL00068"/>potkáváme se v českých písních. Čech v nápěvu vůbec<lb facs="P1_TL00069"/>výběrčlivý není. Spokojuje se často pouhým opaková<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00002">
+                                 <ab facs="P2_TB00002">
                                     <lb facs="P2_TL00002"/>ním tónu na rozličných stupních, a rozhřává se k sku<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00003"/>tečně melodickému zpěvu jen tenkráte, když mu jde,<lb facs="P2_TL00004"/>jak říkáme, do živého. Leží to docela v jeho povaze.<lb facs="P2_TL00005"/>Jak rozličné nepříjemnosti života pojímá, je si k srdci<lb facs="P2_TL00006"/>připouští a jak si je snesitelnějšími činit dovede, o tom<lb facs="P2_TL00007"/>svědčí dostatečně texty jeho národních písní. Ze i<lb facs="P2_TL00008"/>z melodije někdy soudit lze, v jakém smyslu text ro<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00009"/>zumín býti má, musíme zvlášt podotknouti. Neboť se<lb facs="P2_TL00010"/>potkáváme při mnohých písních s jakousi neshodou<lb facs="P2_TL00011"/>v slově. Mnohý zdánlivě veselý text má melodiji mno<pc type="endhypen" pre="false">-</pc>
@@ -420,9 +409,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00003">
+                                 <ab facs="P2_TB00003">
                                     <lb facs="P2_TL00016"/>(Pakračování.)</ab>
                               </div>
                            </div>
@@ -431,26 +418,20 @@
                   </div>
                   <div type="TextContent" corresp="c002">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00004">
+                        <ab facs="P2_TB00004">
                            <lb facs="P2_TL00017"/>O kostelní hudbě v Praze.<lb facs="P2_TL00018"/>Podává F. L—ý.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00005">
+                                 <ab facs="P2_TB00005">
                                     <lb facs="P2_TL00019"/>(Pokračování.)</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00006">
+                                 <ab facs="P2_TB00006">
                                     <lb facs="P2_TL00020"/>(Varhaník v chráme u sv. Petra. Hudba v chrámě<lb facs="P2_TL00021"/>Týnském.)<lb facs="P2_TL00022"/>Již několikráte jsem poslouchal hraní varhan při<lb facs="P2_TL00023"/>mši žáků školy u sv. Petra, při nížto hraje třetí učitel<lb facs="P2_TL00024"/>této školy p. Mý. Nejlépe vylíčíme p. M. co varhaníka,<lb facs="P2_TL00025"/>povíme-li5 s jakou vážnou postavou, maje starou par<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00026"/>týsku podpaží, na kůr kráčí. Nevím nic jinak, než asi<lb facs="P2_TL00027"/>jako to dělával král varhaníků Šeb. Bach, toliko s tím<lb facs="P2_TL00028"/>rozdílem, že uslyšímeli první zvuky varhan t. j. starou,<lb facs="P2_TL00029"/>otřepanou a copařskou kadenz, - Bach zmizí a tu<lb facs="P2_TL00030"/>počne pan Mý. předehru, kterážto před ním na pulpitě<lb facs="P2_TL00031"/>leží. Jestli pan Mý. předehru před ním ležící dříve<lb facs="P2_TL00032"/>přehraje, než jest duchovní hotov, nehne jím, ani do<lb facs="P2_TL00033"/>žádných jej nepřivede nesnází. Počne pořádně znova.<lb facs="P2_TL00034"/>A ne snad žeby p. M. tutéž předehru jen přede mši<lb facs="P2_TL00035"/>hrajeť ji i před pozdvihováním i po mši sv., a ne<lb facs="P2_TL00036"/>snad že ji hraje jen letos on ji probírá již několik<lb facs="P2_TL00037"/>roků, tak že ji už z paměti uměti může. Že p. M. ani<lb facs="P2_TL00038"/>té nejmenší známosti o modulaci nemá, dotvrzuje to,<lb facs="P2_TL00039"/>že když se na chvilku spustí svého vesla, t. j. staré<lb facs="P2_TL00040"/>partýsky, a několik akkordů z hlavy hráti počne, klesá,<lb facs="P2_TL00041"/>mdlý asi tak, jako když se ptáku křidélka přistřihnou,<lb facs="P2_TL00042"/>a tu vyvede jeden nesmysl za druhým. I při písni<lb facs="P2_TL00043"/>„Bože před tvou velebností" se drží partýsky, nebo! při<lb facs="P2_TL00044"/>každém fermatu má jistou mezihru, kterouž nezmění<lb facs="P2_TL00045"/>nikdy ani o chlup. Jen by mu bylo radíno, aby, když<lb facs="P2_TL00046"/>přijdou v mezihře čerstvější noty, dříve prst s kláves<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00047"/>nice pustil, než následující notu vezme.</ab>
@@ -458,18 +439,14 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00007">
+                                 <ab facs="P2_TB00007">
                                     <lb facs="P2_TL00048"/>Dle jeho hry hychom soudili, že p. Mý. a p. Ši<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00049"/>máček, jsou žáci p. Klimpla, varhaníka u sv. Petra.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00008">
+                                 <ab facs="P2_TB00008">
                                     <lb facs="P2_TL00050"/>Věru je žádoucno, aby se taci varhaníci přidrželi<lb facs="P2_TL00051"/>raděj varhan s klikou, nežli dělati varhanám s pedálem<lb facs="P2_TL00052"/>takouto hanbu v Praze.<lb facs="P2_TL00053"/>Dne 22. t. m. slyšeli jsme hudbu v chrámu Páně<lb facs="P2_TL00054"/>Týnském, kdežto se provozovala zdařilá mše do J-dur<lb facs="P2_TL00055"/>od Václ. jFrimla, řízením tamního ředitele kůru, vě<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00056"/>hlasného v oboru hudby chrámové, p. Václ. Horáka.<lb facs="P2_TL00057"/>Zajisté milo jesti poslechnouti hudbu, kde tak utěšeně<lb facs="P2_TL00058"/>s výše kůru zavznívá, jako v chrámu Týnském; vše<lb facs="P2_TL00059"/>jde velmi správně, každý hudebník dělá svému nástroji<lb facs="P2_TL00060"/>čest, zvláště foukači lesnic, p. Cikánek, p. Ouvalský,<lb facs="P2_TL00061"/>umí tak svými nástroji vládnouti, že nevyvodí neladného<lb facs="P2_TL00062"/>zvuku. Věru jsme tomu velmi povděčni, že se p. Ho<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00063"/>rákovi takového místa dostalo, jako jest chrám Týnský.<lb facs="P2_TL00064"/>Varhany v zmíněném chrámu hrával z ochoty hor<pc type="endhypen" pre="false">-</pc>
@@ -481,9 +458,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00009">
+                                 <ab facs="P2_TB00009">
                                     <lb facs="P2_TL00081"/>(Pokračování.)</ab>
                               </div>
                            </div>
@@ -492,32 +467,24 @@
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00010">
+                        <ab facs="P2_TB00010">
                            <lb facs="P2_TL00082"/>Z Odessy.</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00004">
+                        <ab facs="P3_TB00004">
                            <lb facs="P3_TL00076"/>Marie Pfohlová.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00011">
+                                 <ab facs="P2_TB00011">
                                     <lb facs="P2_TL00083"/>(Dokončení.)</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00012">
+                                 <ab facs="P2_TB00012">
                                     <lb facs="P2_TL00084"/>(Hudba vojenská. Privátní kapely a orchestry. <lb facs="P2_TL00085"/>Koncerty a koncertisti. Obchodnictví v musikaliích a<lb facs="P2_TL00086"/>nástrojích. Privátní učitelové v Odesse a zvláště Cechové.)<lb facs="P2_TL00087"/>Zmínila jsem se již z počátku o figurální hudbé<lb facs="P2_TL00088"/>v chrámích katolických v Odesse i jejím okolí, neb město<lb facs="P2_TL00089"/>samé sousedí s 40 osadami Němcův, kteří nazvíce ka<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00090"/>tolíci jsou a ve větších vesnicích své kostely vystaveny<lb facs="P2_TL00091"/>mají; zmínila jsem se i o špatné hře na varhany, kažení<lb facs="P2_TL00092"/>krásných choralův ruských, které se nazvíce v kato<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00093"/>lických chrámích provozují a o bídné souhře při instru<pc type="endhypen" pre="false">-</pc>
@@ -525,9 +492,7 @@
                                     <lb facs="P2_TL00097"/>níkem Bultlerem, sestávající ze samých dobrých ru<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00098"/>ských hudebníkův a protož lidu Odessskému ten nejmi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00099"/>lejší sbor hudebnický. Šlechticové ruští vydržují sobě</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00002">
+                                 <ab facs="P3_TB00002">
                                     <lb facs="P3_TL00002"/>své privátní kapely, které nazvíce z výtečných hu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00003"/>debníků sestávají, jenž ale na venkov neb zámek svého ve<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00004"/>litele poukázáni jsou. V Odesse jest též zřízen jeden<lb facs="P3_TL00005"/>menší orchestr as toliko co velký sextett, hrává oby<pc type="endhypen" pre="false">-</pc>
@@ -539,9 +504,7 @@
                                     <lb facs="P3_TL00031"/>lonní hru. Hrál „Přádelní píseň" od Litolfa, „Lucia-<lb facs="P3_TL00032"/>Fantasii" od Thalberga pro dvě piana uspořádanou od<lb facs="P3_TL00033"/>Raviny, několik „Nocturen" od oblíbeného Chopina,<lb facs="P3_TL00034"/>Mendelssohnovy „písně beze slov" a konečně „Polku"<lb facs="P3_TL00035"/>od Vallace velmi pěkně a líbil se co salonní pianista.<lb facs="P3_TL00036"/>Pak koncertovali zde ještě dva pianisti a sice Tedesko,<lb facs="P3_TL00037"/>rozený z Čech a Bubinstein, mladší bratr slavného<lb facs="P3_TL00038"/>Rusa Rubinsteina. Oba se též líbili.<lb facs="P3_TL00039"/>A nyní něco o obchodnictví v musikáliíchi<lb facs="P3_TL00040"/>jichž zde tré jest. Jedno Neugeborena, druhé Vlacha<lb facs="P3_TL00041"/>Zanottiho třetí svatu Rubinsteinovu, Weinbergu,<lb facs="P3_TL00042"/>náležející. Musikalie jsou zde velmi drahé, takže každý<lb facs="P3_TL00043"/>hudebník se již s nimi dříve zaopatří, nežli sem přijede.<lb facs="P3_TL00044"/>Mimo obchodnictví v hudebninách vedou též někteří ob<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00045"/>chod s nástroji hudebními, n. p. dům Stifflův prodává<lb facs="P3_TL00046"/>piana'-, pěkné sice ale drahé. Zanotti taktéž. Neu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00047"/>geboren vede obchod v rozlíčnýkh hudebních nástrojích.<lb facs="P3_TL00048"/>U něj stojí krásné francouzské piano 600—1000 rublů.<lb facs="P3_TL00049"/>Pleyl prodává též piana za 360—400 rublů, však<lb facs="P3_TL00050"/>nejsou tak pěkné jako Neugeborena. Erár &amp; Boslo<lb facs="P3_TL00051"/>chová ve svém skladě Vídeňská piana v levnější ceně,<lb facs="P3_TL00052"/>300—400 rublů. Za půjčení piana platí se měsíčně.</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00003">
+                                 <ab facs="P3_TB00003">
                                     <lb facs="P3_TL00053"/>8 až 20 rublův. Z toho vidno, jak drahé jsou piana<lb facs="P3_TL00054"/>v Odesse, a jak dobrý výdělek to vynáší hotovitelům<lb facs="P3_TL00055"/>pian. Konečně promluvili musím o zdejších privát<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00056"/>ních učitelích hudby a zvláště o Ceších. Čechové ja<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00057"/>kožto národ hudbymilovný, národ to, kterýž hudbou a<lb facs="P3_TL00058"/>bojem v pradávných časech nad nepřátely vítězil, za<pc type="endhypen" pre="false">-</pc>
@@ -553,9 +516,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00005">
+                                 <ab facs="P3_TB00005">
                                     <lb facs="P3_TL00077"/>nému péru.</ab>
                               </div>
                            </div>
@@ -564,26 +525,20 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00006">
+                        <ab facs="P3_TB00006">
                            <lb facs="P3_TL00078"/>Slovo o plechových dechových nástrojích.<lb facs="P3_TL00079"/>Podává J. B— ý.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00007">
+                                 <ab facs="P3_TB00007">
                                     <lb facs="P3_TL00080"/>(Pokračování.)</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00008">
+                                 <ab facs="P3_TB00008">
                                     <lb facs="P3_TL00081"/>Nabyté přesvědčení, že foukač tažné posauny tram<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00082"/>potnou a dlouhou cestu konali musí, aby od jednoho<lb facs="P3_TL00083"/>tónu k druhému přišel, pohnulo již podotknuté zname<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00084"/>nité znalce k tomu, že posaunu s klapkami ;<lb facs="P3_TL00085"/>neboť u této leží tóny blízko u sebe, dá se jimi se si<pc type="endhypen" pre="false">-</pc>
@@ -591,9 +546,7 @@
                                     <lb facs="P3_TL00088"/>lené a tedy liboznějící tóny. Nedá se v pravdě upříti,<lb facs="P3_TL00089"/>že v hudbě správné a přilehající spojení tónů co hlavní<lb facs="P3_TL00090"/>podmínka se považovati musí.<lb facs="P3_TL00091"/>Užívá se za našich dnu železnic, dalekopisu, to<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00092"/>várních a rolnických mašin, by se co nejrychleji cíle<lb facs="P3_TL00093"/>dosáhlo. Posauna s klapkami poskytuje též uznané<lb facs="P3_TL00094"/>výhody, kteréž u nás do života vstoupily. Že tažná<lb facs="P3_TL00095"/>Dosauna v naši vlasti nikdy oblíbeným plechovým ná<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00096"/>strojem nebyla, slouží za důkaz tá okolnost, že se solo<lb facs="P3_TL00097"/>)ro posaunu v Mozartově requiem až do roku 1827<lb facs="P3_TL00098"/>vždy na fagot přednášelo. Nejposlednější roli hrála<lb facs="P3_TL00099"/>tažná posauna při pohřbích; avšak role ta vymizela už<lb facs="P3_TL00100"/>za našich časů docela ano i ve Vídni samé.<lb facs="P3_TL00101"/>Zajisté si mnozí zpomenou, jak nesnesitelně tažná<lb facs="P3_TL00102"/>posauna při pohřbích na truchlící lid účinkovala. Této</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00002">
+                                 <ab facs="P4_TB00002">
                                     <lb facs="P4_TL00002"/>okolnosti se též, nikoliv s nepravím, připisuje, že jindy<lb facs="P4_TL00003"/>tak časté pohřební průvody pro odpornost tažné posauny<lb facs="P4_TL00004"/>nyní tak zřídka se odbývají a pakli se takové objednají,<lb facs="P4_TL00005"/>jsou doprovázeny nástroji plechovými nynějšího způsobu,<lb facs="P4_TL00006"/>jelikož i prostý člověk ano i dilettant hudby se vším<lb facs="P4_TL00007"/>právem tvrdí, že se hudební průvod truchlících nikoliv<lb facs="P4_TL00008"/>však mrtvých dotýká.<lb facs="P4_TL00009"/>Přistoupíme-li k učiněným pokrokům u posauny,<lb facs="P4_TL00010"/>nemůžeme se ve svých státech na tomto nástroji<lb facs="P4_TL00011"/>žádnými vynikajícími umělci vykázati. Z tuzemských<lb facs="P4_TL00012"/>virtuosů na posaunu dá se uvésti velebný pan P. Štola,<lb facs="P4_TL00013"/>jenž co kmet na začátku tohoto století ještě v Praze<lb facs="P4_TL00014"/>žil, co dilettant tažné posauny chvalně znám byl a dle<lb facs="P4_TL00015"/>výroku svých současníků tóny lesnici podobné na po<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00016"/>saunu vyluzoval. Malé solo ve Vitáskové requiem bylo<lb facs="P4_TL00017"/>prý pro něho psáno; avšak sólo to má velmi malý<lb facs="P4_TL00018"/>objem tónu, co zatím posauně mnohem větší k službě<lb facs="P4_TL00019"/>stojí.<lb facs="P4_TL00020"/>Z cizozemských umělců slyšeli jsme v Praze v le<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00021"/>tech 1827—1830 p. Belke z Berlína a pány Schmida<lb facs="P4_TL00022"/>a jeho syna z Kasselu. Konečně pískal r. 1834 druhdy<lb facs="P4_TL00023"/>oblíbený pěvec Póck v chrámě u sv. Víta při příleži<pc type="endhypen" pre="false">-</pc>
@@ -607,9 +560,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00003">
+                                 <ab facs="P4_TB00003">
                                     <lb facs="P4_TL00045"/>(Pokračování.)</ab>
                               </div>
                            </div>
@@ -618,30 +569,22 @@
                   </div>
                   <div type="TextContent" corresp="c005">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00004">
+                        <ab facs="P4_TB00004">
                            <lb facs="P4_TL00046"/>Gluck a Mozart.<lb facs="P4_TL00047"/>Dva obrazy ze života, podává Karel Adámek.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00005">
+                                 <ab facs="P4_TB00005">
                                     <lb facs="P4_TL00048"/>(Pokračování.)</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00006">
+                                 <ab facs="P4_TB00006">
                                     <lb facs="P4_TL00049"/>„Uvyklostem pěvců dobře víte, jsem nelakodil, ba<lb facs="P4_TL00050"/>ani požadavky, které činili, jsem nevyplnil. Měl snad</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00007">
+                                 <ab facs="P4_TB00007">
                                     <lb facs="P4_TL00051"/>Gluck putovali od zpěvačky k zpěvačce, od zpěváka<lb facs="P4_TL00052"/>k zpěvákovi, žebraje, snižujíc se, plazivě prose o smi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00053"/>lování nad dítkem svého ducha? Pravda musí, příteli,<lb facs="P4_TL00054"/>sama sebou zvítězili a doufám také, že zvítězí, nebof<lb facs="P4_TL00055"/>v hudbě své jsem šetřil a hledal pravdy. Nedávámf<lb facs="P4_TL00056"/>jednající osoby ani v středu slova na samozvučce se<lb facs="P4_TL00057"/>zastavovati, aby v dlouhých passažích rychlostí krásného<lb facs="P4_TL00058"/>hlasu se zaskvěly, aneb aby si mohly oddechnouti<lb facs="P4_TL00059"/>k provedení kadencí. Slovem snahou mou bylo, bych<lb facs="P4_TL00060"/>nepravdivost hudební, kteréž se zdravý smysl a rozum<lb facs="P4_TL00061"/>protiví, zničil; zdaž jsem ji zničil, osvědčí dnešní večer.<lb facs="P4_TL00062"/>Miluje-li obecenstvo Vídeňské pravdu, neprospějí úklady<lb facs="P4_TL00063"/>a úskoky Metaslasia a Hasse, kteří jsou tak, jako jejich<lb facs="P4_TL00064"/>hudba, ničemní, a hudba má prorazí a najde obliby;<lb facs="P4_TL00065"/>milujeli lež, tak mi nebude líto, že nemohu nazvati<lb facs="P4_TL00066"/>lháře svými příznivci. Nemyslete však, ze se vzdám<lb facs="P4_TL00067"/>myšlenky své, nebof vnada pravdy je kouzlám mocným<lb facs="P4_TL00068"/>podobna. Stojím na dráze ku pravdě, započínám pra<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00069"/>vdou a pravdy dosáhnouti a rozšířili musím. Tof cíl<lb facs="P4_TL00070"/>snah mých i mého života. Nechť zmizí temno, světlo<lb facs="P4_TL00071"/>musí býtii na obzoru hudebním, jako všude jinde /"<lb facs="P4_TL00072"/>„Mistře, velikou úlohu dáváte krátkému životu<lb facs="P4_TL00073"/>lidskému!"<lb facs="P4_TL00074"/>„Nemyslete, že jest život lidský tak kratinký,<lb facs="P4_TL00075"/>činové ducha dodávají i jemu věčnosti pozemské. Před<pc type="endhypen" pre="false">-</pc>
@@ -651,34 +594,26 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00008">
+                                 <ab facs="P4_TB00008">
                                     <lb facs="P4_TL00085"/>„A na nich," doložil básník, „se bude zakládali<lb facs="P4_TL00086"/>stavba hudby doby nastávající, vy pak mistře budete<lb facs="P4_TL00087"/>povždy oslavován co zakládatel vznešené budovy této,<lb facs="P4_TL00088"/>anaž právě svou jednoduchostí obdivování vzbuzovati<lb facs="P4_TL00089"/>bude. Tak jako starobylé stavby jednoduchostí svou<lb facs="P4_TL00090"/>obdiv nevysvětlitelný v nás vzbuzují, takovéj kouzlo<lb facs="P4_TL00091"/>prýští a proudí iv hudbě vaší a věčně bude poutali<lb facs="P4_TL00092"/>a okouzlovati."<lb facs="P4_TL00093"/>„Budeli mi dopřáno, zaraziti první základy vzne<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00094"/>šeného nového chrámu božské hudby, pak i vy, příteli,<lb facs="P4_TL00095"/>sdělíte vavřín můj, nebof vzájemnost naše sloučila nás<lb facs="P4_TL00096"/>plody duchu naších. Jediný vavřín může ověnčit nás.<lb facs="P4_TL00097"/>Můj pád, může-li pravda klesnouti, bude i pádem vaším,"<lb facs="P4_TL00098"/>pravil zaníceně Gluck.<lb facs="P4_TL00099"/>Přisedna ku klavíru , započal hráti ouverturu<lb facs="P4_TL00100"/>k „Orfeu."</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00002">
+                                 <ab facs="P5_TB00002">
                                     <lb facs="P5_TL00002"/>Y zanícení poslouchal Calzabigi přednes slavného<lb facs="P5_TL00003"/>mistra, jehož velikost juž příroda na vysokém jeho čele<lb facs="P5_TL00004"/>a v ohnivém oku i ve vznešených tazích jeho obličeje<lb facs="P5_TL00005"/>vyznačila.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00003">
+                                 <ab facs="P5_TB00003">
                                     <lb facs="P5_TL00006"/>„Mistře, vaše hudba zvítězí!" zvolal Calzabigi,<lb facs="P5_TL00007"/>když Gluck od klavíru vstával.<lb facs="P5_TL00008"/>„Zvítězili," odvětil Gluck, zvítězíte Vy, nebo!<lb facs="P5_TL00009"/>hudba má jest služebnou družkou Yaší básně!"</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00004">
+                                 <ab facs="P5_TB00004">
                                     <lb facs="P5_TL00010"/>(Pokračování.)</ab>
                               </div>
                            </div>
@@ -687,32 +622,24 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P5_TB00005">
+                        <ab facs="P5_TB00005">
                            <lb facs="P5_TL00011"/>FEUILLETON.</ab>
                      </div>
                      <div type="TextContent" corresp="c007">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P5_TB00006">
+                           <ab facs="P5_TB00006">
                               <lb facs="P5_TL00012"/>Z Prahy.</ab>
                         </div>
                         <div type="TextContent" corresp="c008">
                            <div type="Byline">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P5_TB00009">
+                              <ab facs="P5_TB00009">
                                  <lb facs="P5_TL00030"/>Bžk.</ab>
                            </div>
                            <div type="Copy">
                               <div type="BodyContent">
                                  <div type="Paragraph">
                                     <div type="Text">
-                                       <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                           xmlns:mods="http://www.loc.gov/mods/v3"
-                                           facs="P5_TB00007">
+                                       <ab facs="P5_TB00007">
                                           <lb facs="P5_TL00013"/>Novoměstské divadlo. Repertoir naší opery se v posledním <lb facs="P5_TL00014"/>čase značně zlepšil, čehož příčinou jsou zpěváci,<lb facs="P5_TL00015"/>kteří zde pohostinsky v rozličných operách vystupují. Mezi<lb facs="P5_TL00016"/>nejpřednější náleží pan Wa chtěl od dvorního divadla<lb facs="P5_TL00017"/>v KasseJu. Po něm vystoupil výtečný tenorista Vovor<pc type="endhypen" pre="false">-</pc>
                                           <lb facs="P5_TL00018"/>ský, dvorní zpěvák pruský, v „Oberonu" a líbil se, však<lb facs="P5_TL00019"/>to jest co litovati, že jen v této opeře pohostinsku zpí<pc type="endhypen" pre="false">-</pc>
                                           <lb facs="P5_TL00020"/>val, načež náhle odejel. Častěji zpívá nyní Krén od<lb facs="P5_TL00021"/>divadla z Darmstattu; a sice líbil se v operách „Nápoj<lb facs="P5_TL00022"/>lásky" od Donizettiho, „Cár a tesař" od Lortzinga a<lb facs="P5_TL00023"/>v Nikolaiovych „Ženách Windsorských. Dne 28ho lipna<lb facs="P5_TL00024"/>dávala se opět Meyerbeerova „Dinora", v níž zpívala sl#<lb facs="P5_TL00025"/>Schubertova od divadla z Hamburku. Táž zpěvačka<lb facs="P5_TL00026"/>má slabý sice hlas, však dosti velkou sběhlost a uhla<pc type="endhypen" pre="false">-</pc>
@@ -721,9 +648,7 @@
                                  </div>
                                  <div type="Paragraph">
                                     <div type="Text">
-                                       <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                           xmlns:mods="http://www.loc.gov/mods/v3"
-                                           facs="P5_TB00008">
+                                       <ab facs="P5_TB00008">
                                           <lb facs="P5_TL00029"/>velmi četná. </ab>
                                     </div>
                                  </div>
@@ -736,9 +661,7 @@
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P5_TB00010">
+                                    <ab facs="P5_TB00010">
                                        <lb facs="P5_TL00031"/>— Zasloužilý skladatel pan Zik. Kolešovský, jenž<lb facs="P5_TL00032"/>si co ředitel Žofínské akademie a co ředitel kuru velkých<lb facs="P5_TL00033"/>zásluh o zdejší hudební poměry dobyly obdržel od vy<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00034"/>sokého c. k. místodržitelství dovolení ku zřízení ústavu<lb facs="P5_TL00035"/>pro nižší a vyšší zpěv, jenž chovancům zpěvu se věnu<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00036"/>jícím tím více vjtán bude, anto ústav páně Skroupův bez<pc type="endhypen" pre="false">-</pc>
@@ -746,9 +669,7 @@
                                        <lb facs="P5_TL00048"/>kročily. Mnozí ze žáků jsouce ještě v útlém mládí před<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00049"/>nesli po krátkém času svého učení (po 10:6 měsících)<lb facs="P5_TL00050"/>kousky pro piano správně, taktupevně a výrazně. Po<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00051"/>vážíme-li, co se dítě v krátkém čase nejprv uciti musí n.<lb facs="P5_TL00052"/>př. notám, taktu, prstokladu, škálám atd., jest se co diviti,<lb facs="P5_TL00053"/>že chovanci vše to překonavše, přiměřené kusy pro piano<lb facs="P5_TL00054"/>hrají. Zde vše spočívá na padagogickém vzdělání učitele;<lb facs="P5_TL00055"/>musí! znát individuálnost a schopnost žáka, musí! svou<lb facs="P5_TL00056"/>methodu tak zřídit, aby se jí pokroky žáka urychlily a<lb facs="P5_TL00057"/>dlužno mu vystříci se všeko, co by pokrokům vadilo 5</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P5_TB00011">
+                                    <ab facs="P5_TB00011">
                                        <lb facs="P5_TL00058"/>nebo! nelze užívati jedné a tétéž methody u všech dětí.<lb facs="P5_TL00059"/>Povážlivý a rozumný učitel řídí se při rozličných schop<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00060"/>nostech žakň rozličnými návody a takový učitel a spolu<lb facs="P5_TL00061"/>ředitel je p. Hodyc, žák to slavného mistra V. To<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00062"/>máška, jenž všemožně se snaží, aby požadavkům rodičů<lb facs="P5_TL00063"/>zúplna vyhověl, začež hojného účastenství zasluhuje.<lb facs="P5_TL00064"/>V pátek dne27. lip. odbýval p.Ant.Wi edemann<lb facs="P5_TL00065"/>v místnostech hudebního ústavu se svými chovanci celo<pc type="endhypen" pre="false">-</pc>
@@ -763,24 +684,18 @@
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P5_TB00012">
+                                    <ab facs="P5_TB00012">
                                        <lb facs="P5_TL00086"/>(Pokračování.)</ab>
                                  </div>
                               </div>
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P5_TB00013">
+                                    <ab facs="P5_TB00013">
                                        <lb facs="P5_TL00087"/>V pondělí dne 6. srpna 1860 bude se odbývat*<lb facs="P5_TL00088"/>v děkanském chrámu Páně v Strakonicích v 9 hodin tru<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00089"/>chlomše za slavného básníka Frant. Lad. Čelakovskéh o,<lb facs="P5_TL00090"/>jižto jak doslýcháme, horliví tamější študenti uspořádali.<lb facs="P5_TL00091"/>Slečna Ch. z Tiefensee zpívala před nedá<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00092"/>vnem při velkém dvorním koncertě v Londýně v paláci<lb facs="P5_TL00093"/>Buckinghamském a pak v saloně c. k. rakouského vyslance,<lb facs="P5_TL00094"/>hraběte Apponyiho, a došla výtečným přednesem italských<lb facs="P5_TL00095"/>a německých arií velké pochvaly.<lb facs="P5_TL00096"/>Čekatelům české i německé školy, kteří nejlepší<lb facs="P5_TL00097"/>pokroky a největší pilnost na varhanické škole osvědčili, do<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P5_TL00098"/>stalo se odměny, kterouž v. p. J. Šrutek, konsistorialní<lb facs="P5_TL00099"/>sekretář v Hradci Králové, k tomuto šlechetnému účelu<lb facs="P5_TL00100"/>věnoval. Celá odměna sestávající z 20 zl. r. č. rozdělena<lb facs="P5_TL00101"/>byla ve ctyry díly, takže následující cekatelové 5 zl. r. c.<lb facs="P5_TL00102"/>poděleni byli. Z české hlavní školy I. roku obdržel<lb facs="P5_TL00103"/>praemii Syalek V.z Krupími, jmenováni byli Havlátko<lb facs="P5_TL00104"/>V.a S. Paleček. Z 11. roku c. hlavní školy dostalo se<lb facs="P5_TL00105"/>odměny F. Rohlíkoví, mezi pilné vřaděni jsou V. Švácha</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00002">
+                                    <ab facs="P6_TB00002">
                                        <lb facs="P6_TL00002"/>z Kněžoves, F. Drbohlav z Libuně a M. Bauš ze Stodůlek,<lb facs="P6_TL00003"/>Mezi kandidáty německé školy a 1. roku poctěn byl 5 zl.<lb facs="P6_TL00004"/>J♦ Lorenz, jmenováni byli L. Modec a J. Herek Z 11.<lb facs="P6_TL00005"/>roku obdržel praemii J. Chocholy ctěni byli J. Bartov<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00006"/>ský a A. Bittner. Doufáme, že tímto šlechetným úmyslem<lb facs="P6_TL00007"/>v p. J. Šrňtka, kterýž každý rok odměnou touto pilné<lb facs="P6_TL00008"/>čekately poctíti sobě umínil, ještě větší horlivost pro hudbu<lb facs="P6_TL00009"/>v dotčených žákův se vzbudí a oni snad tenkráte nehlíd<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00010"/>nou, jak vážená a spolu důležitá jest theorie a hra na<lb facs="P6_TL00011"/>varhany pro učitele na venkově.<lb facs="P6_TL00012"/>Pan J. A. Bohme, ředitel vojenské hudby<lb facs="P6_TL00013"/>z Drážďan, koncertoval v ponděli dne 30. Lipna v novo<pc type="endhypen" pre="false">-</pc>
@@ -805,9 +720,7 @@
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P6_TB00003">
+                                    <ab facs="P6_TB00003">
                                        <lb facs="P6_TL00063"/>Z Čáslavi. (Svěcení pomníku. — Hudba kostelní.) <lb facs="P6_TL00064"/>Dne 12. Lipna měl býti posvěcen pomník pa<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00065"/>dlých českých vojínů u Solferina, že ale povětrnost<lb facs="P6_TL00066"/>tomu zabránila, bylo jen slavné requiem v chrá<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00067"/>mu páně sv. Petra a Pavla odbýváno, kdež se jak cis. k.<lb facs="P6_TL00068"/>dňstojenstva, úřednictvo i městská rada hojně shrsmážděla.<lb facs="P6_TL00069"/>Co se provedení týče, bylo tak dobré že se už mnohá<lb facs="P6_TL00070"/>leta na nic podobného nepamatujeme a to tím pádem,<lb facs="P6_TL00071"/>poněvadž zde zřídka kdys requiem se odbývá, anto lid<lb facs="P6_TL00072"/>raději, coby requiem stálo, na tiché mše svaté věnuje. Za tou<lb facs="P6_TL00073"/>příčinou si dá p. ředitel chůru na ostatní hudbě chrámové<lb facs="P6_TL00074"/>málo záležeti, an se jak jemu tak i hudebníkům velmi<lb facs="P6_TL00075"/>skromné mzdy za to dostane a pročež se docela chladně<lb facs="P6_TL00076"/>aneb špatně nedělní hudba chrámová odbývá. Kde<lb facs="P6_TL00077"/>to vadí, může si každý pomyslit (závist a nepřízeň od —).<lb facs="P6_TL00078"/>V neděli dne 15. Lipna konalo se slavně zasvěcení po<pc type="endhypen" pre="false">-</pc>
@@ -826,9 +739,7 @@
                                        <lb facs="P6_TL00116"/>hou, jichžto chování v disciplinárním ohledu je bezúhonné.<lb facs="P6_TL00117"/>(L.) Z Hudlic. (Jungmannova slavnost.) (Dokonč.)<lb facs="P6_TL00118"/>Okolo 11. hodiny odebralo se skoro veškeré shromážděné<lb facs="P6_TL00119"/>obecenstvo do tamního kostelíku k službám božím. Pro<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00120"/>vozovala se mše od Diabelli-ho a byvší od pp. učitelů<lb facs="P6_TL00121"/>z okolí a tam právě přítomných pp. študentův slušně<lb facs="P6_TL00122"/>provedena, vyhověla docela tamním požadavkům. Ob<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P6_TL00123"/>zvláště pak vyznamenal se p. Greif se svým zvučným<lb facs="P6_TL00124"/>tenorem a poutal přednesem své solové partie, kterouž</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P7_TB00002">
+                                    <ab facs="P7_TB00002">
                                        <lb facs="P7_TL00002"/>primavista zpíval, sluch obecenstva. Po službách božích<lb facs="P7_TL00003"/>navrátil se průvod z kostela opět k skromné chýži a zpě<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00004"/>váci Hořovičtí zapěli ctverozpěv: „Vyslyš nás Hospo<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00005"/>dine!" od Jelena. Mezi tím byla na průceli domku<lb facs="P7_TL00006"/>připevněna tabulka pozlacenými písmenami v bílém poli:<lb facs="P7_TL00007"/>„Zde se narodil Jozef Jungmann." Po ukonče<pc type="endhypen" pre="false">-</pc>
@@ -849,9 +760,7 @@
                                        <lb facs="P7_TL00049"/>livého poducitele pana Havelky dostalo se nám pře<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00050"/>krásné duševní lahůdky tím, že jsme uslyšeli výbornou<lb facs="P7_TL00051"/>a hluboce promyšlenou mši od našeho W. H. Yeita,<lb facs="P7_TL00052"/>kteráž zde nesmírného účinku zbudila. Pan Havelka<lb facs="P7_TL00053"/>vzal si všemožnou práci i píli, aby toto velkolepé dílo<lb facs="P7_TL00054"/>s hudebníky a zpěváky dobře nastudoval a skutečně se<lb facs="P7_TL00055"/>mu to v úplné míře podařilo. Avšak ne menší zásluhu o<lb facs="P7_TL00056"/>provedení mše má pan Pavlis, ředitel hudební vojenské<lb facs="P7_TL00057"/>školy v Praze, jenž schválně se žáky svými sem při<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00058"/>jel a inši tuto řídil. Ucinný pan Pavlis osvědčil, že<lb facs="P7_TL00059"/>s taktovkou nejen při vojenských koncertech, alebrž i na<lb facs="P7_TL00060"/>kůru výborně zacházeti umí a děkujeme mu z plného<lb facs="P7_TL00061"/>srdce, že s takou ochotností tak nesnadnou úlohu na sebe<lb facs="P7_TL00062"/>převzal. Co se provedení dotýče, bylo na zdejší síly,</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P7_TB00003">
+                                    <ab facs="P7_TB00003">
                                        <lb facs="P7_TL00063"/>velmi správné a zdařilé; zvláště vyznačil se pan L.<lb facs="P7_TL00064"/>přednesem bassového solu v Graduale, a p. A—m před<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00065"/>nesem tenorového solu v „Offertorium." Oba zpívali vý<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00066"/>razně a cituplně. Kéž by se nám často takých mší dostalo.<lb facs="P7_TL00067"/>(J. K.) Z UTového Strašecí. (Hudba kostelní.)<lb facs="P7_TL00068"/>V neděli dne 17. Lipna byla provozována v chrámu<lb facs="P7_TL00069"/>Páně mše od Schnabla do As. Ponejprv ve třech le<pc type="endhypen" pre="false">-</pc>
@@ -866,9 +775,7 @@
                                        <lb facs="P7_TL00104"/>čenský ruch zase jako obyčejně se svým duševním půso<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00105"/>bením více než-li jindy oživne. Studentstvo zdejší chce<lb facs="P7_TL00106"/>tyto prázniny vkusném „Odeonu" několik divadelních<lb facs="P7_TL00107"/>kusů od našeho Tyla provésti. Zdejší rodák pan Alois<lb facs="P7_TL00108"/>Vostřebal, Pražský konservatorista z 5. roku, hodlá<lb facs="P7_TL00109"/>tady 18. srpna, na den narozenin J. M. našeho císaře a<lb facs="P7_TL00110"/>krále, zvláštní velký koncert uspořádat, při kterémž on<lb facs="P7_TL00111"/>sám 2 koncertní piecy na bassu od prof. Hraběte a<lb facs="P7_TL00112"/>A b e r ta hrát bude. Mimo dvě ouvertury k operám<lb facs="P7_TL00113"/>„Francouzové v Nizze" od B. Kittla a k „Anně Land<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P7_TL00114"/>skronské" od J. Aberta má ještě jeden výtečný houslista<lb facs="P7_TL00115"/>G. Deutsch a pianista F. Schwarz z Prahy k nám<lb facs="P7_TL00116"/>zavítat. Program by byl snadno pak sestaven, a jistě<lb facs="P7_TL00117"/>dostalo by se nám nevšedního požitku. V blízkém městě<lb facs="P7_TL00118"/>v Bohdane i byla dne 22, lipna na den Maří Majd.<lb facs="P7_TL00119"/>krásná mše od Reiszigra do Es-dnr s dvěma solovými<lb facs="P7_TL00120"/>přílohami provozována. Anto mše dost silně obsazena<lb facs="P7_TL00121"/>byla, hrála se bez varhan, což tím více podotknouti slušno,</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P8_TB00002">
+                                    <ab facs="P8_TB00002">
                                        <lb facs="P8_TL00002"/>jelikož někde varhaník s plným fořtem hudbu doprovází,<lb facs="P8_TL00003"/>nástroje kostelní předci a tak z celé mše ni hlavy ni paty<lb facs="P8_TL00004"/>poznati nelze. Provedení všech dílů mše bylo dobré, za<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00005"/>cež y. Rosňlkovi, tamnímu učiteli všechna cest náleží.<lb facs="P8_TL00006"/>Zavedli nedávno zde z p ě v ácký spolek, který účinkujících<lb facs="P8_TL00007"/>clenfi asi 20 cítá. Při prohlížení a pobytí c. k. zemského<lb facs="P8_TL00008"/>v f<lb facs="P8_TL00009"/>školního rady p. dra. Jana Cermaka v Bohdanci uspo<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00010"/>řádal zpěv. spolek večerní zastavenícko, při němž se<lb facs="P8_TL00011"/>nejvíce první tenorista a první bassista vyznačili. U p.<lb facs="P8_TL00012"/>purkmistra Pešky byl zpěvácký sbor z Pardubic na pouť<lb facs="P8_TL00013"/>pozván, a u přítomnosti více vážených a vznešených hostů<lb facs="P8_TL00014"/>zpívaly se vesměs české ctvero zpě vy od Vášá ka,<lb facs="P8_TL00015"/>Horáka, Veita, Jelena a t. d, pak vícero národ<pc type="endhypen" pre="false">-</pc>
@@ -888,15 +795,11 @@
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P8_TB00003">
+                                    <ab facs="P8_TB00003">
                                        <lb facs="P8_TL00050"/>Brno. Tento měsíc navrátily se naše výtečné virtuosky <lb facs="P8_TL00051"/>na housle si. Nerudovy z Odessy do našeho města.<lb facs="P8_TL00052"/>Leicesíer v Anglicku. (Orfeonislé.) Doufaje, že<lb facs="P8_TL00053"/>několika mým řádkům místa propůjčíte, sdělím svým kra<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00054"/>janům v Cechách, jak hudba a zpěv vůbec v západní<lb facs="P8_TL00055"/>Evropě se pěstuje. Bylo mi popřáno slyšeti v Londýně<lb facs="P8_TL00056"/>znamenité francouzské zpěv. spolky pod jmenem „Or<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00057"/>feonis té,"které čtyry koncerty v Sydenhainu dávaly.</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P8_TB00004">
+                                    <ab facs="P8_TB00004">
                                        <lb facs="P8_TL00058"/>Počet zpěváků byl 2500 a doprovázen od císařské<lb facs="P8_TL00059"/>vojenské kapelly guidň. Spolek Orfeonistň byl založen<lb facs="P8_TL00060"/>panem Del a portem před několika lety a cítá v celé<lb facs="P8_TL00061"/>Francii 40.000 členů. Boháč a chudý, úředník a obchod<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00062"/>ník, študent a továrník má přístup k této společnosti.<lb facs="P8_TL00063"/>Orfonisté francouzští zbudili v Londýně velkou sensací.<lb facs="P8_TL00064"/>Všechny ctyry koncerty byly hojnou návštěvou poctěny.<lb facs="P8_TL00065"/>Koncert započal s národní anglickou hymnou „God save<lb facs="P8_TL00066"/>the Queen," kteráž nesmírného potlesku dosáhla. Bylť<lb facs="P8_TL00067"/>jsem velice překvapen precisí a zápalem, s jakýmž tito<lb facs="P8_TL00068"/>jonáci zvláště ve francouzských skladbách n. př. ve sboru<lb facs="P8_TL00069"/>„France, France" a „Les enfants de Paris" si počínali;<lb facs="P8_TL00070"/>neboť všechno moje očekávání bylo převýšeno. Menšího<lb facs="P8_TL00071"/>účinku dosáhli orfonisté skladbami německých skladatelů<lb facs="P8_TL00072"/>npř. Mendelssohnovým „Jagers Abschied," kteréž jsouc od<lb facs="P8_TL00073"/>ředitele rychlým tempem vzato, nikterak požadavkům ne<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P8_TL00074"/>vyhovělo. Velké furore učinil septuor z 3 dějství Meyer<pc type="endhypen" pre="false">-</pc>
@@ -910,9 +813,7 @@
                      </div>
                      <div type="TextContent" corresp="c012">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P8_TB00005">
+                           <ab facs="P8_TB00005">
                               <lb facs="P8_TL00097"/>Dur a moll.</ab>
                         </div>
                         <div type="TextContent" corresp="c013">
@@ -920,9 +821,7 @@
                               <div type="BodyContent">
                                  <div type="Paragraph">
                                     <div type="Text">
-                                       <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                           xmlns:mods="http://www.loc.gov/mods/v3"
-                                           facs="P8_TB00006">
+                                       <ab facs="P8_TB00006">
                                           <lb facs="P8_TL00098"/>Otázka. Proč se hudbě učí na foucací nástroje skoro výhradně<lb facs="P8_TL00099"/>jenom mužšií, na piano však nejvíce ženské?<lb facs="P8_TL00100"/>Od po věd. Proto že se mužští rádi nafuk-ují a ženské si zase<lb facs="P8_TL00101"/>rády poklepou.</ab>
                                     </div>
                                  </div>
@@ -933,22 +832,16 @@
                   </div>
                   <div type="TextContent" corresp="c014">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P8_TB00007">
+                        <ab facs="P8_TB00007">
                            <lb facs="P8_TL00102"/>Listárna.</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00008">
+                                 <ab facs="P8_TB00008">
                                     <lb facs="P8_TL00103"/>Panu Jod. v N. P. Račte uám poslati dokončení<lb facs="P8_TL00104"/>svého dopisu. Panu dopis, v Kutné Hoře. Neměli<lb facs="P8_TL00105"/>jsme místa; až příště. Páni kapelníci, kteří ouvertury<lb facs="P8_TL00106"/>od českých skladatelů J. Aberta, Kittla, Vojáčka<lb facs="P8_TL00107"/>pro sextett mohou je v naši kanceláři obdržeti.<lb facs="P8_TL00108"/>Též lze dostati tamtéž Krovovu píseň „Porodila mne moje<lb facs="P8_TL00109"/>matička" s průvodem orkestru*</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P8_TB00009">
+                                 <ab facs="P8_TB00009">
                                     <lb facs="P8_TL00110"/>*) Bnde nám článek Vás velmi vítán. Red.</ab>
                               </div>
                            </div>

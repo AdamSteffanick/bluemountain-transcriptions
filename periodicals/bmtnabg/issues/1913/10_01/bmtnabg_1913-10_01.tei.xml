@@ -46,7 +46,7 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Inhalt:</seg>
+                           <seg type="main">Inhalt</seg>
                         </title>
                         <textLang mainLang="ger"/>
                      </analytic>
@@ -62,8 +62,12 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Hans Arp: Zeichnung</seg>
+                           <seg type="main">Zeichnung</seg>
                         </title>
+                        <respStmt>
+                           <persName ref="http://viaf.org/viaf/7386175">Hans Arp</persName>
+                           <resp>cre</resp>
+                        </respStmt>
                      </analytic>
                      <monogr>
                         <imprint>
@@ -118,7 +122,7 @@
                            <seg type="sub">Sehr geehrter Herr</seg>
                         </title>
                         <respStmt>
-                           <persName>Rudolf Kurtz</persName>
+                           <persName ref="http://viaf.org/viaf/37671924">Rudolf Kurtz</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -126,7 +130,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="2" to="3">2-3</biblScope>
+                           <biblScope unit="page">2-3</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -138,7 +142,7 @@
                            <seg type="main">Gedichte</seg>
                         </title>
                         <respStmt>
-                           <persName>Vor Ernst Wilhelm Lotz</persName>
+                           <persName ref="http://viaf.org/viaf/61695593">Ernst Wilhelm Lotz</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -198,7 +202,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="3" to="4">3-4</biblScope>
+                           <biblScope unit="page">3-4</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -219,15 +223,19 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="4" to="6">4-6</biblScope>
+                           <biblScope unit="page">4-6</biblScope>
                         </imprint>
                      </monogr>
                      <relatedItem type="constituent" xml:id="c011">
                         <biblStruct>
                            <analytic>
                               <title level="a">
-                                 <seg type="main">Artur Segal: Originalholzschnitt</seg>
+                                 <seg type="main">Originalholzschnitt</seg>
                               </title>
+                              <respStmt>
+                                 <persName ref="http://viaf.org/viaf/10884140">Artur Segal</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
                            </analytic>
                            <monogr>
                               <imprint>
@@ -244,11 +252,11 @@
                      <analytic>
                         <title level="a">
                            <seg type="nonSort">Die</seg>
-                           <seg type="main">Schwermut des Geniebers</seg>
+                           <seg type="main">Schwermut des Genießers</seg>
                            <seg type="sub">Roman</seg>
                         </title>
                         <respStmt>
-                           <persName>Artur Babillotte</persName>
+                           <persName ref="http://viaf.org/viaf/30276419">Artur Babillotte</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -256,7 +264,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="6" to="7">6-7</biblScope>
+                           <biblScope unit="page">6-7</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -266,12 +274,8 @@
                      <analytic>
                         <title level="a">
                            <seg type="main">Inhalt</seg>
-                           <seg type="sub">Erstes Halbjahr 1913</seg>
+                           <seg type="sub">Vierter Jahrgang. Erstes Halbjahr 1913</seg>
                         </title>
-                        <respStmt>
-                           <persName>Vierier Jahrgang</persName>
-                           <resp>cre</resp>
-                        </respStmt>
                         <textLang mainLang="ger"/>
                      </analytic>
                      <monogr>
@@ -390,100 +394,95 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1913/10_01/delivery/bmtnabg_1913-10_01_0008.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>Umfang acht Seiten</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>Einzelbezug 40 Pfennig</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00004"/>DER STURM</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00005"/>HALBMONATSSCHRIFT FÜR KULTUR UND DIE KÜNSTE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00006">
+                     <ab facs="P1_TB00006">
                         <lb facs="P1_TL00006"/>I Redaktion und Verlsg Herausgeber und Schriftleiter All S S t ö 11 U n fif S l" 3. U m e<lb facs="P1_TL00007"/>Berlin W9/Potsdamer Straße 134 a HERWARTH WALDEN Berlin W 9/Potsdamer Straße 134a I</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00012">
+                     <ab facs="P1_TB00012">
                         <lb facs="P1_TL00015"/>VIERTER JAHRGANG</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00011">
+                     <ab facs="P1_TB00011">
                         <lb facs="P1_TL00014"/>BERLIN-PARIS OKTOBER 1913</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00010">
+                     <ab facs="P1_TB00010">
                         <lb facs="P1_TL00013"/>NUMMER 180/181</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00007">
+                     <ab facs="P6_TB00007">
                         <lb facs="P6_TL00101"/>Schluß</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00002">
+                     <ab facs="P8_TB00002">
                         <lb facs="P8_TL00002"/>Es werden nur Anzeigen tatsächlichen Inhalts fort<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P8_TL00003"/>laufend gesetzt aufgenommen. Hervorhebungen voe<lb facs="P8_TL00004"/>Worten ist nur durch Sperrdruck, von Namen nur darcfe<lb facs="P8_TL00005"/>halbfette Schrift, gestattet. Die dreigespaltene Zetta<lb facs="P8_TL00006"/>60 Pfennig. Annahme von Anzeigen durch den Verlas<lb facs="P8_TL00007"/>der Sturm Berlin W 9<lb facs="P8_TL00008"/>Dia Zurückweisung von Anzeigen behält sich der Ver*<lb facs="P8_TL00009"/>lag Der Sturm ohne Angabe der Gründe vor</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00003">
+                     <ab facs="P8_TB00003">
                         <lb facs="P8_TL00010"/>Verantwortlich für den gesamten Inhalt:<lb facs="P8_TL00011"/>F. Harnisch / Berlin W 35<lb facs="P8_TL00012"/>Verlag Der Sturm / Berlin W 9<lb facs="P8_TL00013"/>Druck Carl Hause / Berlin SO 26</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00007">
+                        <ab facs="P1_TB00007">
                            <lb facs="P1_TL00008"/>Inhalt:</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00008">
+                                 <ab facs="P1_TB00008">
                                     <lb facs="P1_TL00009"/>C wiu 112 112? ri Ers*er Deutscher Herbstsalon / Vorrede / Vorwort der Aussteller / Rudolf Kurtz: Offener Brief an Herrn Karl Scheffler /<lb facs="P1_TL00010"/>fernst Wilhelm Lötz: Gedichte / Franz Herczeg: Heldensage / Dr. Fritz Hoeber: Das Musikalische in der Architektur / Arthur Babillotte: Die Schwermut<lb facs="P1_TL00011"/>des Genießers / Inhalt des Vierten Jahrgangs / Hans Arp: Zeichnung / Artur Segal: Originalholzschnitt</ab>
                               </div>
                            </div>
@@ -493,38 +492,28 @@
                   <div type="Illustration" corresp="c002">
                      <div type="Image"/>
                      <div type="Caption">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00009">
+                        <ab facs="P1_TB00009">
                            <lb facs="P1_TL00012"/>Hans Arp: Zeichnung</ab>
                      </div>
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00002">
+                        <ab facs="P2_TB00002">
                            <lb facs="P2_TL00002"/>Erster Deutscher<lb facs="P2_TL00003"/>Herbstsalon</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00003">
+                        <ab facs="P2_TB00003">
                            <lb facs="P2_TL00004"/>Vorrede</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00006">
+                        <ab facs="P2_TB00006">
                            <lb facs="P2_TL00121"/>Herwarth Walden</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00004">
+                                 <ab facs="P2_TB00004">
                                     <lb facs="P2_TL00005"/>Mit diesem Ersten Deutschen Herbstsalon wird<lb facs="P2_TL00006"/>ein Ueberblick über die neue Bewegung in den bil<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00007"/>denden Künsten aller Länder gegeben. Ein Ueber<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00008"/>blick, der zugleich das Blickfeld der Zeitgenossen<lb facs="P2_TL00009"/>erweitern wird. Der größere Teil der Zeitgenossen<lb facs="P2_TL00010"/>ist zu stolz auf seine Augen, mit denen er nicht<lb facs="P2_TL00011"/>einmal sehen gelernt hat. Er verlangt vom Bild<pc type="endhypen" pre="false">-</pc>
@@ -549,9 +538,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00005">
+                                 <ab facs="P2_TB00005">
                                     <lb facs="P2_TL00075"/>Ich fühle mich zur Veranstaltung dieser Aus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00076"/>stellung berechtigt, weil ich von dem Wert der hier<lb facs="P2_TL00077"/>vertretenen Künstler überzeugt bin. Weil ich mit<lb facs="P2_TL00078"/>den bedeutendsten Künstlern dieser neuen Bewe<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00079"/>gung persönlich befreundet bin. Befreundet durch<lb facs="P2_TL00080"/>eine Freundschaft, die durch gleiche künstlerische<lb facs="P2_TL00081"/>Anschauungen und Empfindungen entstanden ist.<lb facs="P2_TL00082"/>Ich bin sicher, daß der unkünstlerische Teil<lb facs="P2_TL00083"/>des Publikums über diese Ausstellung und über<lb facs="P2_TL00084"/>mich lachen wird. Und ein guter Teil des Publi<pc type="endhypen" pre="false">-</pc>
@@ -569,18 +556,14 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00007">
+                        <ab facs="P2_TB00007">
                            <lb facs="P2_TL00122"/>Vorwort der Aussteller</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00008">
+                                 <ab facs="P2_TB00008">
                                     <lb facs="P2_TL00123"/>Wir leben heute nicht in einer Zeit, in der die<lb facs="P2_TL00124"/>Kunst die Helferin des Lebens ist. Was heute an<lb facs="P2_TL00125"/>echter Kunst entsteht, scheint eher der Niederschlag<lb facs="P2_TL00126"/>alter Kräfte zu sein, die das Leben nicht aufzubrau<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00127"/>chen, aufzusaugen vermag; sie ist die Gleichung,<lb facs="P2_TL00128"/>die abstrakt gesinnte Geister aus dem Leben zie=<lb facs="P2_TL00129"/>hen, wunschlos, zwecklos und ohne Hader.<lb facs="P2_TL00130"/>In anderen Zeiten ist die Kunst die Hefe, die<lb facs="P2_TL00131"/>den Teig der Welt durchsäuert; solche Zeiten sind<lb facs="P2_TL00132"/>heute fern. Bis sie erfüllt sind, muß sich der Künst<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00133"/>ler in gleicher Ferne vom offiziellen Leben halten.<lb facs="P2_TL00134"/>Das ist der Grund unserer selbstgewählten Ab<pc type="endhypen" pre="false">-</pc>
@@ -592,30 +575,22 @@
                   </div>
                   <div type="TextContent" corresp="c005">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00009">
+                        <ab facs="P2_TB00009">
                            <lb facs="P2_TL00143"/>Offener Brief an Herrn<lb facs="P2_TL00144"/>Karl Scheffler</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00010">
+                        <ab facs="P2_TB00010">
                            <lb facs="P2_TL00145"/>Sehr geehrter Herr</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00003">
+                        <ab facs="P3_TB00003">
                            <lb facs="P3_TL00064"/>Rudolf Kurtz</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00011">
+                                 <ab facs="P2_TB00011">
                                     <lb facs="P2_TL00146"/>Ich habe mir von Herrn Herwarth Waiden<lb facs="P2_TL00147"/>die Erlaubnis erbeten, Ihrem Bericht über den<lb facs="P2_TL00148"/>„Herbstsalon" in der „Vossischen Zeitung" ein<lb facs="P2_TL00149"/>paar Bemerkungen hinzufügen zu dürfen.<lb facs="P2_TL00150"/>Ich schicke voraus, daß es über künstlerische<lb facs="P2_TL00151"/>Angelegenheiten zwischen uns keine Diskussion<lb facs="P2_TL00152"/>geben kann. Auf sachliche Argumente antworten<lb facs="P2_TL00153"/>Sie „Cafe Größenwahn", auf wohlfundierte<lb facs="P2_TL00154"/>Attacken „Ich bin der Aeltere". Sie erinnern sich,<lb facs="P2_TL00155"/>daß Sie vor einigen Jahren in der „Zukunft" mit<lb facs="P2_TL00156"/>dieser Art Lexikon gegen mich polemisiert haben.<lb facs="P2_TL00157"/>Dagegen halte ich eine Verständigung über mo<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00158"/>ralische Dinge wohl für möglich. Handwerklich<lb facs="P2_TL00159"/>gebundene Naturen, wie Sie, Herr Karl Scheffler,<lb facs="P2_TL00160"/>sind in ihrer ethischen Praxis meist durchsichtig,<lb facs="P2_TL00161"/>einfach und klar. Wenn sich dennoch, im Künst<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00162"/>moralischen, Trübes findet, so geht dies, wie ich<lb facs="P2_TL00163"/>glaube, auf den mystischen Kern Ihrer Persönlich<pc type="endhypen" pre="false">-</pc>
@@ -641,9 +616,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00002">
+                                 <ab facs="P3_TB00002">
                                     <lb facs="P3_TL00002"/>Bericht noch folgende Zeilen setzen zu müssen glau<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00003"/>ben (nachdem Sie immerhin einiges Bemerkens<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00004"/>werte gefunden haben) läßt Ihre Abneigung in sehr<lb facs="P3_TL00005"/>private Mitteilungen entgleisen. „Man sieht, es<lb facs="P3_TL00006"/>lohnt nicht der Besuch. Es ist aber sehr schade,<lb facs="P3_TL00007"/>daß wieder einmal dieser Ausstellungsaufwand,<lb facs="P3_TL00008"/>den ein gutmütiger Mäzen bezahlt, umsonst vertan<lb facs="P3_TL00009"/>worden ist." Warnen Sie nur vor dem Besuch des<lb facs="P3_TL00010"/>„Herbst-Salon". Ich darf Ihrer historischen Bil<pc type="endhypen" pre="false">-</pc>
@@ -671,35 +644,25 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00004">
+                        <ab facs="P3_TB00004">
                            <lb facs="P3_TL00065"/>Gedichte</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00005">
+                        <ab facs="P3_TB00005">
                            <lb facs="P3_TL00066"/>Vor Ernst Wilhelm Lotz</ab>
                      </div>
                      <div type="TextContent" corresp="c007">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00006">
+                           <ab facs="P3_TB00006">
                               <lb facs="P3_TL00067"/>Abendspiel</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00007">
+                                    <ab facs="P3_TB00007">
                                        <lb facs="P3_TL00068"/>Die kleinen Kinder sitzen auf den Stufen vor<lb facs="P3_TL00069"/>dem Haus,<lb facs="P3_TL00070"/>Sind eng gerückt und spielen Große, die sich<lb facs="P3_TL00071"/>streng besuchen.</ab>
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00008">
+                                    <ab facs="P3_TB00008">
                                        <lb facs="P3_TL00072"/>Manchmal fällt einem Mädchen ein Lachen aus<lb facs="P3_TL00073"/>dem Halse heraus.<lb facs="P3_TL00074"/>Ich spiele auch. Ich spiele ein herzkindliches Spiel.<lb facs="P3_TL00075"/>Ich spiele eine Kette von Kindern, einen rosin<pc type="endhypen" pre="false">-</pc>
                                        <lb facs="P3_TL00076"/>farbenen Kranz,<lb facs="P3_TL00077"/>Hinauf in die trunkene Luft, in der Sonne<lb facs="P3_TL00078"/>Untergangsspiel.<lb facs="P3_TL00079"/>Ich spiele mich eifrig und heiß und rot und werde<lb facs="P3_TL00080"/>leuchtend in unnatürlichem Glanz.<lb facs="P3_TL00081"/>Mein Werkstaunen schwillt übergroß und wird<lb facs="P3_TL00082"/>mir zuviel!<lb facs="P3_TL00083"/>Stark in der Wolken hinausschwingendes Lichten<lb facs="P3_TL00084"/>Werf ich, jäh frei gekrallt aus meinem Leib, mein<lb facs="P3_TL00085"/>Herz, das Flammen facht:<lb facs="P3_TL00086"/>Zerdonnernd dumpf verschwimmt das Höhenspiel<lb facs="P3_TL00087"/>zu bleichen Schichten.<lb facs="P3_TL00088"/>Und wo ich hintraf, steht ein großer Stern und<lb facs="P3_TL00089"/>leuchtet und ist ein tiefes Auge in die Nacht.</ab>
                                  </div>
@@ -709,18 +672,14 @@
                      </div>
                      <div type="TextContent" corresp="c008">
                         <div type="Head">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P3_TB00009">
+                           <ab facs="P3_TB00009">
                               <lb facs="P3_TL00090"/>Märchen</ab>
                         </div>
                         <div type="Copy">
                            <div type="BodyContent">
                               <div type="Paragraph">
                                  <div type="Text">
-                                    <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                        xmlns:mods="http://www.loc.gov/mods/v3"
-                                        facs="P3_TB00010">
+                                    <ab facs="P3_TB00010">
                                        <lb facs="P3_TL00091"/>Spät über den Häusern,<lb facs="P3_TL00092"/>Wiann die Dächer von Farben tropfen,<lb facs="P3_TL00093"/>Kniest du bei mir am Fenster auf dem Schemel.<lb facs="P3_TL00094"/>Ein Wundern bebt in dir.<lb facs="P3_TL00095"/>Ich fühle deine Pulse klopfen,<lb facs="P3_TL00096"/>Als lebte dein Blut in mir!<lb facs="P3_TL00097"/>Kannst du das fest begreifend sehen:<lb facs="P3_TL00098"/>Wie ich am Fenster lehne<lb facs="P3_TL00099"/>Und, weich beglüht,<lb facs="P3_TL00100"/>Die Arme in das Licht hinüberdehne?<lb facs="P3_TL00101"/>Mit meinen Fingern pflück ich aus) den grünen<lb facs="P3_TL00102"/>Grüften.<lb facs="P3_TL00103"/>Die kleine, abendfarbene Tanzmusik vom<lb facs="P3_TL00104"/>Kaffeehaus.<lb facs="P3_TL00105"/>In meinen Händen wird sie groß und lodert in<lb facs="P3_TL00106"/>den Sommerlüften.<lb facs="P3_TL00107"/>Auf einmal wächst vom goldnen Horizont,<lb facs="P3_TL00108"/>Weiß, riesengroß und spätbesonnt,<lb facs="P3_TL00109"/>Dein hingeträumter Leib heraus.<lb facs="P3_TL00110"/>Da spanne ich meine Arme weit<lb facs="P3_TL00111"/>Durch buntverhängte Abenddämmerungen<lb facs="P3_TL00112"/>Um deines Leibes Traumverlorenheit —<lb facs="P3_TL00113"/>Mädchen! und halte dich dort über Dächern und<lb facs="P3_TL00114"/>der Zeit<lb facs="P3_TL00115"/>Wie hier am wachen Fenster märchenfest<lb facs="P3_TL00116"/>umschlungen.</ab>
                                  </div>
                               </div>
@@ -730,33 +689,25 @@
                   </div>
                   <div type="TextContent" corresp="c009">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00011">
+                        <ab facs="P3_TB00011">
                            <lb facs="P3_TL00117"/>Heldensage</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P3_TB00012">
+                        <ab facs="P3_TB00012">
                            <lb facs="P3_TL00118"/>Franz Herczeg</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00013">
+                                 <ab facs="P3_TB00013">
                                     <lb facs="P3_TL00119"/>Die Hügel waren voll von roten Knospen und<lb facs="P3_TL00120"/>ein grüner Schleier floß über die Wiesen hin. Von<lb facs="P3_TL00121"/>Süden her schwang sich der Wind und säte weiße<lb facs="P3_TL00122"/>Schaumstreifen in den Spiegel des Meeres, über<lb facs="P3_TL00123"/>der Insel kreisten schwangere Wolken von blen<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00124"/>dendem Glanz. Es war Frühling!<lb facs="P3_TL00125"/>Zur Nachtzeit ließ sich aus dem Schlosse der<lb facs="P3_TL00126"/>heiligen Höhle ein gräuliches, markerschütterndes<lb facs="P3_TL00127"/>Gebrüll vernehmen, von dem die Felsen erbebten.<lb facs="P3_TL00128"/>Auch am Morgen verstummte das Getöse nicht<lb facs="P3_TL00129"/>und ein Haufen angstbebender Menschen eilte zur<lb facs="P3_TL00130"/>Hütte des Priesters.</ab>
                               </div>
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00014">
+                                 <ab facs="P3_TB00014">
                                     <lb facs="P3_TL00131"/>Der Stiergott wütet! Hilf uns, heiliger Mann!<lb facs="P3_TL00132"/>Der Priester strich seinen langen Bart.<lb facs="P3_TL00133"/>Wenn der Gott brüllt, ist es ein Zeichen, daß<lb facs="P3_TL00134"/>ihn nach Weiberfleisch hungert. Drei Tage wartet<lb facs="P3_TL00135"/>er — bringen wir ihm dann kein Weib, so kommt<lb facs="P3_TL00136"/>er aus seiner Höhle heraus und verschlingt uns alle.<lb facs="P3_TL00137"/>Man gebe dem Qott ein Weib! schrien die<lb facs="P3_TL00138"/>Leute.<lb facs="P3_TL00139"/>Opfern wir ihm das fremde Weib! schlug der<lb facs="P3_TL00140"/>Priester vor.<lb facs="P3_TL00141"/>i Da waren sie alle zufrieden und gingen sofort<lb facs="P3_TL00142"/>auf die Suche nach dem Opfer.<lb facs="P3_TL00143"/>Sie fanden die Frau in einer sandigen Bucht,<lb facs="P3_TL00144"/>wo sie eben badete und ihr weißes Gewand wusch;<lb facs="P3_TL00145"/>als sie in der Ferne die Männer erblickte, stieg sie<lb facs="P3_TL00146"/>eilends aus dem Wasser und hüllte sich in das<lb facs="P3_TL00147"/>nasse Kleid.<lb facs="P3_TL00148"/>Das geheimnisvolle Weib, mit dem kein Ein<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00149"/>wohner der Insel sprechen konnte, war an einem<lb facs="P3_TL00150"/>Abend im Herbst auf die Insel gekommen. Das<lb facs="P3_TL00151"/>Meer schlug empörte Wellen — und mitten im<lb facs="P3_TL00152"/>Sturm sah man auf hoher See ein purpurnes Segel<lb facs="P3_TL00153"/>schweben. Am Morgen war keine Spur von dem<lb facs="P3_TL00154"/>Schiff zu bemerken — und in einer Bucht am<lb facs="P3_TL00155"/>Strande fanden Fischer die fremde Frau ohnmäch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00156"/>tig liegen.<lb facs="P3_TL00157"/>Seitdem lebte sie auf der Insel. Die Fischer ver<pc type="endhypen" pre="false">-</pc>
@@ -775,9 +726,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00002">
+                                 <ab facs="P4_TB00002">
                                     <lb facs="P4_TL00002"/>Ein alter Fischer, der eben am Strande lun<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00003"/>gerte, warf sich vor den landenden Fremden auf die<lb facs="P4_TL00004"/>Knie. Er wußte, daß diese Männer aus den steiner<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00005"/>nen Städten am Ostufer kamen. Unruhig war ihr<lb facs="P4_TL00006"/>Blut, gewaltsam und listig ihre Sinnesart; furcht<pc type="endhypen" pre="false">-</pc>
@@ -800,9 +749,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00003">
+                                 <ab facs="P4_TB00003">
                                     <lb facs="P4_TL00077"/>strahlte. In der Wand der Höhle befand sich ein<lb facs="P4_TL00078"/>kleiner Kanal, der ins offene Meer führte. Dort<lb facs="P4_TL00079"/>kochte und toste das vom Südwind aufgepeitschte<lb facs="P4_TL00080"/>Wasser und die Felsengänge verstärkten den Laut<lb facs="P4_TL00081"/>zu donnergleichem Getöse.<lb facs="P4_TL00082"/>So erkannte der Fremde mit einem Schlag das<lb facs="P4_TL00083"/>Geheimnis des Stiergottes. Der schmerzhafte<lb facs="P4_TL00084"/>Druck, den er auf seinem Herzen gefühlt hatte,<lb facs="P4_TL00085"/>wich mit einem Male und erleichterte sich in<lb facs="P4_TL00086"/>einem gewaltigen, die Felsengründe erschütternden<lb facs="P4_TL00087"/>Gelächter. Dann untersuchte er die Öffnung des<lb facs="P4_TL00088"/>Kanals und fand bald, daß er sie ausfüllen könnte.<lb facs="P4_TL00089"/>Es gab genug große Steine und roten Ton da unten.<lb facs="P4_TL00090"/>*<lb facs="P4_TL00091"/>Die da oben, die fremden Schiffer und die Ein<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00092"/>wohner der Insel, horchten mit eingehaltenem<lb facs="P4_TL00093"/>Atem. Der Stiergott mußte heute in gewaltigem<lb facs="P4_TL00094"/>Zorne toben, seine Stimme war eitel Blutdurst.<lb facs="P4_TL00095"/>Jetzt, — wie er auffuhr — er witterte schon den<lb facs="P4_TL00096"/>kühnen Eindringling!<lb facs="P4_TL00097"/>Zitternd sanken alle in die Kniee. Das Brüllen<lb facs="P4_TL00098"/>des Ungetüms war ihnen das Sinnbild einer unbe<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00099"/>siegbaren Kraft, eines alleszerschmetternden<lb facs="P4_TL00100"/>Zornes.<lb facs="P4_TL00101"/>Nein, kein Sterblicher konnte sich mit diesem<lb facs="P4_TL00102"/>Gott messen.<lb facs="P4_TL00103"/>Aber jetzt — das Kriegsgetümmel erstarb zu<lb facs="P4_TL00104"/>furchtsamem Röcheln, zu schmerzlichem Stöhnen.<lb facs="P4_TL00105"/>Das war das langsame Hinsterben eines geschlach<pc type="endhypen" pre="false">-</pc>
@@ -817,23 +764,17 @@
                   </div>
                   <div type="TextContent" corresp="c010">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00004">
+                        <ab facs="P4_TB00004">
                            <lb facs="P4_TL00133"/>Das Musikalische in<lb facs="P4_TL00134"/>der Architektur</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00005">
+                        <ab facs="P4_TB00005">
                            <lb facs="P4_TL00135"/>Dr. Fritz Hoeber</ab>
                      </div>
                      <div type="Illustration" corresp="c011">
                         <div type="Image"/>
                         <div type="Caption">
-                           <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                               xmlns:mods="http://www.loc.gov/mods/v3"
-                               facs="P5_TB00002">
+                           <ab facs="P5_TB00002">
                               <lb facs="P5_TL00002"/>Artur Segal: Originalholzschnitt</ab>
                         </div>
                      </div>
@@ -841,9 +782,7 @@
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00006">
+                                 <ab facs="P4_TB00006">
                                     <lb facs="P4_TL00136"/>Architektur ist gefrorene Musik<lb facs="P4_TL00137"/>August Wilhelm Schlegel<lb facs="P4_TL00138"/>Stil kann die Zusammenstimmung der ver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00139"/>schiedensten Elemente im Kunstwerk bedeuten.<lb facs="P4_TL00140"/>Denn wenn man von Materialstil oder von Zweck<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00141"/>stil oder Formenstil usw. spricht, meint man jedes<pc type="endhypen" pre="false">-</pc>
@@ -853,9 +792,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00007">
+                                 <ab facs="P4_TB00007">
                                     <lb facs="P4_TL00145"/>tung gegeben, nach der sich alle übrigen Faktoren<lb facs="P4_TL00146"/>im Kunstwerk zu richten haben. Ist jedoch der<lb facs="P4_TL00147"/>Zweck vorausgesetzt, so müssen auch die übrigen<lb facs="P4_TL00148"/>Elemente, wie die Formen und das Material und<lb facs="P4_TL00149"/>alle Gefühlsinhalte, sich ihm als gleich „zweckvoll"<lb facs="P4_TL00150"/>anschmiegen. Der Formstil endlich ordnet alles<lb facs="P4_TL00151"/>übrige unter den Eigenwillen einer bestimmten<lb facs="P4_TL00152"/>Formensprache und schafft so rein idealistische<lb facs="P4_TL00153"/>Schönheiten.<lb facs="P4_TL00154"/>Unter Stil versteht man aber auch noch ein<lb facs="P4_TL00155"/>anderes inhaltliches Verhalten, das des Zeitstils zur<lb facs="P4_TL00156"/>Zeit. Wie gesagt, ist das die Postulierung eines<lb facs="P4_TL00157"/>Inhaltes: der Stil soll Ausdruck seiner Zeit sein.<lb facs="P4_TL00158"/>Hierbei taucht nur die Frage auf, ob dieser Aus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00159"/>druck sich im Gleichklang oder als ein Komplement<lb facs="P4_TL00160"/>zu seiner Zeit befindet, konkret ob die moderne<lb facs="P4_TL00161"/>Geschäftigkeit oder ihr Gegenteil, die in sich be<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00162"/>friedete Beruhigung, der Kunst ihr charakteristi<pc type="endhypen" pre="false">-</pc>
@@ -880,9 +817,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00002">
+                                 <ab facs="P6_TB00002">
                                     <lb facs="P6_TL00002"/>Vorstellung" ist naturgemäß auch umzudrehen:<lb facs="P6_TL00003"/>„Alle räumliche Vorstellung kann uns erst als Aus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00004"/>drucksbild zur Erscheinung werden", womit denn<lb facs="P6_TL00005"/>der Vorzug der räumlichen Vorstellung vor ande<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00006"/>ren psychischen Komponenten im Kunstwerk hin*<lb facs="P6_TL00007"/>fällig wird. Auch die im Kreise Hildebrands be<pc type="endhypen" pre="false">-</pc>
@@ -909,9 +844,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00003">
+                                 <ab facs="P6_TB00003">
                                     <lb facs="P6_TL00078"/>bleibt. Diese ästhetisch durchlebende Vergeisti<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00079"/>gung beraubt die Baukunst freilich ihres realen<lb facs="P6_TL00080"/>Erfahrungscharakters und erhebt sich in das Be<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00081"/>reich der allgemeinen künstlerischen Harmonie.<lb facs="P6_TL00082"/>Aber im letzten Sinne einigt sich ja die Wirkung<lb facs="P6_TL00083"/>sämtlicher Künste in dieser unfaßbaren psychi<pc type="endhypen" pre="false">-</pc>
@@ -928,30 +861,22 @@
                   </div>
                   <div type="TextContent" corresp="c012">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00004">
+                        <ab facs="P6_TB00004">
                            <lb facs="P6_TL00097"/>Die Schwermut des<lb facs="P6_TL00098"/>Geniebers</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00005">
+                        <ab facs="P6_TB00005">
                            <lb facs="P6_TL00099"/>Roman</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00006">
+                        <ab facs="P6_TB00006">
                            <lb facs="P6_TL00100"/>Von Artur Babillotte</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00008">
+                                 <ab facs="P6_TB00008">
                                     <lb facs="P6_TL00102"/>Mit ungeduldigen Schritten hastete er durch<lb facs="P6_TL00103"/>die Straßen; diese Stadt begann ihn zu bedrücken<lb facs="P6_TL00104"/>wie ein böser Traum, obwohl er sie erst seit eini<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00105"/>gen Stunden kannte. Neue Pläne formten sich in<lb facs="P6_TL00106"/>seinem Gehirn, der Trotz und die unbändige<lb facs="P6_TL00107"/>Freude dessen, der seine Stärke kennt, kamen über<lb facs="P6_TL00108"/>ihn. Denen, die das wenigste Verlangen nach die<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00109"/>ser Stärke hatten, gerade denen wollte er sie auf<pc type="endhypen" pre="false">-</pc>
@@ -962,9 +887,7 @@
                                     <lb facs="P6_TL00139"/>sem Zeichen ihrer Demütigung ihr kraftvollster<lb facs="P6_TL00140"/>Stolz und die Rettung vor ihrer Not und Verzweif<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00141"/>lung liege. Dies war seine Mission, und sie hatte<lb facs="P6_TL00142"/>er erst an diesem Sommerabend erkannt: seltsam,<lb facs="P6_TL00143"/>nachdem er ein Werk geschaffen hatte, das eine<lb facs="P6_TL00144"/>neue Kunst einleiten sollte, in Stolz und Freude,<lb facs="P6_TL00145"/>ganz durchtränkt von der Schwermut des Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00146"/>nießers, erschloß sich ihm erst das Feld, auf dem</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00009">
+                                 <ab facs="P6_TB00009">
                                     <lb facs="P6_TL00147"/>er wirken sollte nach der Bestimmung seines<lb facs="P6_TL00148"/>Schicksals. Er mußte sich innerlich lossagen von<lb facs="P6_TL00149"/>dem Werk, das eri vordem für die Glocke gehalten,<lb facs="P6_TL00150"/>die die neue Kunst einläuten sollte. Dies verlangte<lb facs="P6_TL00151"/>seine Ehrlichkeit von ihm.<lb facs="P6_TL00152"/>Mit einem Gefühl tiefer Wehmut gedachte er<lb facs="P6_TL00153"/>des Briefes, den er am Morgen an den Freund ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00154"/>schrieben hatte, dieses freudeträchtigen, von sei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00155"/>nem stolzen, genießerischen Ich durchstrahlten<lb facs="P6_TL00156"/>Briefes, in dem die hohen Töne seines Selbstbe<pc type="endhypen" pre="false">-</pc>
@@ -978,9 +901,7 @@
                                     <lb facs="P6_TL00212"/>gens, den Menschen Rettung zu bringen. Er ging<lb facs="P6_TL00213"/>einen Irrweg, aber er ging ihn in edler Sehnsucht;<lb facs="P6_TL00214"/>er war nie mehr und zu gleicher Zeit nie weniger<lb facs="P6_TL00215"/>Egoist gewesen. Er zerriß seine hohen Träume<lb facs="P6_TL00216"/>um der egoistischen Freude an den Nöten und<lb facs="P6_TL00217"/>Kleinigkeiten der Menschen. Alles, was er tat,<lb facs="P6_TL00218"/>entsprang einem edlen Egoismus, dem er nicht ent<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00219"/>rinnen konnte, weil er der beste Teil seiner Künst<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00220"/>lerschaft war; und auch, wo er falsche Wege ging,<lb facs="P6_TL00221"/>gehorchte er nur dem Egoismus seiner aristokra*<lb facs="P6_TL00222"/>tischen Seele, ohne aber den erkenntnisreichen</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00002">
+                                 <ab facs="P7_TB00002">
                                     <lb facs="P7_TL00002"/>Willen oder die Kraft zu besitzen, den Ueber<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00003"/>schwang dieses Egoismus zu dämpfen und einzu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00004"/>betten.<lb facs="P7_TL00005"/>Er erinnerte sich der Worte, die er am Morgen<lb facs="P7_TL00006"/>in dem Brief an seinen Freund geschrieben hatte:<lb facs="P7_TL00007"/>„Es ist nicht die Frage, ob eine Seele groß und<lb facs="P7_TL00008"/>edel sei, es ist die Frage: Ist sie so zart organi<pc type="endhypen" pre="false">-</pc>
@@ -988,9 +909,7 @@
                                     <lb facs="P7_TL00010"/>des eine Spur auf ihr zurückläßt?" Unbewußt war<lb facs="P7_TL00011"/>er dieser Erkenntnis gefolgt, als er sein erstes Werk<lb facs="P7_TL00012"/>schuf; und als er jene Worte schrieb, war es ihm<lb facs="P7_TL00013"/>bewußt geworden. Jetzt durfte er sich nicht mehr<lb facs="P7_TL00014"/>mimosenhaft allen Eindrücken und Einflüssen, die<lb facs="P7_TL00015"/>von außen kamen, verschließen, jetzt war es seine<lb facs="P7_TL00016"/>Pflicht, sich als Künstler mit ihnen auseinanderzu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00017"/>setzen. Und eines war, das er ablegen mußte: Das<lb facs="P7_TL00018"/>verzerrte Lächeln dessen, der ganz vornehmer<lb facs="P7_TL00019"/>Klang geworden ist und jeden Mißklang verab<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00003">
+                                 <ab facs="P7_TB00003">
                                     <lb facs="P7_TL00020"/>scheut. In ihm erkannte er jetzt den Feind und<lb facs="P7_TL00021"/>diesem Feinde wollte er mit aller Kraft entgegen<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00022"/>treten. Mensch unter Menschen. — Nicht nur<lb facs="P7_TL00023"/>Künstler unter Menschen. Dies war die schwere<lb facs="P7_TL00024"/>Stunde, da Johannes sein erstes Werk verleug<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00025"/>nete. Jetzt meinte er, daß er sein zweites Werk<lb facs="P7_TL00026"/>schaffen könne, das Mitleid war nun mächtig ge<pc type="endhypen" pre="false">-</pc>
@@ -1001,9 +920,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00004">
+                                 <ab facs="P7_TB00004">
                                     <lb facs="P7_TL00037"/>Die Sommernacht hing, ein großer duftender<lb facs="P7_TL00038"/>Blumenkelch, über die Erde, in wehmütiger Freude,<lb facs="P7_TL00039"/>da nun das Verblühen begann: Der neue Tag stand<lb facs="P7_TL00040"/>draußen und bereitete sich zu seinem Einzug in die<lb facs="P7_TL00041"/>Erde. Ein neuer glühender Sommertag. Eine neue<lb facs="P7_TL00042"/>Sonne kam.<lb facs="P7_TL00043"/>. . . . Und so schritt Johannes weiter, beschwert<lb facs="P7_TL00044"/>mit dem Reichtum des Tages, an dem er das Er<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00045"/>reichte geprüft und über sich selbst Gericht gehal<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00046"/>ten hatte. Mit unerschütterlicher Ehrlichkeit war<lb facs="P7_TL00047"/>alles getan worden; mit unerschütterlicher Ehrlich*<lb facs="P7_TL00048"/>keit mußte weitergeschritten werden. Und das<lb facs="P7_TL00049"/>ewig Bleibende in der Entwicklung dieser Künst<pc type="endhypen" pre="false">-</pc>
@@ -1016,42 +933,30 @@
                   </div>
                   <div type="TextContent" corresp="c013">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P7_TB00005">
+                        <ab facs="P7_TB00005">
                            <lb facs="P7_TL00055"/>Inhalt</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P7_TB00007">
+                        <ab facs="P7_TB00007">
                            <lb facs="P7_TL00057"/>Erstes Halbjahr 1913</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P7_TB00006">
+                        <ab facs="P7_TB00006">
                            <lb facs="P7_TL00056"/>Vierier Jahrgang</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00008">
+                                 <ab facs="P7_TB00008">
                                     <lb facs="P7_TL00058"/>Beiträge Nummer Seite<lb facs="P7_TL00059"/>Joseph Adler<lb facs="P7_TL00060"/>Vom andern Ufer 158/159 23<lb facs="P7_TL00061"/>Peter Scher 162/163 39<lb facs="P7_TL00062"/>Ein Buch von Döblin 170/171 71<lb facs="P7_TL00063"/>G u i 11 a u m e Apollinaire<lb facs="P7_TL00064"/>Zone 154/155 4<lb facs="P7_TL00065"/>Arthur Babillotte<lb facs="P7_TL00066"/>Die Schwermut des Genießers 156/157 14<lb facs="P7_TL00067"/>158/159 20<lb facs="P7_TL00068"/>160/161 30<lb facs="P7_TL00069"/>162/163 36<lb facs="P7_TL00070"/>164/165 44<lb facs="P7_TL00071"/>166/167 54<lb facs="P7_TL00072"/>168/169 59<lb facs="P7_TL00073"/>170/171 70<lb facs="P7_TL00074"/>174/175 86<lb facs="P7_TL00075"/>176/177 94<lb facs="P7_TL00076"/>178/179 102<lb facs="P7_TL00077"/>Adolf Behne<lb facs="P7_TL00078"/>Henri Matisse 162/163 36<lb facs="P7_TL00079"/>Gini Severini 172/173 73<lb facs="P7_TL00080"/>Gottfried Benn<lb facs="P7_TL00081"/>Gedichte 160/161 26<lb facs="P7_TL00082"/>William Blake<lb facs="P7_TL00083"/>Sprüche aus den Werken 154/155 2<lb facs="P7_TL00084"/>Paul Bommersheim<lb facs="P7_TL00085"/>Gedicht 168/169 59<lb facs="P7_TL00086"/>B 1 a i s e Cendrars<lb facs="P7_TL00087"/>Le douanier Henri Rousseau 178/179 99<lb facs="P7_TL00088"/>Alfred Döblin<lb facs="P7_TL00089"/>An Romanautoren und ihre Kritiker 158/159 17<lb facs="P7_TL00090"/>A 1 b er t Ehrenstein<lb facs="P7_TL00091"/>Der Tod in Venedig 164/165 44<lb facs="P7_TL00092"/>Der Traum des achhundertundacht<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00093"/>zigsten Nachtredakteurs 164/165 42<lb facs="P7_TL00094"/>Elisabeth Epstein<lb facs="P7_TL00095"/>Das Lächerlichsein 156/157 15<lb facs="P7_TL00096"/>Hermann Essig<lb facs="P7_TL00097"/>Hippodrom 164/165 43<lb facs="P7_TL00098"/>Otto Feyen<lb facs="P7_TL00099"/>Glosse zu Franz Jung: Das Trottel<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00100"/>buch 154/155 6<lb facs="P7_TL00101"/>S. Friedlaender<lb facs="P7_TL00102"/>Die Mitte zwischen Extremen 158/159 22<lb facs="P7_TL00103"/>Richard Fuchs<lb facs="P7_TL00104"/>Orient oder Occident 176/177 91<lb facs="P7_TL00105"/>Götz<lb facs="P7_TL00106"/>Charles Louis Philippe übersetzt 176/177 95<lb facs="P7_TL00107"/>Paul Hatvani<lb facs="P7_TL00108"/>Die Stimme der Zeit 170/171 70<lb facs="P7_TL00109"/>Wilhelm Hausenstein<lb facs="P7_TL00110"/>Literatur zu den neuen Kunstbe<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00111"/>wegungen 156/157 10<lb facs="P7_TL00112"/>Vom Kubismus 170/171 67<lb facs="P7_TL00113"/>Hegener<lb facs="P7_TL00114"/>Das Bildnis des Marcel Schwöb und<lb facs="P7_TL00115"/>seine Grabschrift 178/179 100<lb facs="P7_TL00116"/>Arno Holz<lb facs="P7_TL00117"/>160/161 26</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00009">
+                                 <ab facs="P7_TB00009">
                                     <lb facs="P7_TL00118"/>Kandinsky<lb facs="P7_TL00119"/>Malerei als reine Kunst 178/179 98<lb facs="P7_TL00120"/>Für Kandinsky<lb facs="P7_TL00121"/>Protest 154/155 3<lb facs="P7_TL00122"/>A a g e von Kohl<lb facs="P7_TL00123"/>Der schöne Korporal 174/175 82<lb facs="P7_TL00124"/>Fernand Leger<lb facs="P7_TL00125"/>Les Origines de la peinture contem<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P7_TL00126"/>poraine et sa valeur repräsentative 172/177 76<lb facs="P7_TL00127"/>Rudolf Leonhard<lb facs="P7_TL00128"/>Angelische Strophen 154/155 3<lb facs="P7_TL00129"/>O Welt 166/167 52<lb facs="P7_TL00130"/>Ernst Wilhelm Lötz<lb facs="P7_TL00131"/>Gedichte 156/157 14<lb facs="P7_TL00132"/>Gedichte 162/163 35<lb facs="P7_TL00133"/>Allein 166/167 50<lb facs="P7_TL00134"/>Katechismus 166/167 51<lb facs="P7_TL00135"/>Gedichte 176/177 90<lb facs="P7_TL00136"/>Franz Marc<lb facs="P7_TL00137"/>Notiz 166/167 55<lb facs="P7_TL00138"/>Friedrich Markus Huebner<lb facs="P7_TL00139"/>Der Fall Bernd Isemann 174/175 87<lb facs="P7_TL00140"/>Emil Ernst Mehnert<lb facs="P7_TL00141"/>Gedicht 174/175 87<lb facs="P7_TL00142"/>Alfred Richard Meyer<lb facs="P7_TL00143"/>Dortmund 158/159 22<lb facs="P7_TL00144"/>Steglitz 160/161 29<lb facs="P7_TL00145"/>Gedicht 164/165 44<lb facs="P7_TL00146"/>Kloster Neustift bei Brixen 166/167 51<lb facs="P7_TL00147"/>Paris 174/175 85<lb facs="P7_TL00148"/>Günther Mürr<lb facs="P7_TL00149"/>Vergottung in Marie 172/173 75<lb facs="P7_TL00150"/>Mynona<lb facs="P7_TL00151"/>Die Torturen des Gottes Mumba 164/165 42<lb facs="P7_TL00152"/>Idee vom Ferntaster 170/171 66<lb facs="P7_TL00153"/>Rosa, die schöne Schutzmannsfrau 174/175 85<lb facs="P7_TL00154"/>L. H. Neitzel<lb facs="P7_TL00155"/>Moderner Bund 154/155 6<lb facs="P7_TL00156"/>G a s t o n Picard<lb facs="P7_TL00157"/>Creations 162/163 35<lb facs="P7_TL00158"/>Isidor Quartner<lb facs="P7_TL00159"/>Gedichte 156/157 10<lb facs="P7_TL00160"/>Liebeslied 158/159 20<lb facs="P7_TL00161"/>Sinnlichkeit 168/169 59<lb facs="P7_TL00162"/>Arthur Rimbaud<lb facs="P7_TL00163"/>Gedichte 172/173 r4<lb facs="P7_TL00164"/>C u r t Seidel<lb facs="P7_TL00165"/>Rosso-Rodin 154/155 2<lb facs="P7_TL00166"/>Kurt Striepe<lb facs="P7_TL00167"/>Die Brücke 176/177 90<lb facs="P7_TL00168"/>Hugo Engelbert Schwarz<lb facs="P7_TL00169"/>Phantasien des totgeborenen Knaben<lb facs="P7_TL00170"/>Mokuro 154/155 2<lb facs="P7_TL00171"/>Ardibots letztes Auftreten 168/169 57<lb facs="P7_TL00172"/>Elezagal, die gelbe Maus 178/179 99<lb facs="P7_TL00173"/>Paul Scheerbart<lb facs="P7_TL00174"/>Herr Kammerdiener Kneetschke 156/157 10<lb facs="P7_TL00175"/>Peter Scher<lb facs="P7_TL00176"/>Das Holzbein 166/167 51<lb facs="P7_TL00177"/>Das Bad der Pauline Borghese 176/177 93<lb facs="P7_TL00178"/>Marcel Schwöb<lb facs="P7_TL00179"/>Die Leichenfrauen 172/173 74<lb facs="P7_TL00180"/>Josef Tress<lb facs="P7_TL00181"/>Vater 172/173 76<lb facs="P7_TL00182"/>Gedichte 178/179 99</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P7_TB00010">
+                                 <ab facs="P7_TB00010">
                                     <lb facs="P7_TL00183"/>H. W.<lb facs="P7_TL00184"/>Von den schönen Künsten 158/159 18<lb facs="P7_TL00185"/>Das Fest des heiligen Geistes 160/161 31<lb facs="P7_TL00186"/>Zeitgeschichte 162/163 34<lb facs="P7_TL00187"/>Sammelwut 164/165 42<lb facs="P7_TL00188"/>Puppchen 166/167 50<lb facs="P7_TL00189"/>Kritiker 166/167 52<lb facs="P7_TL00190"/>Festspielerei 170/171 66<lb facs="P7_TL00191"/>Der Tafel 172/173 79<lb facs="P7_TL00192"/>Kunsthelfer 176/177 90<lb facs="P7_TL00193"/>E. Wichman<lb facs="P7_TL00194"/>Oratio pro Domo 174/175 87<lb facs="P7_TL00195"/>Erich Vogeler<lb facs="P7_TL00196"/>Das energetische Evangelium 164/165 47<lb facs="P7_TL00197"/>Vom Kubismus 172/173 79<lb facs="P7_TL00198"/>Paul Zech<lb facs="P7_TL00199"/>Das Baalsopfer 160/161 26<lb facs="P7_TL00200"/>Die hallucinierte Nacht 168/169 59<lb facs="P7_TL00201"/>Zeichnungen Nummer<lb facs="P7_TL00202"/>Hans Arp<lb facs="P7_TL00203"/>Zeichnung 154/155<lb facs="P7_TL00204"/>Zeichnungen 158/159<lb facs="P7_TL00205"/>Bolz<lb facs="P7_TL00206"/>Originalholzschnitt 164/165<lb facs="P7_TL00207"/>Delaunay<lb facs="P7_TL00208"/>Zeichnung 174/175<lb facs="P7_TL00209"/>Jacob Eingartner<lb facs="P7_TL00210"/>Originalholzschnitt 176/177<lb facs="P7_TL00211"/>Walter Heibig<lb facs="P7_TL00212"/>Landschaft / Originalholzschnitt 154/155<lb facs="P7_TL00213"/>Hermann Huber<lb facs="P7_TL00214"/>Zeichnung 154/155<lb facs="P7_TL00215"/>A. J. Korteweg<lb facs="P7_TL00216"/>Linoleumschnitte 170/171<lb facs="P7_TL00217"/>Marie Laurenciti<lb facs="P7_TL00218"/>Originalholzschnitte 156/157<lb facs="P7_TL00219"/>Originalholzschnitt 160/161<lb facs="P7_TL00220"/>F e r n a n t Leger<lb facs="P7_TL00221"/>Zeichnung 172/173<lb facs="P7_TL00222"/>Oskar Lüthy<lb facs="P7_TL00223"/>Originalzeichnung 154/155<lb facs="P7_TL00224"/>Franz Marc<lb facs="P7_TL00225"/>Originalholzschnitt 156/157<lb facs="P7_TL00226"/>Originalholzschnitt 160/161<lb facs="P7_TL00227"/>Wilhelm Morgner<lb facs="P7_TL00228"/>Originalholzschnitt 164/165<lb facs="P7_TL00229"/>Linoleumschnitte 166/167<lb facs="P7_TL00230"/>Linoleumschnitt 168/169<lb facs="P7_TL00231"/>Gabriele Munter<lb facs="P7_TL00232"/>Zeichnungen 156/157<lb facs="P7_TL00233"/>Originalholzschnitt 162/163<lb facs="P7_TL00234"/>Richter -Berlin<lb facs="P7_TL00235"/>Originalholzschnitt 168/169<lb facs="P7_TL00236"/>F r. Rosenkranz<lb facs="P7_TL00237"/>Originalholzschnitt 160/161<lb facs="P7_TL00238"/>A r t u r Segal<lb facs="P7_TL00239"/>Originalholzschnitt 162/163<lb facs="P7_TL00240"/>Originalholzschnitt 172/173<lb facs="P7_TL00241"/>C u r t Stoermer<lb facs="P7_TL00242"/>Originalholzschnitt 166/167<lb facs="P7_TL00243"/>Originalholzschnitt 178/179<lb facs="P7_TL00244"/>Storm-Petersen<lb facs="P7_TL00245"/>Originalholzschnitt ; 178/179</ab>
                               </div>
                            </div>
@@ -1061,45 +966,31 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c014">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00004">
+                     <ab facs="P8_TB00004">
                         <lb facs="P8_TL00014"/>Standige Ausstellungen<lb facs="P8_TL00015"/>der Zeitschrift Der Sturm<lb facs="P8_TL00016"/>Berlin W / Potsdamer Straße 134 a<lb facs="P8_TL00017"/>Achtzehnte Ausstellung<lb facs="P8_TL00018"/>Skupina / Prag<lb facs="P8_TL00019"/>Gemalde / Skulpturen / Architektur<lb facs="P8_TL00020"/>Emil Filla / Vincenc Benes / Prochazka / Gutfreund<lb facs="P8_TL00021"/>1 Gocar / Janak<lb facs="P8_TL00022"/>Geoffnet taglich von 10—6 Uhr j Sonntags von<lb facs="P8_TL00023"/>11—2 Uhr<lb facs="P8_TL00024"/>Eintritt 1 Mark / Jahreskarte 6 Mark<lb facs="P8_TL00025"/>Vom 20. September bis 1. November<lb facs="P8_TL00026"/>Erster Deutseher<lb facs="P8_TL00027"/>Herbstsalon<lb facs="P8_TL00028"/>75 Potsdamer Straße 75 zu Berlin<lb facs="P8_TL00029"/>Expressionisten<lb facs="P8_TL00030"/>Kubisten<lb facs="P8_TL00031"/>Futuristen<lb facs="P8_TL00032"/>Vierhundert Kunstwerke<lb facs="P8_TL00033"/>Taglich ./ auch Sonntags / geoffnet von 10 bis 7 Uhr<lb facs="P8_TL00034"/>Eintritt 1 Mark / Dauerkarte 2 Mark<lb facs="P8_TL00035"/>Katalog in Kupfertiefdruck mit fiinfzig Abbildungen<lb facs="P8_TL00036"/>2 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c015">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00005">
+                     <ab facs="P8_TB00005">
                         <lb facs="P8_TL00037"/>Verlag der Sturm<lb facs="P8_TL00038"/>Berlin W9 Potsdamer Straße 134*<lb facs="P8_TL00039"/>Fernruf Amt Liitzow 4443<lb facs="P8_TL00040"/>Zeitschrift der Sturm<lb facs="P8_TL00041"/>Dauerbezug<lb facs="P8_TL00042"/>QewShnllcbe Ausgabe: Ffir Deutschland<lb facs="P8_TL00043"/>und Oesterreich-Ungarn: Ein Jahr 6<lb facs="P8_TL00044"/>Mark / Ein Halbjahr 3 Mark / Ein Viertelfchr<lb facs="P8_TL00045"/>1 Mark 50 / Einzelnummer 20 Pfennig / Doppel-<lb facs="P8_TL00046"/>nummer 40 Pfennig X Fflr das Ausland bei<lb facs="P8_TL00047"/>direkter Zustellung durch die Pott:<lb facs="P8_TL00048"/>Ein Jahr 9 francs / Ein Halbjahr 4 francs 50 cen-<lb facs="P8_TL00049"/>times I Ein Vierteliahr 3 francs / Einzelnummer<lb facs="P8_TL00050"/>25 centimes / Doppelnummer 50 centimes.<lb facs="P8_TL00051"/>Probenumtner umsonst<lb facs="P8_TL00052"/>Sonderausgabe: Ungebrochene Exem-<lb facs="P8_TL00053"/>plar e au 112 holzfreiem Papier, Ve r -<lb facs="P8_TL00054"/>sendung in Rollen direkt durch die<lb facs="P8_TL00055"/>Post ftlr Deutschland und Oester-<lb facs="P8_TL00056"/>reich-Ungarn : Ein Jahr 12 Mark /<lb facs="P8_TL00057"/>Ein Halbjahr 6 Mark X Ffir das Ausland:<lb facs="P8_TL00058"/>Ein Jahr 18 francs / Ein Halbjahr 9 francs / Von<lb facs="P8_TL00059"/>dieser Ausgabe werden Vierteljahrsbezflge, Einzel-<lb facs="P8_TL00060"/>nummem und Probenummern nic h t <lb facs="P8_TL00061"/>Der Sturm: Erster Jahrgang, Nummer 1—56:<lb facs="P8_TL00062"/>25 Mark / Zweiter Jahrgang, Nummer 57—104:<lb facs="P8_TL00063"/>10 Mark / Dritter Jahrgang, Nummer 105—152/153:<lb facs="P8_TL00064"/>10 Mark<lb facs="P8_TL00065"/>Die Zeitschrift Der Sturm ist durch alle Buch- und<lb facs="P8_TL00066"/>Kunsthandlungen, durch die Post, sowie direkt<lb facs="P8_TL00067"/>durch den Verlag Der Sturm, Berlin W9, zu be-<lb facs="P8_TL00068"/>ziehen / Zum Einzelverkauf liegt Der Sturm in alien<lb facs="P8_TL00069"/>Bahnhofshandlungen, Kiosken u. Straßenst&amp;nden auf<lb facs="P8_TL00070"/>Palls direkte ZustellHng durch den Verlag<lb facs="P8_TL00071"/>Der Sturm unter Streifband oder in Rolle ge-<lb facs="P8_TL00072"/>wiinscht vird, bitten wir den Bet r a g ffir den<lb facs="P8_TL00073"/>Dauerbezug bei der Bestellung oder bei<lb facs="P8_TL00074"/>Beginn des neuen Vierteljahres bis<lb facs="P8_TL00075"/>zum ffinftendes ersten Monats einzu-<lb facs="P8_TL00076"/>s en d en / Andernfalls nehmen wir an, dafi E i n -<lb facs="P8_TL00077"/>zieh un g des Betrages durch Nachnahme<lb facs="P8_TL00078"/>unter Berechnung des Nachnahmeportos ge-<lb facs="P8_TL00079"/>vfinscht wird<lb facs="P8_TL00080"/>Qeneralvertretung des Verlags Eugene Flgul&amp;re /<lb facs="P8_TL00081"/>Paris</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c016">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00006">
+                     <ab facs="P8_TB00006">
                         <lb facs="P8_TL00082"/>Originalholzschnitte / Handdrucke<lb facs="P8_TL00083"/>Die Gesamtauflage ist in Klammern beigefugt / Alle<lb facs="P8_TL00084"/>Exemplare sind vom Kiinstler nummeriert und signiert<lb facs="P8_TL00085"/>Franz Marc: Versohnung / Tier-<lb facs="P8_TL00086"/>legende / Pferde / Tiger / Pferde<lb facs="P8_TL00087"/>Hochformat / Die Hirtin / Der Stier /<lb facs="P8_TL00088"/>Schlafende Hirtin / Wildpferde /<lb facs="P8_TL00089"/>Ruhende Pferde (handaquarelliert) / Das<lb facs="P8_TL00090"/>Exemplar 40 Mark (je 10)<lb facs="P8_TL00091"/>Max Pechsteln: Die Erlegung des Fest-<lb facs="P8_TL00092"/>bratens / Auf Nummer 94 der Zeitschrift Der<lb facs="P8_TL00093"/>Sturm vom Kiinstler mit der Hand aquarelliert ./<lb facs="P8_TL00094"/>Das Exemplar 5 Mark (100)<lb facs="P8_TL00095"/>W. Kandinsky: Handdrucke / Das Exemplar 30 M.<lb facs="P8_TL00096"/>Wilhelm Morgner: Acker mit Weib / Tierdres-<lb facs="P8_TL00097"/>seur I Holzarbeiterfamilie / Fressende Holzar-<lb facs="P8_TL00098"/>beiter / Das Exemplar 15 Mark (10)<lb facs="P8_TL00099"/>Gabriele Mttnter: Neujahrswunsch / Das Exemplar<lb facs="P8_TL00100"/>20 Mark (5)<lb facs="P8_TL00101"/>Walter Helbig: Landschaft ./ Das Exemplar<lb facs="P8_TL00102"/>25 Mark (5)<lb facs="P8_TL00103"/>Schmidt-Rotluff: Mann und Weib / Sonnige Straße<lb facs="P8_TL00104"/>I Das Exemplar 30 Mark (12)<lb facs="P8_TL00105"/>Arthur Segal: Vom Strande I / Vom Strande HI /<lb facs="P8_TL00106"/>Das Exemplar 20 Mark (15)<lb facs="P8_TL00107"/>H. Campendonk: Originalholzschnitte [Nummer 131,<lb facs="P8_TL00108"/>134/135, 140/141] I Das Exemplar 25 Mark (12)<lb facs="P8_TL00109"/>Oskar Kokoschka: Plakat fflr die Zeitschrift<lb facs="P8_TL00110"/>Der Sturm / Originallithographie / Das Exem-<lb facs="P8_TL00111"/>plar 3 Mark<lb facs="P8_TL00112"/>Oskar Kokoschka: Nijinsky / PortrSt Licht-<lb facs="P8_TL00113"/>druck, grofies Format / 10 Mark<lb facs="P8_TL00114"/>Musik<lb facs="P8_TL00115"/>Herwarth Walden: Dafnislieder / Zu G«-<lb facs="P8_TL00116"/>dichten von Arno Holz / Fflr Gesang und Kla-<lb facs="P8_TL00117"/>vier I 3 Mark / 50 Seiten<lb facs="P8_TL00118"/>Kunstlerpostkarten<lb facs="P8_TL00119"/>Das Exemplar 20 Pfennig<lb facs="P8_TL00120"/>Futuristen: Umberto Boccioni: Das<lb facs="P8_TL00121"/>Lachen / Luigi Russolo: Erinnerung einer<lb facs="P8_TL00122"/>Nacht I Zug in voller Fahrt / Gino Seve-<lb facs="P8_TL00123"/>ring Die Modistin / Ruhelose Tftnzerin / Pan-<lb facs="P8_TL00124"/>Pan Tanz I Umberto Boccioni: Abschied/<lb facs="P8_TL00125"/>Franz Marc: Affentries / Tierschicksale<lb facs="P8_TL00126"/>Robert Delaunay: La Tour<lb facs="P8_TL00127"/>Oskar Kokoschka: Utinam delectet<lb facs="P8_TL00128"/>Kandinsky: Komposition 6<lb facs="P8_TL00129"/>Karten von Macke / Miinter / Marc Chagall /<lb facs="P8_TL00130"/>Klee / Leger / Jawlensky / Werefkin usw.<lb facs="P8_TL00131"/>Mappen<lb facs="P8_TL00132"/>Oskar Kokoschka: Zwanzig Blatt Zeichnungen /<lb facs="P8_TL00133"/>Strichatzung / Auf Kaiserlich Japan-Papier in<lb facs="P8_TL00134"/>Luxus-Mappe 25 Mark / Auf Costa-Karton in ein-<lb facs="P8_TL00135"/>facherer Mappe 12 Mark</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c017">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00007">
+                     <ab facs="P8_TB00007">
                         <lb facs="P8_TL00136"/>Zeitsehriften<lb facs="P8_TL00137"/>La Route / Revue del' Effort Social ./ Paris / Rue<lb facs="P8_TL00138"/>de Vaugirard 120<lb facs="P8_TL00139"/>L'Effort Libre / fruher L'Effort / Monatsschrift /<lb facs="P8_TL00140"/>Herausgeber: Jean Richard Bloch I Poitiers<lb facs="P8_TL00141"/>[Vienne]<lb facs="P8_TL00142"/>L'lndgpendance I Halbmonatsschrift / Kfinste /<lb facs="P8_TL00143"/>Kultur I Philosophic / Politik / Jahresbezug<lb facs="P8_TL00144"/>15 Francs / Paris 31 rue Jacob<lb facs="P8_TL00145"/>La Renaissance Contemporaine / Halbmonatsschrift<lb facs="P8_TL00146"/>Paris / 41 Rue Monge<lb facs="P8_TL00147"/>La Nouvelle Revue FranQalse / Monatsschrift /<lb facs="P8_TL00148"/>Paris Vie 35/37 Rue Madame / Nummer 1 Francs<lb facs="P8_TL00149"/>50 centimes<lb facs="P8_TL00150"/>Montjoie / Halbmonatsschrift / Paris / Chauss6e<lb facs="P8_TL00151"/>d'Antin 38<lb facs="P8_TL00152"/>Haro I Monatsschrift / Brfissel<lb facs="P8_TL00153"/>Les Cahiers du Centre / Moulins [Allier]<lb facs="P8_TL00154"/>Les Solr6es de Paris / Recueil Mensuel / Pirii<lb facs="P8_TL00155"/>9 rue Jacob</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c018">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00008">
+                     <ab facs="P8_TB00008">
                         <lb facs="P8_TL00156"/>Umelecky Mesicnik / Monatsschrift fiir neue und<lb facs="P8_TL00157"/>alte Kunst / Heft 6—B bringt: Bilder: Picasso (9) /<lb facs="P8_TL00158"/>Braque (3) / Cezanne (3) / Soffici (l) / Sculpturen:<lb facs="P8_TL00159"/>Picasso (2) I Negersche (10) / Architektur: Goc&amp;r<lb facs="P8_TL00160"/>(6) I Jahrlich M 12.50 / Administration Prag I /<lb facs="P8_TL00161"/>Veleslavinova 5</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c019">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00009">
+                     <ab facs="P8_TB00009">
                         <lb facs="P8_TL00162"/>Anzeigen</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c020">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00010">
+                     <ab facs="P8_TB00010">
                         <lb facs="P8_TL00163"/>Akademie fur moderne Skulptur in Paris / 18 Im-<lb facs="P8_TL00164"/>passe du Maine Montparnasse / Korrektur: A. Ar-<lb facs="P8_TL00165"/>chipenko / Arbeiten in Stein / Studien<lb facs="P8_TL00166"/>der Stilarten<lb facs="P8_TL00167"/>Poetry and Drama / Dichtung und Drama / Be-<lb facs="P8_TL00168"/>griindet Januar 1912 / Eine Dreimonatsschrift, ge-<lb facs="P8_TL00169"/>widmet der Dichtung und dem Drama der Gegen-<lb facs="P8_TL00170"/>wart in alien Landern / Probeheft gegen Einsen-<lb facs="P8_TL00171"/>dung von 2 Mark 50 Pfennig / Jahresbezug<lb facs="P8_TL00172"/>I&gt;o Mark 50 Pfennig / Verlag The Poetry<lb facs="P8_TL00173"/>Bookshop I London WC / 35 Devonshire<lb facs="P8_TL00174"/>Street / Theobalds Road<lb facs="P8_TL00175"/>Braunschweiger G-N-C-Monatsschrift: Neues und<lb facs="P8_TL00176"/>Wissenswertes iiber Literatur / Kultur / Kunst /<lb facs="P8_TL00177"/>Wissenschaft und Technik / Einzelbezug 80 Pfen-<lb facs="P8_TL00178"/>nig I Vierteljahrlich Mark 2 / Probenummern um-<lb facs="P8_TL00179"/>sonst I Verlag Grimme Natalis &amp; Co. C-G a A<lb facs="P8_TL00180"/>Braunschweig<lb facs="P8_TL00181"/>Reuß und Pollack / Buchhandlung und Antiqua-<lb facs="P8_TL00182"/>riat I Potsdamerstraße 118 c. Fernsprecher Ami<lb facs="P8_TL00183"/>Liitzow 2829 / Graphisches Kabinett der Neuen<lb facs="P8_TL00184"/>Sezession / Vorlesungen fiber moderne und buch-<lb facs="P8_TL00185"/>gewerbliche Themen / Eintritt Irei / Anmeldungen<lb facs="P8_TL00186"/>erbeten / Standige Ausstellung von Luxusausgaben<lb facs="P8_TL00187"/>in auslandischer Literatur<lb facs="P8_TL00188"/>Wiener Buchhandlung fur moderne Literatur und<lb facs="P8_TL00189"/>Kunst Hugo Heller &amp; Co. Wien I Bauern-<lb facs="P8_TL00190"/>markt 3 / Reichstes Lager bibliophiler Literatur /<lb facs="P8_TL00191"/>Standige Buchkunstausstellung / Im Oberlichtsaal<lb facs="P8_TL00192"/>standige Ausstellung moderner Graphik / Regel-<lb facs="P8_TL00193"/>maßige Dichterabende vor geladenen Gasten<lb facs="P8_TL00194"/>Edmund Meyer / Buchh&amp;ndler und Antiquar / Ber-<lb facs="P8_TL00195"/>lin W 35, Potsdamer Straße 27 b / Fernruf Amt<lb facs="P8_TL00196"/>Liitzow 5850 / Spezialgeschaft fiir bibliophile Lite-<lb facs="P8_TL00197"/>ratur aller Zeit / Wertvolle und seltene Biicher<lb facs="P8_TL00198"/>jeder Art vom XVI.—XX. Jahrhundert / Alte und<lb facs="P8_TL00199"/>neue Kunstblatter / Standige Ausstellung biblio-<lb facs="P8_TL00200"/>philer Publikationen<lb facs="P8_TL00201"/>Prazske Umelecke Dilny / Prager Kunstwerk-<lb facs="P8_TL00202"/>statte fiir neue Kunst / Mobel / Beleuchtungskor-<lb facs="P8_TL00203"/>per I Textilien / Prag, I / Veleslavinova 3<lb facs="P8_TL00204"/>The Lantern: Eine Monatsschrift / Die<lb facs="P8_TL00205"/>amerikanische Zeitschrift des Protestes /<lb facs="P8_TL00206"/>Organ der Gesellschaft Jiinger des Diogenes /<lb facs="P8_TL00207"/>Drama, Dichtung, Kritik, Malerei / Probenummern<lb facs="P8_TL00208"/>50 Pfennig / Mortimer Building, Chicago, USA<lb facs="P8_TL00209"/>Verein fiir Kunst/Leitung HerwarthWaldeifc<lb facs="P8_TL00210"/>I Zehntes Jahr / Man verlange kostenlose<lb facs="P8_TL00211"/>Mitteilungen liber die Neuorganisation durch den<lb facs="P8_TL00212"/>Verlag Der Sturm / Berlin W9</ab>
                   </div>
                </div>

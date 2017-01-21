@@ -46,7 +46,7 @@
                   <biblStruct>
                      <analytic>
                         <title level="a">
-                           <seg type="main">Inhalt:</seg>
+                           <seg type="main">Inhalt</seg>
                         </title>
                         <textLang mainLang="ger"/>
                      </analytic>
@@ -64,18 +64,94 @@
                         <title level="a">
                            <seg type="main">Zeitgeschichten</seg>
                         </title>
-                        <respStmt>
-                           <persName>H. W</persName>
-                           <resp>cre</resp>
-                        </respStmt>
                         <textLang mainLang="ger"/>
                      </analytic>
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="1" to="2">1-2</biblScope>
+                           <biblScope unit="page">1-2</biblScope>
                         </imprint>
                      </monogr>
+                     <relatedItem type="constituent" xml:id="c002a">
+                        <biblStruct>
+                           <analytic>
+                              <title level="a">
+                                 <seg type="main">Die Hilfe</seg>
+                              </title>
+                              <respStmt>
+                                 <persName/>
+                                 <resp>cre</resp>
+                              </respStmt>
+                              <textLang mainLang="ger"/>
+                           </analytic>
+                           <monogr>
+                              <imprint>
+                                 <classCode scheme="CCS">TextContent</classCode>
+                                 <biblScope unit="page">1</biblScope>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </relatedItem>
+                     <relatedItem type="constituent" xml:id="c002b">
+                        <biblStruct>
+                           <analytic>
+                              <title level="a">
+                                 <seg type="main">Der Entwortete</seg>
+                              </title>
+                              <respStmt>
+                                 <persName>H.W.</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
+                              <textLang mainLang="ger"/>
+                           </analytic>
+                           <monogr>
+                              <imprint>
+                                 <classCode scheme="CCS">TextContent</classCode>
+                                 <biblScope unit="page">1</biblScope>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </relatedItem>
+                     <relatedItem type="constituent" xml:id="c002c">
+                        <biblStruct>
+                           <analytic>
+                              <title level="a">
+                                 <seg type="main">Bubenstreiche</seg>
+                              </title>
+                              <respStmt>
+                                 <persName/>
+                                 <resp>cre</resp>
+                              </respStmt>
+                              <textLang mainLang="ger"/>
+                           </analytic>
+                           <monogr>
+                              <imprint>
+                                 <classCode scheme="CCS">TextContent</classCode>
+                                 <biblScope unit="page">1-2</biblScope>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </relatedItem>
+                     <relatedItem type="constituent" xml:id="c002d">
+                        <biblStruct>
+                           <analytic>
+                              <title level="a">
+                                 <seg type="main">Der Kenner</seg>
+                              </title>
+                              <respStmt>
+                                 <persName>Trust</persName>
+                                 <resp>cre</resp>
+                              </respStmt>
+                              <textLang mainLang="ger"/>
+                           </analytic>
+                           <monogr>
+                              <imprint>
+                                 <classCode scheme="CCS">TextContent</classCode>
+                                 <biblScope unit="page">2</biblScope>
+                              </imprint>
+                           </monogr>
+                        </biblStruct>
+                     </relatedItem>
                   </biblStruct>
                </relatedItem>
                <relatedItem type="constituent" xml:id="c003">
@@ -90,15 +166,15 @@
                            <resp>cre</resp>
                         </respStmt>
                         <respStmt>
-                           <persName>Deutsch von Adolf Knoblauch</persName>
-                           <resp>cre</resp>
+                           <persName ref="http://viaf.org/viaf/54895426">Adolf Knoblauch</persName>
+                           <resp>trl</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
                      </analytic>
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="2" to="4">2-4</biblScope>
+                           <biblScope unit="page">2-4</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -111,7 +187,7 @@
                            <seg type="main">Regisseur</seg>
                         </title>
                         <respStmt>
-                           <persName>William Wauer</persName>
+                           <persName ref="http://viaf.org/viaf/30305880">William Wauer</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -119,7 +195,7 @@
                      <monogr>
                         <imprint>
                            <classCode scheme="CCS">TextContent</classCode>
-                           <biblScope unit="page" from="4" to="5">4-5</biblScope>
+                           <biblScope unit="page">4-5</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>
@@ -132,7 +208,7 @@
                            <seg type="sub">IV</seg>
                         </title>
                         <respStmt>
-                           <persName>Walter Heymann</persName>
+                           <persName ref="http://viaf.org/viaf/35217401">Walter Heymann</persName>
                            <resp>cre</resp>
                         </respStmt>
                         <textLang mainLang="ger"/>
@@ -459,118 +535,110 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-<profileDesc>
-            <textClass>
-                <classCode scheme="http://vocab.getty.edu/aat/">300312349</classCode>        
-            </textClass>
-        </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0001.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0002.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0003.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0004.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0005.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0006.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0007.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0008.jp2"/>
+      </surface>
+      <surface type="page">
+         <graphic url="file:///usr/share/BlueMountain/astore/periodicals/bmtnabg/issues/1911/07/15_01/delivery/bmtnabg_1911-07-15_01_0009.jp2"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="Magazine">
             <div type="Issue">
                <div type="PublicationInfo">
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00001">
+                     <ab facs="P1_TB00001">
                         <lb facs="P1_TL00001"/>Umfang acht Seiten</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00002">
+                     <ab facs="P1_TB00002">
                         <lb facs="P1_TL00002"/>Einzelbezug 15 Pfennig</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00003">
+                     <ab facs="P1_TB00003">
                         <lb facs="P1_TL00003"/>DER STURM</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00004">
+                     <ab facs="P1_TB00004">
                         <lb facs="P1_TL00004"/>WOCHENSCHRIFT FÜR KULTUR UND DIE KÜNSTE</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00005">
+                     <ab facs="P1_TB00005">
                         <lb facs="P1_TL00005"/>Redaktion und Verlag: Berlin-Halensee, Katharinenstrasse 5<lb facs="P1_TL00006"/>Fernsprecher Amt Pfalzburg 3524 / Anzeigen-Annahme<lb facs="P1_TL00007"/>durch den Verlag und sämtliche Annoncenbureaus</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00007">
+                     <ab facs="P1_TB00007">
                         <lb facs="P1_TL00011"/>Herausgeber und Schriftleiter:<lb facs="P1_TL00012"/>HERWARTH WALDEN</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00006">
+                     <ab facs="P1_TB00006">
                         <lb facs="P1_TL00008"/>Vierteljahresbezug 1,25 Mark / Halbjahresbezug 2,50 Mark /<lb facs="P1_TL00009"/>Jahresbezug 5,— Mark / bei freier Zustellung / Insertions<pc type="endhypen" pre="false">-</pc>
                         <lb facs="P1_TL00010"/>preis für die fünfgespaltene Nonpareillezeile 60 Pfennig</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00008">
+                     <ab facs="P1_TB00008">
                         <lb facs="P1_TL00013"/>JAHRGANG 1911</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00009">
+                     <ab facs="P1_TB00009">
                         <lb facs="P1_TL00014"/>BERLIN SONNABEND JULI 1911</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P1_TB00010">
+                     <ab facs="P1_TB00010">
                         <lb facs="P1_TL00015"/>NUMMER 68</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P2_TB00008">
+                     <ab facs="P2_TB00008">
                         <lb facs="P2_TL00058"/>Schluss</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00007">
+                     <ab facs="P6_TB00007">
                         <lb facs="P6_TL00071"/>Das Buch erschien im Verlag Göschen/Leipzig 1911</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00012">
+                     <ab facs="P6_TB00012">
                         <lb facs="P6_TL00141"/>Verantwortlich für die Schriftleitung<lb facs="P6_TL00142"/>HERWARTH WALDEN / BERLIN-HALENSEE<lb facs="P6_TL00143"/>Verantwortlich für die Schriftleitung in Oesterreich<lb facs="P6_TL00144"/>Ungarn / I. V.: Oskar Kokoschka</ab>
                   </div>
                   <div type="GenericPubInfo">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00002">
+                     <ab facs="P8_TB00002">
                         <lb facs="P8_TL00002"/>Druck von Hermann Blanke's Buchdruckerei, Berlin C. 54," Kleine Rosenthalerstrasse 9.</ab>
                   </div>
                </div>
                <div type="EditorialContent">
                   <div type="TextContent" corresp="c001">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00011">
+                        <ab facs="P1_TB00011">
                            <lb facs="P1_TL00016"/>Inhalt:</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00012">
+                                 <ab facs="P1_TB00012">
                                     <lb facs="P1_TL00017"/>H. W. und TRUST: Zeitgeschichten / Die Hilfe / Der Entwortete / Bubenstreiche / Der Kenner / SAR PELADAN: Die höchste Tugend /<lb facs="P1_TL00018"/>WILLIAM WAUER: Der Regisseur / WALTER HEYMANN: Berliner Sezession 1911 IV / GOLO GANGI: Dr. S. Friedlaender: Friedrich Nietzsche /<lb facs="P1_TL00019"/>HERMANN KOCH: Biosphor</ab>
                               </div>
                            </div>
@@ -579,151 +647,143 @@
                   </div>
                   <div type="TextContent" corresp="c002">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00013">
+                        <ab facs="P1_TB00013">
                            <lb facs="P1_TL00020"/>Zeitgeschichten</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P1_TB00020">
+                        <ab facs="P1_TB00020">
                            <lb facs="P1_TL00126"/>H. W.</ab>
                      </div>
-                     <div type="Copy">
-                        <div type="BodyContent">
-                           <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P1_TB00014">
-                                 <lb facs="P1_TL00021"/>Die Hilfe</ab>
-                           </div>
-                           <div type="Paragraph">
-                              <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00015">
-                                    <lb facs="P1_TL00022"/>Ein Herr Erich Köhrer springt mir bei.<lb facs="P1_TL00023"/>Einmal, indem er in der Zeitschrift Das Theater<lb facs="P1_TL00024"/>völlig verschweigt, dass zu der Pantomime Die<lb facs="P1_TL00025"/>Vier Toten der Fiametta eine Musik gehört.<lb facs="P1_TL00026"/>Ich nehme an, dass er im höheren Auftrag sei<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00027"/>ner Verleger, mit denen ich mich ja noch immer<lb facs="P1_TL00028"/>in munterer Prozessfehde befinde — das Reichs<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00029"/>gericht wird sich jetzt mit dieser Angelegen<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00030"/>heit beschäftigen — dass er also im höheren<lb facs="P1_TL00031"/>Auftrag der Herren Verleger geschwiegen hat.<lb facs="P1_TL00032"/>Hingegen findet er in der Wochenschrift Zeit<lb facs="P1_TL00033"/>im Bild, dass meine Musik garnicht ganz<lb facs="P1_TL00034"/>so schlimm ist:<lb facs="P1_TL00035"/>Sie artet zwar zum Schluss in ein wildes<lb facs="P1_TL00036"/>Toben aus, aber in der ersten Hälfte ist sie<lb facs="P1_TL00037"/>nicht ohne Melodik und rhytmischen Schwung<lb facs="P1_TL00038"/>und beweist, dass Waiden vielleicht einmal<lb facs="P1_TL00039"/>eine ganz brauchbare Tanzoperette schreiben<lb facs="P1_TL00040"/>kann. Er braucht hinter Fall, Lehar, Lincke<lb facs="P1_TL00041"/>und Holländer absolut nicht zurückstehen.<lb facs="P1_TL00042"/>Bei Wauer wurde seine Musik ganz hervor<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00043"/>ragend mimisch verkörpert von Rosa Valetti,<lb facs="P1_TL00044"/>die eine sehr starke Könnerin ist, und vor<lb facs="P1_TL00045"/>allem von Wauer selbst, der sich als ein Pan<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00046"/>tomimist von ungewöhnlicher Gestaltungskraft<lb facs="P1_TL00047"/>und Ausdrucksfähigkeit erwies.<lb facs="P1_TL00048"/>Ich bin sehr glücklich, dass ich nach An<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00049"/>sicht des Herrn Köhrer nicht einmal hinter so<lb facs="P1_TL00050"/>berühmten Kollegen von der anderen Fakultät<lb facs="P1_TL00051"/>zurückzustehen brauche. Auch zu einer brauch<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00052"/>baren Tanzoperette will ich mich verstehen, nur<lb facs="P1_TL00053"/>mache ich die Bedingung, dass kein Herr von<lb facs="P1_TL00054"/>der Presse, und sei es selbst Lothar, mir das Li<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00055"/>bretto dazu schreibt. Sonst ist der Herr Köh<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00056"/>rer mit mir garnicht einverstanden. Er warnt<lb facs="P1_TL00057"/>William Wauer väterlich, sich „in die Gesell<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00058"/>schaft jener Kaffeehausbesucher zu begeben, die<lb facs="P1_TL00059"/>man die Marodeure der Literatur nennen kann<lb facs="P1_TL00060"/>und die den Grössenwahn in Erbpacht genom<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00061"/>men haben." Es ist ein wahres Unglück, wenn<lb facs="P1_TL00062"/>der Mensch den Kaffee dem Biere vorzieht. Viel<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00063"/>leicht versuchen es die Bierhausliteraten ein<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00064"/>mal mit einem nicht alkoholischen Getränk. Viel<pc type="endhypen" pre="false">-</pc>
-                                 </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00016">
-                                    <lb facs="P1_TL00065"/>leicht gibt es ihnen die Möglichkeit, die Läh<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00066"/>mung ihrer Gehirnfunktionen im Lauf der Jahr<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00067"/>zehnte zu beseitigen. Vielleicht nimmt es ihnen<lb facs="P1_TL00068"/>den Grössenwahn über Kunst zu schreiben, sich<lb facs="P1_TL00069"/>auf ein Gebiet zu begeben, auf dem sie höchstens<lb facs="P1_TL00070"/>als Marodeure niedergeschossen werden. Und<lb facs="P1_TL00071"/>in seinem Biernebel sah Herr Köhrer alle „jene<lb facs="P1_TL00072"/>Erscheinungen im Zuschauerraum, die beim nor<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00073"/>malen Menschen ein dringendes Bedürfnis nach<lb facs="P1_TL00074"/>Seife, Paquin und Zacherlin hervorrufen". Rene<lb facs="P1_TL00075"/>Schickele bemerkte einmal über die Schreiber die<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00076"/>ses uralten und blöden Journalistenwitzes, dass<lb facs="P1_TL00077"/>diese Herren, die Seife selbst erst zu einer Zeit<lb facs="P1_TL00078"/>entdeckt haben, wo sie schon Krebse essen lern<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00079"/>ten. Ich bin der Ueberzeugung, dass Herr<lb facs="P1_TL00080"/>Köhrer noch nicht beim Krebsessen angelangt<lb facs="P1_TL00081"/>ist. Er möge es sich gesagt sein lassen, dass<lb facs="P1_TL00082"/>nichts gefährlicher ist, als mich anzuerkennen.<lb facs="P1_TL00083"/>„Die Musik hat Anlass zu Kritiken gegeben,<lb facs="P1_TL00084"/>wie sie in Berlin in dieser Schärfe noch nicht<lb facs="P1_TL00085"/>erlebt worden sind. Die liebenswürdigsten nann<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00086"/>ten sie blutigsten Dilettantismus. Herr Waiden,<lb facs="P1_TL00087"/>der jeden Kritiker, der nicht Mitglied des Clubs<lb facs="P1_TL00088"/>der Grössenwahnsinnigen ist, Schmock nennt,<lb facs="P1_TL00089"/>darf sich darüber nicht wundern". Ich wunde<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00090"/>re mich auch nur über Herrn Köhrer Er verdirbt<lb facs="P1_TL00091"/>sich die Kollegen und ich verzichte auf ihn. Nichts<lb facs="P1_TL00092"/>ist gefährlicher, als neutral zwischen den Partei<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00093"/>en zu leben. Die Liste des Clubs der Grössen<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00094"/>wahnsinnigen ist in Nummer 45 dieser Wochen<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00095"/>schrift (Beitrag Kunstverständnis) zu finden.</ab>
+                     <div type="TextContent" corresp="c002a">
+                        <div type="Head">
+                           <ab facs="P1_TB00014">
+                              <lb facs="P1_TL00021"/>Die Hilfe</ab>
+                        </div>
+                        <div type="Copy">
+                           <div type="BodyContent">
+                              <div type="Paragraph">
+                                 <div type="Text">
+                                    <ab facs="P1_TB00015">
+                                       <lb facs="P1_TL00022"/>Ein Herr Erich Köhrer springt mir bei.<lb facs="P1_TL00023"/>Einmal, indem er in der Zeitschrift Das Theater<lb facs="P1_TL00024"/>völlig verschweigt, dass zu der Pantomime Die<lb facs="P1_TL00025"/>Vier Toten der Fiametta eine Musik gehört.<lb facs="P1_TL00026"/>Ich nehme an, dass er im höheren Auftrag sei<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00027"/>ner Verleger, mit denen ich mich ja noch immer<lb facs="P1_TL00028"/>in munterer Prozessfehde befinde — das Reichs<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00029"/>gericht wird sich jetzt mit dieser Angelegen<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00030"/>heit beschäftigen — dass er also im höheren<lb facs="P1_TL00031"/>Auftrag der Herren Verleger geschwiegen hat.<lb facs="P1_TL00032"/>Hingegen findet er in der Wochenschrift Zeit<lb facs="P1_TL00033"/>im Bild, dass meine Musik garnicht ganz<lb facs="P1_TL00034"/>so schlimm ist:<lb facs="P1_TL00035"/>Sie artet zwar zum Schluss in ein wildes<lb facs="P1_TL00036"/>Toben aus, aber in der ersten Hälfte ist sie<lb facs="P1_TL00037"/>nicht ohne Melodik und rhytmischen Schwung<lb facs="P1_TL00038"/>und beweist, dass Waiden vielleicht einmal<lb facs="P1_TL00039"/>eine ganz brauchbare Tanzoperette schreiben<lb facs="P1_TL00040"/>kann. Er braucht hinter Fall, Lehar, Lincke<lb facs="P1_TL00041"/>und Holländer absolut nicht zurückstehen.<lb facs="P1_TL00042"/>Bei Wauer wurde seine Musik ganz hervor<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00043"/>ragend mimisch verkörpert von Rosa Valetti,<lb facs="P1_TL00044"/>die eine sehr starke Könnerin ist, und vor<lb facs="P1_TL00045"/>allem von Wauer selbst, der sich als ein Pan<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00046"/>tomimist von ungewöhnlicher Gestaltungskraft<lb facs="P1_TL00047"/>und Ausdrucksfähigkeit erwies.<lb facs="P1_TL00048"/>Ich bin sehr glücklich, dass ich nach An<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00049"/>sicht des Herrn Köhrer nicht einmal hinter so<lb facs="P1_TL00050"/>berühmten Kollegen von der anderen Fakultät<lb facs="P1_TL00051"/>zurückzustehen brauche. Auch zu einer brauch<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00052"/>baren Tanzoperette will ich mich verstehen, nur<lb facs="P1_TL00053"/>mache ich die Bedingung, dass kein Herr von<lb facs="P1_TL00054"/>der Presse, und sei es selbst Lothar, mir das Li<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00055"/>bretto dazu schreibt. Sonst ist der Herr Köh<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00056"/>rer mit mir garnicht einverstanden. Er warnt<lb facs="P1_TL00057"/>William Wauer väterlich, sich „in die Gesell<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00058"/>schaft jener Kaffeehausbesucher zu begeben, die<lb facs="P1_TL00059"/>man die Marodeure der Literatur nennen kann<lb facs="P1_TL00060"/>und die den Grössenwahn in Erbpacht genom<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00061"/>men haben." Es ist ein wahres Unglück, wenn<lb facs="P1_TL00062"/>der Mensch den Kaffee dem Biere vorzieht. Viel<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00063"/>leicht versuchen es die Bierhausliteraten ein<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00064"/>mal mit einem nicht alkoholischen Getränk. Viel<pc type="endhypen" pre="false">-</pc>
+                                    </ab>
+                                    <ab facs="P1_TB00016">
+                                       <lb facs="P1_TL00065"/>leicht gibt es ihnen die Möglichkeit, die Läh<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00066"/>mung ihrer Gehirnfunktionen im Lauf der Jahr<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00067"/>zehnte zu beseitigen. Vielleicht nimmt es ihnen<lb facs="P1_TL00068"/>den Grössenwahn über Kunst zu schreiben, sich<lb facs="P1_TL00069"/>auf ein Gebiet zu begeben, auf dem sie höchstens<lb facs="P1_TL00070"/>als Marodeure niedergeschossen werden. Und<lb facs="P1_TL00071"/>in seinem Biernebel sah Herr Köhrer alle „jene<lb facs="P1_TL00072"/>Erscheinungen im Zuschauerraum, die beim nor<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00073"/>malen Menschen ein dringendes Bedürfnis nach<lb facs="P1_TL00074"/>Seife, Paquin und Zacherlin hervorrufen". Rene<lb facs="P1_TL00075"/>Schickele bemerkte einmal über die Schreiber die<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00076"/>ses uralten und blöden Journalistenwitzes, dass<lb facs="P1_TL00077"/>diese Herren, die Seife selbst erst zu einer Zeit<lb facs="P1_TL00078"/>entdeckt haben, wo sie schon Krebse essen lern<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00079"/>ten. Ich bin der Ueberzeugung, dass Herr<lb facs="P1_TL00080"/>Köhrer noch nicht beim Krebsessen angelangt<lb facs="P1_TL00081"/>ist. Er möge es sich gesagt sein lassen, dass<lb facs="P1_TL00082"/>nichts gefährlicher ist, als mich anzuerkennen.<lb facs="P1_TL00083"/>„Die Musik hat Anlass zu Kritiken gegeben,<lb facs="P1_TL00084"/>wie sie in Berlin in dieser Schärfe noch nicht<lb facs="P1_TL00085"/>erlebt worden sind. Die liebenswürdigsten nann<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00086"/>ten sie blutigsten Dilettantismus. Herr Waiden,<lb facs="P1_TL00087"/>der jeden Kritiker, der nicht Mitglied des Clubs<lb facs="P1_TL00088"/>der Grössenwahnsinnigen ist, Schmock nennt,<lb facs="P1_TL00089"/>darf sich darüber nicht wundern". Ich wunde<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00090"/>re mich auch nur über Herrn Köhrer Er verdirbt<lb facs="P1_TL00091"/>sich die Kollegen und ich verzichte auf ihn. Nichts<lb facs="P1_TL00092"/>ist gefährlicher, als neutral zwischen den Partei<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00093"/>en zu leben. Die Liste des Clubs der Grössen<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00094"/>wahnsinnigen ist in Nummer 45 dieser Wochen<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00095"/>schrift (Beitrag Kunstverständnis) zu finden.</ab>
+                                 </div>
                               </div>
                            </div>
-                           <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P1_TB00017">
-                                 <lb facs="P1_TL00096"/>Der Entwortete</ab>
-                           </div>
-                           <div type="Paragraph">
-                              <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00018">
-                                    <lb facs="P1_TL00097"/>Herr Pordes Milo bangt um seinen Dich<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00098"/>terruhm. Er teilt den Zeitungen mit, dass er<lb facs="P1_TL00099"/>der Verfasser der Pantomime Die Vier Toten der<lb facs="P1_TL00100"/>Fiametta sei. Das, was er an dieser Arbeit ge<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00101"/>leistet hat, die Worte, wurden für schlecht be<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00102"/>funden. Deshalb druckt sie der kleine Jacob<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00103"/>sohn in seinem Theaterblättchen ab, wo sich<lb facs="P1_TL00104"/>jeder davon überzeugen kann. Im Uebrigen be<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00105"/>nutzt Pordes Milo zu seinem Einakter eine uralte<lb facs="P1_TL00106"/>Handlung. Nicht etwa nur dem Inhalt nach, auch<lb facs="P1_TL00107"/>die Reihenfolge der scenischen Vorgänge ent<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00108"/>spricht genau dem Original. Aber er verschweigt<lb facs="P1_TL00109"/>auch in dem erwähnten Abdruck kühn die Tat<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00110"/>sache. Er hält es in seinen Erklärungen für nö<pc type="endhypen" pre="false">-</pc>
-                                 </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00019">
-                                    <lb facs="P1_TL00111"/>tig, mich einen Komponisten in Anführungsstri<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00112"/>chen zu nennen. Er erklärte mir zwar Wieder<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00113"/>holt in Gegenwart von zahlreichen Personen,<lb facs="P1_TL00114"/>dass er meine Musik überaus schätze und dass<lb facs="P1_TL00115"/>er mir alle seine gesammelten und in Zukunft<lb facs="P1_TL00116"/>noch abzuschreibenden Libretti stets zuerst zur<lb facs="P1_TL00117"/>Kompositen anvertrauen würde. Nun, der Mensch<lb facs="P1_TL00118"/>kann sich irren. Die Presse hat ihn überzeugt,<lb facs="P1_TL00119"/>und ich werde seine Libretti nicht mehr verto<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00120"/>nen dürfen. Da ich ihm aber doch auf jeden<lb facs="P1_TL00121"/>Fall hätte die Worte streichen müssen und in<lb facs="P1_TL00122"/>der alten Literatur ziemliche Kenntnisse besitze,<lb facs="P1_TL00123"/>werde ich mich zu trösten wissen. Möge er in<lb facs="P1_TL00124"/>seinem zukünftigen Leben das goldene Beispiel<lb facs="P1_TL00125"/>der Pantomime befolgen: Schweigen.</ab>
+                        </div>
+                     </div>
+                     <div type="TextContent" corresp="c002b">
+                        <div type="Head">
+                           <ab facs="P1_TB00017">
+                              <lb facs="P1_TL00096"/>Der Entwortete</ab>
+                        </div>
+                        <div type="Copy">
+                           <div type="BodyContent">
+                              <div type="Paragraph">
+                                 <div type="Text">
+                                    <ab facs="P1_TB00018">
+                                       <lb facs="P1_TL00097"/>Herr Pordes Milo bangt um seinen Dich<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00098"/>terruhm. Er teilt den Zeitungen mit, dass er<lb facs="P1_TL00099"/>der Verfasser der Pantomime Die Vier Toten der<lb facs="P1_TL00100"/>Fiametta sei. Das, was er an dieser Arbeit ge<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00101"/>leistet hat, die Worte, wurden für schlecht be<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00102"/>funden. Deshalb druckt sie der kleine Jacob<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00103"/>sohn in seinem Theaterblättchen ab, wo sich<lb facs="P1_TL00104"/>jeder davon überzeugen kann. Im Uebrigen be<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00105"/>nutzt Pordes Milo zu seinem Einakter eine uralte<lb facs="P1_TL00106"/>Handlung. Nicht etwa nur dem Inhalt nach, auch<lb facs="P1_TL00107"/>die Reihenfolge der scenischen Vorgänge ent<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00108"/>spricht genau dem Original. Aber er verschweigt<lb facs="P1_TL00109"/>auch in dem erwähnten Abdruck kühn die Tat<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00110"/>sache. Er hält es in seinen Erklärungen für nö<pc type="endhypen" pre="false">-</pc>
+                                    </ab>
+                                    <ab facs="P1_TB00019">
+                                       <lb facs="P1_TL00111"/>tig, mich einen Komponisten in Anführungsstri<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00112"/>chen zu nennen. Er erklärte mir zwar Wieder<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00113"/>holt in Gegenwart von zahlreichen Personen,<lb facs="P1_TL00114"/>dass er meine Musik überaus schätze und dass<lb facs="P1_TL00115"/>er mir alle seine gesammelten und in Zukunft<lb facs="P1_TL00116"/>noch abzuschreibenden Libretti stets zuerst zur<lb facs="P1_TL00117"/>Kompositen anvertrauen würde. Nun, der Mensch<lb facs="P1_TL00118"/>kann sich irren. Die Presse hat ihn überzeugt,<lb facs="P1_TL00119"/>und ich werde seine Libretti nicht mehr verto<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00120"/>nen dürfen. Da ich ihm aber doch auf jeden<lb facs="P1_TL00121"/>Fall hätte die Worte streichen müssen und in<lb facs="P1_TL00122"/>der alten Literatur ziemliche Kenntnisse besitze,<lb facs="P1_TL00123"/>werde ich mich zu trösten wissen. Möge er in<lb facs="P1_TL00124"/>seinem zukünftigen Leben das goldene Beispiel<lb facs="P1_TL00125"/>der Pantomime befolgen: Schweigen.</ab>
+                                 </div>
                               </div>
                            </div>
-                           <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P1_TB00021">
-                                 <lb facs="P1_TL00127"/>Bubenstreiche</ab>
-                           </div>
-                           <div type="Paragraph">
-                              <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P1_TB00022">
-                                    <lb facs="P1_TL00128"/>Der Herr Pfemfert aus der Nassauischen<lb facs="P1_TL00129"/>Strasse 17 kann sich noch immer nicht darüber<lb facs="P1_TL00130"/>beruhigen, dass Karl Kraus ihm die Erlaubnis<lb facs="P1_TL00131"/>zum Nachdruck seiner Arbeiten entzogen hat.<lb facs="P1_TL00132"/>Als Ersatz für das fehlende Material bringt er<lb facs="P1_TL00133"/>in jeder Nummer seines Blättchens Angriffe ge<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00134"/>gen diesen grossten schriftstellerischen Künst<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00135"/>ler unserer Zeit. Er veranlasst, gute und schlech<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00136"/>te unkritische Dichter und Schriftsteller zu kri<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00137"/>tischen Aeusserungen. Ein Doktor Anselm Ru<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00138"/>est „entlarvt" Kraus als Feuilletonisten, und Max<lb facs="P1_TL00139"/>Brod sieht in ihm einen „mittelmässigen Kopf".<lb facs="P1_TL00140"/>Karl Kraus hat es überhaupt mit dem gesam<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00141"/>ten deutschen Schrifttum verdorben, seitdem er<lb facs="P1_TL00142"/>seine Broschüre „Heine und die Folgen" er<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00143"/>scheinen liess. Es ist durchaus begreiflich, dass<lb facs="P1_TL00144"/>alle Heineepigonen entsetzt sind, wenn man ih<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00145"/>nen den Vater erschlägt. Heine aber dadurch<lb facs="P1_TL00146"/>zu verteidigen, dass man Kraus beschimpft,<lb facs="P1_TL00147"/>kann weder etwas für Heine und noch weniger<lb facs="P1_TL00148"/>gegen Kraus bedeuten. In meiner demnächst er<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00149"/>scheinenden Broschüre Goethe, Nietzsche, Kraus<lb facs="P1_TL00150"/>habe ich den Fall Heine ausführlich behandelt.<lb facs="P1_TL00151"/>Ich muss es mir an dieser Stelle versagen, weil<lb facs="P1_TL00152"/>ich mit einer analytischen Abhandlung viele<lb facs="P1_TL00153"/>Nummern des Sturms füllen müsste, was gegen<lb facs="P1_TL00154"/>den Sinn einer Zeitschrift wäre. Herr Ruest<lb facs="P1_TL00155"/>kann sich aber beruhigen: Gegen ihn polemi<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P1_TL00156"/>siere ich nicht. Seine Ausführungen sind wirk<pc type="endhypen" pre="false">-</pc>
-                                 </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00002">
-                                    <lb facs="P2_TL00002"/>lieh zu kindisch und belanglos. Dasselbe muss<lb facs="P2_TL00003"/>ich von Max Brod sagen. Er kann Karl Kraus<lb facs="P2_TL00004"/>nicht übersehen. Dafür kann er ih n doch nicht<lb facs="P2_TL00005"/>verantwortlich machen. Max Brod hat einige<lb facs="P2_TL00006"/>talentvolle Novellen geschrieben, ganz miserable<lb facs="P2_TL00007"/>Gedichte und viele feuilletonistische Essays, die<lb facs="P2_TL00008"/>zum Teil direkt Karl Kraus nachempfunden sind.<lb facs="P2_TL00009"/>In diesen Fällen gab Brod das Feuilleto<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00010"/>nistische dazu. Das alles berechtigt ihn aber<lb facs="P2_TL00011"/>noch nicht, Frechheiten gegen Kraus zu schrei<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00012"/>ben. Man trägt kein Verlangen nach seinen kri<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00013"/>tischen Ansichten. Er sollte jedes Jahr seinen<lb facs="P2_TL00014"/>Band Novellen herausgeben und sich liebevoll<lb facs="P2_TL00015"/>in Details versenken. Da hebt er plötzlich den<lb facs="P2_TL00016"/>Kopf und stösst gegen eine chinesische Mauer.<lb facs="P2_TL00017"/>Die Augen, die sich gewöhnt haben, im Dun<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00018"/>keln zu suchen, sind vom Licht geblendet. Aber<lb facs="P2_TL00019"/>Max Brodist doch nicht mehr so jung, um<lb facs="P2_TL00020"/>deshalb auf die Sonne zu schimpfen. Seine pä<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00021"/>dagogische Veranlagung sollte ihn vor solchen<lb facs="P2_TL00022"/>Kleinkindergewohnheiten eigentlich bewahren.<lb facs="P2_TL00023"/>Die Sonne schönt und die chinesische Mauer<lb facs="P2_TL00024"/>steht. Wer Maulwurfsaugen hat, arbeite im<lb facs="P2_TL00025"/>Dunkeln.</ab>
+                        </div>
+                     </div>
+                     <div type="TextContent" corresp="c002c">
+                        <div type="Head">
+                           <ab facs="P1_TB00021">
+                              <lb facs="P1_TL00127"/>Bubenstreiche</ab>
+                        </div>
+                        <div type="Copy">
+                           <div type="BodyContent">
+                              <div type="Paragraph">
+                                 <div type="Text">
+                                    <ab facs="P1_TB00022">
+                                       <lb facs="P1_TL00128"/>Der Herr Pfemfert aus der Nassauischen<lb facs="P1_TL00129"/>Strasse 17 kann sich noch immer nicht darüber<lb facs="P1_TL00130"/>beruhigen, dass Karl Kraus ihm die Erlaubnis<lb facs="P1_TL00131"/>zum Nachdruck seiner Arbeiten entzogen hat.<lb facs="P1_TL00132"/>Als Ersatz für das fehlende Material bringt er<lb facs="P1_TL00133"/>in jeder Nummer seines Blättchens Angriffe ge<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00134"/>gen diesen grossten schriftstellerischen Künst<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00135"/>ler unserer Zeit. Er veranlasst, gute und schlech<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00136"/>te unkritische Dichter und Schriftsteller zu kri<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00137"/>tischen Aeusserungen. Ein Doktor Anselm Ru<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00138"/>est „entlarvt" Kraus als Feuilletonisten, und Max<lb facs="P1_TL00139"/>Brod sieht in ihm einen „mittelmässigen Kopf".<lb facs="P1_TL00140"/>Karl Kraus hat es überhaupt mit dem gesam<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00141"/>ten deutschen Schrifttum verdorben, seitdem er<lb facs="P1_TL00142"/>seine Broschüre „Heine und die Folgen" er<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00143"/>scheinen liess. Es ist durchaus begreiflich, dass<lb facs="P1_TL00144"/>alle Heineepigonen entsetzt sind, wenn man ih<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00145"/>nen den Vater erschlägt. Heine aber dadurch<lb facs="P1_TL00146"/>zu verteidigen, dass man Kraus beschimpft,<lb facs="P1_TL00147"/>kann weder etwas für Heine und noch weniger<lb facs="P1_TL00148"/>gegen Kraus bedeuten. In meiner demnächst er<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00149"/>scheinenden Broschüre Goethe, Nietzsche, Kraus<lb facs="P1_TL00150"/>habe ich den Fall Heine ausführlich behandelt.<lb facs="P1_TL00151"/>Ich muss es mir an dieser Stelle versagen, weil<lb facs="P1_TL00152"/>ich mit einer analytischen Abhandlung viele<lb facs="P1_TL00153"/>Nummern des Sturms füllen müsste, was gegen<lb facs="P1_TL00154"/>den Sinn einer Zeitschrift wäre. Herr Ruest<lb facs="P1_TL00155"/>kann sich aber beruhigen: Gegen ihn polemi<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P1_TL00156"/>siere ich nicht. Seine Ausführungen sind wirk<pc type="endhypen" pre="false">-</pc>
+                                    </ab>
+                                    <ab facs="P2_TB00002">
+                                       <lb facs="P2_TL00002"/>lieh zu kindisch und belanglos. Dasselbe muss<lb facs="P2_TL00003"/>ich von Max Brod sagen. Er kann Karl Kraus<lb facs="P2_TL00004"/>nicht übersehen. Dafür kann er ih n doch nicht<lb facs="P2_TL00005"/>verantwortlich machen. Max Brod hat einige<lb facs="P2_TL00006"/>talentvolle Novellen geschrieben, ganz miserable<lb facs="P2_TL00007"/>Gedichte und viele feuilletonistische Essays, die<lb facs="P2_TL00008"/>zum Teil direkt Karl Kraus nachempfunden sind.<lb facs="P2_TL00009"/>In diesen Fällen gab Brod das Feuilleto<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00010"/>nistische dazu. Das alles berechtigt ihn aber<lb facs="P2_TL00011"/>noch nicht, Frechheiten gegen Kraus zu schrei<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00012"/>ben. Man trägt kein Verlangen nach seinen kri<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00013"/>tischen Ansichten. Er sollte jedes Jahr seinen<lb facs="P2_TL00014"/>Band Novellen herausgeben und sich liebevoll<lb facs="P2_TL00015"/>in Details versenken. Da hebt er plötzlich den<lb facs="P2_TL00016"/>Kopf und stösst gegen eine chinesische Mauer.<lb facs="P2_TL00017"/>Die Augen, die sich gewöhnt haben, im Dun<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00018"/>keln zu suchen, sind vom Licht geblendet. Aber<lb facs="P2_TL00019"/>Max Brodist doch nicht mehr so jung, um<lb facs="P2_TL00020"/>deshalb auf die Sonne zu schimpfen. Seine pä<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00021"/>dagogische Veranlagung sollte ihn vor solchen<lb facs="P2_TL00022"/>Kleinkindergewohnheiten eigentlich bewahren.<lb facs="P2_TL00023"/>Die Sonne schönt und die chinesische Mauer<lb facs="P2_TL00024"/>steht. Wer Maulwurfsaugen hat, arbeite im<lb facs="P2_TL00025"/>Dunkeln.</ab>
+                                 </div>
                               </div>
                            </div>
-                           <div type="MinorHead">
-                              <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                  xmlns:mods="http://www.loc.gov/mods/v3"
-                                  facs="P2_TB00003">
-                                 <lb facs="P2_TL00026"/>Der Kenner</ab>
-                           </div>
-                           <div type="Paragraph">
-                              <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00004">
-                                    <lb facs="P2_TL00027"/>Herr Hofrat Paul Schienther ist ein vorsich<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00028"/>tiger Mann, er weist im Berliner Tageblatt auf<lb facs="P2_TL00029"/>eine neue Ausgabe der Gesammelten Werke von<lb facs="P2_TL00030"/>Björnson hin. „Von der geschmackvollst<lb facs="P2_TL00031"/>gekleideten Björnsonausgabe liegen bis jetzt drei<lb facs="P2_TL00032"/>Bände vor. . . . Dem alten Pangermanen bliebe<lb facs="P2_TL00033"/>sein unerfüllter Herzenswunsch, diese deutsche<lb facs="P2_TL00034"/>Ausgabe noch zu erleben. Er erwartete von ihr<lb facs="P2_TL00035"/>im deutschen Geiste mit Ibsen gleichgestellt zu<lb facs="P2_TL00036"/>werden. Der gemeinsame Enkel sollte den einen<lb facs="P2_TL00037"/>Grossvater im Ausland nicht minder geschätzt<lb facs="P2_TL00038"/>finden, als den andern. Wie weit das sein kann,<lb facs="P2_TL00039"/>wollen wir erst prüfen, wenn alle fünf Bände<lb facs="P2_TL00040"/>da sind." Die Rücksicht des Herrn Hofrats auf<lb facs="P2_TL00041"/>den gemeinsamen Enkel und sein Familiensinn<lb facs="P2_TL00042"/>in allen Ehren: Aber der deutsche Geist kann<lb facs="P2_TL00043"/>den Herzenswunsch nicht erfüllen, den andern<lb facs="P2_TL00044"/>Grossvater mit Ibsen gleichzustellen. Das be<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00045"/>haupte ich, auch wenn bis jetzt erst drei ge<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00046"/>schmackvollst gekleidete Bände vorliegen. Soll<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00047"/>ten die Leser des Sturms sich über Herrn Hof<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00048"/>rat Schienther genauer orientieren wollen, so<lb facs="P2_TL00049"/>empfehle ich ihnen den Beitrag von Karl Kraus<lb facs="P2_TL00050"/>in Nummer 324/25 der Fackel auf Seite 26 nach<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00051"/>zulesen. Sie können dort Näheres über die so<lb facs="P2_TL00052"/>überaus sympathische Familiarität des braven<lb facs="P2_TL00053"/>Hofrats erfahren. Wohl ihm, dass er ein On<pc type="endhypen" pre="false">-</pc>
-                                    <lb facs="P2_TL00054"/>kel ist!</ab>
+                        </div>
+                     </div>
+                     <div type="TextContent" corresp="c002d">
+                        <div type="Head">
+                           <ab facs="P2_TB00003">
+                              <lb facs="P2_TL00026"/>Der Kenner</ab>
+                        </div>
+                        <div type="Copy">
+                           <div type="BodyContent">
+                              <div type="Paragraph">
+                                 <div type="Text">
+                                    <ab facs="P2_TB00004">
+                                       <lb facs="P2_TL00027"/>Herr Hofrat Paul Schienther ist ein vorsich<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00028"/>tiger Mann, er weist im Berliner Tageblatt auf<lb facs="P2_TL00029"/>eine neue Ausgabe der Gesammelten Werke von<lb facs="P2_TL00030"/>Björnson hin. „Von der geschmackvollst<lb facs="P2_TL00031"/>gekleideten Björnsonausgabe liegen bis jetzt drei<lb facs="P2_TL00032"/>Bände vor. . . . Dem alten Pangermanen bliebe<lb facs="P2_TL00033"/>sein unerfüllter Herzenswunsch, diese deutsche<lb facs="P2_TL00034"/>Ausgabe noch zu erleben. Er erwartete von ihr<lb facs="P2_TL00035"/>im deutschen Geiste mit Ibsen gleichgestellt zu<lb facs="P2_TL00036"/>werden. Der gemeinsame Enkel sollte den einen<lb facs="P2_TL00037"/>Grossvater im Ausland nicht minder geschätzt<lb facs="P2_TL00038"/>finden, als den andern. Wie weit das sein kann,<lb facs="P2_TL00039"/>wollen wir erst prüfen, wenn alle fünf Bände<lb facs="P2_TL00040"/>da sind." Die Rücksicht des Herrn Hofrats auf<lb facs="P2_TL00041"/>den gemeinsamen Enkel und sein Familiensinn<lb facs="P2_TL00042"/>in allen Ehren: Aber der deutsche Geist kann<lb facs="P2_TL00043"/>den Herzenswunsch nicht erfüllen, den andern<lb facs="P2_TL00044"/>Grossvater mit Ibsen gleichzustellen. Das be<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00045"/>haupte ich, auch wenn bis jetzt erst drei ge<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00046"/>schmackvollst gekleidete Bände vorliegen. Soll<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00047"/>ten die Leser des Sturms sich über Herrn Hof<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00048"/>rat Schienther genauer orientieren wollen, so<lb facs="P2_TL00049"/>empfehle ich ihnen den Beitrag von Karl Kraus<lb facs="P2_TL00050"/>in Nummer 324/25 der Fackel auf Seite 26 nach<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00051"/>zulesen. Sie können dort Näheres über die so<lb facs="P2_TL00052"/>überaus sympathische Familiarität des braven<lb facs="P2_TL00053"/>Hofrats erfahren. Wohl ihm, dass er ein On<pc type="endhypen" pre="false">-</pc>
+                                       <lb facs="P2_TL00054"/>kel ist!</ab>
+                                 </div>
                               </div>
-                           </div>
-                           <div type="Paragraph">
-                              <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00005">
-                                    <lb facs="P2_TL00055"/>Trust</ab>
+                              <div type="Paragraph">
+                                 <div type="Text">
+                                    <ab facs="P2_TB00005">
+                                       <lb facs="P2_TL00055"/>Trust</ab>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -731,38 +791,28 @@
                   </div>
                   <div type="TextContent" corresp="c003">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00006">
+                        <ab facs="P2_TB00006">
                            <lb facs="P2_TL00056"/>Die höchste Tugend</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P2_TB00007">
+                        <ab facs="P2_TB00007">
                            <lb facs="P2_TL00057"/>Von Sar Peladan</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00003">
+                        <ab facs="P4_TB00003">
                            <lb facs="P4_TL00023"/>Deutsch von Adolf Knoblauch</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00009">
+                                 <ab facs="P2_TB00009">
                                     <lb facs="P2_TL00059"/>Endlich ging Merodack nach vorn, alle folg<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00060"/>ten mit geheimem Bangen der Unterredung. Die<lb facs="P2_TL00061"/>Beichte war lang und erregt, die Stimme hob<lb facs="P2_TL00062"/>sich Augenblicke lang, Worte drangen zu den<lb facs="P2_TL00063"/>Rittern. Die beiden Gewissen des Mönches und<lb facs="P2_TL00064"/>des Magiers kämpften, und der Zwist schmerzte<lb facs="P2_TL00065"/>die Versammlung tief. Welche furchtbare Frage<lb facs="P2_TL00066"/>erregte sie, die beiden ungeheuren Seelen, die<lb facs="P2_TL00067"/>die heitere Majestät des Sakramentes brach?<lb facs="P2_TL00068"/>Merodack hielt mit gekreuzten Armen seinen Wil<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00069"/>len aufrecht, den der Andere ändern wollte. Ei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00070"/>nen Augenblick entfernte sich der Priester, als<lb facs="P2_TL00071"/>weigerte er die Absolution. Merodack sagte ru<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00072"/>hig ein Wort, das den Mönch besiegte. Der hob</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00010">
+                                 <ab facs="P2_TB00010">
                                     <lb facs="P2_TL00073"/>die Hand, sprach die Absolution, aber sein An<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00074"/>gesicht drückte Trauer aus. Die Messe begann<lb facs="P2_TL00075"/>mit den Klängen der Ekstase des heiligen Frei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00076"/>tag. Sie nahmen das Abendmahl mit hohem<lb facs="P2_TL00077"/>Glauben. Nach dem Evangelium Johannis, ihrem<lb facs="P2_TL00078"/>Evangelium bestieg Merodack die fünf Altar<pc type="endhypen" pre="false">-</pc>
@@ -796,9 +846,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P2_TB00011">
+                                 <ab facs="P2_TB00011">
                                     <lb facs="P2_TL00150"/>„Lassen Sie uns in Gedanken das lange,<lb facs="P2_TL00151"/>wunderbare Leben des heiligen Johannis aus<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00152"/>streichen, und nur sein Evangelium und seine<lb facs="P2_TL00153"/>Apokalypse von ihm nehmen, siehe da, das ist<lb facs="P2_TL00154"/>er vollkommen.<lb facs="P2_TL00155"/>Die kaiserlichen, die päpstlichen Zwistigkei<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P2_TL00156"/>ten sind tot, und den Dante machten nicht seine<lb facs="P2_TL00157"/>Rolle oder sein Schicksal zu unsrem Meister,<lb facs="P2_TL00158"/>sondern die Divina Comedia. Sokrates hätte um<pc type="endhypen" pre="false">-</pc>
@@ -823,9 +871,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00002">
+                                 <ab facs="P3_TB00002">
                                     <lb facs="P3_TL00002"/>ist das Meisterwerk nichts mehr als eine Frage<lb facs="P3_TL00003"/>des Fleisses. Wollt ihr diesen Weg beschreiten,<lb facs="P3_TL00004"/>Tempelherren der Literatur, der Künste sein?"<lb facs="P3_TL00005"/>Ein begeistertes Amen brach aus, das die<lb facs="P3_TL00006"/>Schönheit des Entwurfes begrüsste, das auch die<lb facs="P3_TL00007"/>plötzliche Auflösung der sie seit langen Monden<lb facs="P3_TL00008"/>bedrückenden Angst aussprach. Wieder beruhigt,<lb facs="P3_TL00009"/>glücklich, entflammt erhoben sie sich, mit dem<lb facs="P3_TL00010"/>Verlangen, die Ideen und Pläne auszutauschen,<lb facs="P3_TL00011"/>die die befruchtende Idee augenblicklich in ihnen<lb facs="P3_TL00012"/>erkeimen liess. Merodack hielt sie mit einer Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00013"/>berde inne:<lb facs="P3_TL00014"/>„Brüder, die Stunde ist solche, dass eine<lb facs="P3_TL00015"/>andere ebenso feierliche seit Jahrhunderten nicht<lb facs="P3_TL00016"/>schlug, die der Hohen Wahl. Ich sprach erst<lb facs="P3_TL00017"/>die Hälfte meines Gelübdes aus und ich zittere.<lb facs="P3_TL00018"/>Schlagt ihr meine erhabene Einladung aus, dan<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00019"/>ke ich ab, dann werde ich euch gekränkt haben<lb facs="P3_TL00020"/>und nicht unter euch bleiben können.<lb facs="P3_TL00021"/>„Künstler der Gnosis und des Glaubens,<lb facs="P3_TL00022"/>Mönche der Kunst, wollt ihr dem Werke die<lb facs="P3_TL00023"/>Tugenden zufügen, dem Genie die Entsagung,<lb facs="P3_TL00024"/>Fra Angelicos sein, Heilige und Künstler zu<pc type="endhypen" pre="false">-</pc>
@@ -842,9 +888,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00003">
+                                 <ab facs="P3_TB00003">
                                     <lb facs="P3_TL00079"/>Eine unsägliche Trauer schwebte in der Luft,<lb facs="P3_TL00080"/>und Dagon, der die Angst des Ordens ausdrück<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00081"/>te, liess die furchtbaren Bässe schallen, die Ti<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00082"/>turels feierliches Leichenbegängnis rytmisch dar<pc type="endhypen" pre="false">-</pc>
@@ -862,9 +906,7 @@
                                     <lb facs="P3_TL00150"/>kühnen Amfortas, der die Legion zerstreute,<lb facs="P3_TL00151"/>statt sie zu führen. Er wurde durch die glück<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00152"/>liche Liebe besiegt, ein Frauenzauber nahm in<lb facs="P3_TL00153"/>jedem Herzen über das Ideal Oberhand. Dies<lb facs="P3_TL00154"/>fürchterliche Lügenstrafen seines Glaubens zer<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00155"/>malmte ihn. In wieviel Jahrhunderten würden</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P3_TB00004">
+                                 <ab facs="P3_TB00004">
                                     <lb facs="P3_TL00156"/>noch soviel Wissen, Genie, Magie und Schön<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00157"/>heit vereint sein! Er, ihr Meister, er hatte die<lb facs="P3_TL00158"/>guten Arbeiter des Herrn im Namen einer ab<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P3_TL00159"/>soluten Idee mit seinem gebieterischen und frü<pc type="endhypen" pre="false">-</pc>
@@ -886,9 +928,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00002">
+                                 <ab facs="P4_TB00002">
                                     <lb facs="P4_TL00002"/>Der Orientale wiederholte nach einundzwan<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00003"/>zig Jahren das Wort eines anderen Orientalen;<lb facs="P4_TL00004"/>jenes einmal durch einen Rabbiner formulierte<lb facs="P4_TL00005"/>Verdikt sprach ein Brahmane von neuem aus:<lb facs="P4_TL00006"/>„Finis Latinorum", sagte Ilon noch, als das<lb facs="P4_TL00007"/>Schattenbild Merodacks durch die Ferne kleiner<lb facs="P4_TL00008"/>geworden, ungewiss, unentschieden.<lb facs="P4_TL00009"/>„Pater" sagte Ounah zum Mönche, „gewäh<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00010"/>re uns ein Hoffnungswort."<lb facs="P4_TL00011"/>„Eine Verheissung" flehte Dagon.<lb facs="P4_TL00012"/>„Ein Orakel" forderte Nergal.<lb facs="P4_TL00013"/>Ilon rief plötzlich erleuchtet:<lb facs="P4_TL00014"/>„Die Hoffnung bleibt, die Verheissung ist<lb facs="P4_TL00015"/>sicher, das Orakel gewiss. Ich schaue den Stern,<lb facs="P4_TL00016"/>ich, Hoherpriester des Orients, Enkel der Magier,<lb facs="P4_TL00017"/>die nach Betlehem kamen. Er zieht stets vor<lb facs="P4_TL00018"/>uns her. Er wird nie erlöschen."<lb facs="P4_TL00019"/>In sich gesammelt hielt er inne, indem er<lb facs="P4_TL00020"/>die lapidare Form seines Gedankens suchte und<lb facs="P4_TL00021"/>sagte einfach:<lb facs="P4_TL00022"/>Die Unendlichkeit des Christus.</ab>
@@ -899,24 +939,18 @@
                   </div>
                   <div type="TextContent" corresp="c004">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00004">
+                        <ab facs="P4_TB00004">
                            <lb facs="P4_TL00024"/>Der Regisseur</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P4_TB00005">
+                        <ab facs="P4_TB00005">
                            <lb facs="P4_TL00025"/>Von William Wauer</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00006">
+                                 <ab facs="P4_TB00006">
                                     <lb facs="P4_TL00026"/>Der Regisseur ist ein Raumkünstler.<lb facs="P4_TL00027"/>Innere Bewegung in äussere umdeuten, heisst<lb facs="P4_TL00028"/>Regie führen.<lb facs="P4_TL00029"/>Der Regisseur empfängt die Dichtung, wie<lb facs="P4_TL00030"/>ein Prisma den Lichtstrahl in tausend Farben<lb facs="P4_TL00031"/>zerlegt, gibt er es weiter.<lb facs="P4_TL00032"/>Wenn die Inscenierung als unerläßlicher<lb facs="P4_TL00033"/>Bestandteil eines Dramas empfunden werden soll,<lb facs="P4_TL00034"/>bedarf sie eines ordnenden Prinzips, das aus<lb facs="P4_TL00035"/>dem ursprünglichen Schöpfungsgedanken hervor<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00036"/>gegangen, die Inscenierung nach jeder Richtung<lb facs="P4_TL00037"/>hin und in jeder Beziehung vorschreibt. Dieses<lb facs="P4_TL00038"/>Prinzip kann nirgends anders liegen als in der<lb facs="P4_TL00039"/>Gestaltung des Dramas in Bühnenmitteln durch<lb facs="P4_TL00040"/>den Regisseur.<lb facs="P4_TL00041"/>Ohne das Wiederaufleben des Wortkunst<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00042"/>werkes in einer Phantasie, die bühnenmässig<lb facs="P4_TL00043"/>gestalten kann, ist eine Aufführung unmöglich,<lb facs="P4_TL00044"/>denn diese ist ein neues Entstehen und ein<lb facs="P4_TL00045"/>neues Gestalten in einer neuen Kunst.<lb facs="P4_TL00046"/>Die Anordnungen des Regisseurs sind sämt<pc type="endhypen" pre="false">-</pc>
@@ -935,9 +969,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00007">
+                                 <ab facs="P4_TB00007">
                                     <lb facs="P4_TL00073"/>Die Auffassung des Regisseurs von einem<lb facs="P4_TL00074"/>Drama bestimmt durch ihren individuellen Puls<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00075"/>schlag die Aufeinanderfolge und Schnelligkeit<lb facs="P4_TL00076"/>der Bewegungen, den Wechsel der Verhältnisse<lb facs="P4_TL00077"/>des ganzen Organismus „Aufführung". Durch<lb facs="P4_TL00078"/>die kleinste Lücke kann sich die organi<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00079"/>sche Lebenskraft verflüchtigen, durch eine wun<pc type="endhypen" pre="false">-</pc>
@@ -962,9 +994,7 @@
                                     <lb facs="P4_TL00134"/>gerechnet) vom Regisseur.<lb facs="P4_TL00135"/>Wie der Traum kann auch die Vision einer<lb facs="P4_TL00136"/>dramatischen Darstellung nur aus einem Ge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00137"/>hirn geboren werden.<lb facs="P4_TL00138"/>Der künstlerische Wille des Dichters, wie er<lb facs="P4_TL00139"/>im Drama sich offenbart, genügt nicht, die ein<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00140"/>zelnen Faktoren der Darstellung mit ihm eins<lb facs="P4_TL00141"/>werden zu lassen. Der Regisseur besitzt allein<lb facs="P4_TL00142"/>die Möglichkeit, seinen künstlerischen Willen,<lb facs="P4_TL00143"/>seine Interpretation in scenische Ausdrucksmittel<lb facs="P4_TL00144"/>umzusetzen.<lb facs="P4_TL00145"/>Der Regisseur schafft die Voraussetzungen,<lb facs="P4_TL00146"/>aus denen das Dichtwerk geboren wurde. Er</ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P4_TB00008">
+                                 <ab facs="P4_TB00008">
                                     <lb facs="P4_TL00147"/>dichtet das „Gesicht" des Dichters, das dieser<lb facs="P4_TL00148"/>in Worte formte, nochmals in seiner Weise.<lb facs="P4_TL00149"/>So scheint es dann auf der Bühne, als entstünde<lb facs="P4_TL00150"/>das Werk aus dem Nichts, als erlebe man es<lb facs="P4_TL00151"/>als etwas, das nur einmal und eben so ist, wie<lb facs="P4_TL00152"/>man es erlebt. In solchen Momenten wird Auf<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00153"/>führung und Dichtung eins.<lb facs="P4_TL00154"/>Der Regisseur organisiert für den Spieler<lb facs="P4_TL00155"/>das poetische Geschehen in Klang- und Bewe<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P4_TL00156"/>gungsformen.<lb facs="P4_TL00157"/>Der Regisseur orchestriert das Drama.<lb facs="P4_TL00158"/>Die charakteristischen Merkmale in Bewe<pc type="endhypen" pre="false">-</pc>
@@ -999,9 +1029,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00002">
+                                 <ab facs="P5_TB00002">
                                     <lb facs="P5_TL00002"/>che und Forderungen des Publikums, das sich<lb facs="P5_TL00003"/>vergessen will, um sich in eines Anderen Erle<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00004"/>ben wiederzufinden.<lb facs="P5_TL00005"/>Es ist eine gleich ernste künstlerische Auf<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00006"/>gabe, ein tragisches oder ein komisches Werk<lb facs="P5_TL00007"/>zu gestalten.</ab>
@@ -1012,30 +1040,22 @@
                   </div>
                   <div type="TextContent" corresp="c005">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P5_TB00003">
+                        <ab facs="P5_TB00003">
                            <lb facs="P5_TL00008"/>Berliner Sezession 1911</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P5_TB00005">
+                        <ab facs="P5_TB00005">
                            <lb facs="P5_TL00010"/>IV</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P5_TB00004">
+                        <ab facs="P5_TB00004">
                            <lb facs="P5_TL00009"/>Von Walter Heymann</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00006">
+                                 <ab facs="P5_TB00006">
                                     <lb facs="P5_TL00011"/>Vielleicht nimmt gegenwärtig die Künstler<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00012"/>schaft keiner anderen Provinz in solcher Zahl<lb facs="P5_TL00013"/>und mit solchem Eifer an der Entwicklung der<lb facs="P5_TL00014"/>neueren Malerei Anteil, als die Ostpreussens.<lb facs="P5_TL00015"/>Ich zähle neben Corinth, Ernst Bischoff-Kulm,<lb facs="P5_TL00016"/>Bertha Schütz vor allem Theo von Brockhusen<lb facs="P5_TL00017"/>und Waldemar Rösler, weiter Hedwig Weiss,<lb facs="P5_TL00018"/>Anderson, Beyer, Max Neumann und Felix Me<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00019"/>seck. An Bischoffs Bildern ist nicht nur nach<lb facs="P5_TL00020"/>der impressionistischen Seite ein Fortschritt zu<lb facs="P5_TL00021"/>konstatieren, auch die farbigere Anschauung der<lb facs="P5_TL00022"/>Neuesten hat ihm gut getan. Dies gilt auch von<lb facs="P5_TL00023"/>Berta Schütz. Brockhusen und Rösler sind ver<pc type="endhypen" pre="false">-</pc>
@@ -1061,9 +1081,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00007">
+                                 <ab facs="P5_TB00007">
                                     <lb facs="P5_TL00072"/>Körper, den vorzüglichen szenenhaften Aufbau,<lb facs="P5_TL00073"/>die visionäre Sicherheit, kurz den tiefern Begriff<lb facs="P5_TL00074"/>von Romantik, der auf Erhöhung des Wirkli<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00075"/>chen denkt, fast entwaffnet. Hedwig Weiss hat<lb facs="P5_TL00076"/>Gefühl für den Zauber der dunkelroten Rose.<lb facs="P5_TL00077"/>Um Verklärung, Steigerung, Ausdruckskraft,<lb facs="P5_TL00078"/>Expression geht dies allgemeine Ringen. Eine<lb facs="P5_TL00079"/>französisch-belgische Malverbindung nennt sich<lb facs="P5_TL00080"/>die „Expressionisten". Wäre das durchaus im<lb facs="P5_TL00081"/>Gegensatz des Ziels, nicht des Weges zum Im<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00082"/>pressionismus gemeint, so müsste man wider<pc type="endhypen" pre="false">-</pc>
@@ -1087,9 +1105,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P5_TB00008">
+                                 <ab facs="P5_TB00008">
                                     <lb facs="P5_TL00148"/>Die Plastik ist durchweg gut vertreten. Ein<lb facs="P5_TL00149"/>gewisser Neu-Berliner Stil unmotivierter Forsch<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00150"/>heit und strammer Turnerbewegungen kommt<lb facs="P5_TL00151"/>hier nicht zur Geltung und seine Nachwirkung,<lb facs="P5_TL00152"/>Leere, macht sich nirgends quälend bemerkbar.<lb facs="P5_TL00153"/>Etwas davon ist noch in der liegenden weibli<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P5_TL00154"/>chen Figur von Hans Schmidt-Friede<pc type="endhypen" pre="false">-</pc>
@@ -1126,30 +1142,22 @@
                   </div>
                   <div type="TextContent" corresp="c006">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00002">
+                        <ab facs="P6_TB00002">
                            <lb facs="P6_TL00002"/>Dr. S. Friedlaender</ab>
                      </div>
                      <div type="Subhead">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00003">
+                        <ab facs="P6_TB00003">
                            <lb facs="P6_TL00003"/>Friedrich Nietzsche<lb facs="P6_TL00004"/>Eine intellektuale Biographie</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00006">
+                        <ab facs="P6_TB00006">
                            <lb facs="P6_TL00070"/>Golo Gangi</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00004">
+                                 <ab facs="P6_TB00004">
                                     <lb facs="P6_TL00005"/>Für heute nur einen Gruss. Ob ich gegen<lb facs="P6_TL00006"/>Sie zu Felde rücken werde, oder zu Ihnen, weiss<lb facs="P6_TL00007"/>ich noch nicht. Denn Ihr Buch ist ein grosses<lb facs="P6_TL00008"/>Monument — von dieser Welt und doch nicht<lb facs="P6_TL00009"/>von dieser Welt — irgendwo fabelhaft hinge<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00010"/>stellt, wo man nicht jede Woche im Jahr Zu<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00011"/>tritt hat. Ich will es lange umpilgern.<lb facs="P6_TL00012"/>Es ist schön von Ihnen, dass Sie Ihr Werk<lb facs="P6_TL00013"/>Friedrich Nietzsche nennen. Nicht wegen Be<pc type="endhypen" pre="false">-</pc>
@@ -1166,9 +1174,7 @@
                                     <lb facs="P6_TL00048"/>aufrichtigkeit (bis zum Erfolg) hat. Man fühlt,<lb facs="P6_TL00049"/>Sie sind durch blutigste Gräben gewatet. Grim<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00050"/>mig scheusslich, ohne Pardon. Man ahnt auch,<lb facs="P6_TL00051"/>Sie haben sich mal verkracht auf Sandbänken rum<pc type="endhypen" pre="false">-</pc>
                                  </ab>
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00005">
+                                 <ab facs="P6_TB00005">
                                     <lb facs="P6_TL00052"/>gerekelt und totgelacht. Und sind nun wieder<lb facs="P6_TL00053"/>da: Schlagender, flackernder, entsetzlicher als einst.<lb facs="P6_TL00054"/>Ruheloser und dennoch beruhigter, voll Infa<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00055"/>mie des letzten Zugreifens, nicht minder skep<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00056"/>tisch, aber tausendmal lustiger, jagdgeiler als<lb facs="P6_TL00057"/>einst. Sie Mann vom zweiten Pathos.<lb facs="P6_TL00058"/>Vielleicht werde ich später sagen: „Herr,<lb facs="P6_TL00059"/>Ihre Präzisionen sind mir zu liederlich. Gebt<lb facs="P6_TL00060"/>uns grotesk Controllierbares, exakte Mystik, Si<pc type="endhypen" pre="false">-</pc>
@@ -1183,24 +1189,18 @@
                   </div>
                   <div type="TextContent" corresp="c007">
                      <div type="Head">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00008">
+                        <ab facs="P6_TB00008">
                            <lb facs="P6_TL00072"/>Biosphor</ab>
                      </div>
                      <div type="Byline">
-                        <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                            xmlns:mods="http://www.loc.gov/mods/v3"
-                            facs="P6_TB00009">
+                        <ab facs="P6_TB00009">
                            <lb facs="P6_TL00073"/>Von Hermann Koch</ab>
                      </div>
                      <div type="Copy">
                         <div type="BodyContent">
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00010">
+                                 <ab facs="P6_TB00010">
                                     <lb facs="P6_TL00074"/>Die epochalen Zerebralexkremente des Lebens<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00075"/>forschers John Cecil Cevatch drangen erst in den<lb facs="P6_TL00076"/>Kulturorganismus, als sie der Multibillionär Mr.<lb facs="P6_TL00077"/>Joe Boom in ordinary und preference shares ab<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00078"/>zog. Die Experimente auf Jkaamaui waren abge<pc type="endhypen" pre="false">-</pc>
@@ -1217,9 +1217,7 @@
                            </div>
                            <div type="Paragraph">
                               <div type="Text">
-                                 <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                                     xmlns:mods="http://www.loc.gov/mods/v3"
-                                     facs="P6_TB00011">
+                                 <ab facs="P6_TB00011">
                                     <lb facs="P6_TL00097"/>Biosphor, Biosphor, Biosphor, ein Kubik,<lb facs="P6_TL00098"/>Mikron 1 Pfund = 5 Dollar = 20 Mark = 24 Kronen.<lb facs="P6_TL00099"/>Minimalmenge ein Gramm.<lb facs="P6_TL00100"/>* *<lb facs="P6_TL00101"/>*<lb facs="P6_TL00102"/>„Genossen, das Kapital hat jetzt ein Mittel<lb facs="P6_TL00103"/>in der Hand, uns Proletarier auszurotten, wir aber<lb facs="P6_TL00104"/>lassen uns nicht ausrotten . . . Proletarier aller<lb facs="P6_TL00105"/>Länder "<lb facs="P6_TL00106"/>Da begann jenes Gemurr, das sich der Mars<lb facs="P6_TL00107"/>nicht erklären konnte und für Sphärenharmonie<lb facs="P6_TL00108"/>hielt.<lb facs="P6_TL00109"/>Am fünften August dieses Jahres wurde in<lb facs="P6_TL00110"/>Haugkou die von Militär bewachte Biosphorver<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00111"/>schleissstelle gestürmt. Da die Anführer des<lb facs="P6_TL00112"/>Exempels halber sofort gerichtet wurden, begann<lb facs="P6_TL00113"/>der Welt-Ausstand.<lb facs="P6_TL00114"/>In der Schreckens-Stille, die plötzlich das<lb facs="P6_TL00115"/>gesammte Kulturleben absorbierte, krächzten bloss<lb facs="P6_TL00116"/>die Gigantophone: Biosphor , . .<lb facs="P6_TL00117"/>Das Militär jedes Staates sollte die nötigsten<lb facs="P6_TL00118"/>Licht- und Verkehrsarbeiten übernehmen. Ein<lb facs="P6_TL00119"/>Teil wurde von den Streikenden erschlagen, der<lb facs="P6_TL00120"/>andere meuterte.<lb facs="P6_TL00121"/>Als man in der Schnelligkeit einige Meuterer<lb facs="P6_TL00122"/>füsilierte, begannen die Proletarier von den Solda<pc type="endhypen" pre="false">-</pc>
                                     <lb facs="P6_TL00123"/>ten unterstüzt die öffentlichen Beleuchtigungskör<pc type="endhypen" pre="false">-</pc>
@@ -1236,111 +1234,75 @@
                </div>
                <div type="SponsoredAdvertisement">
                   <div type="SponsoredAd" corresp="c008">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00013">
+                     <ab facs="P6_TB00013">
                         <lb facs="P6_TL00145"/>HERAUSGEBER<lb facs="P6_TL00146"/>Karl Kraus<lb facs="P6_TL00147"/>Erscheint in zwangloser<lb facs="P6_TL00148"/>Folge<lb facs="P6_TL00149"/>Summer 326/327/328<lb facs="P6_TL00150"/>soeben erschienen<lb facs="P6_TL00151"/>Preis 75 Pfennig<lb facs="P6_TL00152"/>80 Seiten<lb facs="P6_TL00153"/>Mit einer Illustration:<lb facs="P6_TL00154"/>Der Sieger<lb facs="P6_TL00155"/>OBERALL ERHALTLICH<lb facs="P6_TL00156"/>Werbeband der Fackel<lb facs="P6_TL00157"/>50 Pfennig</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c009">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00014">
+                     <ab facs="P6_TB00014">
                         <lb facs="P6_TL00158"/>L' Effort<lb facs="P6_TL00159"/>Halbmonatsschrift<lb facs="P6_TL00160"/>fiir moderne Kultnr u. fran-<lb facs="P6_TL00161"/>zosische Sezession in den<lb facs="P6_TL00162"/>Kiinsten und in der Literatur<lb facs="P6_TL00163"/>Herausgeber und<lb facs="P6_TL00164"/>:: Schriftleiter ::<lb facs="P6_TL00165"/>JEAN RICHARD<lb facs="P6_TL00166"/>Jahresbezug fur das<lb facs="P6_TL00167"/>Ausland: Mark 4.50<lb facs="P6_TL00168"/>Zweiter Jahrgang<lb facs="P6_TL00169"/>Yerlag uad Redaktion:<lb facs="P6_TL00170"/>POITIERS (Vienne)<lb facs="P6_TL00171"/>Frankreich</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c010">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00015">
+                     <ab facs="P6_TB00015">
                         <lb facs="P6_TL00172"/>LesCahiersdu Centre<lb facs="P6_TL00173"/>Monatsschrift fiir Soziologie<lb facs="P6_TL00174"/>Geschichte, Kunst<lb facs="P6_TL00175"/>und Literatur<lb facs="P6_TL00176"/>Gegriindet von Paul Cornu<lb facs="P6_TL00177"/>Herausgeber u. Schriftleiter<lb facs="P6_TL00178"/>HENRY BURIOT<lb facs="P6_TL00179"/>In den Cahiers du Centre<lb facs="P6_TL00180"/>erschienen VVerke von Jules<lb facs="P6_TL00181"/>Renard, Charles-Louis Phi-<lb facs="P6_TL00182"/>lippe, Marguerite Auaoux,<lb facs="P6_TL00183"/>Emile Guillaumin, Romain<lb facs="P6_TL00184"/>Rolland, Andre Spire, Henri<lb facs="P6_TL00185"/>Bachelin, Valery Larbaud,<lb facs="P6_TL00186"/>Raymon Darsiles u. a. m.<lb facs="P6_TL00187"/>Jahresbezug furs Ausland:<lb facs="P6_TL00188"/>4,80 M. (Luxusausg. 9,60 M.)<lb facs="P6_TL00189"/>Probeheft gegen Ein-<lb facs="P6_TL00190"/>sendung von 50 Pfg.<lb facs="P6_TL00191"/>VERLAG u. REDAKTION:<lb facs="P6_TL00192"/>16, Boulevard Chambonnet,<lb facs="P6_TL00193"/>MOULINS (Allier) Frankreich</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c011">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00016">
+                     <ab facs="P6_TB00016">
                         <lb facs="P6_TL00194"/>5 rue Chaptal / Paris<lb facs="P6_TL00195"/>Diese literarische Zeitschrift<lb facs="P6_TL00196"/>veroffentlichte das franzo-<lb facs="P6_TL00197"/>sische Original der Tage-<lb facs="P6_TL00198"/>biicher Flauberts, deren<lb facs="P6_TL00199"/>Uebertragung in Deutschland<lb facs="P6_TL00200"/>verboten wurde.<lb facs="P6_TL00201"/>Die Hefte, die die Tage-<lb facs="P6_TL00202"/>biicher Flauberts enthalten,<lb facs="P6_TL00203"/>sowie die iibrigen seitdem<lb facs="P6_TL00204"/>erschienenen Nummern sind<lb facs="P6_TL00205"/>vom Verlag der Zeitschrift<lb facs="P6_TL00206"/>Les Marges gegen Einsen-<lb facs="P6_TL00207"/>dung von sechs Francs direkt<lb facs="P6_TL00208"/>zu beziehen.</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c012">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P6_TB00017">
+                     <ab facs="P6_TB00017">
                         <lb facs="P6_TL00209"/>Die Wasserkraft<lb facs="P6_TL00210"/>Zentralblatt fur Industrie,<lb facs="P6_TL00211"/>Ingenieur- und Bauwesen,<lb facs="P6_TL00212"/>Motorbetrieb, Elektro=<lb facs="P6_TL00213"/>technik etc.<lb facs="P6_TL00214"/>Organ des Verbandes mittel-<lb facs="P6_TL00215"/>und westdeutscher YVasser-<lb facs="P6_TL00216"/>kraftbesitzer, des Verbandes<lb facs="P6_TL00217"/>deutscher Holzmehlfabriken<lb facs="P6_TL00218"/>und elektrischer Wasserkraft-<lb facs="P6_TL00219"/>zentralen.<lb facs="P6_TL00220"/>Inserate finden in derWasser-<lb facs="P6_TL00221"/>kraft weiteste Verbreitung. —<lb facs="P6_TL00222"/>Geschaftsstelle und Verlag<lb facs="P6_TL00223"/>Duderstadt a. Harz. Vier-<lb facs="P6_TL00224"/>teljahrspreis M. 1,25 bei freier<lb facs="P6_TL00225"/>Zustellung. — Die Herren<lb facs="P6_TL00226"/>Verleger vverden um Ein-<lb facs="P6_TL00227"/>sendung ihrer Neuerschei-<lb facs="P6_TL00228"/>nungen zur Besprechung<lb facs="P6_TL00229"/>gebeten.<lb facs="P6_TL00230"/>Probenummern umsonst und<lb facs="P6_TL00231"/>Postfrei durch die Geschafts-<lb facs="P6_TL00232"/>stelle.<lb facs="P6_TL00233"/>Vertreter gesucht</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c013">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P7_TB00002">
+                     <ab facs="P7_TB00002">
                         <lb facs="P7_TL00002"/>an der Kaiser &amp;lill&gt;eltti Gedacl)tnls-Klrcl)e</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c014">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00003">
+                     <ab facs="P8_TB00003">
                         <lb facs="P8_TL00003"/>Privatbeamte und Ange-<lb facs="P8_TL00004"/>horige der freien Berufe!<lb facs="P8_TL00005"/>Sorget fur Eure Zukunft und die Eurer Familie<lb facs="P8_TL00006"/>durch Anschluss an den zur Vertretung der wirtschaftlichen, so-<lb facs="P8_TL00007"/>zialen und rechtlichen Interessen der Privat-Beamten gegrundeten,<lb facs="P8_TL00008"/>durch landesherrl. Verleihung m. Korporationsrecht. ausgestattet.<lb facs="P8_TL00009"/>'DIITSCIlll riiTlMElHTEl-TElEII ZI IlMl!<lb facs="P8_TL00010"/>Zirka 28 000 Mitglieder in zirka 500 Zweig-<lb facs="P8_TL00011"/>vereinen, Verwaltungsgruppen u. Zahlstellen.<lb facs="P8_TL00012"/>Neben Pensionskasse, Witwenkasse, Waisen-<lb facs="P8_TL00013"/>kasse, Begrabniskasse und Krankenkasse sehr<lb facs="P8_TL00014"/>wert voile Wohlfahrtseinrichtungen<lb facs="P8_TL00015"/>Gesamtvermogen: Ueber 16 Millionen Mark<lb facs="P8_TL00016"/>Halbjahrl. Beitr, 3 M. :: Man verl. Prospekt.</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c015">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00004">
+                     <ab facs="P8_TB00004">
                         <lb facs="P8_TL00017"/>Die sparsame Hausfrau nifngsbeleuchtung! Rechnen Sie<lb facs="P8_TL00018"/>sich aus, was Sie im Jahre fiir den Bedarf an Gliihkorpern ausgeben. —<lb facs="P8_TL00019"/>Wie oft kommt es vor, daB der Korper schon beim Abbrennen entzwei-<lb facs="P8_TL00020"/>geht. — — Nehmen Sie eineii guten Rat an und verwenden Sie nur<lb facs="P8_TL00021"/>Hsi*ialin-GS&amp;ibfkl3r,p@r D. R. P. 203467<lb facs="P8_TL00022"/>Diese Korper besitzen den Vorteil, da8 Sie dieselhen wie ein Tuch zusaimnen-<lb facs="P8_TL00023"/>drucken konnen, ohne daB der Korper darunter leidet. Hartalin-Glfihkorper<lb facs="P8_TL00024"/>haben eine Leuchtkraft von 100 K. und Sie erzielen damit eine Gasersparnis von<lb facs="P8_TL00025"/>50%. Brenndauer gar. 1 Jahr. REFERENZ! Fiir die Strafienbeleuchtung Berlins<lb facs="P8_TL00026"/>bereits fiber 200000 Stck. geliefert. Versuchen Sie es mit einer Probesendung von<lb facs="P8_TL00027"/>3 Stck., Preis p. Stck. 50 Pfg. od. verlangen Sie den Besuch unseres Vertreters<lb facs="P8_TL00028"/>Versandhau3 Ghent, und Techn. Nenheiten<lb facs="P8_TL00029"/>RFC! IN SW fiS KnrhstraRe 72</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c016">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00005">
+                     <ab facs="P8_TB00005">
                         <lb facs="P8_TL00030"/>■<lb facs="P8_TL00031"/>■<lb facs="P8_TL00032"/>•<lb facs="P8_TL00033"/>Keine Zahnschmerzen<lb facs="P8_TL00034"/>Kein Zahnziehen mehr<lb facs="P8_TL00035"/>n<lb facs="P8_TL00036"/>Auf Anfrage gebe<lb facs="P8_TL00037"/>ich Jedermann Aus-<lb facs="P8_TL00038"/>kunft uber ein Mittel<lb facs="P8_TL00039"/>gegen schwarze,hohle<lb facs="P8_TL00040"/>| und lockere Zahne<lb facs="P8_TL00041"/>Erfoig garantiert<lb facs="P8_TL00042"/>j O.Berger, BerlinW35<lb facs="P8_TL00043"/>■ Potsdamer Strasse 111<lb facs="P8_TL00044"/>Abschrift: Sehr geehrter Herr!<lb facs="P8_TL00045"/>Von vielen Zahnschmerzen bin<lb facs="P8_TL00046"/>ich nun ganzlich befreit durch die<lb facs="P8_TL00047"/>Anwendung Ihres preiswerten<lb facs="P8_TL00048"/>Mittels. Daher empfehle ich es<lb facs="P8_TL00049"/>Jedem, der von Zahnschmerzen<lb facs="P8_TL00050"/>geplagt ist. Mit herzlichem<lb facs="P8_TL00051"/>Dank bescheinigt dies Heiene<lb facs="P8_TL00052"/>Klecmann, Rosengarten,<lb facs="P8_TL00053"/>:: Frankfurt an der Oder ::</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c017">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00006">
+                     <ab facs="P8_TB00006">
                         <lb facs="P8_TL00054"/>Cafe Continental SE2TEI<lb facs="P8_TL00055"/>Jeden Abend von 9—4 Uhr Nachts:<lb facs="P8_TL00056"/>Grosses Kiinstler - Konzert<lb facs="P8_TL00057"/>Alle bedeutenden Zeitungen und Zeitschriftea</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c018">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00007">
+                     <ab facs="P8_TB00007">
                         <lb facs="P8_TL00058"/>THRICHOPHIL<lb facs="P8_TL00059"/>B F1.M.3,00ISCz^&amp;uunen„ds FI.M. 3,00 ■<lb facs="P8_TL00060"/>|g§j| ■■■■enaBBSBBBH == nur beim Fabrikanten: = asaausaaaaaaaaa j<lb facs="P8_TL00061"/>| Otto Teutscher/Friseur |<lb facs="P8_TL00062"/>IB I. Geschaft: 106 a Potsdamerstr., Eingf. 63 Steglitzerstr.,Tel.Vl, 6735 I<lb facs="P8_TL00063"/>11. Geschaft: Charlottenburg, 100 Kaiserdamm, Tel. AmtCh.,63B7<lb facs="P8_TL00064"/>HIIBIOOOOOOOOOIIBIB</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c019">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00008">
+                     <ab facs="P8_TB00008">
                         <lb facs="P8_TL00065"/>«Spielend» lernt man Sprachen durch<lb facs="P8_TL00066"/>Dr. Rebajoli's AUTODIDAKT<lb facs="P8_TL00067"/>Selbstunterrichtsmethode<lb facs="P8_TL00068"/>mit Hulfe des Grammophons<lb facs="P8_TL00069"/>OMNE TULIT<lb facs="P8_TL00070"/>PUNKTUM<lb facs="P8_TL00071"/>Bisher erschienen:<lb facs="P8_TL00072"/>A. Italienisch<lb facs="P8_TL00073"/>B. Franzosisch<lb facs="P8_TL00074"/>Jeder Lehrer, jede Lehrerin,<lb facs="P8_TL00075"/>Jedermann muss Dr. Rebajoli's<lb facs="P8_TL00076"/>Autodidakt gebrauchen, um<lb facs="P8_TL00077"/>leicht und griindlich Fremd-<lb facs="P8_TL00078"/>sprachen zu lemen.<lb facs="P8_TL00079"/>Jede Sprache in 53 Lektionen.<lb facs="P8_TL00080"/>QUI MISCUIT<lb facs="P8_TL00081"/>UTILE DULCI<lb facs="P8_TL00082"/>I<lb facs="P8_TL00083"/>Epochemachende Neuheit<lb facs="P8_TL00084"/>Verlag F. HARHISCH &amp; Co., Berlin W57.</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c020">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00009">
+                     <ab facs="P8_TB00009">
                         <lb facs="P8_TL00085"/>Preis 1 Mark<lb facs="P8_TL00086"/>Preis 1 Mark<lb facs="P8_TL00087"/>enthol-Malz-Dragees<lb facs="P8_TL00088"/>SicheresMittel gegen akuteKatarrheder Atmungs-<lb facs="P8_TL00089"/>organe / ermoglicht Schauspielern und Sangern<lb facs="P8_TL00090"/>sofortigen Gebrauch der erkrankten Organe<lb facs="P8_TL00091"/>■■&gt;■■■ ZAHLREICHE ANERKENNUNGEN ■■■■■■<lb facs="P8_TL00092"/>Zu haben in alien Apotheken and Drogerien / Alleinige Fabrlkantin<lb facs="P8_TL00093"/>/ Fabrik fur pharmaceutischen Bedarf / Berlin-Halensee<lb facs="P8_TL00094"/>mv</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c021">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00010">
+                     <ab facs="P8_TB00010">
                         <lb facs="P8_TL00095"/>1. Eine hervorragende Neuersohelnung aul dem Gebiete der M&amp;dchen-<lb facs="P8_TL00096"/>bildungr ist das Buch<lb facs="P8_TL00097"/>~Brauclien wir noch Tochterpensionate?"<lb facs="P8_TL00098"/>yon Prof. D. Dr. Friedrich Zimmer. Preis Mk. 2—<lb facs="P8_TL00099"/>WichtigT fiir Eltern heranwachsender Tochter, Padagogen, Pensionats-<lb facs="P8_TL00100"/>Yorsteherinnen.<lb facs="P8_TL00101"/>2. „Die Knabenpensionate, deren Einrichtans, lbr inneres<lb facs="P8_TL00102"/>and Susseres I&lt;eben.u Von L. Daniel. Ein Ratgeber fiir Eltern<lb facs="P8_TL00103"/>und Pensionatsinhaber. Mk. 1,80.<lb facs="P8_TL00104"/>3. ~l&gt;as Tdcliterpensionat" ist die einzige Zeitschrift, die die In-<lb facs="P8_TL00105"/>terressen der Vorsteherinnen vertritt. 7. Jahrgang. Reichhaltiger Inhalt.<lb facs="P8_TL00106"/>Aus der Praxis fiir die Praxis. Pro Halbjahr Mk. 2,50.<lb facs="P8_TL00107"/>Durch samtliche Buchhdlg. Oder direkt vom Yerlag Dr. Paul Abel, Leipzig 10<lb facs="P8_TL00108"/>■ll—, -| , — ,|,M ] 11 11 » ■IHIIII—MIIW—IIMWWII</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c022">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00011">
+                     <ab facs="P8_TB00011">
                         <lb facs="P8_TL00109"/>Handelswissen- ITwi ©112! "W Moctoi* t •<lb facs="P8_TL00110"/>schaftl. Kurse von niClll. MCdlCl Leipzig<lb facs="P8_TL00111"/>unter Mitwirkung 12 hervorragender Fachleute der Theorie und Praxis (staatlich<lb facs="P8_TL00112"/>Igepriifte Lehrer, Akademiker oder auch Kaufleute in fuhrender Stellung). Griindliche<lb facs="P8_TL00113"/>Einfiihrung in die verschiedenen Branchen des kaufmannischen Berufes, rationelles<lb facs="P8_TL00114"/>Studium der Handels- und verwandten Wissenschaften als Ersatz fiir ein raehr-<lb facs="P8_TL00115"/>jahriges Hochschulstudium. Muster-Uebungs-Kontor.<lb facs="P8_TL00116"/>Das Studium ist fur Anfanger (Damen und Herren) die fur Stenographic,<lb facs="P8_TL00117"/>deutsche und fremdsprachliche Korrespondenz, Kasse-, Buchfiihrungs- und Bilanz-<lb facs="P8_TL00118"/>Technik, Biiro-Praxis sich vorbereiten wollen —<lb facs="P8_TL00119"/>sowohl fiir junge Leute, die nur eine Volks-, Real- oder ahnliche Schule ab-<lb facs="P8_TL00120"/>solviert haben, wie fiir<lb facs="P8_TL00121"/>Herren mit besseren praktischen oder theoretischen Vorkenntnissen, Einjahrig-<lb facs="P8_TL00122"/>Freiwiilige, Abiturienten,<lb facs="P8_TL00123"/>fiir Kaufleute reiferen Alters, die bereits praktisch tatig waren und den<lb facs="P8_TL00124"/>Forderungen der Gegenwart entsprechend ihre rachkenntnisse erweitern oder<lb facs="P8_TL00125"/>vertiefen wollen oder<lb facs="P8_TL00126"/>fiir Bankbeamte, Ingenieure, Chemiker, Brauer, Juristen, Nationalokonomen,<lb facs="P8_TL00127"/>Offiziere, die fiir Verwaltung wirtschaftlicher Unternehmungen oder Verbande,<lb facs="P8_TL00128"/>Aktien- oder khnlicher Gesellschaften sich vorbereiten wollen. Dauer der Kurse<lb facs="P8_TL00129"/>6—12 Monate — je nach Vorbildung und Ziel.<lb facs="P8_TL00130"/>Prospekte gratis durch die Direktion, Johannisplatz 5<lb facs="P8_TL00131"/>II II!■!■■ I I I Willi Hill lIIIH Bill 111 IMI</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c023">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00012">
+                     <ab facs="P8_TB00012">
                         <lb facs="P8_TL00132"/>WEGE ZU FREIEM<lb facs="P8_TL00133"/>MENSCHENTUM<lb facs="P8_TL00134"/>T<lb facs="P8_TL00135"/>VIERTELjAHRL.M.2 HEFT M.0,80<lb facs="P8_TL00136"/>EINE MONATSSCHRIFT<lb facs="P8_TL00137"/>HERAUSGEGEBEN VON<lb facs="P8_TL00138"/>ERNST HORNEFFER<lb facs="P8_TL00139"/>VERL. DIE TAT G.m.b.H., LEIPZIG</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c024">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P8_TB00013">
+                     <ab facs="P8_TB00013">
                         <lb facs="P8_TL00140"/>EDMUND MEYER<lb facs="P8_TL00141"/>Buchhandler und Antiquar<lb facs="P8_TL00142"/>SB3S3S BERLIN W 35 §§§§§§<lb facs="P8_TL00143"/>Ankauf einzelner Werke<lb facs="P8_TL00144"/>und ganzer Bibiiotheken<lb facs="P8_TL00145"/>Soeben erschien: Katalog XVIII: Literahii1<lb facs="P8_TL00146"/>Geschichte, Kunstgeschichte, illustrierte<lb facs="P8_TL00147"/>Werke in deutscher, englischer, fran-<lb facs="P8_TL00148"/>zos. Sprache za besonders biliigen Preisen<lb facs="P8_TL00149"/>DemnSchst erscheint: XXI / Kunst-<lb facs="P8_TL00150"/>l&gt;'atfer: Portrats, Stadteansicbten, Berliner<lb facs="P8_TL00151"/>Blatter, Karri!&lt;aturen, FlugblStter, neuere<lb facs="P8_TL00152"/>und altere Oenrebilder, Blatter von<lb facs="P8_TL00153"/>Menze!, Beardsley, Rops, Stammbucher<lb facs="P8_TL00154"/>Silhouetten, Japanblatter etc. etc.<lb facs="P8_TL00155"/>Kataloge / gratis und franko /<lb facs="P8_TL00156"/>bitte direkt zu verlangen</ab>
                   </div>
                   <div type="SponsoredAd" corresp="c025">
-                     <ab xmlns:tei="http://www.tei-c.org/ns/1.0"
-                         xmlns:mods="http://www.loc.gov/mods/v3"
-                         facs="P9_TB00001">
+                     <ab facs="P9_TB00001">
                         <lb facs="P9_TL00001"/>Eni «<lb facs="P9_TL00002"/>efnen olrklkben<lb facs="P9_TL00003"/>unfl elne Bberroschends Rtal<lb facs="P9_TL00004"/>hat die<lb facs="P9_TL00005"/>..Copoiv - Santa! - Emulsion"<lb facs="P9_TL00006"/>Her Chemlschen FiDrlh und HntfeisseeUsdiaft, Mom, Bnsfrie 5,<lb facs="P9_TL00007"/>mlf dem<lb facs="P9_TL00008"/>Fuchswappen<lb facs="P9_TL00009"/>aufzuweisen.<lb facs="P9_TL00010"/>&amp;<lb facs="P9_TL00011"/>nr»<lb facs="P9_TL00012"/>lo<lb facs="P9_TL00013"/>E=JS<lb facs="P9_TL00014"/>Eine der Geißeln unserer Zeit sind die Erkrankungen der Blase und<lb facs="P9_TL00015"/>der Harnwege.<lb facs="P9_TL00016"/>Wer da beobachten kann, wie viele Manner und Frauen mit dem qualenden<lb facs="P9_TL00017"/>Leiden behaftet sind, wird tiefen Mitgefiihls mit ihnen sich nicht erwehren konnen.<lb facs="P9_TL00018"/>Die schiffahrttreibende Bevolkerung, Forster, Waldbewohner, Eisenbahn-<lb facs="P9_TL00019"/>beamte und viele andere Berufsklassen, auch die in der Landwirtschaft ange-<lb facs="P9_TL00020"/>strengt arbeitenden Madchen und Frauen, konnen oft den Arzt nicht aufsuchen,<lb facs="P9_TL00021"/>weil die Entfernung zu groß ist, und ihnen ihr Beruf es nicht gestattet, langere<lb facs="P9_TL00022"/>Zeit von demselben abwesend zu sein.<lb facs="P9_TL00023"/>Hier sollte „Copaiv-Santal-Emulsion" in die Schranken treten und den<lb facs="P9_TL00024"/>Kampf mit der bosen Krankheit aufnehmen.<lb facs="P9_TL00025"/>Die neuere arztliche Behandlung' der Gonorrhoe (Tripper) und der<lb facs="P9_TL00026"/>Leucorrhoe (weißer FluB) hat die Spritz- und Spiilmethode in den Hintergrund<lb facs="P9_TL00027"/>treten lassen, weil sie oft erst die Krankheitsbringer mit dem eingespritzten<lb facs="P9_TL00028"/>Flussigkeitsstrome in die tiefer gelegenen Harnwege schleudert.<lb facs="P9_TL00029"/>Von „Innen nach Außen", über Nieren und Blasen werden heute die<lb facs="P9_TL00030"/>Harnwege gespult und so die Infektion ausgetrieben, denn Harzole umkleben<lb facs="P9_TL00031"/>die Mikroben und toten sie ab: „Santal und Copaiva".<lb facs="P9_TL00032"/>Voll Vertrauen mogen daher die Kranken versuchen, auch die „chronisch"<lb facs="P9_TL00033"/>Behafteten, Linderung und Heilung wird nicht ausbleiben!<lb facs="P9_TL00034"/>Wer noch Genaueres wissen will, frage seinen Arzt nach der medizinischen<lb facs="P9_TL00035"/>Wirkung, der die Copaiv-Santal-Emulsion enthaltenden Medikamente!<lb facs="P9_TL00036"/>Qebrauchsanweisiing. Taglich 2 4mal I—2Tee!offel bei alteren und ernsten Fallen,<lb facs="P9_TL00037"/>bei schwacheren und neuen 3 mal taglich 1 Teeldffel. Vorher und nachher einige Pfefferminz-<lb facs="P9_TL00038"/>kugelchen oder etwas schwarzen Kaffee. Vor dem Gebrauch kraftig umschutteln.<lb facs="P9_TL00039"/>Preis der Flasche Mark 2,50.<lb facs="P9_TL00040"/>*<lb facs="P9_TL00041"/>Zu beziehen durch die Apotheken. Wenn nicht am Ort zu haben, wende man sich direkt an die<lb facs="P9_TL00042"/>Chemisclie Fin u. MelssesellscM, Potsdam, Braaerstr. 5.<lb facs="P9_TL00043"/>'.V-.",: ...<lb facs="P9_TL00044"/>Spezialauskunfte und Gebrauchsanweisungen stehen kostenlos zur Verfiigung.<lb facs="P9_TL00045"/>* *J3S. Z</ab>
                   </div>
                </div>
