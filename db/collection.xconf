@@ -21,7 +21,10 @@
         <create qname="@type" type="xs:string"/>
         <create qname="@ref" type="xs:string"/>
         <create qname="@target" type="xs:string"/>
-        <create qname="@unit" type="xs:string"/><!-- New Range Indexes -->
+        <create qname="@unit" type="xs:string"/>
+	<create qname="@xml:id" type="xs:string"/>
+	<create qname="@corresp" type="xs:string"/>
+	<!-- New Range Indexes -->
         <range>
             <create qname="tei:idno" type="xs:string"/>
             <create qname="tei:classCode" type="xs:string"/>
@@ -31,6 +34,8 @@
             <create qname="@ref" type="xs:string"/>
             <create qname="@target" type="xs:string"/>
             <create qname="@unit" type="xs:string"/>
+	    <create qname="@xml:id" type="xs:string"/>
+	    <create qname="@corresp" type="xs:string"/>
         </range>
     </index>
 </collection>
