@@ -18,7 +18,8 @@
     <xd:doc>
         <xd:desc>This is the hard-wired path to the msdesc-bearing documents. Edit this for your own environment.</xd:desc>
     </xd:doc>
-    <xsl:variable name="msdesc-base" select="'/Users/cwulfman/Desktop/bmtnaau/issues'"/>
+    <!--<xsl:variable name="msdesc-base" select="'/Users/cwulfman/Desktop/bmtnaau/issues'"/>-->
+    <xsl:variable name="msdesc-base" select="'/Users/cwulfman/repos/github/cwulfman/bluemountain-transcriptions/periodicals/bmtnaap/issues'"/>
     
     
 
